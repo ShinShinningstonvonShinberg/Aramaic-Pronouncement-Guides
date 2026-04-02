@@ -1,8 +1,8 @@
 # Peshitta Aramaic IPA Pronunciation Guide
 
-**Version:** 3.0.0  
-**Date:** 2026-04-01  
-**Phase:** Phase 4 (Rebuild of Phase 1)  
+**Version:** 4.0.0
+**Date:** 2026-04-02
+**Phase:** Phase 11 (Documentation update incorporating Phase 9–10 findings)
 **Language:** Classical Syriac (Aramaic) (ISO 639-3: `syc`)  
 **Encoding:** UTF-8  
 **IPA Standard:** IPA (International Phonetic Alphabet, 2015 revision)  
@@ -67,6 +67,8 @@ Machine-readable IPA-based pronunciation guide for Peshitta Syriac Aramaic cover
 21. [Sample Words — IPA Transcriptions](#sample-words-ipa-transcriptions)
 22. [Unicode Reference](#unicode-reference)
 23. [Numerical Values](#numerical-values)
+24. [Mhagyana (U+0748) Quiescent Marker](#mhagyana-u0748-quiescent-marker)
+25. [Extended Mṭalqānā Consonant Inventory](#extended-mṭalqānā-consonant-inventory)
 
 ## How to Read IPA
 
@@ -148,7 +150,7 @@ Eastern Syriac preserves a 7-vowel system; Western Syriac merged several vowels 
 | close-mid | e |  | o |
 | open |  | a |  |
 
-*Western merged /ɛ/+/e/→/e/ and /ɑ/→/ɔ/. The Zqapha vowel is /ɑ/ Eastern vs /ɔ/ Western.*
+*Eastern distinguishes 7 vowel qualities: /a/, /ɑ/, /e/, /ɛ/, /i/, /o/, /u/. Western merged /ɛ/+/e/→/e/, /ɑ/→/ɔ/, and /o/+/u/→/u/. The Zqapha vowel is /ɑ/ Eastern vs /ɔ/ Western.*
 
 #### Eastern Phoneme Inventory
 
@@ -271,8 +273,8 @@ Syriac vocalization uses dots placed above or below letters. The Eastern (Madnha
 | Rbasa karya | /ɛ/ | ܶ | `U+0736` | two dots below horizontally | Open-mid front; short e |
 | Rbasa arikha | /e/ | ܸ | `U+0738` | two dots below diagonally | Close-mid front; long e |
 | Khwasa | /i/ | ܺ | `U+073A` | dot below | Close front vowel |
-| Rwakha | /o/ | ܽ | `U+073D` | dot above Waw | Close-mid back rounded |
-| ʿEsasa | /u/ | ܿ | `U+073F` | dot below Waw | Close back rounded |
+| ʿEsasa | /u/ | ܽ | `U+073D` | dot above Waw | Close back rounded |
+| Rwakha | /o/ | ܿ | `U+073F` | dot below Waw | Close-mid back rounded |
 
 #### Western (Serto) Vowels
 
@@ -433,7 +435,9 @@ Diacritical marks used in Peshitta manuscripts and printed editions. Presented f
 | Rukkakha (ܪܘܟܟܐ) | ݂ | `U+0742` | 1858 | Marks soft (fricative) pronunciation of Begadkephat letter | Fricative allophone: /v/, /ɣ/, /ð/, /x/, /f/, /θ/ | Single dot below the letter |
 | Seyame (ܣܝܡܐ) | ̈ | `U+0308` | 776 | Marks plural or distinguishes homographs | No direct phonetic effect; morphological marker | Two dots above the word |
 | Linea Occultans | ݇ | `U+0747` | 1863 | Marks a silent (quiescent) letter — the letter is written but not pronounced | ∅ (letter is silent) | Small line above or below the letter |
-| Mhaggyānā (ܡܗܓܝܢܐ) | ݀ | `U+0740` | 1856 | Marks a vowelless consonant or emphasizes pronunciation | Varies; typically indicates the consonant is pronounced without a following vowel | Dot or line below |
+| Mhagyana (ܡܗܓܝܢܐ) | ݈ | `U+0748` | 1864 | Quiescent/silent marker. Three behaviors: FULLY_SILENT (consonant skipped, 93.9%), SILENT_KEEP_VOWEL (consonant skipped but vowel preserved, 4.3%), GEMINATION (consonant kept when next consonant is identical, 1.7%) | ∅ or vowel-only or gemination (context-dependent) | Oblique line below the letter |
+
+*Note on U+0747 vs. U+0748:* The Peshitta corpus uses **exclusively U+0748** (Mhagyana / SYRIAC OBLIQUE LINE BELOW) as its quiescent marker. U+0747 (Linea Occultans) has zero instances in this corpus. Both are handled by the transcription engine. See [Mhagyana (U+0748) Quiescent Marker](#mhagyana-u0748-quiescent-marker) for full details.
 
 ### Block Aramaic Diacritics
 
@@ -1547,9 +1551,9 @@ Unicode codepoint reference for all characters used in this guide, covering both
 | ܺ | `U+073A` | 1850 | SYRIAC HBASA ABOVE | /i/ |
 | ܻ | `U+073B` | 1851 | SYRIAC HBASA BELOW | /i/ |
 | ܼ | `U+073C` | 1852 | SYRIAC HBASA-ESASA DOTTED | /i/ |
-| ܽ | `U+073D` | 1853 | SYRIAC ESASA ABOVE | /o/ |
-| ܾ | `U+073E` | 1854 | SYRIAC ESASA BELOW | /o/ |
-| ܿ | `U+073F` | 1855 | SYRIAC RWAHA | /u/ |
+| ܽ | `U+073D` | 1853 | SYRIAC ESASA ABOVE | /u/ |
+| ܾ | `U+073E` | 1854 | SYRIAC ESASA BELOW | /u/ |
+| ܿ | `U+073F` | 1855 | SYRIAC RWAHA | /o/ |
 | ݀ | `U+0740` | 1856 | SYRIAC FEMININE DOT | morphological |
 | ݁ | `U+0741` | 1857 | SYRIAC QUSHSHAYA | hard (plosive) |
 | ݂ | `U+0742` | 1858 | SYRIAC RUKKAKHA | soft (fricative) |
@@ -1666,4 +1670,134 @@ Gematria (numerical values) of the Syriac and Block Aramaic alphabets. Both syst
 
 ---
 
-*Generated programmatically from `peshitta_pronunciation_guide.json` (v3.0.0). This Markdown file is derived from the audited JSON data — the JSON remains the source of truth.*
+## Mhagyana (U+0748) Quiescent Marker
+
+**Discovered in:** Phase 9 (2026-04-02)
+**Unicode:** `U+0748` — SYRIAC OBLIQUE LINE BELOW
+**Corpus instances:** 9,808 occurrences across 109,655 words
+**Impact:** 9,642 words corrected in v5→v6 engine update (8.79% of corpus)
+
+The Mhagyana marker (U+0748) is the primary quiescent/silent marker used in the Peshitta New Testament corpus. It marks a consonant as silent, partially silent, or assimilated, depending on context. The Peshitta corpus uses U+0748 exclusively — U+0747 (Linea Occultans) has zero instances.
+
+### Three-Way Behavior Model
+
+The engine classifies each U+0748 instance into one of three behaviors based on the phonological context:
+
+| Behavior | Count | Percentage | Rule | Example |
+|---|---|---|---|---|
+| FULLY_SILENT | 9,217 | 93.9% | Consonant has U+0748, no vowel, next consonant is different. Skip consonant entirely. | ܗ݈ܘܳܐ hwɑː → wɑː ("was") |
+| SILENT_KEEP_VOWEL | 425 | 4.3% | Consonant has U+0748 and a vowel, next consonant is different. Skip consonant, output its vowel. | ܗ݈ܽܘ huː → uː ("he/copula") |
+| GEMINATION | 171 | 1.7% | Consonant has U+0748, next consonant is the same letter. Keep consonant (assimilation marker). | ܥܰܡ݈ܡܶܐ ʕamme → ʕamme ("peoples") |
+
+### Consonant Distribution
+
+U+0748 appears on 18 distinct consonants in the corpus (see [Extended Mṭalqānā Consonant Inventory](#extended-mṭalqānā-consonant-inventory) for details):
+
+| Consonant | Instances | Notes |
+|---|---|---|
+| He (ܗ) | 5,275 | Enclitic copula forms (hwɑː→wɑː, huː→uː, hiː→iː) |
+| Alaph (ܐ) | 2,192 | Pronouns (ʔnɑː→nɑː "I"), indefinite (ʔnɑːʃ→nɑːʃ "someone") |
+| Nun (ܢ) | 1,832 | Pronouns (ʔant→ʔat "you"), enclitic forms |
+| Mim (ܡ) | 147 | Assimilation contexts |
+| Dalath (ܕ) | 120 | Assimilation: ʕidtā "church" (Dalath assimilates to Taw) |
+| Lamadh (ܠ) | 102 | Various enclitic forms |
+| Kheth (ܚ) | 54 | Enclitic: ḥnan→nan "we" (silent initial Kheth) |
+| Ayin (ܥ) | 29 | Various forms |
+| Resh (ܪ) | 18 | Various forms |
+| Waw (ܘ) | 15 | Various forms |
+| Kaph (ܟ) | 10 | Begadkephat in Ethpaal/Ethpeel verb stems |
+| Beth (ܒ) | 9 | Begadkephat in assimilation contexts |
+| Yudh (ܝ) | 2 | Rare |
+| Qaph (ܩ) | 3 | Assimilation contexts |
+| Teth (ܛ) | 2 | Assimilation contexts |
+| Semkath (ܣ) | 2 | Assimilation contexts |
+| Taw (ܬ) | 2 | Assimilation contexts |
+| Gamal (ܓ) | 1 | Assimilation contexts |
+
+### Top 10 Highest-Frequency Corrected Words
+
+These are the most-affected words in the v5→v6 correction, listed by corpus frequency:
+
+| Syriac | Count | Old IPA (v5) | New IPA (v6) | Meaning | Behavior |
+|---|---|---|---|---|---|
+| ܗ݈ܘܳܐ | 1,316 | hwɑː | wɑː | was (enclitic copula past) | FULLY_SILENT |
+| ܐ݈ܢܳܐ | 1,085 | ʔnɑː | nɑː | I (1sg pronoun, silent Alaph) | FULLY_SILENT |
+| ܗ݈ܘܰܘ | 737 | hwaw | waw | they were (enclitic copula pl.) | FULLY_SILENT |
+| ܐܢ݈ܬ݁ܽܘܢ | 547 | ʔnton | ʔton | you (pl.m, silent Nun) | FULLY_SILENT |
+| ܐܰܢ݈ܬ݁ | 491 | ʔant | ʔat | you (m.sg, silent Nun) | FULLY_SILENT |
+| ܗ݈ܽܘ | 385 | huː | uː | he/it (enclitic copula) | SILENT_KEEP_VOWEL |
+| ܐ݈ܢܳܫ | 323 | ʔnɑːʃ | nɑːʃ | someone (silent Alaph) | FULLY_SILENT |
+| ܐܰܢ݈ܬ݁ܽܘܢ | 233 | ʔanton | ʔaton | you (pl.m, variant) | FULLY_SILENT |
+| ܗ݈ܘܳܬ݂ | 184 | hwɑːθ | wɑːθ | she was (copula f.) | FULLY_SILENT |
+| ܗ݈ܝ | 173 | hj | j | she/it (enclitic copula f.) | FULLY_SILENT |
+
+### Validation Against Published Sources
+
+All 9 highest-frequency U+0748 words were validated against published Syriac grammar sources (Wiktionary, Wikibooks Aramaic/Pronouns, Wikipedia Syriac alphabet, r12a.github.io Classical Syriac orthography). Result: 9/9 match.
+
+---
+
+## Extended Mṭalqānā Consonant Inventory
+
+**Discovered in:** Phase 10 (2026-04-02)
+**Published prescriptive list:** 9 consonants (the ʿamlay nūhrā mnemonic)
+**Corpus descriptive inventory:** 18 consonants
+
+### The Prescriptive Tradition: ʿamlay nūhrā
+
+Traditional Syriac grammar identifies 9 consonants as eligible for the mṭalqānā (quiescent) marker, remembered by the mnemonic phrase **ʿamlay nūhrā** (ܥܰܡܠܰܝ ܢܽܘܗܪܳܐ, "workers of light"):
+
+- **ʿ** — Ayin (ܥ)
+- **m** — Mim (ܡ)
+- **l** — Lamadh (ܠ)
+- **y** — Yudh (ܝ)
+- **n** — Nun (ܢ)
+- **ū** — Waw (ܘ)
+- **h** — He (ܗ)
+- **r** — Resh (ܪ)
+- **ā** — Alaph (ܐ)
+
+These 9 consonants are sonorous — nasals, liquids, glides, and laryngeals/pharyngeals — the phonological classes most prone to weakening and deletion in Semitic languages.
+
+### Corpus Reality: 18 Consonants
+
+A full scan of all 109,655 words in the Peshitta corpus reveals that U+0748 appears on **18 distinct consonants** — the prescriptive 9 plus an additional 9. The extra consonants are all phonologically motivated: they appear in assimilation contexts (Ethpaal/Ethpeel verb stems, noun derivations) and enclitic reduction.
+
+| # | Consonant | Syriac | Instances | Prescriptive? | Phonological Context |
+|---|---|---|---|---|---|
+| 1 | He | ܗ | 5,275 | Yes (ʿamlay nūhrā) | Enclitic copula: silent He in hwɑː→wɑː |
+| 2 | Alaph | ܐ | 2,192 | Yes (ʿamlay nūhrā) | Pronouns, indefinites: silent initial Alaph |
+| 3 | Nun | ܢ | 1,832 | Yes (ʿamlay nūhrā) | Pronouns: assimilated Nun in ʔant→ʔat |
+| 4 | Mim | ܡ | 147 | Yes (ʿamlay nūhrā) | Gemination: ʕamme (assimilation marker) |
+| 5 | Dalath | ܕ | 120 | **No** | Assimilation: ʕidtā "church" (Dalath→Taw) |
+| 6 | Lamadh | ܠ | 102 | Yes (ʿamlay nūhrā) | Various enclitic forms |
+| 7 | Kheth | ܚ | 54 | **No** | Enclitic reduction: ḥnan→nan "we" |
+| 8 | Ayin | ܥ | 29 | Yes (ʿamlay nūhrā) | Various forms |
+| 9 | Resh | ܪ | 18 | Yes (ʿamlay nūhrā) | Various forms |
+| 10 | Waw | ܘ | 15 | Yes (ʿamlay nūhrā) | Various forms |
+| 11 | Kaph | ܟ | 10 | **No** | Ethpaal/Ethpeel verb stems |
+| 12 | Beth | ܒ | 9 | **No** | Assimilation in verb stems |
+| 13 | Yudh | ܝ | 2 | Yes (ʿamlay nūhrā) | Rare |
+| 14 | Qaph | ܩ | 3 | **No** | Assimilation contexts |
+| 15 | Teth | ܛ | 2 | **No** | Assimilation contexts |
+| 16 | Semkath | ܣ | 2 | **No** | Assimilation contexts |
+| 17 | Taw | ܬ | 2 | **No** | Assimilation contexts |
+| 18 | Gamal | ܓ | 1 | **No** | Assimilation contexts |
+
+### Analysis of Non-Prescriptive Consonants
+
+The 9 additional consonants (120 + 54 + 10 + 9 + 3 + 2 + 2 + 2 + 1 = 203 instances total) fall into three phonological categories:
+
+**1. Consonant assimilation in noun derivations (Dalath, 120 instances):** Virtually all instances are the word ʕidtā ("church/assembly"), where Dalath assimilates to the following Taw: ʕidtā → ʕittā. This is the same phonological process documented in standard Syriac grammars for mḏīntā → mḏīttā (Wikipedia, "Syriac alphabet").
+
+**2. Enclitic reduction (Kheth, 54 instances):** Mostly the word ḥnan ("we"), where the initial Kheth is silent in the enclitic form: (ḥ)nan → nan. Wiktionary confirms the pronunciation [ħ(ə)nan] with optional initial consonant.
+
+**3. Begadkephat and other consonants in verb stems (Kaph, Beth, Qaph, Teth, Semkath, Taw, Gamal — 29 instances total):** These appear in Ethpaal and Ethpeel reflexive verb stems where a root consonant assimilates to a following consonant. All instances are phonologically regular.
+
+### Conclusion
+
+The prescriptive ʿamlay nūhrā list of 9 consonants describes the **typical** candidates for quiescence. The Peshitta corpus, as a descriptive record of one manuscript tradition, extends U+0748 to additional consonants wherever the phonology demands it — assimilation, enclitic reduction, and verb-stem processes. All 18 consonants are linguistically correct; the extra 9 are not corpus errors. The engine handles all of them via the three-way behavior model (FULLY_SILENT / SILENT_KEEP_VOWEL / GEMINATION).
+
+---
+
+*Generated programmatically from `peshitta_pronunciation_guide.json` (v4.0.0). This Markdown file is derived from the audited JSON data — the JSON remains the source of truth.*

@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Peshitta Aramaic IPA Pronunciation Guide",
-    "version": "3.0.0",
-    "date_created": "2026-04-01",
-    "phase": "Phase 4 (Rebuild of Phase 1)",
+    "version": "4.0.0",
+    "date_created": "2026-04-02",
+    "phase": "Phase 11 (Documentation update incorporating Phase 9–10 findings)",
     "purpose": "Machine-readable IPA-based pronunciation guide for Peshitta Syriac Aramaic covering BOTH script systems: Syriac script (Estrangela/Serto, U+0700–U+074F) and Block Aramaic / Hebrew square script (U+0590–U+05FF). All pronunciation data is encoded in the International Phonetic Alphabet (IPA, 2015 revision) as the primary and only system.",
     "language": "Classical Syriac (Aramaic)",
     "iso_639_3": "syc",
@@ -341,7 +341,7 @@
             "back_rounded": ""
           }
         ],
-        "note": "Western merged /ɛ/+/e/→/e/ and /ɑ/→/ɔ/. The Zqapha vowel is /ɑ/ Eastern vs /ɔ/ Western."
+        "note": "Eastern distinguishes 7 vowel qualities: /a/, /ɑ/, /e/, /ɛ/, /i/, /o/, /u/. Western merged /ɛ/+/e/→/e/, /ɑ/→/ɔ/, and /o/+/u/→/u/. The Zqapha vowel is /ɑ/ Eastern vs /ɔ/ Western."
       },
       "eastern_phonemes": [
         {
@@ -1175,22 +1175,40 @@
           "note": "Close front vowel"
         },
         {
-          "name": "Rwakha",
-          "ipa": "/o/",
+          "name": "ʿEsasa",
+          "ipa": "/u/",
           "unicode": "U+073D",
           "character": "ܽ",
           "position": "dot above Waw",
-          "note": "Close-mid back rounded"
+          "note": "Close back rounded. Unicode standard name: SYRIAC ESASA ABOVE."
         },
         {
-          "name": "ʿEsasa",
-          "ipa": "/u/",
+          "name": "Rwakha",
+          "ipa": "/o/",
           "unicode": "U+073F",
           "character": "ܿ",
           "position": "dot below Waw",
-          "note": "Close back rounded"
+          "note": "Close-mid back rounded. Unicode standard name: SYRIAC RWAHA."
         }
       ],
+      "vowel_length_rules": {
+        "description": "Vowel length in Eastern Syriac IPA transcription is marked with /ː/. Length arises from two sources: inherently long diacritics, and mater lectionis carriers.",
+        "inherently_long": [
+          {"diacritic": "Zqapha", "unicode": ["U+0733", "U+0734", "U+0735"], "ipa": "/ɑː/", "note": "Always long regardless of environment."},
+          {"diacritic": "Rbasa arikha", "unicode": ["U+0738", "U+0739"], "ipa": "/eː/", "note": "The name 'arikha' means 'long'. Always long."}
+        ],
+        "mater_lectionis_length": [
+          {"carrier": "Waw (U+0718)", "triggers_length_on": "/o/, /u/", "note": "Bare Waw (no own vowel) after /o/ or /u/ marks the vowel as long: /oː/, /uː/."},
+          {"carrier": "Yudh (U+071D)", "triggers_length_on": "/i/, /e/", "note": "Bare Yudh (no own vowel) after /i/ or /e/ marks the vowel as long: /iː/, /eː/."}
+        ],
+        "inherently_short": [
+          {"diacritic": "Pthakha", "unicode": ["U+0730", "U+0731", "U+0732"], "ipa": "/a/", "note": "Short by default. May undergo allophony to /ɑː/ on specific roots (e.g., ʔlh 'God', ʔb 'father')."},
+          {"diacritic": "Rbasa karya", "unicode": ["U+0736", "U+0737"], "ipa": "/e/", "note": "The name 'karya' means 'short'. Short unless followed by mater lectionis Yudh."},
+          {"diacritic": "Khwasa", "unicode": ["U+073A", "U+073B", "U+073C"], "ipa": "/i/", "note": "Short unless followed by mater lectionis Yudh."},
+          {"diacritic": "ʿEsasa", "unicode": ["U+073D", "U+073E"], "ipa": "/u/", "note": "Short unless followed by mater lectionis Waw."},
+          {"diacritic": "Rwakha", "unicode": ["U+073F"], "ipa": "/o/", "note": "Short unless followed by mater lectionis Waw."}
+        ]
+      },
       "western_serto": [
         {
           "name": "Pthakha",
@@ -1901,13 +1919,14 @@
         "note": "Common on silent Alaph and other mater lectionis letters"
       },
       {
-        "name": "Mhaggyānā (ܡܗܓܝܢܐ)",
-        "unicode": "U+0740",
-        "character": "݀",
-        "decimal": 1856,
-        "function": "Marks a vowelless consonant or emphasizes pronunciation",
-        "ipa_effect": "Varies; typically indicates the consonant is pronounced without a following vowel",
-        "position": "Dot or line below"
+        "name": "Mhagyana (ܡܗܓܝܢܐ)",
+        "unicode": "U+0748",
+        "character": "݈",
+        "decimal": 1864,
+        "function": "Quiescent/silent marker — marks a consonant as silent, partially silent, or assimilated. Three behaviors: FULLY_SILENT (93.9%: consonant skipped entirely), SILENT_KEEP_VOWEL (4.3%: consonant skipped but vowel preserved), GEMINATION (1.7%: consonant kept when next consonant is identical).",
+        "ipa_effect": "∅ (FULLY_SILENT), vowel-only (SILENT_KEEP_VOWEL), or consonant retained (GEMINATION) — context-dependent",
+        "position": "Oblique line below the letter",
+        "note": "The Peshitta corpus uses EXCLUSIVELY U+0748 (9,808 instances). U+0747 (Linea Occultans) has zero instances. Discovered in Phase 9. Appears on 18 consonants (vs. the 9 in the prescriptive ʿamlay nūhrā mnemonic)."
       }
     ],
     "block_aramaic_diacritics": [
@@ -7709,21 +7728,21 @@
           "unicode": "U+073D",
           "decimal": 1853,
           "name": "SYRIAC ESASA ABOVE",
-          "ipa": "/o/"
+          "ipa": "/u/"
         },
         {
           "character": "ܾ",
           "unicode": "U+073E",
           "decimal": 1854,
           "name": "SYRIAC ESASA BELOW",
-          "ipa": "/o/"
+          "ipa": "/u/"
         },
         {
           "character": "ܿ",
           "unicode": "U+073F",
           "decimal": 1855,
           "name": "SYRIAC RWAHA",
-          "ipa": "/u/"
+          "ipa": "/o/"
         },
         {
           "character": "݀",
@@ -8296,5 +8315,98 @@
         "value": 400
       }
     ]
+  },
+
+  "mhagyana_u0748": {
+    "description": "U+0748 (SYRIAC OBLIQUE LINE BELOW / Mhagyana) quiescent marker. Discovered in Phase 9. The primary silent marker used in the Peshitta New Testament corpus.",
+    "unicode": "U+0748",
+    "character": "݈",
+    "decimal": 1864,
+    "corpus_instances": 9808,
+    "words_corrected_v5_to_v6": 9642,
+    "correction_rate": "8.79%",
+    "note_u0747_vs_u0748": "The Peshitta corpus uses EXCLUSIVELY U+0748. U+0747 (Linea Occultans) has zero instances.",
+    "behavior_model": {
+      "FULLY_SILENT": {
+        "count": 9217,
+        "percentage": "93.9%",
+        "rule": "Consonant has U+0748, no vowel, next consonant is different. Skip consonant entirely.",
+        "example": {"syriac": "ܗ݈ܘܳܐ", "old_ipa": "hwɑː", "new_ipa": "wɑː", "meaning": "was"}
+      },
+      "SILENT_KEEP_VOWEL": {
+        "count": 425,
+        "percentage": "4.3%",
+        "rule": "Consonant has U+0748 AND a vowel, next consonant is different. Skip consonant, output its vowel.",
+        "example": {"syriac": "ܗ݈ܽܘ", "old_ipa": "huː", "new_ipa": "uː", "meaning": "he/copula"}
+      },
+      "GEMINATION": {
+        "count": 171,
+        "percentage": "1.7%",
+        "rule": "Consonant has U+0748, next consonant is the same letter. Keep consonant (assimilation marker, not silence).",
+        "example": {"syriac": "ܥܰܡ݈ܡܶܐ", "old_ipa": "ʕamme", "new_ipa": "ʕamme", "meaning": "peoples"}
+      }
+    },
+    "consonant_distribution": [
+      {"consonant": "He", "syriac": "ܗ", "instances": 5275, "prescriptive": true},
+      {"consonant": "Alaph", "syriac": "ܐ", "instances": 2192, "prescriptive": true},
+      {"consonant": "Nun", "syriac": "ܢ", "instances": 1832, "prescriptive": true},
+      {"consonant": "Mim", "syriac": "ܡ", "instances": 147, "prescriptive": true},
+      {"consonant": "Dalath", "syriac": "ܕ", "instances": 120, "prescriptive": false},
+      {"consonant": "Lamadh", "syriac": "ܠ", "instances": 102, "prescriptive": true},
+      {"consonant": "Kheth", "syriac": "ܚ", "instances": 54, "prescriptive": false},
+      {"consonant": "Ayin", "syriac": "ܥ", "instances": 29, "prescriptive": true},
+      {"consonant": "Resh", "syriac": "ܪ", "instances": 18, "prescriptive": true},
+      {"consonant": "Waw", "syriac": "ܘ", "instances": 15, "prescriptive": true},
+      {"consonant": "Kaph", "syriac": "ܟ", "instances": 10, "prescriptive": false},
+      {"consonant": "Beth", "syriac": "ܒ", "instances": 9, "prescriptive": false},
+      {"consonant": "Qaph", "syriac": "ܩ", "instances": 3, "prescriptive": false},
+      {"consonant": "Yudh", "syriac": "ܝ", "instances": 2, "prescriptive": true},
+      {"consonant": "Teth", "syriac": "ܛ", "instances": 2, "prescriptive": false},
+      {"consonant": "Semkath", "syriac": "ܣ", "instances": 2, "prescriptive": false},
+      {"consonant": "Taw", "syriac": "ܬ", "instances": 2, "prescriptive": false},
+      {"consonant": "Gamal", "syriac": "ܓ", "instances": 1, "prescriptive": false}
+    ],
+    "top_10_corrected_words": [
+      {"syriac": "ܗ݈ܘܳܐ", "count": 1316, "old_ipa": "hwɑː", "new_ipa": "wɑː", "meaning": "was (enclitic copula past)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܐ݈ܢܳܐ", "count": 1085, "old_ipa": "ʔnɑː", "new_ipa": "nɑː", "meaning": "I (1sg pronoun)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܗ݈ܘܰܘ", "count": 737, "old_ipa": "hwaw", "new_ipa": "waw", "meaning": "they were (enclitic copula pl.)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܐܢ݈ܬ݁ܽܘܢ", "count": 547, "old_ipa": "ʔnton", "new_ipa": "ʔton", "meaning": "you (pl.m, silent Nun)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܐܰܢ݈ܬ݁", "count": 491, "old_ipa": "ʔant", "new_ipa": "ʔat", "meaning": "you (m.sg, silent Nun)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܗ݈ܽܘ", "count": 385, "old_ipa": "huː", "new_ipa": "uː", "meaning": "he/it (enclitic copula)", "behavior": "SILENT_KEEP_VOWEL"},
+      {"syriac": "ܐ݈ܢܳܫ", "count": 323, "old_ipa": "ʔnɑːʃ", "new_ipa": "nɑːʃ", "meaning": "someone (silent Alaph)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܐܰܢ݈ܬ݁ܽܘܢ", "count": 233, "old_ipa": "ʔanton", "new_ipa": "ʔaton", "meaning": "you (pl.m, variant)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܗ݈ܘܳܬ݂", "count": 184, "old_ipa": "hwɑːθ", "new_ipa": "wɑːθ", "meaning": "she was (copula f.)", "behavior": "FULLY_SILENT"},
+      {"syriac": "ܗ݈ܝ", "count": 173, "old_ipa": "hj", "new_ipa": "j", "meaning": "she/it (enclitic copula f.)", "behavior": "FULLY_SILENT"}
+    ],
+    "published_validation": {
+      "result": "9/9 match",
+      "sources": ["Wiktionary", "Wikibooks Aramaic/Pronouns", "Wikipedia Syriac alphabet", "r12a.github.io Classical Syriac orthography"]
+    }
+  },
+
+  "extended_mtalqana_inventory": {
+    "description": "The Peshitta corpus uses U+0748 on 18 consonants, exceeding the prescriptive list of 9 (ʿamlay nūhrā mnemonic). Discovered in Phase 10.",
+    "prescriptive_list": {
+      "mnemonic": "ʿamlay nūhrā (ܥܰܡܠܰܝ ܢܽܘܗܪܳܐ, 'workers of light')",
+      "consonants": ["Ayin", "Mim", "Lamadh", "Yudh", "Nun", "Waw", "He", "Resh", "Alaph"],
+      "count": 9,
+      "phonological_class": "Sonorous consonants — nasals, liquids, glides, laryngeals/pharyngeals"
+    },
+    "corpus_inventory": {
+      "count": 18,
+      "additional_consonants": [
+        {"consonant": "Dalath", "instances": 120, "context": "Noun assimilation: ʕidtā 'church' (Dalath→Taw)"},
+        {"consonant": "Kheth", "instances": 54, "context": "Enclitic reduction: ḥnan→nan 'we'"},
+        {"consonant": "Kaph", "instances": 10, "context": "Ethpaal/Ethpeel verb stems"},
+        {"consonant": "Beth", "instances": 9, "context": "Assimilation in verb stems"},
+        {"consonant": "Qaph", "instances": 3, "context": "Assimilation contexts"},
+        {"consonant": "Teth", "instances": 2, "context": "Assimilation contexts"},
+        {"consonant": "Semkath", "instances": 2, "context": "Assimilation contexts"},
+        {"consonant": "Taw", "instances": 2, "context": "Assimilation contexts"},
+        {"consonant": "Gamal", "instances": 1, "context": "Assimilation contexts"}
+      ],
+      "total_non_prescriptive_instances": 203
+    },
+    "assessment": "The prescriptive ʿamlay nūhrā list describes the typical candidates for quiescence. The Peshitta corpus extends U+0748 to additional consonants wherever the phonology demands it. All instances are linguistically correct — not corpus errors."
   }
 }
