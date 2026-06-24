@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "description": "Deterministic IPA->Latin mapping for the Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "anglicized"
+    ],
+    "note": "transliterate.py is authoritative; this file mirrors its hard-coded tables."
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "combining_dot_below": "̣",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-"
+  },
+  "segmentation": [
+    "Split on ASCII space ' ' only; spaces are preserved verbatim.",
+    "Within each token, left-to-right longest match:",
+    "  1. consonant + \\u02E4 (ˤ) -> emphatic segment (2 chars)",
+    "  2. vowel (a ɑ e i o u) + \\u02D0 (ː) -> long-vowel segment (2 chars)",
+    "  3. otherwise single char",
+    "word-initial = the FIRST segment of a token (used only by the Alaph rule)."
+  ],
+  "tier_dicts": {
+    "consonants": {
+      "b": {
+        "scholarly": "b",
+        "pretty": "b",
+        "anglicized": "b"
+      },
+      "ɡ": {
+        "scholarly": "g",
+        "pretty": "g",
+        "anglicized": "g"
+      },
+      "d": {
+        "scholarly": "d",
+        "pretty": "d",
+        "anglicized": "d"
+      },
+      "h": {
+        "scholarly": "h",
+        "pretty": "h",
+        "anglicized": "h"
+      },
+      "w": {
+        "scholarly": "w",
+        "pretty": "w",
+        "anglicized": "w"
+      },
+      "z": {
+        "scholarly": "z",
+        "pretty": "z",
+        "anglicized": "z"
+      },
+      "k": {
+        "scholarly": "k",
+        "pretty": "k",
+        "anglicized": "k"
+      },
+      "l": {
+        "scholarly": "l",
+        "pretty": "l",
+        "anglicized": "l"
+      },
+      "m": {
+        "scholarly": "m",
+        "pretty": "m",
+        "anglicized": "m"
+      },
+      "n": {
+        "scholarly": "n",
+        "pretty": "n",
+        "anglicized": "n"
+      },
+      "s": {
+        "scholarly": "s",
+        "pretty": "s",
+        "anglicized": "s"
+      },
+      "p": {
+        "scholarly": "p",
+        "pretty": "p",
+        "anglicized": "p"
+      },
+      "q": {
+        "scholarly": "q",
+        "pretty": "q",
+        "anglicized": "q"
+      },
+      "r": {
+        "scholarly": "r",
+        "pretty": "r",
+        "anglicized": "r"
+      },
+      "t": {
+        "scholarly": "t",
+        "pretty": "t",
+        "anglicized": "t"
+      },
+      "f": {
+        "scholarly": "f",
+        "pretty": "f",
+        "anglicized": "f"
+      },
+      "v": {
+        "scholarly": "ḇ",
+        "pretty": "v",
+        "anglicized": "v"
+      },
+      "ʃ": {
+        "scholarly": "š",
+        "pretty": "sh",
+        "anglicized": "sh"
+      },
+      "θ": {
+        "scholarly": "ṯ",
+        "pretty": "th",
+        "anglicized": "th"
+      },
+      "ð": {
+        "scholarly": "ḏ",
+        "pretty": "dh",
+        "anglicized": "dh"
+      },
+      "x": {
+        "scholarly": "ḵ",
+        "pretty": "kh",
+        "anglicized": "kh"
+      },
+      "ɣ": {
+        "scholarly": "ḡ",
+        "pretty": "gh",
+        "anglicized": "gh"
+      },
+      "ħ": {
+        "scholarly": "ḥ",
+        "pretty": "ḥ",
+        "anglicized": "kh"
+      },
+      "j": {
+        "scholarly": "y",
+        "pretty": "y",
+        "anglicized": "y"
+      }
+    },
+    "short_vowels": {
+      "a": {
+        "scholarly": "a",
+        "pretty": "a",
+        "anglicized": "a"
+      },
+      "ɑ": {
+        "scholarly": "a",
+        "pretty": "a",
+        "anglicized": "a"
+      },
+      "e": {
+        "scholarly": "e",
+        "pretty": "e",
+        "anglicized": "e"
+      },
+      "i": {
+        "scholarly": "i",
+        "pretty": "i",
+        "anglicized": "i"
+      },
+      "o": {
+        "scholarly": "o",
+        "pretty": "o",
+        "anglicized": "o"
+      },
+      "u": {
+        "scholarly": "u",
+        "pretty": "u",
+        "anglicized": "u"
+      }
+    },
+    "long_vowels": {
+      "a": {
+        "scholarly": "ā",
+        "pretty": "ā",
+        "anglicized": "a"
+      },
+      "ɑ": {
+        "scholarly": "ā",
+        "pretty": "ā",
+        "anglicized": "a"
+      },
+      "e": {
+        "scholarly": "ē",
+        "pretty": "ē",
+        "anglicized": "ay"
+      },
+      "i": {
+        "scholarly": "ī",
+        "pretty": "ī",
+        "anglicized": "ee"
+      },
+      "o": {
+        "scholarly": "ō",
+        "pretty": "ō",
+        "anglicized": "oh"
+      },
+      "u": {
+        "scholarly": "ū",
+        "pretty": "ū",
+        "anglicized": "oo"
+      }
+    },
+    "emphatics_explicit": {
+      "t": {
+        "scholarly": "ṭ",
+        "pretty": "ṭ",
+        "anglicized": "t"
+      },
+      "s": {
+        "scholarly": "ṣ",
+        "pretty": "ṣ",
+        "anglicized": "s"
+      }
+    }
+  },
+  "rules": {
+    "alaph": {
+      "symbol": "ʔ",
+      "scholarly": "always \\u02BE (ʾ)",
+      "pretty": "word-initial -> '' (drop); else -> \"'\"",
+      "anglicized": "always '' (drop)"
+    },
+    "ayin": {
+      "symbol": "ʕ",
+      "scholarly": "\\u02BF (ʿ)",
+      "pretty": "\\u02BF (ʿ)",
+      "anglicized": "'' (drop)"
+    },
+    "emphatic_fallback": {
+      "applies_to": "any consonant + \\u02E4 not in emphatics_explicit",
+      "scholarly": "tier(C) + \\u0323 (combining dot below)",
+      "pretty": "tier(C) + \\u0323 (combining dot below)",
+      "anglicized": "tier(C)"
+    },
+    "hyphen": {
+      "symbol": "-",
+      "all_tiers": "-"
+    },
+    "space": {
+      "all_tiers": "space (preserved verbatim)"
+    },
+    "unmapped": "Any char not covered above (besides space) is recorded and passed through unchanged."
+  }
+}

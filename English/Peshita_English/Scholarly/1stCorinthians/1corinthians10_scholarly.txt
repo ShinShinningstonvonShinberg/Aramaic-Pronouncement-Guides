@@ -1,0 +1,33 @@
+1	ṣāḇe nā dēn dṯedʿon ʾaḥay dʾaḇāhayn kulhon tḥēṯ ʿnānā hwaw wḵulhon byamā ʿḇarw
+2	wḵulhon byaḏ mūše ʿmaḏw baʿnānā waḇyamā
+3	wḵulhon ḥḏā meʾḵūltā drūḥā ʾeḵalw
+4	wḵulhon ḥaḏ maštyā drūḥā ʾeštīw šāṯēn waw gēr men kiʾfā drūḥā dʾāṯyā wāṯ ʿamhon kiʾfā dēn hā hū hwā mšīḥā
+5	ʾelā lā wā bsūḡʾhon ʾeṣṭḇī ʾālāhā nfalw gēr bmaḏbrā
+6	hālēn dēn ṭūfsā lan ū hwaw dlā hwayn rāgīn bīšāṯā ʾaykanā dhenon raḡw
+7	wāʾflā nehwe pālḥay pṯaḵre ʾaykanā dʾāf menhon plaḥw ʾayḵ daḵṯīḇ dīṯeḇ ʿamā lmeʾḵal walmeštā wqāmw lmeštʿāyyū
+8	wāʾflā nzane ʾaykanā dmenhon zanīw wanfalw bḥaḏ yawmā ʿesrīn waṯlāṯā ʾalfīn
+9	wlā nnase lamšīḥā ʾaykanā dmenhon nasīw waʾwbeḏw ʾenon ḥwawāṯā
+10	wāʾflā terṭnon ʾaykanā dmenhon rṭenw weʾḇaḏw bʾiyḏay mḥablānā
+11	hālēn dēn kulhēn daḡḏaš lhon lṭūfsan hway weʾṯkṯeḇ meṭul mardūṯā dīlan dḥarṯhon dʿālme ʿlayn maṭyaṯ
+12	mekīl man dsāḇar dqām nezdhar dlā nepel
+13	nesyūnā lā maṭīḵon ʾelā daḇnaynāšā mhayman ū dēn ʾālāhā dlā narpēḵon dṯeṯnason yatīr man medem damṣēn ʾton ʾelā neʿbeḏ lnesyūnḵon mapqānā ʾaykanā dṯeškḥon lamsaybārū
+14	meṭul hānā ḥabīḇay ʿrūqw men pūlḥānā dafṯaḵre
+15	ʾayḵ dalḥakīme ʾāmar nā dūnw ʾaton medem dʾāmar nā
+16	kāsā haw dṯawdīṯā damḇarḵīnan lā wā šawtāfūṯā ʾīṯawy daḏmeh damšīḥā wlaḥmā haw dqāṣēnan lā wā šawtāfūṯā ʾīṯawy dfaḡreh damšīḥā
+17	ʾaykanā dḥaḏ ū laḥmā haw hāḵanā kulan ḥaḏ ḥnan pḡar kulan gēr men haw ū ḥaḏ laḥmā nāsbīnan
+18	ḥzaw liʾysrāyyel dḇaḇsar lā wā ʾaylēn dʾāḵlīn deḇḥe hāwēn šawtāfe lmaḏbḥā
+19	mānā hāḵīl ʾāmar nā dafṯaḵrā medem ʾīṯawy ʾaw deḇḥā dafṯaḵrā medem ū lā
+20	ʾelā haw medem dḏāḇḥīn ḥanfe lšiʾḏe w dāḇḥīn wlā laʾlāhā lā dēn ṣāḇe nā dṯehon šawtāfe lšiʾḏe
+21	lā meškḥīn ʾton dṯešton kāsā dmāran wḵāsā dšiʾḏe wlā meškḥīn ʾton dṯeštawtfon bfāṯūrā dmāran waḇfāṯūrā dšiʾḏe
+22	ʾaw dalmā maṭānū maṭnīnan lmāran dalmā ḥasīnīnan meneh
+23	kul medem šalīṭ lī ʾelā lā kul medem paqāḥ kul medem šalīṭ lī ʾelā lā kul medem mḇane
+24	lā nāš dnafšeh nehwe bāʿe ʾelā kulnāš ʾāf dḥaḇreh
+25	kulmedem dmezdaban bmaqelāwn hwayton ʾāḵlīn dlā ʿūqāḇā meṭul tiʾrtā
+26	dmāryā y gēr ʾarʿā bamlāʾāh
+27	ʾen nāš dēn men ḥanfe qāre lḵon wṣāḇēn ʾton lmiʾzal kulmedem dmetsīm qḏāmaykon ʾaḵūlw dlā ʿūqāḇā meṭul tiʾrtā
+28	ʾen nāš dēn niʾmar lḵon dhānā daḏḇīḥā hū lā teʾḵlon meṭul haw dʾāmar lḵon wmeṭul tiʾrtā
+29	tiʾrtā dēn ʾāmar nā lā wā dīlḵon ʾelā dhaw dʾāmar lmānā gēr ḥiʾrūṯy metḏīnā men tiʾrtā daḥrāne
+30	ʾen ʾenā bṭaybūṯā meṯḥašaḥ nā mānā meṯgadaf nā ʿal medem dʾenā mawdeʾnā
+31	ʾen ʾāḵlīn ʾton hāḵīl weʾn šāṯēn ʾton weʾn medem ʿāḇdīn ʾton kulmedem lṯešbūḥtā dʾālāhā hwayton ʿāḇdīn
+32	dlā tūqlā hwaw līhūḏāyye wlaʾrmāyye walʿiteh dʾālāhā
+33	ʾayḵ dʾāf ʾenā bḵul medem lḵulnāš šāfar nā wlā bāʿe nā medem dlī paqāḥ ʾelā medem dalsagiyyeʾ paqāḥ dniḥon

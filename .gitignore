@@ -1,0 +1,8 @@
+# Local AI scratch / working folder — keep this on-device, never push it
+AI_Helping/
+
+# macOS Finder cruft
+.DS_Store
+
+# Python bytecode cruft
+__pycache__/
