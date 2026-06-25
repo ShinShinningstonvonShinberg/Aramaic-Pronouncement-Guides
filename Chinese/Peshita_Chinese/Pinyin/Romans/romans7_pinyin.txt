@@ -1,0 +1,25 @@
+1	a·wu la ya·zi·yi·ne tong a·ha·yi le·ya·zi·a·yi na·mu·sa ge·ri me·ma·le·le na de·na·mu·sa sha·li·te wu a·le ga·fu·ru ke·ma de·ha·yi
+2	a·yi·he a·te·sa de·a·si·ru yi bo·fa·la·he ke·ma de·ha·yi bo·na·mu·sa e·ne den mi·si ba·la·he e·si·ha·ri·ru·si men na·mu·sa de·fa·la·he
+3	e·ne den ka·zi ha·yi ba·la·he te·ka·fu la·he·fa·ri he·ran he·wa·si la·he ga·yi·ya·ri·sa e·ne den ne·mu·si ba·la·he e·si·ha·ri·ru·si men na·mu·sa wu·la yi·se·he ga·yi·ya·ri·sa e·ne te·he·wo le·ha·fu·ru he·ri·na
+4	wu·ha·sha a·ha·yi a·fu a·tong mi·te·tong le·na·mu·sa bo·fa·he·re·he da·me·shi·ha de·se·hong la·he·ran a·yi·na de·ka·me men bo·si mi·se de·se·te·long pi·re la·la·ha
+5	ka·zi bo·fu·si·ru wa·yi·ne ge·ri qi·fu da·he·ta·he da·fu·na·mu·sa me·si·ha·po·ting wa·wu bo·ha·da·ma·yi·ne de·fu·re ne·te·le le·ma·wu·ta
+6	ha·sha den e·si·ba·ta·le·ne men na·mu·sa wu·mi·si·ne le·ha·wu de·a·xi·zi wa lan dan·sha·me·shi me·qi·le bo·ha·su·sa de·ru·ha wu·la bo·a·ti·ku·si ke·sa·fa
+7	ma·na ha·xi·le a·me·ri·nan na·mu·sa he·ti·sa hu ha·si e·la la·he·ti·sa la ye·le·po·si e·la bo·ya·zi na·mu·sa la ge·ri re·ge·sa ya·za wei·si e·lu la na·mu·sa de·e·ma·ri de·la te·ru·he
+8	wa·fu·ha·na pu·ke·da·na e·shi·ke·ha·si la·he he·ti·sa e·le·sa wu·he·me·ru·si bi ku·le re·ga bo·le·a·zi na·mu·sa ge·ri he·ti·sa mi·sa wa·si
+9	e·na den ha·yi wei·si de·la na·mu·sa men ke·zi·me ka·zi e·sa den pu·ke·da·na he·ti·sa he·ya·si wo·na mi·se·si
+10	wo·shi·te·ha·he li pu·ke·da·na ha·wu de·ha·yi·ye le·ma·wu·ta
+11	he·ti·sa ge·ri bo·e·le·sa de·e·shi·ke·ha·si la·he bo·ya·zi pu·ke·da·na a·te·ya·san·yi wu·fu·he ke·ta·le·san·yi
+12	na·mu·sa ma·zen ka·di·shi wu wu·fu·ke·da·na ka·di·shi wu wu·xi·yi·ne wu·ta·fu
+13	ta·fu·sa ha·xi·le li le·ma·wu·ta hu he·wa·si ha·si e·la he·ti·sa de·se·si·he·ze da·he·ti·sa xi da·fu·ta·fu·sa ge·me·ru·si bi ma·wu·ta de·ya·ti·ru·yi·si te·si·ha·yi·ya·fu he·ti·sa bo·fu·ke·da·na
+14	ya·zi·yi·nan ge·ri de·na·mu·sa de·ru·he wu e·na den da·fu·sa·ri na wa·me·za·ban na la·he·ti·sa
+15	me·de·me de·sa·a·ri na ge·ri la ya·za na wu·la wa me·de·me de·sa·fu na a·fu·zi na e·la me·de·me de·sa·ne na ha·wu wu a·fu·zi na
+16	wo·ne me·de·me de·la sa·fu na a·fu·zi na sa·he·zi na a·le na·mu·sa de·sha·pi·ri wu
+17	ha·sha den la wa e·na sa·a·ri na ha·ze e·la he·ti·sa de·a·me·ru bi
+18	ya·za na hu ge·ri de·la a·me·ru bi ha·na·wu den bo·fu·si·ri·yi ta·fu·sa de·e·si·bo ge·ri bo·ta·fu·sa po·shi·ke li de·e·si·ri·he den la me·shi·ka·he na
+19	la wa ge·ri le·ta·fu·sa de·sa·fu na de·e·bo·zi a·fu·zi na e·la bi·shi·ta de·la sa·fu na de·e·bo·zi la·he a·fu·zi na
+20	wo·ne me·de·me de·la sa·fu na a·fu·zi na la wa e·na a·fu·zi na e·la he·ti·sa de·a·me·ru bi
+21	me·shi·ka·he na ha·xi·le le·na·mu·sa de·sha·le·me le·re·ya·ne·yi ha·wu de·sa·fu de·ne·bo·zi ta·fu·sa me·tu·le de·fu·shi·ta ka·ri·fa yi li
+22	ha·ze na ge·ri bo·na·mu·se·he de·a·la·ha bo·fa·ri·na·sha da·le·ha·wu
+23	ha·ze na den na·mu·sa he·ri·na bo·ha·da·ma·yi de·ma·ke·re·fu lu·ke·fa·le na·mu·sa de·re·ya·ne·yi wu·sha·fu li le·na·mu·sa da·he·ti·sa de·yi·yi·si bo·ha·da·ma·yi
+24	da·wu·ya na ba·ri·na·sha ma·nu ne·fa·sen·yi men pa·he·ru ha·na de·ma·wu·ta
+25	ma·wu·de na la·la·ha bo·ya·zi ma·ran ye·shu me·shi·ha ha·sha ha·xi·le e·na bo·re·ya·ne·yi a·fu·da na de·na·mu·sa de·a·la·ha bo·fu·si·ri·yi den yi·sa·yi a·fu·da de·na·mu·sa da·he·ti·sa

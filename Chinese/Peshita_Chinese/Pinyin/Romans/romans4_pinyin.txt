@@ -1,0 +1,25 @@
+1	ma·na ha·xi·le a·me·ri·nan a·le a·fu·ru·ha·me ri·sha de·a·fa·ha·sa de·e·shi·ka·he ba·fu·sa·ri
+2	e·lu ge·ri a·fu·ru·ha·me men fa·ze e·zi·da·da·ke wa yi·si wa le·he shu·fu·ha·ru e·la la le·wa·si a·la·ha
+3	ma·na ge·ri e·ma·ri ke·sa·fa de·ha·yi·men a·fu·ru·ha·me la·la·ha wo·si·ha·shi·ba·si le·he le·za·di·ku
+4	le·man de·fa·la·he den la me·si·he·she·fu le·he a·he·re·he a·yi·he da·fu·ta·yi·bu e·la a·yi·he man de·me·te·te·xi·fu le·he
+5	le·ha·wu den de·la po·la·he e·la ha·yi·men ba·le·hu·zi bo·man da·me·za·de·ke le·ha·ta·yi·ye me·si·ha·shi·ba le·he ha·yi·ma·nu·se·he le·xi·nu
+6	a·yi·ka·na de·a·fu da·wei·zi e·ma·ri a·le tu·fu·he de·ha·fu·ru a·yi·na de·a·la·ha ha·she·fu le·he za·di·ku·sa de·la fa·ze ka·zi a·ma·ri
+7	de·tu·fa·yi·hong la·yi·leng de·e·shi·te·fu·ke le·hong a·wu·le·hong wo·si·ka·si·wu he·ta·ha·yi·hong
+8	wu·tu·fa·wu·yi le·ha·fu·ru de·la ne·he·shu·fu le·he a·la·ha he·ti·se·he
+9	ha·na ha·xi·le tu·fa a·le ge·zu·ri·ta hu a·wu a·le wu·ri·lu·sa a·me·ri·nan ge·ri de·e·si·ha·shi·ba·si la·fu·ru·ha·me ha·yi·ma·nu·se·he le·xi·nu
+10	a·yi·ka·na ha·xi·le e·si·ha·shi·ba·si le·he ba·he·zu·ri·ta a·wu bo·wu·ri·lu·sa la wa ba·he·zu·ri·ta e·la bo·wu·ri·lu·sa
+11	a·sa hu ge·ri sha·ke·la·he la·he·zu·ri·ta wu·ha·si·ma de·xi·nu·sa de·ha·yi·ma·nu·se·he da·fu·wu·ri·lu·sa de·ne·he·wo a·fa le·hu·le·hong a·yi·leng da·me·ha·yi·me·nin men wu·ri·lu·sa de·se·si·he·she·fu a·fu le·hong le·xi·nu
+12	wa·fa la·he·zu·ri·ta la wa la·yi·leng de·men ge·zu·ri·ta e·nong ba·le·hu·zi e·la a·fu la·yi·leng de·sha·le·min le·e·ke·fa·sa de·ha·yi·ma·nu·sa de·wu·ri·lu·sa de·a·fan a·fu·ru·ha·me
+13	la wa ge·ri bo·na·mu·sa he·wa mu·le·ka·na la·fu·ru·ha·me wa·le·za·ri·e·he de·ne·he·wo ya·ri·ta le·a·le·ma e·la bo·xi·nu·sa de·ha·yi·ma·nu·se·he
+14	e·lu ge·ri ha·leng de·men na·mu·sa he·wa·wu ya·ri·te si·ri·ka wa·si ha·yi·ma·nu·sa wa·me·fa·ta·le wa mu·le·ka·na
+15	na·mu·sa ge·ri ma·bo·za·na hu de·ru·he·za ka·ri de·la·yi·te ge·ri na·mu·sa a·fu·la fa·ri na·mu·sa
+16	me·tu·le ha·na bo·ha·yi·ma·nu·sa da·fu·ta·yi·bu·sa ne·zi·da·da·ke wu·ne·he·wo sha·ri·ri mu·le·ka·na le·hu·le·he za·ri·e·he la la·yi·na de·men na·mu·sa hu ba·le·hu·zi e·la a·fu la·yi·na de·men ha·yi·ma·nu·sa hu de·a·fu·ru·ha·me de·yi·yi·sa·wu·yi a·fa de·hu·lan
+17	a·yi·ka·na da·he·si·fu de·sa·me·ta·he a·fa le·su·ha de·a·me·me ke·za·me a·la·ha ha·wu de·ha·yi·men·te bo·he de·ma·he mi·se wu·ka·re la·yi·leng de·la yi·sa·yi·hong a·yi·he yi·sa·yi·hong
+18	wa·zi·la sa·fu·ru le·sa·fu·ru ha·yi·men de·ne·he·wo a·fa le·su·ha de·a·me·me a·yi·he da·he·si·fu de·ha·ha·na ne·he·wo za·ri·a·he
+19	wu·la e·si·ke·ru·he bo·ha·yi·ma·nu·se·he ka·zi me·si·ba·ke bo·fa·he·re·he mi·sa da·he·wa ba·ri ma shi·nin wa·fu·ma·ri·bo·a mi·sa de·sa·ru
+20	wa·fu·mu·le·ka·na de·a·la·ha la e·si·pa·la·he a·yi·he he·si·ri ha·yi·ma·nu·sa e·la e·si·ha·yi·ya·le bo·ha·yi·ma·nu·sa wu·ya·fu te·shi·bu·he·ta la·la·ha
+21	wa·sha·ri de·me·de·me da·me·la·he le·he a·la·ha me·shi·ka·he le·me·he·ma·ri
+22	me·tu·le ha·na e·si·ha·shi·ba·si le·he le·xi·nu
+23	wu·la wa me·tu·la·se·he ba·le·hu·zi e·si·ka·si·ba·si ha·ze de·e·si·ha·shi·ba·si ha·yi·ma·nu·se·he le·xi·nu
+24	e·la a·fu me·tu·la·san de·a·fu·lan si·zi wu de·ne·he·shu·fu a·yi·leng de·ha·yi·men·ne bo·man de·a·qi·me le·ma·ran ye·shu me·shi·ha men bo·si mi·se
+25	de·hu e·shi·te·le·me me·tu·le he·ta·ha·yi·ne wu·ka·me me·tu·le dan·za·de·kan

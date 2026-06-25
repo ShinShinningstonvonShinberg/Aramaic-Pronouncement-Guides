@@ -1,0 +1,27 @@
+1	ma·he·e·le na le·hong den le·fu·fu ha·san de·yi·yi·se·he me·sha·me·sha·ni·sa de·yi·ta de·ken·he·re·wa·si
+2	da·si·ka·bo·lu·na·he bo·ma·ran a·yi·he de·za·ze·ke le·ka·di·she wa·fu·hu·le si·fu de·fa·ya men·hong te·ku·man la·he me·tu·le de·a·fu xi ka·yi·yu·me·ta he·wa·si le·sa·ji·yi·ye a·fu li
+3	sha·le·wu ba·shi·la·ma da·po·ri·si·ke·la wu·za·ke·la·si pa·le·he de·a·me·yi bo·ye·shu me·shi·ha
+4	de·he·nong ha·leng he·la·fu na·fu·shi·yi sa·wu·ru·yi·hong ya·fu·wu wu·la wa e·na ba·le·hu·za·yi ma·wu·de na le·hong e·la a·fu ku·le·hen yi·za·sa de·a·me·me
+5	wu·ha·fu·wu shi·la·ma le·yi·ta de·yi·yi·si bo·fa·yi·te·hong sha·le·wu ba·shi·la·ma de·e·po·ne·ta·wu·si ha·bi·fu·yi a·yi·na de·yi·yi·sa·wu·yi ri·shi·sa de·a·ha·yi·yi·ya ba·me·shi·ha
+6	sha·le·wu ba·shi·la·ma de·ma·ri·yi·ya a·yi·za de·sa·ji le·ya·si bo·hong
+7	sha·le·wu ba·shi·la·ma de·a·ne·de·ru·wu·ni·ka·wu·si wa·zi·yu·ni·yi·ya he·ya·na·yi da·he·wa·wu shi·fa·yi·ya a·me·yi wei·zi·yi·ne e·nong ba·shi·li·he wu·fa·me·shi·ha ke·za·ma·yi he·wa·wu
+8	sha·le·wu ba·shi·la·ma de·a·me·po·li·yi·ya·wu·si ha·bi·fu·yi bo·ma·ran
+9	sha·le·wu ba·shi·la·ma de·wu·wu·ri·fa·na·wu·si pa·le·ha de·a·man ba·me·shi·ha wu·ze·si·ta·hu·si ha·bi·fu·yi
+10	sha·le·wu ba·shi·la·ma de·a·po·li ga·fu·ya bo·ma·ran sha·le·wu ba·shi·la·ma da·fu·na·yi ba·yi·te·he de·a·ri·si·ta·fu·la·wu·si
+11	sha·le·wu ba·shi·la·ma de·he·ru·wu·zi·yi·ya·wu·ne he·ya·ne·yi sha·le·wu ba·shi·la·ma da·fu·na·yi ba·yi·te·he de·na·ri·qi·sa·wu·si a·yi·leng de·yi·yi·sa·yi·hong bo·ma·ran
+12	sha·le·wu ba·shi·la·ma da·te·ru·fu·na wu·za·te·ru·fa·sa de·li·ye·ne bo·ma·ran sha·le·wu ba·shi·la·ma de·po·ri·si·si ha·bi·fu·te·yi a·yi·za de·sa·ji le·ya·si bo·ma·ran
+13	sha·le·wu ba·shi·la·ma de·ru·fa·si ga·fu·ya bo·ma·ran wu·ze·me·he di·le·he wu·zi·le·yi
+14	sha·le·wu ba·shi·la·ma de·a·sun·ke·ri·ta·wu·si wu·za·fu·le·ha·wu·ne wa·zi·he·ri·ma wa·zi·pa·te·ru·fa wa·zi·he·ri·mi wu·za·he de·a·me·hong
+15	sha·le·wu ba·shi·la·ma de·fu·la·la·ha·wu·si wa·zi·yu·li·yi·ya wa·zi·ni·ru·wu·si wa·zi·ha·se·he wu·za·lu·me·pa wa·zi·hu·le·hong ka·di·she de·a·me·hong
+16	sha·le·wu ba·shi·la·ma ha·zi de·ha·zi bo·nu·sha·ke·ta ka·di·shi·ta sha·lan ba·shi·la·me·hong ku·le·hen yi·za·se·he da·me·shi·ha
+17	ba·e·na den men·hong a·ha·yi de·se·zi·da·he·rong men a·yi·leng de·fa·la·he·wa·sa wu·ma·he·shu·le a·fu·ding le·fa·ri men yu·le·pa·na de·a·tong yi·le·fu·tong de·se·si·ru·he·kong le·hong men·hong
+18	a·yi·leng ge·ri de·ha·ha·na e·nong la me·sha·me·shan le·ma·ran ye·shu me·shi·ha e·la le·ha·ri·si·hong wa·fu·me·le ba·si·ma·sa wa·fu·fu·ri·ka·sa ma·te·e·ne le·ba·wa·sa da·fu·shi·te
+19	me·shi·ta·me·a·nu·si·hong den di·le·hong le·hu·le ba·ri·na·shi e·si·ya·zi·a·si ha·ze na ha·xi·le bo·hong wu·sa·fu na de·se·hong ha·qi·min le·ta·fa·sa wu·sa·mi·min le·fu·sha·sa
+20	a·la·ha den da·shi·la·ma ne·shi·he·qi·wu·yi ba·ha·le le·sa·ta·na te·he·si re·he·la·yi·kong ta·yi·bu·se·he de·ma·ran ye·shu me·shi·ha te·he·wo a·me·hong
+21	sha·lin ba·shi·la·me·hong ti·ma·se·a·wu·si pa·le·ha de·a·me·yi wu·lu·qi·yi·ya·wu·si wei·ya·sa·wu·ne wu·sa·wu·si·pa·te·ru·wu·si he·ya·na·yi
+22	sha·e·le na ba·shi·la·me·hong e·na te·ri·ti·yi·ya·wu·si de·he·si·bo·si e·ga·ri·ta bo·ma·ran
+23	sha·e·le ba·shi·la·me·hong ga·yi·yi·ya·wu·si me·ka·bo·lan·yi wa·zi·hu·la·he yi·ta sha·e·le ba·shi·la·me·hong e·ru·si·ta·wu·si ru·ba·yi·ta da·me·zi·ta wu·ku·wa·ri·ta·wu·si a·ha
+24	ta·yi·bu·se·he de·ma·ran ye·shu me·shi·ha a·me ku·le·hong a·min
+25	la·la·ha den ha·wu de·me·shi·ka·he dan·sha·ru·ri·hong bo·e·wa·ne·ge·li·yi·ya·wu·ne di·le·yi ha·wu de·e·si·ke·re·zi a·le ye·shu me·shi·ha bo·he·le·ya·na de·ru·za de·men za·fu·na·yi a·le·me me·ha·sa·yi wa
+26	e·si·ge·li den bo·za·fu·na ha·na bo·ya·zi ke·sa·fu dan·fu·yi·ye wa·fu·fu·ke·da·ne·he de·a·la·ha da·le·a·la·me e·si·za le·hu·le·hong a·me·me le·ma·shi·me·a de·ha·yi·ma·nu·sa
+27	de·hu·yi·yu ha·qi·ma ba·le·hu·za·wu·yi shu·fu·ha bo·ya·zi ye·shu me·shi·ha le·a·la·me·a·le·min a·min

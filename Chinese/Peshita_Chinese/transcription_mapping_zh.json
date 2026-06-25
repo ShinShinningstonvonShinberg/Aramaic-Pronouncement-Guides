@@ -1,0 +1,1265 @@
+{
+  "meta": {
+    "description": "Deterministic IPA->Chinese (Mandarin) mapping for the Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "pinyin",
+      "zhuyin",
+      "hanzi_simplified",
+      "hanzi_traditional"
+    ],
+    "note": "transliterate_zh.py is authoritative; this file mirrors its hard-coded tables. Scholarly/Pretty are byte-identical to the English transducer.",
+    "author": "Shin"
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "combining_dot_below": "̣",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-"
+  },
+  "pinyin_engine": {
+    "vowel_nucleus": {
+      "a": "a",
+      "ɑ": "a",
+      "e": "e",
+      "i": "i",
+      "o": "o",
+      "u": "u"
+    },
+    "onset_ipa_to_mandarin": {
+      "b": "b",
+      "p": "p",
+      "f": "f",
+      "v": "f",
+      "m": "m",
+      "w": "w",
+      "d": "d",
+      "t": "t",
+      "tˤ": "t",
+      "θ": "s",
+      "ð": "z",
+      "n": "n",
+      "l": "l",
+      "r": "r",
+      "z": "z",
+      "s": "s",
+      "sˤ": "s",
+      "ʃ": "sh",
+      "j": "y",
+      "ɡ": "g",
+      "k": "k",
+      "x": "h",
+      "ɣ": "h",
+      "q": "k",
+      "ħ": "h",
+      "h": "h",
+      "ʔ": null,
+      "ʕ": null
+    },
+    "palatalization_before_i": {
+      "g": "j",
+      "k": "q",
+      "h": "x"
+    },
+    "epenthesis": {
+      "default": "e",
+      "apical_i_after": [
+        "c",
+        "ch",
+        "r",
+        "s",
+        "sh",
+        "z",
+        "zh"
+      ]
+    },
+    "dropped_onsets": [
+      "ʔ",
+      "ʕ"
+    ],
+    "snap": "Every emitted pinyin syllable is snapped to a member of the legal toneless Mandarin whitelist; codas only -n/-ng.",
+    "legal_syllable_count": 403,
+    "legal_syllables": [
+      "a",
+      "ai",
+      "an",
+      "ang",
+      "ao",
+      "ba",
+      "bai",
+      "ban",
+      "bang",
+      "bao",
+      "bei",
+      "ben",
+      "beng",
+      "bi",
+      "bian",
+      "biao",
+      "bie",
+      "bin",
+      "bing",
+      "bo",
+      "bu",
+      "ca",
+      "cai",
+      "can",
+      "cang",
+      "cao",
+      "ce",
+      "cen",
+      "ceng",
+      "cha",
+      "chai",
+      "chan",
+      "chang",
+      "chao",
+      "che",
+      "chen",
+      "cheng",
+      "chi",
+      "chong",
+      "chou",
+      "chu",
+      "chua",
+      "chuai",
+      "chuan",
+      "chuang",
+      "chui",
+      "chun",
+      "chuo",
+      "ci",
+      "cong",
+      "cou",
+      "cu",
+      "cuan",
+      "cui",
+      "cun",
+      "cuo",
+      "da",
+      "dai",
+      "dan",
+      "dang",
+      "dao",
+      "de",
+      "dei",
+      "den",
+      "deng",
+      "di",
+      "dian",
+      "diao",
+      "die",
+      "ding",
+      "diu",
+      "dong",
+      "dou",
+      "du",
+      "duan",
+      "dui",
+      "dun",
+      "duo",
+      "e",
+      "ei",
+      "en",
+      "eng",
+      "er",
+      "fa",
+      "fan",
+      "fang",
+      "fei",
+      "fen",
+      "feng",
+      "fo",
+      "fou",
+      "fu",
+      "ga",
+      "gai",
+      "gan",
+      "gang",
+      "gao",
+      "ge",
+      "gei",
+      "gen",
+      "geng",
+      "gong",
+      "gou",
+      "gu",
+      "gua",
+      "guai",
+      "guan",
+      "guang",
+      "gui",
+      "gun",
+      "guo",
+      "ha",
+      "hai",
+      "han",
+      "hang",
+      "hao",
+      "he",
+      "hei",
+      "hen",
+      "heng",
+      "hong",
+      "hou",
+      "hu",
+      "hua",
+      "huai",
+      "huan",
+      "huang",
+      "hui",
+      "hun",
+      "huo",
+      "ji",
+      "jian",
+      "jiang",
+      "jiao",
+      "jie",
+      "jin",
+      "jing",
+      "jiong",
+      "jiu",
+      "ju",
+      "juan",
+      "jue",
+      "jun",
+      "ka",
+      "kai",
+      "kan",
+      "kang",
+      "kao",
+      "ke",
+      "ken",
+      "keng",
+      "kong",
+      "kou",
+      "ku",
+      "kua",
+      "kuai",
+      "kuan",
+      "kuang",
+      "kui",
+      "kun",
+      "kuo",
+      "la",
+      "lai",
+      "lan",
+      "lang",
+      "lao",
+      "le",
+      "lei",
+      "leng",
+      "li",
+      "lia",
+      "lian",
+      "liang",
+      "liao",
+      "lie",
+      "lin",
+      "ling",
+      "liu",
+      "long",
+      "lou",
+      "lu",
+      "luan",
+      "lun",
+      "luo",
+      "lü",
+      "lüe",
+      "ma",
+      "mai",
+      "man",
+      "mang",
+      "mao",
+      "me",
+      "mei",
+      "men",
+      "meng",
+      "mi",
+      "mian",
+      "miao",
+      "mie",
+      "min",
+      "ming",
+      "miu",
+      "mo",
+      "mou",
+      "mu",
+      "na",
+      "nai",
+      "nan",
+      "nang",
+      "nao",
+      "ne",
+      "nei",
+      "nen",
+      "neng",
+      "ni",
+      "nian",
+      "niang",
+      "niao",
+      "nie",
+      "nin",
+      "ning",
+      "niu",
+      "nong",
+      "nou",
+      "nu",
+      "nuan",
+      "nuo",
+      "nü",
+      "nüe",
+      "o",
+      "ou",
+      "pa",
+      "pai",
+      "pan",
+      "pang",
+      "pao",
+      "pei",
+      "pen",
+      "peng",
+      "pi",
+      "pian",
+      "piao",
+      "pie",
+      "pin",
+      "ping",
+      "po",
+      "pou",
+      "pu",
+      "qi",
+      "qian",
+      "qiang",
+      "qiao",
+      "qie",
+      "qin",
+      "qing",
+      "qiong",
+      "qiu",
+      "qu",
+      "quan",
+      "que",
+      "qun",
+      "ran",
+      "rang",
+      "rao",
+      "re",
+      "ren",
+      "reng",
+      "ri",
+      "rong",
+      "rou",
+      "ru",
+      "rua",
+      "ruan",
+      "rui",
+      "run",
+      "ruo",
+      "sa",
+      "sai",
+      "san",
+      "sang",
+      "sao",
+      "se",
+      "sen",
+      "seng",
+      "sha",
+      "shai",
+      "shan",
+      "shang",
+      "shao",
+      "she",
+      "shei",
+      "shen",
+      "sheng",
+      "shi",
+      "shou",
+      "shu",
+      "shua",
+      "shuai",
+      "shuan",
+      "shuang",
+      "shui",
+      "shun",
+      "shuo",
+      "si",
+      "song",
+      "sou",
+      "su",
+      "suan",
+      "sui",
+      "sun",
+      "suo",
+      "ta",
+      "tai",
+      "tan",
+      "tang",
+      "tao",
+      "te",
+      "teng",
+      "ti",
+      "tian",
+      "tiao",
+      "tie",
+      "ting",
+      "tong",
+      "tou",
+      "tu",
+      "tuan",
+      "tui",
+      "tun",
+      "tuo",
+      "wa",
+      "wai",
+      "wan",
+      "wang",
+      "wei",
+      "wen",
+      "weng",
+      "wo",
+      "wu",
+      "xi",
+      "xian",
+      "xiang",
+      "xiao",
+      "xie",
+      "xin",
+      "xing",
+      "xiong",
+      "xiu",
+      "xu",
+      "xuan",
+      "xue",
+      "xun",
+      "ya",
+      "yan",
+      "yang",
+      "yao",
+      "ye",
+      "yi",
+      "yin",
+      "ying",
+      "yong",
+      "you",
+      "yu",
+      "yuan",
+      "yue",
+      "yun",
+      "za",
+      "zai",
+      "zan",
+      "zang",
+      "zao",
+      "ze",
+      "zei",
+      "zen",
+      "zeng",
+      "zha",
+      "zhai",
+      "zhan",
+      "zhang",
+      "zhao",
+      "zhe",
+      "zhei",
+      "zhen",
+      "zheng",
+      "zhi",
+      "zhong",
+      "zhou",
+      "zhu",
+      "zhua",
+      "zhuai",
+      "zhuan",
+      "zhuang",
+      "zhui",
+      "zhun",
+      "zhuo",
+      "zi",
+      "zong",
+      "zou",
+      "zu",
+      "zuan",
+      "zui",
+      "zun",
+      "zuo"
+    ]
+  },
+  "zhuyin_transcode": {
+    "initials": {
+      "b": "ㄅ",
+      "p": "ㄆ",
+      "m": "ㄇ",
+      "f": "ㄈ",
+      "d": "ㄉ",
+      "t": "ㄊ",
+      "n": "ㄋ",
+      "l": "ㄌ",
+      "g": "ㄍ",
+      "k": "ㄎ",
+      "h": "ㄏ",
+      "j": "ㄐ",
+      "q": "ㄑ",
+      "x": "ㄒ",
+      "zh": "ㄓ",
+      "ch": "ㄔ",
+      "sh": "ㄕ",
+      "r": "ㄖ",
+      "z": "ㄗ",
+      "c": "ㄘ",
+      "s": "ㄙ"
+    },
+    "finals": {
+      "a": "ㄚ",
+      "o": "ㄛ",
+      "e": "ㄜ",
+      " e": "ㄝ",
+      "ai": "ㄞ",
+      "ei": "ㄟ",
+      "ao": "ㄠ",
+      "ou": "ㄡ",
+      "an": "ㄢ",
+      "en": "ㄣ",
+      "ang": "ㄤ",
+      "eng": "ㄥ",
+      "er": "ㄦ",
+      "i": "ㄧ",
+      "u": "ㄨ",
+      "ü": "ㄩ",
+      "ia": "ㄧㄚ",
+      "ie": "ㄧㄝ",
+      "iao": "ㄧㄠ",
+      "iu": "ㄧㄡ",
+      "ian": "ㄧㄢ",
+      "in": "ㄧㄣ",
+      "iang": "ㄧㄤ",
+      "ing": "ㄧㄥ",
+      "iong": "ㄩㄥ",
+      "ua": "ㄨㄚ",
+      "uo": "ㄨㄛ",
+      "uai": "ㄨㄞ",
+      "ui": "ㄨㄟ",
+      "uan": "ㄨㄢ",
+      "un": "ㄨㄣ",
+      "uang": "ㄨㄤ",
+      "ueng": "ㄨㄥ",
+      "ong": "ㄨㄥ",
+      "ue": "ㄩㄝ",
+      "üe": "ㄩㄝ",
+      "üan": "ㄩㄢ",
+      "ün": "ㄩㄣ",
+      "iou": "ㄧㄡ"
+    },
+    "apical_empty_rime_initials": [
+      "c",
+      "ch",
+      "r",
+      "s",
+      "sh",
+      "z",
+      "zh"
+    ],
+    "note": "Standard deterministic pinyin<->bopomofo. Apical -i after the apical initials = bare initial symbol; y/w zero-initial spellings restore i-/u- medials."
+  },
+  "scholarly_pretty_tables": {
+    "consonants": {
+      "b": {
+        "scholarly": "b",
+        "pretty": "b"
+      },
+      "ɡ": {
+        "scholarly": "g",
+        "pretty": "g"
+      },
+      "d": {
+        "scholarly": "d",
+        "pretty": "d"
+      },
+      "h": {
+        "scholarly": "h",
+        "pretty": "h"
+      },
+      "w": {
+        "scholarly": "w",
+        "pretty": "w"
+      },
+      "z": {
+        "scholarly": "z",
+        "pretty": "z"
+      },
+      "k": {
+        "scholarly": "k",
+        "pretty": "k"
+      },
+      "l": {
+        "scholarly": "l",
+        "pretty": "l"
+      },
+      "m": {
+        "scholarly": "m",
+        "pretty": "m"
+      },
+      "n": {
+        "scholarly": "n",
+        "pretty": "n"
+      },
+      "s": {
+        "scholarly": "s",
+        "pretty": "s"
+      },
+      "p": {
+        "scholarly": "p",
+        "pretty": "p"
+      },
+      "q": {
+        "scholarly": "q",
+        "pretty": "q"
+      },
+      "r": {
+        "scholarly": "r",
+        "pretty": "r"
+      },
+      "t": {
+        "scholarly": "t",
+        "pretty": "t"
+      },
+      "f": {
+        "scholarly": "f",
+        "pretty": "f"
+      },
+      "v": {
+        "scholarly": "ḇ",
+        "pretty": "v"
+      },
+      "ʃ": {
+        "scholarly": "š",
+        "pretty": "sh"
+      },
+      "θ": {
+        "scholarly": "ṯ",
+        "pretty": "th"
+      },
+      "ð": {
+        "scholarly": "ḏ",
+        "pretty": "dh"
+      },
+      "x": {
+        "scholarly": "ḵ",
+        "pretty": "kh"
+      },
+      "ɣ": {
+        "scholarly": "ḡ",
+        "pretty": "gh"
+      },
+      "ħ": {
+        "scholarly": "ḥ",
+        "pretty": "ḥ"
+      },
+      "j": {
+        "scholarly": "y",
+        "pretty": "y"
+      }
+    },
+    "short_vowels": {
+      "a": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "ɑ": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "e": {
+        "scholarly": "e",
+        "pretty": "e"
+      },
+      "i": {
+        "scholarly": "i",
+        "pretty": "i"
+      },
+      "o": {
+        "scholarly": "o",
+        "pretty": "o"
+      },
+      "u": {
+        "scholarly": "u",
+        "pretty": "u"
+      }
+    },
+    "long_vowels": {
+      "a": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "ɑ": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "e": {
+        "scholarly": "ē",
+        "pretty": "ē"
+      },
+      "i": {
+        "scholarly": "ī",
+        "pretty": "ī"
+      },
+      "o": {
+        "scholarly": "ō",
+        "pretty": "ō"
+      },
+      "u": {
+        "scholarly": "ū",
+        "pretty": "ū"
+      }
+    },
+    "emphatics_explicit": {
+      "t": {
+        "scholarly": "ṭ",
+        "pretty": "ṭ"
+      },
+      "s": {
+        "scholarly": "ṣ",
+        "pretty": "ṣ"
+      }
+    },
+    "note": "Verbatim from English/Peshita_English/transliterate.py (scholarly+pretty columns only)."
+  },
+  "hanzi_table": {
+    "characters": {
+      "a": {
+        "simplified": "阿",
+        "traditional": "阿"
+      },
+      "ba": {
+        "simplified": "巴",
+        "traditional": "巴"
+      },
+      "ban": {
+        "simplified": "班",
+        "traditional": "班"
+      },
+      "ben": {
+        "simplified": "本",
+        "traditional": "本"
+      },
+      "bi": {
+        "simplified": "比",
+        "traditional": "比"
+      },
+      "bin": {
+        "simplified": "宾",
+        "traditional": "賓"
+      },
+      "bo": {
+        "simplified": "波",
+        "traditional": "波"
+      },
+      "bu": {
+        "simplified": "布",
+        "traditional": "布"
+      },
+      "da": {
+        "simplified": "达",
+        "traditional": "達"
+      },
+      "dan": {
+        "simplified": "丹",
+        "traditional": "丹"
+      },
+      "de": {
+        "simplified": "德",
+        "traditional": "德"
+      },
+      "den": {
+        "simplified": "扽",
+        "traditional": "扽"
+      },
+      "di": {
+        "simplified": "迪",
+        "traditional": "迪"
+      },
+      "ding": {
+        "simplified": "丁",
+        "traditional": "丁"
+      },
+      "dong": {
+        "simplified": "东",
+        "traditional": "東"
+      },
+      "du": {
+        "simplified": "杜",
+        "traditional": "杜"
+      },
+      "dun": {
+        "simplified": "敦",
+        "traditional": "敦"
+      },
+      "e": {
+        "simplified": "厄",
+        "traditional": "厄"
+      },
+      "fa": {
+        "simplified": "法",
+        "traditional": "法"
+      },
+      "fan": {
+        "simplified": "凡",
+        "traditional": "凡"
+      },
+      "fen": {
+        "simplified": "芬",
+        "traditional": "芬"
+      },
+      "fu": {
+        "simplified": "福",
+        "traditional": "福"
+      },
+      "ga": {
+        "simplified": "嘎",
+        "traditional": "嘎"
+      },
+      "gan": {
+        "simplified": "甘",
+        "traditional": "甘"
+      },
+      "ge": {
+        "simplified": "格",
+        "traditional": "格"
+      },
+      "gen": {
+        "simplified": "根",
+        "traditional": "根"
+      },
+      "gong": {
+        "simplified": "贡",
+        "traditional": "貢"
+      },
+      "gu": {
+        "simplified": "古",
+        "traditional": "古"
+      },
+      "gun": {
+        "simplified": "衮",
+        "traditional": "袞"
+      },
+      "ha": {
+        "simplified": "哈",
+        "traditional": "哈"
+      },
+      "han": {
+        "simplified": "汉",
+        "traditional": "漢"
+      },
+      "he": {
+        "simplified": "赫",
+        "traditional": "赫"
+      },
+      "hen": {
+        "simplified": "痕",
+        "traditional": "痕"
+      },
+      "hong": {
+        "simplified": "洪",
+        "traditional": "洪"
+      },
+      "hu": {
+        "simplified": "胡",
+        "traditional": "胡"
+      },
+      "hun": {
+        "simplified": "浑",
+        "traditional": "渾"
+      },
+      "ji": {
+        "simplified": "吉",
+        "traditional": "吉"
+      },
+      "jin": {
+        "simplified": "金",
+        "traditional": "金"
+      },
+      "ka": {
+        "simplified": "卡",
+        "traditional": "卡"
+      },
+      "kan": {
+        "simplified": "坎",
+        "traditional": "坎"
+      },
+      "ke": {
+        "simplified": "克",
+        "traditional": "克"
+      },
+      "ken": {
+        "simplified": "肯",
+        "traditional": "肯"
+      },
+      "kong": {
+        "simplified": "孔",
+        "traditional": "孔"
+      },
+      "ku": {
+        "simplified": "库",
+        "traditional": "庫"
+      },
+      "kun": {
+        "simplified": "昆",
+        "traditional": "昆"
+      },
+      "la": {
+        "simplified": "拉",
+        "traditional": "拉"
+      },
+      "lan": {
+        "simplified": "兰",
+        "traditional": "蘭"
+      },
+      "le": {
+        "simplified": "叻",
+        "traditional": "叻"
+      },
+      "leng": {
+        "simplified": "楞",
+        "traditional": "楞"
+      },
+      "li": {
+        "simplified": "利",
+        "traditional": "利"
+      },
+      "lin": {
+        "simplified": "林",
+        "traditional": "林"
+      },
+      "long": {
+        "simplified": "隆",
+        "traditional": "隆"
+      },
+      "lu": {
+        "simplified": "卢",
+        "traditional": "盧"
+      },
+      "lun": {
+        "simplified": "伦",
+        "traditional": "倫"
+      },
+      "ma": {
+        "simplified": "玛",
+        "traditional": "瑪"
+      },
+      "man": {
+        "simplified": "曼",
+        "traditional": "曼"
+      },
+      "me": {
+        "simplified": "么",
+        "traditional": "麼"
+      },
+      "men": {
+        "simplified": "门",
+        "traditional": "門"
+      },
+      "mi": {
+        "simplified": "米",
+        "traditional": "米"
+      },
+      "min": {
+        "simplified": "民",
+        "traditional": "民"
+      },
+      "mo": {
+        "simplified": "摩",
+        "traditional": "摩"
+      },
+      "mu": {
+        "simplified": "穆",
+        "traditional": "穆"
+      },
+      "na": {
+        "simplified": "纳",
+        "traditional": "納"
+      },
+      "nan": {
+        "simplified": "南",
+        "traditional": "南"
+      },
+      "ne": {
+        "simplified": "讷",
+        "traditional": "訥"
+      },
+      "nen": {
+        "simplified": "嫩",
+        "traditional": "嫩"
+      },
+      "ni": {
+        "simplified": "尼",
+        "traditional": "尼"
+      },
+      "nin": {
+        "simplified": "您",
+        "traditional": "您"
+      },
+      "nong": {
+        "simplified": "农",
+        "traditional": "農"
+      },
+      "nu": {
+        "simplified": "努",
+        "traditional": "努"
+      },
+      "o": {
+        "simplified": "哦",
+        "traditional": "哦"
+      },
+      "pa": {
+        "simplified": "帕",
+        "traditional": "帕"
+      },
+      "pan": {
+        "simplified": "潘",
+        "traditional": "潘"
+      },
+      "pen": {
+        "simplified": "盆",
+        "traditional": "盆"
+      },
+      "pi": {
+        "simplified": "皮",
+        "traditional": "皮"
+      },
+      "pin": {
+        "simplified": "品",
+        "traditional": "品"
+      },
+      "po": {
+        "simplified": "珀",
+        "traditional": "珀"
+      },
+      "pu": {
+        "simplified": "普",
+        "traditional": "普"
+      },
+      "qi": {
+        "simplified": "奇",
+        "traditional": "奇"
+      },
+      "qin": {
+        "simplified": "钦",
+        "traditional": "欽"
+      },
+      "ran": {
+        "simplified": "然",
+        "traditional": "然"
+      },
+      "re": {
+        "simplified": "热",
+        "traditional": "熱"
+      },
+      "ren": {
+        "simplified": "任",
+        "traditional": "任"
+      },
+      "ri": {
+        "simplified": "日",
+        "traditional": "日"
+      },
+      "rong": {
+        "simplified": "荣",
+        "traditional": "榮"
+      },
+      "ru": {
+        "simplified": "茹",
+        "traditional": "茹"
+      },
+      "run": {
+        "simplified": "润",
+        "traditional": "潤"
+      },
+      "sa": {
+        "simplified": "萨",
+        "traditional": "薩"
+      },
+      "san": {
+        "simplified": "散",
+        "traditional": "散"
+      },
+      "se": {
+        "simplified": "瑟",
+        "traditional": "瑟"
+      },
+      "sen": {
+        "simplified": "森",
+        "traditional": "森"
+      },
+      "sha": {
+        "simplified": "沙",
+        "traditional": "沙"
+      },
+      "shan": {
+        "simplified": "山",
+        "traditional": "山"
+      },
+      "she": {
+        "simplified": "舍",
+        "traditional": "舍"
+      },
+      "shen": {
+        "simplified": "申",
+        "traditional": "申"
+      },
+      "shi": {
+        "simplified": "士",
+        "traditional": "士"
+      },
+      "shu": {
+        "simplified": "书",
+        "traditional": "書"
+      },
+      "si": {
+        "simplified": "斯",
+        "traditional": "斯"
+      },
+      "song": {
+        "simplified": "松",
+        "traditional": "松"
+      },
+      "su": {
+        "simplified": "苏",
+        "traditional": "蘇"
+      },
+      "sun": {
+        "simplified": "孙",
+        "traditional": "孫"
+      },
+      "ta": {
+        "simplified": "塔",
+        "traditional": "塔"
+      },
+      "tan": {
+        "simplified": "坦",
+        "traditional": "坦"
+      },
+      "te": {
+        "simplified": "特",
+        "traditional": "特"
+      },
+      "teng": {
+        "simplified": "腾",
+        "traditional": "騰"
+      },
+      "ti": {
+        "simplified": "提",
+        "traditional": "提"
+      },
+      "ting": {
+        "simplified": "廷",
+        "traditional": "廷"
+      },
+      "tong": {
+        "simplified": "通",
+        "traditional": "通"
+      },
+      "tu": {
+        "simplified": "图",
+        "traditional": "圖"
+      },
+      "tun": {
+        "simplified": "吞",
+        "traditional": "吞"
+      },
+      "wa": {
+        "simplified": "瓦",
+        "traditional": "瓦"
+      },
+      "wei": {
+        "simplified": "维",
+        "traditional": "維"
+      },
+      "wo": {
+        "simplified": "沃",
+        "traditional": "沃"
+      },
+      "wu": {
+        "simplified": "乌",
+        "traditional": "烏"
+      },
+      "xi": {
+        "simplified": "锡",
+        "traditional": "錫"
+      },
+      "xin": {
+        "simplified": "辛",
+        "traditional": "辛"
+      },
+      "ya": {
+        "simplified": "亚",
+        "traditional": "亞"
+      },
+      "yao": {
+        "simplified": "姚",
+        "traditional": "姚"
+      },
+      "ye": {
+        "simplified": "耶",
+        "traditional": "耶"
+      },
+      "yi": {
+        "simplified": "伊",
+        "traditional": "伊"
+      },
+      "yu": {
+        "simplified": "宇",
+        "traditional": "宇"
+      },
+      "za": {
+        "simplified": "匝",
+        "traditional": "匝"
+      },
+      "zan": {
+        "simplified": "赞",
+        "traditional": "贊"
+      },
+      "ze": {
+        "simplified": "泽",
+        "traditional": "澤"
+      },
+      "zen": {
+        "simplified": "怎",
+        "traditional": "怎"
+      },
+      "zi": {
+        "simplified": "孜",
+        "traditional": "孜"
+      },
+      "zong": {
+        "simplified": "宗",
+        "traditional": "宗"
+      },
+      "zu": {
+        "simplified": "祖",
+        "traditional": "祖"
+      },
+      "zun": {
+        "simplified": "尊",
+        "traditional": "尊"
+      }
+    },
+    "missing_glyph": "□",
+    "status": "PARTIAL -- the Sinology curation phase completes this table; produced syllables absent here render as the missing glyph.",
+    "source": "Standard Xinhua 音译表 / 《世界人名翻译大辞典》 neutral transcription characters (semantically bleached, scripture-safe)."
+  },
+  "documented_limitations": [
+    "Mandarin forces the heaviest phonetic collapse of any target language in this project.",
+    "No consonant clusters; codas only -n/-ng. Stranded consonants get an epenthetic vowel (default 'e'; apical 'i' after z/c/s/zh/ch/sh/r), so cluster structure is lost.",
+    "Voicing, emphatics (ˤ), gutturals (ħ ʕ ʔ x ɣ), and /v θ ð ʃ z/ all collapse onto the nearest Mandarin onset; the l/r distinction and vowel length are lost.",
+    "Glottals ʔ and ʕ are dropped entirely.",
+    "g/k/h before /i/ palatalize to j/q/x (Mandarin phonotactics).",
+    "Tones are OMITTED in Pinyin and Zhuyin because the source IPA is atonal; emitting a tone would fabricate data.",
+    "Hanzi unavoidably carries each glyph's citation tone -- this tone is an ARTIFACT, not a claim about the source; verify via strip_tones(hanzi -> pinyin) == the toneless syllable.",
+    "Hanzi imposes MEANING and is NOT readback-grade: it cannot distinguish near-homophones such as Barabba from Barava.",
+    "The transduction is NOT reversible.",
+    "Scholarly and Pretty are byte-for-byte identical to the English Peshitta transducer."
+  ]
+}

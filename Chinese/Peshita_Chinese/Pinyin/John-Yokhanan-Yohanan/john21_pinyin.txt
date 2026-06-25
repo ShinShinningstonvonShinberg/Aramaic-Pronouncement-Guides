@@ -1,0 +1,25 @@
+1	ba·sa·ri ha·leng ha·wei tu·fu na·fu·she·he ye·shu le·sa·le·mi·za·wu·yi a·le ya·ma de·ti·fu·ri·yi·ya·wu·si ha·wei den ha·ha·na
+2	yi·sa·yi·hong wa·wu a·he·he·za she·me·o·ne qi·fa wu·sa·wu·ma de·me·se·ma·ri ta·ma wu·na·sa·na·yi·yi·le ha·wu de·men ka·te·ne da·he·li·la wa·fu·na·yi za·fu·za·yi wa·si·ren he·ru·nin men ta·le·mi·ze
+3	a·ma·ri le·hong she·me·o·ne qi·fa a·ze·le na e·su·zi nu·ne a·me·ran le·he a·fu he·nan a·se·nan a·ma·he wa·ne·fa·ke·wu wa·si·le·ke·wu la·si·fu·ta wa·fu·ha·wu li·le·ya me·de·me la sa·zi·wu
+4	ka·zi den he·wa sa·fu·ru ka·me ye·shu a·le ya·zi ya·ma wu·la yi·za·wu ta·le·mi·ze de·ye·shu wu
+5	wo·ma·ri le·hong ye·shu te·la·yi·ye le·ma yi·si le·hong me·de·me le·me·le·a·si a·me·ran le·he la
+6	a·ma·ri le·hong a·ri·ma·wu me·si·zi·te·hong men ga·ba de·ya·mi·na da·si·fu·ta wu·me·shi·ke·xin tong wa·ri·mi·wu wu·la e·shi·ka·he·wu le·me·ge·za·he la·me·si·zi·ta men su·ha de·nu·ne de·e·he·da·si
+7	wo·ma·ri ta·le·mi·za ha·wu de·ru·he·me wa le·he ye·shu le·xi·fa ha·na ma·ran wu she·me·o·ne den ka·zi shi·ma de·ma·ran wu ne·sa·fu ku·ti·ne·he me·ha bo·ha·sa·wu·yi me·tu·le de·a·ri·te·la·yi·ya wa wa·shi·za na·fu·she·he bo·ya·ma de·ni·se le·wa·si ye·shu
+8	he·ru·ne den ta·le·mi·ze ba·si·fu·ta e·sa·wu la ge·ri ru·xi·qin wa·wu sa·ji men a·ri·a e·la a·yi·he ma·sen a·min wu·na·he·ding wa·wu la·he la·me·si·zi·ta ha de·nu·ne
+9	ka·zi den si·le·ke·wu la·ri·a he·za·wu gu·me·re ka·zi si·man wu·nu·na ka·zi si·me la·yi·hen wu·la·he·ma
+10	wo·ma·ri le·hong ye·shu a·yi·ta·wu men ha·nong nu·ne de·sa·zi·tong ha·sha
+11	wa·si·le·ke she·me·o·ne qi·fa wu·na·he·da·he la·me·si·zi·ta la·ri·a ka·zi ma·le·ya nu·ne ru·wu·ri·fu ma wu·ha·me·shan wa·si·la·sa wa·fu·ha·na ku·le·he yu·ke·ru la e·si·ta·ri·ya·si me·si·zi·ta ha
+12	wo·ma·ri le·hong ye·shu ta·wu e·shi·ta·ru·wu na·shi den men ta·le·mi·ze la ma·me·ru·he wa dan·sha·li·wu·yi de·ma·nu de·ya·zi·yi·ne wa·wu de·ma·ran wu
+13	ke·re·fu den ye·shu wa·shi·ka·le la·he·ma wu·nu·ne wu·ya·fu le·hong
+14	ha·ze da·si·la·si za·fu·nin e·si·he·zi ye·shu le·sa·le·mi·za·wu·yi ka·zi ka·me men bo·si mi·se
+15	ka·zi den e·shi·ta·ri·wu e·ma·ri ye·shu le·she·me·o·ne qi·fa she·me·o·ne ba·ri-ya·wu·na ru·he·me a·te li ya·ti·ri men ha·leng a·ma·ri le·he yi·ne ma·ri·yi a·te ya·za a·te de·ru·he·me na la·he a·ma·ri le·he ri·yi li e·me·ru·yi
+16	a·ma·ri le·he tu·fu de·sa·ri·teng za·fu·nin she·me·o·ne ba·ri-ya·wu·na ru·he·me a·te li a·ma·ri le·he yi·ne ma·ri·yi a·te ya·za a·te de·ru·he·me na la·he a·ma·ri le·he ye·shu ri·yi li e·ri·ba·yi
+17	a·ma·ri le·he da·si·la·si za·fu·nin she·me·o·ne ba·ri-ya·wu·na ru·he·me a·te li wu·he·ri·ya·si le·he le·xi·fa de·e·ma·ri le·he da·si·la·si za·fu·nin de·ru·he·me a·te li wo·ma·ri le·he ma·ri·yi ku·le me·de·me a·te ha·he·me a·te a·te ya·za a·te de·ru·he·me na la·he a·ma·ri le·he ye·shu ri·yi li ne·ka·wa·si·yi
+18	a·min a·min a·ma·ri na la·he de·ha·zi te·le wa·yi·te a·te le·na·fu·sha·he a·sa·ri wa·yi·te ha·sa·yi·ke wa·me·ha·le·he wa·yi·te la·yi·ka de·sa·fu a·te ma den da·se·fu·te te·fu·shu·te yi·za·yi·ke wa·he·ran ne·su·ri la·he ha·sa·yi·ke wu·na·wu·bo·la·he la·yi·ka de·la sa·fu a·te
+19	ha·ze den e·ma·ri dan·ha·wo bo·a·yi·na ma·wu·ta si·zi dan·sha·ba·he la·la·ha wu·ha·zi e·ma·ri ha·leng e·ma·ri le·he ta ba·sa·ri·yi
+20	wo·si·po·ni she·me·o·ne qi·fa wa·he·za le·sa·le·mi·za ha·wu de·ru·he·me wa ye·shu de·a·se ba·si·re·he ha·wu dan·fa·le wa ba·he·sha·mi·sa a·le ha·zi·ye·he de·ye·shu wo·ma·ri ma·ri·yi ma·nu ma·shi·le·me la·he
+21	le·ha·na ka·zi he·za qi·fa e·ma·ri le·ye·shu ma·ri·yi wu·ha·na ma·na
+22	a·ma·ri le·he ye·shu e·ne sa·fu na dan·ka·wo ha·na za·ma de·a·se na la·he ma la·he a·te ta ba·sa·ri·yi
+23	wu·ne·fu·ka·si ha·ze me·le·sa bo·si a·he de·ha·wu ta·le·mi·za la ma·e·si ye·shu den la wa de·la ma·e·si e·ma·ri e·la de·e·ne sa·fu na dan·ka·wo ha·na za·ma de·a·se na la·he ma la·he
+24	ha·na·wu ta·le·mi·za de·a·si·he·zi a·le ha·leng ku·le·hen wa·fu ke·sa·fu e·nen wu·ya·zi·yi·ne nan de·sha·ri·ru yi sa·he·du·se·he
+25	yi·si den a·fu he·ran·ya·sa sa·ji·yi·ya·sa da·fa·zi ye·shu a·yi·leng de·e·lu he·za he·za me·si·ka·si·ban wa·yi a·fu la hu a·le·ma a·yi·he de·sa·fa·ri na sa·fu·ke wa la·he·sa·fu de·me·si·ka·si·bin wa·wu

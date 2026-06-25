@@ -1,0 +1,27 @@
+1	wu·men ba·sa·ri ya·wu·ma·sa ha·me·sha ne·he·si ha·nan·ya ru·bo ka·he·ne a·me ka·shi·she wu·a·me te·ri·tu·la·wu·si ri·xi·te·ru wa·wu·da·wu le·xi·he·ma·wu·na a·le pa·wu·la·wu·si
+2	wu·ha·zi e·si·ke·ri a·ke·fu wa te·ri·tu·la·wu·si me·ka·te·re·he le·he wa·ma·ri bo·su·ha de·sha·yi·na a·me·ri·nan me·tu·la·sa·he wu·sa·ke·na·sa sa·ji·yi·ya·sa wa·yi le·a·ma ha·na ba·shi·ka·le ta·na·he
+3	wu·hu·lan bo·hu·le du·ke me·ka·bo·li·nan ta·yi·bu·sa·he na·si·ha pi·li·ke·si
+4	de·la den na·le·yi·he bo·sa·ji·yi·ya·sa ba·e na me·na·he de·se·shi·ma le·ma·qi·hu·san bo·fa·si·ka·sa
+5	e·shi·ka·he·ne ge·ri le·ha·fu·ru ha·na de·yi·yi·sa·wu·yi me·sha·he·ta·na wa·me·yi·ri shi·hu·shi·ya le·hu·le·hong yi·hu·za·yi·ye da·fu·hu·la·he a·ri·a ri·sha wu ge·ri de·yu·le·pa·na de·na·si·ru·yi·ye
+6	wa·le·ha·yi·ke·lan si·fa la·me·sa·yi·ya·fu wu·ha·zi e·ha·zi·na bo·a·yi·ne dan·zu·ni·wu·yi a·yi·he da·fu·na·mu·san
+7	e·sa den lu·si·yi·ya·wu·si qi·li·yi·ya·ri·ha wu·fa·ke·ti·ru sa·ji·yi·ya men yi·za·yi·ne a·de·ye·he wu·la·he sha·de·re·he
+8	wa·fu·ka·zi la·ke·ti·ri·ha·na·wu·yi de·ni·song le·wa·sa·he wu·me·shi·ka·he a·te ka·zi me·sha·e·le a·te le·he de·si·la·fu me·ne·he a·le ku·le·hen ha·leng da·me·ka·te·ri·xi·nan le·he
+9	a·ri·fu·wu den la·wu·yi a·fu he·nong yi·hu·za·yi·ye ka·zi a·me·ran de·ha·leng ha·ha·na e·nen
+10	wa·ri·ma·zi xi·he·mu·na le·pa·wu·la·wu·si dan·ma·le·le wa·na pa·wu·la·wu·si wo·ma·ri men shi·na·yi·ya sa·ji·yi·ya·sa ya·za na de·yi·yi·sa·yi·ke da·yi·ya·na de·a·ma ha·na wu·me·tu·le ha·na ha·zi·ya·yi·si na·fu·ke na ru·ha a·le a·pa·yi na·fu·shi·yi
+11	ka·zi me·shi·ka·he a·te le·me·da de·la·yi·te li ya·ti·ri men te·re·sa·ri ya·wu·min de·se·le·ke·si lu·wu·ri·shi·le·me le·me·si·ga·zi
+12	wu·la e·shi·ke·hun·yi da·me·ma·le·le na a·me na·shi bo·ha·yi·ke·la wa·fu·la ken·sha de·ha·ne·shi na la ba·he·nu·shi·te·hong wu·la ba·me·zi·ta
+13	wu·la dan·ha·o·ne ma·te·ya bo·yi·yi·za·yi·hong ke·za·ma·yi·ke a·le me·de·me de·ha·sha me·ka·te·ri·xin li
+14	bo·ru·me den ha·ze ma·wu·de na de·fu·he bo·ha·na yu·le·pa·na de·a·me·ran bo·he pa·la·he na la·la·ha de·a·fa·ha·yi ka·zi me·ha·yi·men na le·hu·le·hen da·he·si·fan bo·na·mu·sa wu·fan·fu·yi·ye
+15	wu·ha·zi yi·si li sa·fu·ru a·le a·la·ha a·yi·na de·a·fu he·nong ha·leng me·sa·bo·ran da·si·za de·se·he·wo ke·ya·me·ta de·men bo·si mi·se de·xi·ne wa·zi·a·wa·le
+16	me·tu·le ha·na a·fu a·me·le na de·si·ri·ta de·xi·sa te·he·wo li ke·za·me a·la·ha wa·ke·za·me bo·na·yi na·sha a·mi·na·yi·si
+17	la·shi·nin den sa·ji·yi·ya·ne e·si·si le·wa·si bo·na·yi a·ma di·le·yi de·e·te·le ze·zi·ke·sa wo·ka·re·fu ku·ri·ba·na
+18	wo·shi·ke·hun·yi ha·leng bo·ha·yi·ke·la ka·zi me·za·ka·yi na la a·me ken·sha a·fu·la ba·shi·hu·shi·ya
+19	e·la e·ne da·shi·ha·shi·wu na·shan yi·hu·za·yi·ye de·e·sa·wu men a·si·yi·ya a·yi·leng de·wa·le wa dan·ku·man a·me·yi ke·za·ma·yi·ke wa·ne·ka·te·ri·hong me·de·me de·yi·yi·si le·hong
+20	a·wu he·nong ha·leng ni·me·rong ma·na e·shi·ka·he·wu bi sa·he·lu·sa ka·zi ka·me·si ke·za·me ken·shi·hong
+21	e·la e·ne ha·ze he·za me·le·sa da·ke·yi·si ka·zi ka·e·me na ba·yi·na·si·hong de·a·le ke·ya·me·ta de·mi·se me·te·zan na ya·wu·ma·na ke·za·ma·yi·kong
+22	pi·li·ke·si den me·tu·le de·ya·za wa la·he lu·wu·ri·ha ha·ze ma·le·ya·yi·si ta·xi e·nong ka·zi a·ma·ri de·ma de·e·sa qi·li·yi·ya·ri·ha sha·ma na ba·yi·na·si·hong
+23	wa·fu·ka·zi le·ken·te·ru·na de·ne·te·ri·wu·yi le·pa·wu·la·wu·si ban·ya·ha wa·zi·la na·shi men ya·zu·a·wu·yi ne·si·ke·le de·ne·he·wo me·sha·me·shi le·he
+24	wu·men ba·sa·ri ka·li·le ya·wu·ma·sa sha·da·ri pi·li·ke·si wu·zu·ri·si·la a·te·se·he de·yi·yi·se·he wa·si yi·hu·za·ta wa·ke·ru·wu le·he le·pa·wu·la·wu·si wa·shi·ma·wu me·ne·he a·le ha·yi·ma·nu·sa da·me·shi·ha
+25	wu·ha·zi me·ma·le·le a·me·hong a·le za·di·ku·sa wu·a·le ka·di·shu·sa wu·a·le di·na da·si·zi e·si·me·li de·he·le·sa pi·li·ke·si wo·ma·ri de·ha·sha ze·le wo·ma·si·yi de·ne·he·wo li a·si·ru e·sha·da·ri ba·si·ru·he
+26	sa·fa·ri wa ge·ri de·shu·he·da me·si·he·fu wa le·he men pa·wu·la·wu·si me·tu·le ha·ze a·fu a·mi·na·yi·si me·sha·da·ri wa ma·yi·te le·he wa·me·ma·le·le a·me·he
+27	wu·ha·zi ma·li le·he ta·ri·teng shi·nin he·ri·na xi·he·mu·na e·sa wa le·zu·ke·se·he de·me·si·ke·re wa pa·ri·qi·yi·ya·wu·si-fu·si·ta·wu·si pi·li·ke·si den a·yi·he de·ne·bo·zi ta·yi·bu·sa bi·hu·za·yi·ye sha·fu·ke·he le·pa·wu·la·wu·si ka·zi a·si·ri

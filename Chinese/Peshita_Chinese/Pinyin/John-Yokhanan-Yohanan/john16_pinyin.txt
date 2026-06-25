@@ -1,0 +1,33 @@
+1	ha·leng ma·le·le·si a·me·hong de·la te·si·ka·shi·long
+2	na·po·ku·na·hong ge·ri men ke·nu·sha·si·hong wu·si·se sha·sa de·hu·le de·ne·ke·tu·le·hong na·si·ba·ri de·ku·ri·ba·na me·ka·re·fu la·la·ha
+3	wu·ha·leng ne·bo·zong me·tu·le de·la yi·za·wu wu·la la·fu·yi wu·la li
+4	ha·leng ma·le·le·si a·me·hong de·ma de·e·sa e·dan·hen te·he·dong e·nen de·e·na e·me·re·si le·hong ha·leng den men ke·zi·me la e·me·re·si le·hong de·a·me·hong wei·si
+5	ha·sha den a·ze·le na le·wa·si man de·sha·de·ran·yi wu·la na·shi men·hong me·sha·e·le li la·yi·ka a·ze·le a·te
+6	e·me·re·si le·hong ge·ri ha·leng wo·sa·si ka·ri·yu·sa wa·me·la·si le·ba·wa·si·hong
+7	e·la e·na shi·ru·ru a·ma·ri na le·hong de·fa·ka·he le·hong de·e·na yi·za·le e·ne ge·ri e·na la a·ze·le na pa·ru·ke·li·ta la a·se le·wa·si·hong e·ne den yi·za·le e·sha·de·ri·wu·yi le·wa·si·hong
+8	wu·ma de·e·sa hu na·ke·si·wu·yi le·a·le·ma a·le he·ti·sa wu·a·le za·di·ku·sa wu·a·le di·na
+9	a·le he·ti·sa de·la me·ha·yi·me·nin bi
+10	a·le za·di·ku·sa den da·le·wa·si a·fu·yi a·ze·le na wu·la tu·fu ha·zen tong li
+11	a·le di·na den de·a·ri·hu·na de·a·le·ma ha·na ding wu
+12	tu·fu sa·ji yi·si li le·mi·ma·ri le·hong e·la la me·shi·ke·xin tong le·me·ha·zi ha·sha
+13	ma de·e·sa den ru·ha da·shi·ru·ru hu ne·za·ba·ri·hong bo·hu·le·he shi·ru·ru la ge·ri ne·ma·le·le men re·ya·ne na·fu·she·he e·la ku·le de·ne·shi·ma ha·wu ne·ma·le·le wa·si·za·sa na·wu·da·hong
+14	wu·hu ne·sha·bo·han·yi me·tu·le de·men di·le·yi ne·sa·fu wa·ne·ha·wo·hong
+15	ku·le me·de·me de·yi·yi·si la·fu·yi di·le·yi wu me·tu·le ha·na e·me·re·si le·hong de·men di·le·yi ne·sa·fu wa·ne·ha·wo·hong
+16	ka·li·le wu·la te·he·zu·nan·yi wu·su·fu ka·li·le wu·se·he·zu·nan·yi de·a·ze·le na le·wa·si a·fa
+17	wo·ma·ri·wu wa·wu ta·le·mi·za·wu·yi ha·zi le·ha·zi ma·na yi ha·ze de·e·ma·ri lan de·ka·li·le wu·la te·he·zu·nan·yi wu·su·fu ka·li·le wu·se·he·zu·nan·yi wu·za·ze·le na le·wa·si a·fu·yi
+18	wa·me·ran wa·wu ma·na yi ha·ze ka·li·le de·e·ma·ri la ya·zi·yi·nan ma·na me·ma·le·le
+19	ye·shu den yi·za de·fa·e·ne wa·wu la·me·sha·a·lu·se·he wo·ma·ri le·hong a·le ha·ze ba·e·ne tong a·me he·za·ze de·e·me·re·si le·hong de·ka·li·le wu·la te·he·zu·nan·yi wu·su·fu ka·li·le wu·se·he·zu·nan·yi
+20	a·min a·min a·ma·ri na le·hong de·se·fu·kong a·tong wu·se·long wu·a·le·ma ne·he·de wa·le·hong te·he·re e·la ka·ri·yu·si·hong le·ha·zu·sa te·he·wo
+21	a·te·sa ma de·ya·le·da ka·ri·ya la·he da·me·ta ya·wu·ma de·ma·wu·la·za·he ma de·ye·le·da·si den bo·ru la a·he·da wu·le·sa·na·he me·tu·le ha·zu·sa de·e·si·le·zi ba·ri·na·sha bo·a·le·ma
+22	a·fu a·tong ha·sha ka·ri·ya le·hong tu·fu den e·he·ze·hong wu·ne·he·de le·bo·hong wu·ha·zi·wa·si·hong la na·shi na·se·fu men·hong
+23	wa·fu·ha·wu ya·wu·ma li la te·she·long me·de·me a·min a·min a·ma·ri na le·hong de·hu·le me·de·me de·se·she·long la·fu·yi bo·she·me·yi ne·te·le le·hong
+24	za·ma le·ha·sha la she·le·tong me·de·me bo·she·me·yi sha·le·wu wu·se·si·fan de·se·he·wo ha·zi·wa·si·hong me·sha·me·le·ya
+25	ha·leng bo·fu·la·sa ma·le·le·si a·me·hong a·si·ya den sha·sa e·ma·si·yi de·la e·ma·le·le a·me·hong bo·fu·la·sa e·la yi·ne ba·he·le e·fa·de·ke le·hong a·le a·fa
+26	bo·ha·wu ya·wu·ma de·se·she·long bo·she·me·yi wu·la a·ma·ri na le·hong de·e·na e·fu·e men a·fa la·yi·kong
+27	hu ge·ri a·fa ru·he·me le·hong de·a·tong ri·he·me·tu·nan·yi wu·ha·yi·men·tong de·e·na men le·wa·si a·la·ha ne·fu·ke·si
+28	ne·fu·ke·si men le·wa·si a·fa wo·si·si le·a·le·ma wu·su·fu sha·fu·ke na le·a·le·ma wa·ze·le na li le·wa·si a·fa
+29	a·me·ran le·he ta·le·mi·za·wu·yi ha ha·sha ga·le·ya·yi·si me·ma·le·le a·te wu·fu·le·sa wu·la he·za a·ma·ri a·te
+30	ha·sha ya·zi·yi·ne nan de·hu·le me·de·me ya·za a·te wu·la si·ni·ke a·te de·na·shi ne·sha·la·he bo·ha·ze me·ha·yi·me·nin nan de·men a·la·ha ne·fa·ke·te
+31	a·ma·ri le·hong ye·shu ha·yi·men·wu
+32	de·ha a·si·ya sha·sa wu·ha·sha e·sa·si de·se·si·ba·de·rong na·shi la·si·re·he wu·se·shi·bo·ku·nan·yi ba·le·hu·za·yi wu·la he·wei·si ba·le·hu·za·yi de·a·fa a·me·yi wu
+33	ha·leng e·me·re·si le·hong de·fu ne·he·wo le·hong shi·la·ma bo·a·le·ma ha·wo le·hong wu·le·sa·na e·la e·si·la·bo·fu·wu e·na zi·xi·se·he le·a·le·ma

@@ -1,0 +1,29 @@
+1	me·tu·le ha·na a·fu he·nan de·yi·yi·si lan ha·leng ku·le·hong sa·he·de de·a·yi·he na·na he·zi·ran lan ne·shi·de me·nan ku·le yu·ke·ran a·fu he·ti·sa da·fu·hu·le·zi·fan me·ta·yi·fa yi lan wu·fa·me·sa·yi·bo·ru·nu·sa ne·ri·he·ti·wu·yi la·hu·na ha·na de·si·me lan
+2	wa·ne·hu·ri bo·ye·shu de·hu he·wa ri·sha wu·ha·mu·ru le·ha·yi·ma·nu·san da·he·la·fu ha·zu·sa de·yi·yi·si wa le·he sa·yi·ba·ri si·li·fa wu·a·le bo·he·te·sa a·me·sa·ri wu·a·le ya·mi·na de·hu·ri·si·ye·he de·a·la·ha yi·se·fu
+3	he·za·wu ha·xi·le ke·ma sa·yi·ba·ri men ha·ta·yi·ye ha·nong de·he·nong he·wa·wu sa·ku·fu·la le·na·fu·shi·hong de·la te·ma·ne le·hong wu·la te·si·ru·po na·fu·shi·hong
+4	la za·qi·le ma·ti·tong za·ma la·zi·ma bo·a·hu·na de·lu·ke·fa·le he·ti·sa
+5	wa·te·a·yi·tu·na le·yu·le·pa·na a·yi·na de·a·yi·he de·la·fu·na·yi·ya e·ma·ri le·hong bo·ri·yi la ta·he·me men ma·ri·du·se·he de·ma·ri·ya wu·la te·ru·po na·fu·sha·he e·ma·si·yi de·me·ne·he me·si·ka·wa·ne a·te
+6	le·man de·ru·he·me ge·ri ma·ri·ya ru·ze le·he wa·me·na·ge·zi la·fu·na·yi·ya a·yi·leng de·hu sa·fu bo·hong
+7	sa·yi·ba·ri·wu ha·xi·le ma·ri·du·sa me·tu·le de·a·yi·he da·le·wa·si bo·na·yi·ya sa·a·ri se·za·yi·kong a·la·ha a·yi·na·wu ge·ri bo·ru de·la ru·ze le·he a·fu
+8	wo·ne de·la ma·ri·du·sa a·tong ha de·fa·he me·si·ri·ze ku·le·na·shi he·wa·yi·tong le·hong nu·he·ru·yi·ye wu·la bo·na·yi·ya
+9	wo·ne a·fa·ha·yi·ne de·fu·si·ru ru·zen wa·wu lan wu·fa·he·ting he·wa·yi·ne men·hong ke·ma ha·xi·le ha·yi·ya·fu·nan de·ne·shi·ta·ba·zi la·fu·hen de·ru·ha·sa wu·ni·he
+10	ha·nong ge·ri la·zi·fan wu zi·wu·ri a·yi·he de·sa·fen wa·wu ru·zen wa·wu lan a·la·ha den le·wu·zi·ru·nan de·ne·shi·ta·wu·ta·fu le·ka·di·shu·se·he
+11	ku·le ma·ri·du·sa den bo·za·fu·na·he la me·si·ta·fu·ru da·zi·ha·zu·sa yi e·la de·ha·ri·yu·sa le·ha·ri·sa den pi·re da·shi·la·ma wa·zi·za·di·ku·sa ya·he·ba la·yi·leng de·fa·he e·te·da·ru·shi·wu
+12	me·tu·le ha·na yi·za·yi·kong me·sha·ri·ya·sa wu·fu·ri·ka·yi·kong ru·la·sa sha·ru·ri·wu
+13	wa·shi·fu·le te·ri·se fu·zi·wu le·re·he·la·yi·kong de·ha·da·ma da·he·xi·ri la ne·te·a·shi e·la ne·sa·se
+14	ha·te·wu ba·sa·ri shi·la·ma a·me ku·le na·shi wu·fa·sa·ri ka·di·shu·sa de·fu·le·a·ze·he na·shi le·ma·ran la ha·ze
+15	wa·he·wa·yi·tong zi·xi·ran da·le·ma na·shi ne·shi·te·ha·he bo·hong de·ha·si·ri men ta·yi·bu·sa de·a·la·ha a·wu da·le·ma e·ka·ru da·me·ru·re na·po·ke wu·fu·ya wu·na·ha·ri·hong wu·fu·he sa·ji·yi·ye ne·si·ta·yi·fan
+16	a·wu le·ma na·shi ne·shi·te·ha·he bo·hong de·za·na wa·ri·fu a·yi·he yi·su de·fa·he·za me·hu·le·ta za·ben bu·he·ru·se·he
+17	ya·zi·yi·ne tong ge·ri de·a·fu men ba·sa·ri·ken si·fa wa de·ni·ru·si bu·ri·ke·sa wo·si·te·li a·si·ru ge·ri la·si·ya·fu·sa la e·shi·ka·he ka·zi bo·ze·me·e bo·a·he
+18	la ge·ri e·si·ka·ru·fu·tong le·nu·ru de·ya·ke·da wu·me·si·ga·sha a·fu·la le·he·shu·ha wa·le·a·ri·po·la wu·la·ru·ru
+19	wu·la le·ka·la de·ka·ri·na wa·le·ka·la de·me·le ha·wu de·ha·nong de·sha·me·wu e·shi·te·le·wu de·la ne·te·ta·wu·sa·fu ne·si·ma·la·le a·me·hong
+20	la ge·ri me·shi·ke·xin wa·wu la·me·sa·yi·ba·ru me·de·me de·e·si·pa·ka·zi·wu de·a·fen ha·yi·yu·sa te·si·ka·ru·fu le·wa·si tu·ru te·si·ri·he·me
+21	wu·ha·ha·na de·xi·le he·wa he·zi·wa de·mu·she e·ma·ri de·za·xi·le na wu·ru·ti·si na
+22	a·tong den e·si·ka·ru·fu·tong le·tu·ru de·se·he·yao·ne wu·la·me·zi·ta de·a·la·ha ha·yi·ya lu·wu·ri·shi·le·me de·fa·shi·ma·yi·ya wa·le·hen·she de·re·bo·wa·sa de·ma·la·he
+23	wa·le·yi·ta de·fu·he·re de·me·si·ka·si·bin ba·shi·ma·yi·ya wu·la·la·ha da·yi·ya·na de·hu·le wa·le·ru·ha·sa de·xi·ne de·e·si·ge·ma·ri·wu
+24	wa·le·ye·shu me·si·a·yi·ya de·zi·yi·ya·si·qi he·za·sa wu·la·ri·sa·si de·me·he da·me·ma·le·le ta·fu men ha·wu de·ha·fu·le
+25	e·zi·da·ri·wu ha·xi·le da·le·ma te·shi·ta·long men man de·ma·le·le a·me·hong e·ne ge·ri ha·nong la e·si·pa·si·wu de·e·shi·te·le·wu men de·ma·le·le a·me·hong bo·a·ri·a ha·zi ke·ma he·nan e·ne ne·shi·te·le men man de·ma·le·le a·man men shi·ma·yi·ya
+26	a·yi·na de·ka·le·he a·ri·a a·zi ha·sha den me·la·he wo·ma·ri de·su·fu he·za zi·fan e·na a·zi la ba·le·hu·zi a·ri·a e·la a·fu shi·ma·yi·ya
+27	ha·ze den de·e·ma·ri he·za zi·fan me·ha·wu·ya shu·he·la·fa de·ha·nong de·me·te·zi·yi·ne me·tu·le da·fu·ze e·nong dan·ka·o·ne ha·nong de·la me·te·zi·yi·ne
+28	me·tu·le ha·xi·le de·ka·bo·le·ne ma·le·ku·sa de·la me·te·zi·a ne·hu·zi ta·yi·bu·sa de·fa·he ne·sha·me·shi wu·ne·shi·pa·ri la·la·ha bo·sa·he·me·si·ta wa·fu·ze·he·le·sa
+29	a·la·han ge·ri nu·ru wu a·he·le·sa

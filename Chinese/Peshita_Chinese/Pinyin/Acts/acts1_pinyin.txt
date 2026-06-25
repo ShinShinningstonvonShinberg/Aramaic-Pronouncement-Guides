@@ -1,0 +1,26 @@
+1	ke·sa·fa ka·zi·ma·yi·ya ke·si·bo·si a·wu te·a·wu·fu·le a·le ku·le·hen a·yi·leng de·sha·ri ma·ran ye·shu me·shi·ha le·me·ba·zi wa·le·ma·la·fu
+2	za·ma le·ya·wu·ma ha·wu de·fu·he e·si·ta·la·ke men ba·sa·ri de·fa·ke·zi wa e·nong la·shi·li·he a·yi·leng da·he·fa bo·ru·ha de·ku·zi·sha
+3	ha·nong de·a·fu ha·wei le·hong na·fu·she·he ka·zi ha·yi men ba·sa·ri de·ha·shi bo·a·si·wa·sa sa·ji·yi·ya·sa bo·ya·wu·min a·ri·bo·yi·ne ka·zi me·si·he·ze wa le·hong wa·ma·ri a·le ma·le·ku·sa de·a·la·ha
+4	wu·ha·zi e·ha·le a·me·hong la·he·ma pa·ke·zi e·nong de·men wu·ri·shi·le·me la ne·fu·ri·kong e·la dan·ka·o·ne le·shu·da·yi·ye·he de·a·fa ha·wu da·shi·ma·tong men·yi
+5	de·yu·ha·nan a·me·zi bo·ma·yi·ya wa·tong te·me·zong bo·ru·ha de·ku·zi·sha la ba·sa·ri ya·wu·ma·sa sa·ji·yi·ye
+6	he·nong den ka·zi ke·ni·shan sha·lu wa·me·ran le·he ma·ran e·ne bo·ha·na za·fu·na ma·fu·ne a·te ma·le·ku·sa li·yi·si·ru·yi·ye·le
+7	a·ma·ri le·hong hu la wa·si di·le·hong ha·ze le·me·da za·fu·na a·wu za·fu·ne a·yi·leng de·a·fa sa·me e·nong bo·shu·le·ta·na de·na·fu·she·he
+8	e·la ka·zi ti·se ru·ha de·ku·zi·sha la·yi·kong te·ka·bo·long ha·yi·la wu·se·hong li sa·he·de bo·wu·wu·ri·shi·le·me wa·fu·hu·la·he yi·hu·zi wa·fu bo·si sha·me·ru·yi·ye wa·za·ma le·sa·wu·po·he de·a·ri·a
+9	wu·ha·zi ha·leng e·ma·ri ka·zi ha·zen le·he e·si·ta·la·ke wa·na·na ka·bo·le·se·he wo·si·ka·si men a·yi·na·yi·hong
+10	wu·ha·zi ha·ran wa·wu ba·shi·ma·yi·ya ka·zi hu a·ze·le wa e·shi·te·ha·he·wu te·ren ga·fu·ran ka·min le·wa·si·hong ba·le·fu·she he·wa·ru
+11	wa·me·ran le·hong ga·fu·re ge·li·la·yi·ye ma·na ka·min tong wu·ha·ran ba·shi·ma·yi·ya ha·na ye·shu de·e·si·ta·la·ke men·hong la·shi·ma·yi·ya ha·ha·na ni·se a·yi·he ma da·he·za·yi·tu·na da·si·le·ke la·shi·ma·yi·ya
+12	wu·men ba·sa·ri·ken he·fa·he·wu le·hong lu·wu·ri·shi·le·me men tu·ru de·me·si·ke·re de·fu·si za·yi·te de·yi·yi·sa·wu·yi a·le ge·fu wu·ri·shi·le·me wu·fa·ri·ke me·na·he a·yi·he sha·fu·a e·si·te·za·wa·ne
+13	wu·men ba·sa·ri de·a·le·wu si·le·ke·wu le·hong le·e·li·sa ha de·ha·wo·ne wa·wu ba·he po·te·ru·wu·si wu·yu·ha·nan wu·ya·ku·fu wa·ne·de·re·wa·si wu·fu·li·pa·wu·si wu·sa·wu·ma wu·ma·ta·yi wu·fa·ri-tu·le·ma·yi wu·ya·ku·fu ba·ri ha·le·fa·yi wu·she·me·o·ne ta·na·na wei·hu·za ba·ri ya·ku·fu
+14	ha·leng ku·le·hong a·he·he·za a·mi·nin wa·wu ba·si·lu·sa ba·he·za ne·fu·shi a·me ne·she wu·a·me ma·ri·ya·me e·me·he de·ye·shu wu·a·me a·ha·wu·yi
+15	wa·fu·hong bo·ya·wu·ma·sa ha·nong ka·me she·me·o·ne qi·fa me·si·a·si ta·le·mi·ze yi·si wa den ta·man ken·sha de·na·sha a·yi·he ma wu·e·si·ran wo·ma·ri
+16	ga·fu·re a·ha·yi·ne za·ze·ke wa de·ne·si·ma·le ke·sa·fa a·yi·na de·ka·de·me e·ma·ri ru·ha de·ku·zi·sha bo·fu·me·he de·za·wei·zi a·le yi·hu·za ha·wu da·he·wa me·za·bo·ru·na le·ha·nong de·e·ha·zi·wu le·ye·shu
+17	me·tu·le da·me·ne wa a·man wei·yi·si wa le·he po·sa bo·se·shi·me·shi·ta ha·ze
+18	ha·na·wu da·ke·na le·he ke·ri·sa men a·he·ru da·he·ti·sa wa·ne·fa·le a·le a·pa·wu·yi a·le a·ri·a wo·si·po·re·si men me·sa·se·he wo·se·she·zi ku·le·he ge·wa·yi·ye·he
+19	wu·xi ha·ze e·si·ya·zi·a·si le·hu·le·hong de·a·me·ran bo·wu·wu·ri·shi·le·me wu·ha·ha·na e·si·ka·ri·ya·si ke·ri·sa ha bo·le·sha·ne·he de·a·si·ru he·ka·le de·ma de·yi·yi·sa·wu·yi tu·ri·ga·ma·he ku·ri·ya·si de·me
+20	ke·si·fu ge·ri bo·se·fu·ru de·ma·zi·mu·re de·za·yi·re·he te·he·wo ha·ri·ba wu·a·mu·ri la ne·he·wo ba·he wu·se·shi·me·shi·te·he ne·sa·fu he·ran
+21	wa·le·ya yi ha·xi·le le·ha·zi men ha·leng ga·fu·re da·he·wa·wu a·man bo·ha·na za·fu·na ku·le·he de·fu·he a·le wa·ne·fa·ke la·yi·ne ma·ran ye·shu
+22	de·a·ke·fu men ma·mu·zi·se·he de·yu·ha·nan za·ma le·ya·wu·ma de·e·si·ta·la·ke men le·wa·san de·hu ne·he·wo a·man sa·he·da da·ke·ya·me·te·he
+23	wa·qi·me·wu te·ren le·ya·wu·se·fu de·me·si·ke·re ba·ri·sha·ba de·e·shi·ta·mi yu·si·ta·wu·si wa·le·ma·ti·yi·ya
+24	wu·ha·zi sa·li·wu e·ma·ri·wu a·te ma·ri·ya ya·za da·fu·le·ba·wa·sa de·hu·le ha·wa ha·zi a·yi·na de·ha·fu a·te men ha·leng te·ru·yi·hong
+25	de·hu ne·ka·bo·le po·sa de·se·shi·me·shi·ta wa·shi·li·hu·sa de·me·na·he po·ru·ke yi·hu·za de·ni·za·le le·he la·si·re·he
+26	wa·ri·mi·wu po·se wu·se·le·ka·si le·ma·ti·yi·ya wo·si·me·ni a·me he·za·sa·ri shi·li·he

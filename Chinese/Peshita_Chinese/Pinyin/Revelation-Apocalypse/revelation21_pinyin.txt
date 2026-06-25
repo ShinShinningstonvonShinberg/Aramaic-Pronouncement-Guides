@@ -1,0 +1,27 @@
+1	wa·he·zi·si shi·ma·yi·ya ha·ta·sa wa·ri·a he·za·sa shi·ma·yi·ya ge·ri ka·zi·ma·ta wa·ri·a ka·zi·ma·ta e·za·le·wu wu·ya·ma la·yi·ta·wu·yi tu·fu
+2	wu·la·me·zi·ta ka·di·shi·ta wu·ri·shi·le·me he·za·sa he·zi·sa·he de·na·he·ta men shi·ma·yi·ya men se·zi a·la·ha da·me·ta·yi·fa a·yi·he ka·le·sa me·sa·ba·te·ta le·fa·la·he
+3	wu·she·me·e·si ka·la ru·ba men shi·ma·yi·ya de·a·ma·ri ha ma·shi·ri·ya de·a·la·ha a·me bo·na·yi·na·sha wu·sha·re a·me·hong wu·he·nong a·ma di·le·he ne·hong wu·hu a·la·ha a·me·hong wu·ne·he·wo le·hong a·la·ha
+4	wu·hu ne·le·he ku·le de·me·e men a·yi·na·yi·hong wu·ma·wu·ta la ne·he·wo me·qi·le wu·la e·fu·la wu·la ru·wu·ba wu·la qi·fa tu·fu ne·he·wo a·le a·po·he
+5	wo·ze·si wo·ma·ri li de·ya·se·fu a·le ku·ri·si·ya ha ha·sa a·fu·zi na ku·le wo·ma·ri li ke·su·fu ha·leng me·le me·ha·yi·me·na·sa wu·sha·ri·ru·sa yi·sa·yi·hen
+6	wo·ma·ri li he·wa·yi e·na a·la·fu wo·na ta·wu ri·shi·sa wu·shu·la·ma le·za·si·he na e·te·le men a·yi·na de·ma·yi·ya ha·yi·ye ma·gan
+7	wu·za·zi·ha hu ni·ru·si ha·leng wo·he·wo le·he a·la·ha wu·ne·he·wo li bo·ru
+8	le·ka·nu·te·sa·ne den wu·la me·ha·yi·me·ne wu·a·wa·le wa·me·sa·yi·fu wu·ka·tu·le wu·ha·ru·she wu·za·na·yi·ye wu·fa·le·ha·yi po·sa·he·re wu·hu·le·hong da·ga·le me·na·si·hong bo·ya·me·sa ya·ke·de·ta de·nu·ru wu·he·fu·ri·sa a·yi·za de·yi·yi·se·he ma·wu·ta teng·ya·na
+9	wo·sa ha·zi men sha·fu·a ma·la·xin a·yi·leng de·yi·yi·si la·yi·hong shi·fa za·fu·ran de·ma·le·ya·ne shi·fa ma·he·wa·sa he·ru·yi·ya·sa wu·ma·le·le a·me·yi le·mi·ma·ri ta e·ha·wo·he le·ha·le·sa a·te·se·he de·e·me·ru
+10	wa·wu·bo·lan·yi bo·ru·he le·tu·ru ru·ba wu·ru·ma wu·ha·wu·ya·ne·yi la·me·zi·ta ka·di·shi·ta wu·ri·shi·le·me de·na·he·ta men shi·ma·yi·ya men se·zi a·la·ha
+11	wei·yi·si la·he te·shi·bu·he·ta de·a·la·ha wu·nu·he·ru·he a·yi·he de·mu·sa de·xi·fa ya·qi·ri·ta a·yi·he ya·shi·po·he a·yi·he du·me·ya da·ke·ru·si·ta·la·wu·si
+12	wei·yi·si la·he shu·ru ru·ba wu·ru·ma wei·yi·si la·he ta·ri·e te·re·sa·ri wu·a·le ta·ri·e ma·la·he te·re·sa·ri wa·shi·ma·ha·yi·hong ke·si·fu a·yi·leng de·yi·yi·sa·yi·hong shi·ma·he da·si·re·sa·ri sha·fu·te de·yi·yi·si·ru·yi·ye·le
+13	men ma·zi·ne·ha ta·ri·e te·la·sa wu·men ga·ri·fu·ya ta·ri·e te·la·sa wu·men ta·yi·me·na ta·ri·e te·la·sa wu·men ma·ri·fa ta·ri·e te·la·sa
+14	wu·shu·ru da·me·zi·ta yi·si le·he she·se·se ta·ri·ta·e·si·re wa·la·yi·hen te·re·sa·ri shi·ma·he da·shi·li·ha·wu·yi da·fu·ru
+15	wu·ha·wu da·me·ma·le·le wa a·me·yi yi·si wa la·wu·yi kan·ya da·me·shu·he·sa de·za·he·fa le·me·me·shi·ha·he la·me·zi·ta wa·le·shu·ru·he
+16	wa·me·zi·ta me·ru·bo·a·yi·si si·ma wu·wu·ri·ka·he a·yi·he po·sa·yi·ya·he wu·ma·shi·ha·he la·me·zi·ta bo·kan·ya a·le te·re·sa·ri a·le·fan e·si·te·za·wa·sa wu·ri·ka·he wa·fu·sa·yi·ya·he wu·ru·ma·he shi·wo·ne e·nong
+17	wu·ma·shi·he·he le·shu·ru·he ma wa·ri·bo·yi·ne wa·ri·ba a·min ba·me·shu·he·sa de·na·sha a·yi·za de·yi·yi·se·he de·ma·la·ha
+18	wu·zu·me·sa de·shu·ru·he ya·shi·po·he wa·me·zi·ta de·za·he·fa da·he·ya ba·zi·mu·sa da·zi·hu·xi·sa de·xi·sa
+19	wu·she·se·se de·shu·ru da·me·zi·ta bo·xi·fu ya·qi·ru·sa me·sa·bo·san wu·she·se·si·sa ka·zi·ma·ta ya·shi·po·he wa·zi·sa·ri·teng sa·pi·la wu·za·si·la·si ka·ri·he·zi·na wu·za·ri·ba zi·ma·ru·he·za
+20	wa·zi·ha·me·shi sa·ri·za·wu·ne wu·te·fu·ru wa·zi·she·si sa·ri·za·wu·ne wu·za·shi·fa qi·fu da·he·fa wu·za·si·ma·ne bo·ru·la wu·za·si·sha tu·pan·zi·yi·ya·wu·ne wu·za·sa·ri ke·ru·si·po·ru·sa da·he·za·e·si·re yu·qin·sa·wu·si de·sa·ri·ta·si·re a·mu·si·sa·si
+21	wa·si·re·sa·ri ta·ri·e wu·sa·ri·ta·si·re ma·ri·gan·ya·sa he·za la·he·za wu·hu·le·ha·zi men ta·ri·e yi·si wa men he·za ma·ri·ga·ni·sa wu·shu·ka den da·me·zi·ta de·za·he·fa da·he·ya a·yi·he zi·hu·xi·sa yi·si ba·he
+22	wu·ha·yi·ke·la la he·zi·si ba·he ma·ri·ya ge·ri a·la·ha a·xi·zi ku·le hu yi·sa·wu·yi ha·yi·ke·la·he
+23	wu·le·me·ru wu·la·me·zi·ta la me·si·bo·e she·me·sha wu·la sa·he·ru de·nan·he·rong la·he te·shi·bu·he·te·he ge·ri de·a·la·ha a·ne·ha·ri·sa·he wa·shi·ru·ha·he yi·sa·wu·yi e·me·ru
+24	wa·me·ha·le·xin a·me·me bo·nu·he·ru·he wu·ma·le·ke de·a·ri·a ma·yi·teng la·he te·shi·bu·he·ta
+25	wu·sa·ri·e·he la ne·te·ta·he·dong bo·yi·yi·ma·ma li·le·ya ge·ri la ne·he·wo ta·man
+26	wu·na·yi·tong la·he te·shi·bu·he·ta wei·yi·ka·ru de·a·me·me
+27	wu·la ne·he·wo ta·man ku·le te·ma wa·zi·a·fu·zi me·sa·yi·fu·sa wu·za·ga·lu·sa e·la e·ne a·yi·leng da·he·si·fan ba·he·sa·fu·he de·e·me·ru

@@ -1,0 +1,16 @@
+1	me·tu·le de·yi·yi·si lan ha·xi·le ha·leng mu·le·ka·ne ha·bi·fu·yi ne·za·ke na·fu·shan men ku·la·he ta·me·wu·sa de·fu·si·ru wa·zi·ru·ha wu·ne·fu·lu·he ka·di·shu·sa bo·ze·he·le·sa de·a·la·ha
+2	sa·yi·ba·rong a·ha·yi·ne bo·na·shi la a·wo·le·ne le·na·shi la ha·bo·le·ne le·na·shi la la·fu·ne
+3	la wa la·me·ha·yi·ya·fu·si·hong a·ma·ri na ka·de·me·si ge·ri e·me·re·si da·fu·le·ban a·tong la·me·ma·si a·he·he·za wa·le·me·ha
+4	pa·re·si·yi·ya sa·ji·sa yi·si li le·wa·si·hong wu·sa·ji yi·si li bo·hong shu·fu·ha·ru wa·me·le na bu·yi·ya·a wu·su·ha me·si·ya·te·ru bi ha·zu·sa bo·hu·le·hong wu·le·sa·na·yi
+5	a·fu men de·e·sa·yi·ne ge·ri le·ma·ke·za·wu·na·yi·ye a·fu·la ha·zi ne·ya·he he·wa le·fa·he·ran e·la bo·hu·le me·de·me e·se·le·si·ne men le·fa·ri ke·ru·fa wu·men le·ha·wu de·he·le·sa
+6	e·la a·la·ha ha·wu da·me·fa·yi·ya le·ma·qi·he ba·yi·ya·ne bo·me·si·se·he de·ti·ta·wu·si
+7	wu·la ba·le·hu·zi bo·me·si·se·he e·la a·fu ban·ya·he·he ha·wu de·e·te·ni·he bo·hong sa·bo·ran ge·ri a·le hu·bo·hong da·le·wa·san wu·a·le e·fu·le·hong wa·te·nan·hong de·a·le a·pa·yi·ne wu·ha·zi she·me·e·si ha·zu·sa sa·ji·sa he·wa·si li
+8	de·a·fen a·he·ri·si le·hong bo·e·ga·ri·ta la ta·wu·ya li na·fu·shi·yi a·fen ta·wu·ya wa·si ha·ze na ge·ri de·xi e·ga·ri·ta a·fen de·sha·sa a·he·ri·ya·si le·hong
+9	e·la ha·zu·sa sa·ji·sa e·fu·da·si li la a·le de·he·ri·ya·si le·hong e·la me·tu·le de·ha·ri·yu·si·hong la·si·ya·fu·sa a·yi·te·ya·si·hong ke·ri·ya·si le·hong ge·ri bo·za·la·ha a·yi·ka·na da·fu·me·de·me la te·he·si·rong me·nan
+10	ka·ri·yu·sa ge·ri de·me·tu·le a·la·ha te·wa·si na·fu·sha a·fu·da de·la ha·fu·ka wu·ma·fu·ne·ya le·ha·yi·ye ka·ri·yu·sa den de·a·le·ma ma·wu·ta hu a·fu·da
+11	ha ge·ri xi ha·ze de·e·te·te·yi·ke·tong me·tu·le a·la·ha ke·ma a·bo·za·si bo·hong he·fu·tu·sa wu·ma·pa·ke bo·ru·ha wu·ru·he·za wu·ze·he·le·sa wu·hu·ba wa·te·na·na wa·si·fa·sa wa·fu·hu·le·me·de·me ha·wei·tong na·fu·shi·hong da·zi·hen tong ba·he ba·si·fu·sa
+12	te·he·wo den ha·ze de·he·si·bo·si le·hong de·la wa me·tu·le ma·si·ke·la·na a·fu la me·tu·le ha·wu man de·ma·si·ka·le bo·he e·la me·tu·le de·se·si·za ke·za·me a·la·ha he·fu·tu·si·hong de·me·tu·la·san
+13	me·tu·le ha·na e·si·ba·yi·ya·ne wu·a·me bu·yi·ya·a·ne ya·ti·ru·yi·si he·zan bo·ha·zu·se·he de·ti·ta·wu·si de·e·te·ni·ha·si ru·he·he a·me ku·le·hong
+14	da·fu·me·de·me de·e·shi·ta·fu·he·re·si le·he a·le a·pa·yi·kong la bo·he·te·si e·la a·yi·he de·hu·le me·de·me ku·shi·ta ma·le·le·ne a·me·hong ha·ha·na a·fu shu·fu·ha·ran da·le·wa·si ti·ta·wu·si bo·ku·shi·ta e·shi·te·ha·he
+15	a·fu ru·he·ma·wu·yi ya·ti·ru·yi·si si·xi·wu la·yi·kong ka·zi me·te·de·ha·ri me·shi·ta·me·a·nu·sa de·hu·le·hong da·fu·ze·he·le·sa wu·fa·ri·si·sa ka·bo·le·tu·na
+16	ha·ze na da·fu·hu·le me·de·me te·xi·le na la·yi·kong

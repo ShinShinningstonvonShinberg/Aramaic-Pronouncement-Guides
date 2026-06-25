@@ -1,0 +1,34 @@
+1	e·te·da·ma·wu bi a·yi·ka·na de·a·fu e·na ba·me·shi·ha
+2	me·sha·ba·he na le·hong den a·ha·yi da·fu·hu·le me·de·me ma·he·zi tong li wa·yi·ka·na de·a·shi·le·me·si le·hong pu·ke·da·ne a·xi·zan tong
+3	sa·fu na den de·se·de·o·ne de·hu·le ge·fa·ri ri·she·he me·shi·ha hu wu·ri·sha·he de·a·te·sa ga·fu·ru hu wu·ri·she·he da·me·shi·ha a·la·ha hu
+4	ku·le ga·fu·ru da·me·sa·le a·wu me·si·na·bo ka·zi me·ha·sa·yi ri·she·he ma·fu·he·si ri·she·he
+5	wu·hu·le a·te·sa da·me·sa·le·ya a·wu me·si·na·bo·ya ka·zi ge·le ri·sha·he ma·fu·he·sa ri·sha·he sha·wu·ya yi ge·ri a·me ha da·he·ri ri·sha·he
+6	e·ne ge·ri la me·si·ka·si·ya a·te·sa a·fu te·si·ta·pa·ri e·ne den me·sha·ka·ri wu la·te·sa le·me·si·ta·pa·ru a·wu le·me·he·ru te·si·ka·se
+7	ga·fu·ru ge·ri la ha·yi·ya·fu dan·ha·se ri·she·he me·tu·le da·zi·mu·sa hu wu·se·shi·bu·he·ta de·a·la·ha a·te·sa den te·shi·bu·he·ta yi de·ha·fu·ru
+8	la ge·ri yi·sa·wu·yi ga·fu·ru men a·te·sa e·la a·te·sa men ga·fu·ru
+9	wa·fu·la ge·ri ga·fu·ru e·si·bo·ri me·tu·le a·te·sa e·la a·te·sa me·tu·le ga·fu·ru
+10	me·tu·le ha·na ha·yi·ya·fa a·te·sa de·shu·le·ta·na ne·he·wo a·le ri·sha·he me·tu·le ma·la·he
+11	bo·ru·me den la ga·fu·ru le·fa·ri men a·te·sa a·fu·la a·te·sa le·fa·ri men ga·fu·ru bo·ma·ran
+12	a·yi·ka·na ge·ri de·a·te·sa men ga·fu·ru ha·ha·na a·fu ga·fu·ru bo·ya·zi a·te·sa ku·le·me·de·me den men a·la·ha hu
+13	dun·wu ba·yi·na·yi·kong le·na·fu·shi·hong ya·e la·te·sa de·ha·zi ge·le ri·sha·he te·sa·le la·la·ha
+14	a·fu·la hu ke·ya·na ma·le·fu le·hong de·ha·fu·ru ma de·ka·e·me sa·re·he sa·ru hu le·he
+15	wa·te·sa ma da·me·ru·ba·yi sa·ru·he te·shi·bu·he·ta yi la·he me·tu·le de·sa·ru·he he·la·fu ta·he·si·sa hu e·si·he·fu la·he
+16	e·ne na·shi den me·si·he·re a·le ha·leng lan la·yi·te ya·za a·yi·he ha·na wu·la le·yi·te·he de·a·la·ha
+17	ha·ze den da·me·fa·ke·zi na la a·yi·he me·sha·ba·he na le·hong me·tu·le de·la wa la·ke·za·ma·yi·kong e·sa·yi·tong e·la la·fu·si·ru·sa hu ne·he·te·tong
+18	lu·ke·za·me ge·ri ma de·me·si·kan·shan tong bo·yi·ta pa·la·he·wa·sa sha·ma na de·yi·yi·si ba·yi·na·si·hong wu·me·de·me me·de·me me·ha·yi·men na
+19	si·zan e·nong ge·ri a·fu he·ri·ya·ne de·ne·hong ba·yi·na·si·hong de·a·yi·leng da·fu·ken bo·hong ne·si·ya·zi·o·ne
+20	ma ha·xi·le de·me·si·kan·shan tong la·wu a·yi·he de·za·ze·ke le·ya·wu·me·he de·ma·ran a·he·lin tong wu·sha·sen
+21	e·la na·shi na·shi he·sha·mi·se·he ka·ze·me a·he·le la·he wu·ha·wo ha·zi ke·fen wu·ha·zi ri·wo
+22	da·le·ma ba·te la·yi·te le·hong de·se·he·long wu·se·shi·tong a·wu bo·yi·te·he de·a·la·ha ba·sen tong wu·ma·fu·he·san tong la·yi·leng de·la·yi·te le·hong ma·na yi·ma·ri le·hong e·sha·ba·he·hong bo·ha·ze la me·sha·ba·he na
+23	e·na ge·ri ka·bo·le·si men ma·ran ha·wu me·de·me de·a·shi·le·me·si le·hong de·ma·ran ye·shu bo·ha·wu li·le·ya de·me·shi·te·le·me wa ne·sa·fu wa la·he·ma
+24	wu·fa·re·he wa·ke·sa wo·ma·ri sa·fu·wu a·hu·le·wu ha·na·wu pa·he·ri·yi de·a·le a·pa·yi·kong me·si·ke·se ha·ha·na he·wa·yi·tong a·fu·ding le·zu·he·ran·yi
+25	ha·ha·na men ba·sa·ri de·a·he·she·me·wu a·fu ka·sa ya·fu wo·ma·ri ha·na ka·sa yi·sa·wu·yi di·yi·ya·si·qi he·za·sa bo·ze·me·yi ha·ha·na he·wa·yi·tong a·fu·ding ku·le e·ma·si·yi de·sha·sen tong le·zu·he·ran·yi
+26	ku·le e·ma·si·yi ge·ri de·a·he·lin tong la·he·ma ha·na wu·sha·sen tong ka·sa ha·na ma·wu·te·he wu de·ma·ran ma·he·ding tong za·ma le·me·si·se·he
+27	a·yi·na ha·xi·le de·a·he·le men la·he·me·he de·ma·ri·ya wu·sha·se men ka·se·he wu·la sha·wo le·he me·ha·yi·ya·fu wu la·zi·me·he de·ma·ri·ya wa·le·fa·he·re·he
+28	me·tu·le ha·na ne·he·wo na·shi ba·ke na·fu·she·he wu·ha·den a·he·le men la·he·ma ha·na wu·sha·se men ka·sa ha·na
+29	man de·a·he·le ge·ri wu·sha·se me·ne·he ka·zi la sha·wo hu·yi·ya·fa wu le·na·fu·she·he a·he·le wu·sha·se de·la po·ru·shi pa·he·re·he de·ma·ri·ya
+30	me·tu·le ha·na sa·ji·yi·ne bo·hong ma·ri·e wa·he·ri·he wu·sa·ji·yi·ye de·za·me·qin
+31	e·lu ge·ri na·fu·shan da·nin wa·yi·ne la me·te·zi·nin wa·yi·ne
+32	ka·zi me·te·zi·ni·nan den men ma·ran me·si·ri·za·yi·yu me·si·ri·ze·nan de·la a·me a·le·ma ne·si·ha·yi·ya·fu
+33	me·qi·le a·ha·yi e·ma·si·yi de·me·si·kan·shan tong le·me·ha·le he·wa·yi·tong me·ka·wo·ne ha·zi le·ha·zi
+34	man den da·he·fen bo·fa·yi·te·he ne·le·a·si de·la le·ha·yi·ya·fu·sa te·hong me·si·kan·shan a·le sha·ri·ka den ma de·e·si·si e·pa·ke·zi·hong

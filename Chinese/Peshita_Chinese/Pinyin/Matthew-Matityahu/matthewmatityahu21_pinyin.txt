@@ -1,0 +1,46 @@
+1	wu·ha·zi ke·re·fu lu·wu·ri·shi·le·me wo·sa le·fu·si-pa·ge a·le ge·fu tu·ru de·za·yi·te sha·da·ri ye·shu te·ren men ta·le·mi·za·wu·yi
+2	wo·ma·ri le·hong ze·le·wu la·ke·ri·sa ha·ze da·le·ku·fa·le·hong wu·me·he·za me·shi·ke·xin tong he·ma·ru de·a·si·ru wu·yi·la a·ma·he shi·ru·wu a·yi·ta·wu li
+3	wo·ne na·shi a·ma·ri le·hong me·de·me e·ma·ri·wu le·he da·le·ma·ran me·si·bo·e·ne wu·me·he·za me·sha·da·ri le·hong le·ha
+4	ha·ze den da·he·wa·si de·ne·si·ma·le me·de·me de·e·se·ma·ri bo·ya·zi ne·fu·yi·ya de·e·ma·ri
+5	e·ma·ri·wu le·fa·si se·he·yao·ne ha ma·le·ke·he·yi a·se le·he·yi ma·qi·he wa·ri·xi·fu a·le he·ma·ru wu·a·le yi·la ba·ri a·sa·na
+6	wo·za·le·wu ta·le·mi·ze wa·fa·zi·wu a·yi·ka·na da·fu·ka·zi le·hong ye·shu
+7	wa·yi·ti·wu la·he·ma·ru wa·le·yi·la wu·sa·me·wu a·le yi·la na·he·ta·yi·hong wa·ri·he·fu la·wu·yi ye·shu
+8	wu·su·ha de·hen·she me·sha·wo·ne wa·wu ma·na·yi·hong bo·wu·wu·ri·ha he·ru·ne den pa·si·qin wa·wu sa·wu·ke men yi·la·ne wu·ru·men bo·wu·wu·ri·ha
+9	ken·she den a·yi·leng de·a·zan wa·wu ke·za·ma·wu·yi wa·sen ba·si·re·he ka·e·ne wa·wu wa·me·ran wu·sha·na la·fu·re·he de·za·wei·zi bo·ri·he wu de·a·se ba·shi·me·he de·ma·ri·ya wu·sha·na ba·me·ru·wu·me
+10	wu·ha·zi a·le lu·wu·ri·shi·le·me e·te·te·zi·a·si ku·la·he me·zi·ta wa·me·ran wa·wu ma·nu ha·na
+11	ken·she den a·me·ran wa·wu ha·na·wu ye·shu ne·fu·yi·ya de·men na·si·ru·si da·he·li·la
+12	wu·a·le ye·shu le·ha·yi·ke·la de·a·la·ha wa·po·ke le·hu·le·hong de·za·fu·nin wa·me·za·bo·nin bo·ha·yi·ke·la wu·sa·he·fu pa·su·re da·me·a·ri·fa·ne wu·hu·ri·sa·wa·sa de·ha·nong da·me·za·bo·nin ya·wu·ne
+13	wo·ma·ri le·hong ke·si·fu wu de·fa·yi·te·yi bo·si si·lu·sa ne·si·ke·re a·tong den fa·de·tu·na me·a·ri·sa de·le·si·ta·yi·ye
+14	wu·ka·re·fu·wu le·he bo·ha·yi·ke·la si·ma·yi·ya wa·he·xi·se wa·si e·nong
+15	ka·zi he·za·wu den ru·ba·yi ka·he·ne wa·fu·ri·she te·zi·me·ru·sa de·a·fu·zi wa·te·la·yi·ye de·ka·e·ne bo·ha·yi·ke·la wa·me·ran wu·sha·na la·fu·re·he de·za·wei·zi e·si·bo·shi le·hong
+16	wa·me·ran le·he sha·ma a·te ma·na a·me·ran ha·leng a·ma·ri le·hong ye·shu yi·ne men me·su·me la ke·ru·yi·tong de·men pu·ma da·te·la·yi·ye wa·zi·ya·lu·ze ta·ken·te te·shi·bu·he·ta
+17	wa·shi·fa·ke e·nong wa·ne·fa·ke le·fa·ri men me·zi·ta le·fu·si-a·ne·ya wu·fa·si ta·man
+18	bo·sa·fu·ru den ka·zi he·fa·he la·me·zi·ta ke·fen
+19	wa·he·za ti·ta he·za bo·wu·wu·ri·ha wo·sa le·wa·sa·he wu·la e·shi·ka·he ba·he me·de·me e·la e·ne ta·ri·fu ba·le·hu·zi wo·ma·ri la·he la ne·hong bo·he·yi tu·fu pi·re le·a·la·me wu·me·he·za ye·fu·sha·si ti·ta ha
+20	wa·he·za·wu ta·le·mi·ze wa·si·ha·ri·wu wa·me·ran a·yi·ka·na ba·ri sha·se·he ye·fu·sha·si ti·ta
+21	na ye·shu wo·ma·ri le·hong a·min a·ma·ri na le·hong de·e·ne te·he·wo bo·hong ha·yi·ma·nu·sa wu·la te·si·pa·le·hong la ba·le·hu·zi ha·ze de·si·ta te·bo·zong e·la a·fen le·tu·ru ha·na ti·me·rong de·e·shi·ta·le wu·fu·le bo·ya·ma te·he·wo
+22	wu·hu·le me·de·me de·se·she·long ba·si·lu·sa wa·si·ha·yi·me·nong te·si·fan
+23	wu·ha·zi e·sa ye·shu le·ha·yi·ke·la ke·re·fu·wu le·he ru·ba·yi ka·he·ne wu·ka·shi·she de·a·ma ka·zi ma·le·fu wa·me·ran le·he bo·a·yi·na shu·le·tan ha·leng a·fu·zi a·te wu·ma·nu ya·fu la·he shu·le·ta·na ha·na
+24	na ye·shu wo·ma·ri le·hong e·sha·e·le·hong a·fu e·na me·le·sa he·za wo·ne ti·me·rong li wa·fu e·na a·ma·ri na le·hong bo·a·yi·na shu·le·ta·na ha·leng a·fu·zi na
+25	ma·mu·zi·se·he de·yu·ha·nan a·yi·me·ka yi·se·he men shi·ma·yi·ya yi a·wu men bo·na·yi·na·sha he·nong den me·si·ru·e·ne wa·wu bo·na·fu·shi·hong wa·me·ran de·e·ne ni·ma·ri men shi·ma·yi·ya a·ma·ri lan wu·a·le ma·na la ha·yi·men·tu·na
+26	wa·zi·ni·ma·ri men bo·na·yi·na·sha da·he·lin e·na·he·nan men ken·sha ku·le·hong ge·ri a·yi·he ne·fu·yi·ya a·xi·zan wa·wu le·he le·yu·ha·nan
+27	na·wu wa·me·ran le·he la ya·zi·yi·nan a·ma·ri le·hong ye·shu a·fu la e·na a·ma·ri na le·hong bo·a·yi·na shu·le·ta·na ha·leng a·fu·zi na
+28	ma·na den me·si·he·ze le·hong ga·fu·ru ha·zi yi·si wa·wu le·he bo·na·yi·ya te·ren wa·ke·re·fu le·wa·si ka·zi·ma·yi·ya wo·ma·ri le·he bo·ri·yi ze·le ya·wu·ma·na po·lu·he bo·ha·ri·ma
+29	hu den na wo·ma·ri la sa·fu na bo·ha·ri·sa den e·te·te·wei wo·za·le
+30	wa·ke·re·fu le·wa·si he·ri·na wo·ma·ri le·he ha·he·wa·si hu den na wo·ma·ri e·na ma·ri·yi wu·la e·za·le
+31	ma·nu men ha·leng te·ru·yi·hong fa·zi se·fu·ya·na de·a·fu a·me·ran le·he ha·wu ka·zi·ma·yi·ya a·ma·ri le·hong ye·shu a·min a·ma·ri na le·hong de·ma·he·se wu·zan·ya·sa ka·zi·min le·hong le·ma·le·ku·sa de·a·la·ha
+32	e·sa ge·ri le·wa·si·hong yu·ha·nan bo·wu·wu·ri·ha de·xi·nu·sa wu·la ha·yi·men·tu·na ma·he·se den wu·zan·ya·sa ha·yi·me·nu a·tong den a·fu la ka·zi he·za·yi·tong e·te·te·wei·tong bo·ha·ri·sa da·si·ha·yi·me·nong bo·he
+33	shi·ma·wu he·ri·na ma·si·la ga·fu·ru ha·zi yi·si wa ma·re ba·yi·ta wa·ne·sa·fu ka·ri·ma wa·he·de·re·he si·ya·ha wa·he·fa·ri bo·he ma·sa·ri·ta wa·fu·na bo·he ma·he·de·la wa·wu·he·ze·he le·fa·la·he wa·he·za·ke
+34	ka·zi den me·ta za·fu·na de·fu·re sha·da·ri le·a·fu·da·wu·yi le·wa·si pa·la·he dan·sha·de·rong le·he men pi·re de·ha·ri·me·he
+35	wo·ha·zi·wu pa·la·he le·a·fu·da·wu·yi wei·yi·si da·me·ha·wu wei·yi·si de·ru·he·mu wei·yi·si de·ka·te·lu
+36	wu·su·fu sha·da·ri he·ru·ne a·fu·de de·sa·ji·yi·ne men ka·zi·ma·yi·ye wu·ha·he·wa·si fa·zi·wu le·hong
+37	he·ru·yi·ya·si den sha·da·ri le·wa·si·hong la·fu·re·he ka·zi a·ma·ri ke·fa·ri ne·fu·he·song men bo·ri·yi
+38	pa·la·he den ka·zi he·za·wu la·fu·ru e·ma·ri·wu ba·yi·na·si·hong ha·na·wu ya·ri·ta ta·wu ne·ke·te·li·wu·yi wu·ne·hu·zi ya·ri·tu·se·he
+39	wo·ha·zi·wu a·po·ku le·fa·ri men ka·ri·ma wu·ka·te·lu
+40	ma de·e·sa ha·xi·le ma·re·he de·ha·ri·ma ma·na ne·bo·zi le·fa·la·he ha·nong
+41	a·me·ran le·he de·fu·shi bi·shi na·wu·bo·zi e·nong wu·ha·ri·ma na·wu·he·zi la·he·ru·ne pa·la·he a·yi·leng de·ya·he·bin le·he pi·re bo·za·fu·ne·hong
+42	a·ma·ri le·hong ye·shu la me·me·su·me ke·ru·yi·tong ba·he·sa·fa de·xi·fa de·a·si·li·wu ba·na·yi·ye xi he·wa·si le·ri·sha de·za·wei·sa men le·wa·si ma·ri·ya he·wa·si ha·ze wei·yi·se·he te·zi·mu·ri·ta bo·a·yi·na·yi·ne
+43	me·tu·le ha·na a·ma·ri na le·hong de·se·shi·te·ke·le men·hong ma·le·ku·sa de·a·la·ha wu·se·si·he·fu le·a·ma de·a·fu·zi pi·re
+44	wu·man de·ne·po·le a·le qi·fa ha·ze ne·si·ri·a wu·hu·le man de·xi te·po·le la·wu·yi te·zi·re·wu·yi
+45	wu·ha·zi shi·ma·wu ru·ba·yi ka·he·ne wa·fu·ri·she ma·si·la·wu·yi yi·za·wu da·la·yi·hong e·ma·ri
+46	wa·fu·a·wu le·me·he·de·he wa·zi·he·le·wu men ken·sha me·tu·le de·a·yi·he de·lan·fu·yi·ya a·xi·zan wa·wu le·he

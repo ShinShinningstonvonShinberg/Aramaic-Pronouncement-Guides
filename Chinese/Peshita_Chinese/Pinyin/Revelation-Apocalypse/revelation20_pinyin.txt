@@ -1,0 +1,15 @@
+1	wa·he·zi·si he·ri·na ma·la·ha dan·he·si men shi·ma·yi·ya de·yi·yi·si la·wu·yi ke·li·za da·si·hu·ma wu·shi·sha·le·ta ru·bo·sa bo·yi·yi·ze·he
+2	wu·la·fu·ke·he le·sa·ni·na he·wu·ya ka·zi·ma·yi·ya ha·wu de·yi·yi·sa·wu·yi a·he·le·ka·ri·sa wu·sa·ta·na wa·si·re·he a·le·fu shi·nin
+3	wa·ri·me·ye·he ba·si·hu·ma wo·ha·zi wa·te·fa le·e·le me·ne·he de·la tu·fu na·te·e le·hu·le·hong a·me·me ba·sa·ri ha·leng yi·xi·fu le·me·shi·ri·ye·he ka·li·le za·fu·na
+4	wa·he·zi·si ma·wu·te·fu wei·se·fu·wu la·yi·hong wu·zi·na e·si·he·fu le·hong wu·na·fu·sha·sa ha·leng de·e·si·po·se·ke me·tu·le sa·he·du·sa de·ye·shu wu·me·tu·le me·le·sa de·a·la·ha wu·za·yi·leng de·la si·he·zi·wu le·ha·yi·yu·sa wu·la le·sa·le·ma·he wu·la ne·sa·fu·wu ru·shi·ma a·le bo·si a·yi·na·yi·hong a·wu a·le yi·za·yi·hong da·he·ya·wu wa·me·le·he·wu a·me me·shi·ha a·le·fu shi·nin
+5	wu·ha·ze yi ke·ya·me·ta ka·zi·ma·ta
+6	tu·fa·na wu wu·ka·di·sha man de·yi·yi·si le·he me·na·sa ba·ke·ya·me·ta ka·zi·ma·ta wu·a·le ha·leng la·yi·te shu·le·ta·na le·ma·wu·ta teng·ya·na e·la ne·hong ka·he·ne de·a·la·ha wu·za·me·shi·ha wu·na·me·le·hong a·me·he a·le·fu shi·nin
+7	wu·ma de·e·shi·ta·la·me a·le·fu shi·nin ne·shi·te·re sa·ta·na men he·fu·shi·ye·he
+8	wu·ne·pu·ke le·ma·te·a·yi·yu le·hu·le·hong a·me·me bo·a·ri·ba za·wu·ya·sa·he de·a·ri·a le·hu·he wa·le·ma·hu·he wu·la·me·ha·na·shu e·nong la·ke·ru·fa a·yi·leng de·men·ya·ne·hong a·yi·he ha·la de·ya·ma
+9	wa·si·le·ke·wu a·le po·sa·yi·ya·he de·a·ri·a wu·ha·zi·ru·he la·me·zi·ta de·ma·shi·ri·sa de·ka·di·she wu·la·me·zi·ta ha·bi·fu·ta wu·ne·he·ta·si nu·ru men shi·ma·yi·ya men a·la·ha wo·he·la·si e·nong
+10	wa·he·le·ka·ri·sa ma·te·ya·ne·hong e·si·ri·mi bo·ya·me·sa de·nu·ru wu·he·fu·ri·sa a·yi·ka de·ha·yi·yu·sa wa·ne·fu·yi·ya da·ga·la wu·ne·shi·tan·kong yi·ma·ma wu·li·le·ya le·a·la·me a·le·min
+11	wa·he·zi·si ku·ri·si·ya ru·ba he·wa·ru wu·la·zi·ya·se·fu le·e·le me·ne·he ha·wu de·men ke·za·me a·pa·wu·yi e·ri·ka·si a·ri·a wa·shi·ma·yi·ya wa·sa·ri la e·shi·te·ha·he le·hong
+12	wa·he·zi·si le·mi·se ru·wu·ri·fu wa·zi·wu·re de·ka·me·wu ke·za·me ku·ri·si·ya wu·se·fu·re e·si·po·sa·he·wu wa·he·ri·na se·fu·ru e·si·po·sa·he de·yi·yi·sa·wu·yi de·zi·na wo·te·zan·wu mi·se men a·yi·leng da·he·si·fan bo·se·fu·ru a·yi·he fa·za·yi·hong
+13	wu·ya·fu ya·ma mi·se de·fu·he wu·ma·wu·ta wa·shi·yu·le ya·fu·wu mi·se de·se·yi·za·yi·hong wo·te·zan ha·zi ha·zi men·hong a·yi·he fa·za·yi·hong
+14	wu·ma·wu·ta wa·shi·yu·le e·si·ri·mi·wu bo·ya·me·sa de·nu·ru ha·na de·yi·yi·sa·wu·yi ma·wu·ta teng·ya·na
+15	wa·yi·na de·la e·shi·te·ha·he da·ri·shi·me ba·he·sa·fa de·ha·yi·ye e·si·ri·mi bo·ya·me·sa de·nu·ru

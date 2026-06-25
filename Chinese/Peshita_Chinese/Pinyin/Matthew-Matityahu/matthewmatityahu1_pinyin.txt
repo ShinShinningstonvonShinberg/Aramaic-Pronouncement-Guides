@@ -1,0 +1,25 @@
+1	ke·sa·fa di·li·zu·se·he de·ye·shu me·shi·ha bo·re·he de·za·wei·zi bo·re·he de·a·fu·ru·ha·me
+2	a·fu·ru·ha·me a·wu·le·zi li·yi·si·ha·ke yi·si·ha·ke a·wu·le·zi le·ya·ku·fu ya·ku·fu a·wu·le·zi li·hu·za wu·la·ha·wu·yi
+3	yi·hu·za a·wu·le·zi le·fa·ri·si wa·le·za·ri·he men ta·ma·ri pa·ri·si a·wu·le·zi le·he·si·ru·wu·ne he·si·rong a·wu·le·zi la·ru·me
+4	a·ru·me a·wu·le·zi le·a·mi·na·za·fu a·mi·na·za·fu a·wu·le·zi le·na·he·sha·wu·ne na·he·shan a·wu·le·zi le·sa·le·ma·wu·ne
+5	sa·le·ma·wu·ne a·wu·le·zi le·fa·a·zi men ru·ha·fu ba·a·zi a·wu·le·zi le·wu·fu·zi men ru·wu·si wu·fu·zi a·wu·le·zi li·yi·sha·yi
+6	yi·sha·yi a·wu·le·zi le·za·wei·zi ma·le·ka da·wei·zi a·wu·le·zi la·shi·le·ma·wu·ne men a·te·se·he de·wu·wu·ri·yi·ya
+7	shi·le·man a·wu·le·zi la·ri·ha·fu·a·me ri·ha·fu·a·me a·wu·le·zi la·fu·yi·ya a·fu·yi·ya a·wu·le·zi la·sa
+8	a·sa a·wu·le·zi le·ya·hu·sha·fa·te ya·hu·sha·fa·te a·wu·le·zi le·yu·ru·me yu·ru·me a·wu·le·zi le·wu·zi·yi·ya
+9	wu·zi·yi·ya a·wu·le·zi le·yu·sa·me yu·sa·me a·wu·le·zi la·ha·zi a·ha·zi a·wu·le·zi le·he·za·ke·ya
+10	he·za·ke·ya a·wu·le·zi la·me·na·she me·na·she a·wu·le·zi la·man a·man a·wu·le·zi le·yu·shi·yi·ya
+11	yu·shi·yi·ya a·wu·le·zi le·yu·han·ya wu·la·ha·wu·yi bo·ha·lu·sa de·fa·fu·le
+12	men ba·sa·ri ga·lu·sa den de·fa·fu·le yu·han·ya a·wu·le·zi le·she·la·si·yi·le she·la·si·yi·le a·wu·le·zi le·zu·ri·ba·fu·le
+13	zu·ri·ba·fu·le a·wu·le·zi la·fu·yi·yu·zi a·fu·yi·yu·zi a·wu·le·zi le·le·ya·qi·me e·le·ya·qi·me a·wu·le·zi le·a·zu·ri
+14	a·zu·ri a·wu·le·zi le·za·zu·ke za·zu·ke a·wu·le·zi la·xin a·xin a·wu·le·zi le·li·yi·yu·zi
+15	e·li·yi·yu·de a·wu·le·zi le·li·a·za·ri e·li·a·za·ri a·wu·le·zi le·ma·san ma·san a·wu·le·zi le·ya·ku·fu
+16	ya·ku·fu a·wu·le·zi le·ya·wu·se·fu ga·fu·ru·he de·ma·ri·ya·me de·me·na·he e·si·le·zi ye·shu de·me·si·ke·re me·shi·ha
+17	ku·le·hen ha·xi·le sha·ri·ba·sa men a·fu·ru·ha·me za·ma le·za·wei·zi sha·ri·ba·sa a·ri·ba·e·si·re wu·men da·wei·zi za·ma le·ha·lu·sa de·fa·fu·le sha·ri·ba·sa a·ri·ba·e·si·re wu·men ga·lu·sa de·fa·fu·le za·ma la·me·shi·ha sha·ri·ba·sa a·ri·ba·e·si·re
+18	ya·le·de·he den de·ye·shu me·shi·ha ha·ha·na he·wa ka·zi me·xi·ru wa·si ma·ri·ya·me e·me·he le·ya·wu·se·fu a·zi·la ne·shi·ta·wu·te·fan e·shi·ta·he·ha·si ba·te·na men ru·ha de·ku·zi·sha
+19	ya·wu·se·fu den ba·la·he qi·na wa wu·la si·fa dan·fa·ri·se·he wo·si·ru·yi wa de·ma·te·shi·ya·yi·si ne·shi·re·he
+20	ka·zi ha·leng den e·si·ru·yi e·si·he·zi le·he ma·la·ha de·ma·ri·ya bo·he·le·ma wo·ma·ri le·he ya·wu·se·fu bo·re·he de·za·wei·zi la te·zi·ha·le le·me·sa·fu le·ma·ri·ya·me a·te·sa·he ha·wu ge·ri de·e·si·le·zi ba·he men ru·ha hu de·ku·zi·sha
+21	ti·la·zi den bo·ru wu·se·ke·re shi·me·he ye·shu hu ge·ri na·he·wu·yi le·a·me·he men he·ta·ha·yi·hong
+22	ha·ze den ku·la·he da·he·wa·si de·ne·si·ma·le me·de·me de·e·se·ma·ri men ma·ri·ya bo·ya·zi ne·fu·yi·ya
+23	de·ha bo·su·le·ta te·fu·tan wu·si·la·zi bo·ru wu·ne·ke·rong shi·me·he a·ma·nu·yi·le de·me·te·ta·ri·ga·me a·man a·la·han
+24	ka·zi ka·me den ya·wu·se·fu men shen·se·he fa·zi a·yi·ka·na da·fu·ka·zi le·he ma·la·he·he de·ma·ri·ya wu·za·fu·ru·he la·te·se·he
+25	wu·la ha·he·ma·he za·ma di·le·zi·se·he la·fu·ru·he bu·he·ru wa·ke·ru·si shi·me·he ye·shu

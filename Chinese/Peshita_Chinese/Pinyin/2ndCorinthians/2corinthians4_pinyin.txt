@@ -1,0 +1,18 @@
+1	me·tu·le ha·na la ma·na lan bo·se·shi·me·shi·ta ha·ze de·a·xi·zi·nan a·yi·he ru·he·me da·he·wa·wu la·yi·ne
+2	e·la a·si·li·nan ka·si·ya·sa·he de·fu·he·te·sa wu·la me·ha·le·xi·nan bo·ha·ri·wu·sa wu·la na·he·li·nan me·le·se·he de·a·la·ha e·la bo·ha·le·yu·sa da·shi·ru·ru me·ha·wo·nan na·fu·shan le·hu·le·hong re·ya·ne da·fu·na·yi·na·sha ke·za·me a·la·ha
+3	wo·ne den me·ha·sa·yi wu e·wa·ne·ge·li·yi·ya·wu·ne di·lan la·yi·leng de·a·fu·ding wu me·ha·sa·yi
+4	a·yi·leng de·a·la·he·he de·a·le·ma ha·na a·wa·ri ma·de·a·yi·hong a·le de·la me·ha·yi·me·nin de·la ne·zi·na·he le·hong nu·he·re·he de·e·wa·ne·ge·li·yi·ya·wu·ne de·shu·fu·he·he da·me·shi·ha de·hu·yi·yu de·mu·se·he de·a·la·ha
+5	la wa ge·ri na·fu·shan ma·he·ri·zi·nan e·la la·me·shi·ha ye·shu ma·ran le·na·fu·shan den de·a·fu·da·yi·kong he·nan me·tu·le ye·shu
+6	me·tu·le de·a·la·ha hu de·e·ma·ri de·men he·shu·ha nu·he·ru ne·zi·na·he hu de·na·he bo·le·ba·wa·san de·ne·si·na·ha·ri bi·za·sa de·shu·fu·he·he de·a·la·ha bo·pa·ri·su·po·he de·ye·shu me·shi·ha
+7	yi·si lan den si·me·sa ha·ze bo·ma·na de·he·si·pa de·ru·bu·sa de·ha·yi·la men a·la·ha te·he·wo wu·la me·nan
+8	bo·hu·le·me·de·me ge·ri me·sa·le·si·nan e·la la me·si·han·qi·nan me·te·ta·ri·fu·nan e·la la ha·yi·ya·fan nan
+9	me·si·ru·zi·pi·nan e·la la me·shi·ta·fu·qi·nan me·si·ta·he·pi·nan e·la la a·fu·di·nan
+10	bo·hu·le·zi·fan mi·su·se·he de·ye·shu bo·fa·he·ru·yi·ne shi·qi·li·nan de·a·fu ha·yi·ya·wu·yi de·ye·shu bo·fa·he·ru·yi·ne ne·si·ge·long
+11	e·ne he·nan ge·ri ha·yi·ye le·ma·wu·ta me·shi·ta·le·mi·nan me·tu·le ye·shu ha·ha·na a·fu ha·yi·ya·wu·yi de·ye·shu ne·si·ge·long bo·fa·he·ran ha·na de·ma·e·si
+12	ha·sha ma·wu·ta ban me·si·ha·pa·te wu·ha·yi·ye bo·hong
+13	a·fu he·nan ha·xi·le da·he·za yi ru·ha de·ha·yi·ma·nu·sa yi·si lan a·yi·he da·he·si·fu de·ha·yi·me·ne·si me·tu·le ha·na a·fu ma·le·le·si me·ha·yi·me·ni·nan me·tu·le ha·na a·fu me·ma·le·li·nan
+14	wu·ya·zi·yi·nan de·ha·wu man de·a·qi·me le·ma·ran ye·shu a·fu lan bo·ya·zi ye·shu ne·qi·me wa·ne·ka·ri·fan a·me·hong le·wa·se·he
+15	ku·le·me·de·me ge·ri me·tu·la·si·hong wu de·ha·zi me·si·ya·te·ru ta·yi·bu·sa bo·ya·zi sa·ji·yi·ye te·si·ge ta·wu·di·sa le·shu·fu·he·he de·a·la·ha
+16	me·tu·le ha·na la ma·na lan a·fu e·ne ba·ri·na·shan ge·ri ba·ru·yi·ya me·si·ha·ba·le e·la de·men le·ha·wu me·si·ha·da·si yu·me men yu·me
+17	wu·le·sa·ne·he ge·ri de·za·fu·na ha·na ka·zi ta·fu zi·wu·ri wu·ka·li·le shu·fu·ha ru·ba de·la sa·ha le·a·la·me a·le·min me·ta·yi·ye·fu lan
+18	de·la ha·ze·nan bo·ha·leng de·me·si·ha·zi·ya·ne e·la bo·ha·leng de·la me·si·ha·zi·ya·ne de·me·si·ha·zi·ya·ne ge·ri de·za·fu·na e·nen de·la me·si·ha·zi·ya·ne den da·le·a·la·me e·nen

@@ -1,0 +1,31 @@
+1	bo·ha·zi bo·sha·ba den e·sa·si ma·ri·ya·me ma·he·de·la·ta bo·sa·fu·ru a·zi he·shu·he le·fu·si ke·fu·ru wa·he·za·si le·xi·fa da·shi·qi·la men ka·fu·ru
+2	wu·re·he·ta·si e·sa·si le·wa·si she·me·o·ne qi·fa wa·le·wa·si ha·wu ta·le·mi·za he·ri·na de·ru·he·me wa ye·shu wa·me·ru le·hong de·sha·ke·lu le·ma·ran men ha·wu bo·si ke·fu·ru wu·la ya·zi·a na a·yi·ka sa·mu
+3	wa·ne·fa·ke she·me·o·ne wu·ha·wu ta·le·mi·za he·ri·na wa·sen wa·wu le·fu·si ke·fu·ru
+4	wu·ru·he·ting wa·wu te·ru·yi·hong a·he·he·za ha·wu den ta·le·mi·za ri·he·te ka·de·me·he le·she·me·o·ne wo·sa ka·zi·ma·yi·ya le·fu·si ke·fu·ru
+5	wa·zi·ke he·za ke·ta·ne ka·zi si·min me·a·le den la a·le
+6	e·sa den she·me·o·ne ba·si·re·he wu·a·le le·fu·si ke·fu·ru wa·he·za ke·ta·ne ka·zi si·min
+7	wu·su·za·ru ha·wu da·he·zi·ke wa bo·ri·she·he la a·me ke·ta·ne e·la ka·zi ke·ri·he wu·si·me la·si·ta·ri ba·he·za du·ka
+8	ha·den a·le a·fu ha·wu ta·le·mi·za de·e·sa ka·zi·ma·yi·ya le·fu·si ke·fu·ru wa·he·za wu·ha·yi·men
+9	la ge·ri za·qi·le ya·zi·yi·ne wa·wu men ke·sa·fu da·si·zi wa la·me·ka·me men mi·se
+10	wo·za·le·wu he·nong ta·le·mi·ze tu·fu le·zu·ka·si·hong
+11	ma·ri·ya·me den ka·ma wa·si le·wa·si ka·fu·ru wu·fa·he·ya wu·ha·zi ba·he·ya a·zi·ka·si bo·ka·fu·ru
+12	wa·he·za·si te·ren ma·la·he bo·he·wa·re de·ya·si·bin ha·zi men e·sa·za·wu·yi wu·ha·zi men re·he·la·wu·yi a·yi·ka de·si·me wa pa·he·re·he de·ye·shu
+13	wa·me·ran la·he a·te·sa ma·na ba·he·ya a·te·yi a·me·ru le·hong de·sha·ke·lu le·ma·ri·yi wu·la ya·zi·a na a·yi·ka sa·mu
+14	ha·ze e·me·ru·si wo·si·pan·ya·si le·fu·si·te·ru·he wa·he·za·si le·ye·shu de·ka·e·me wu·la ya·zi·a wa·si de·ye·shu wu
+15	a·ma·ri la·he ye·shu a·te·sa ma·na ba·he·ya a·te·yi wa·le·man ba·ya a·te·yi xi den se·fu·ru·si de·ha·na·na hu wa·me·ru le·he ma·ri·yi e·ne a·te shi·ka·le·ta e·ma·ri li a·yi·ka sa·me·ta yi·za·le e·shi·ke·li·wu·yi
+16	a·ma·ri la·he ye·shu ma·ri·ya·me wo·si·pan·ya·si wa·me·ru le·he e·fu·ru·yi·si ru·bu·li de·me·se·ma·ri ma·le·fa·na
+17	a·ma·ri la·he ye·shu la te·si·ka·ri·fan li la ge·ri za·qi·le se·le·ke·si le·wa·si a·fu·yi ze·le·yi den le·wa·si a·ha·yi wo·ma·ri·yi le·hong sa·le·ke na le·wa·si a·fu·yi wa·fu·hong wa·la·he·yi wa·la·he·hong
+18	ha·den e·sa·si ma·ri·ya·me ma·he·de·la·ta wu·sa·bo·ru·si le·sa·le·mi·ze da·he·za·si le·ma·ran wa·zi·ha·leng e·ma·ri la·he
+19	ka·zi he·wa den ru·me·sha de·ya·wu·ma ha·wu de·ha·zi bo·sha·ba wu·sa·ri·e a·xi·zan wa·wu de·a·yi·ka de·yi·yi·sa·yi·hong wa·wu ta·le·mi·ze me·tu·le de·he·le·sa di·hu·za·yi·ye e·sa ye·shu ka·me ba·yi·na·si·hong wo·ma·ri le·hong shi·la·ma a·me·hong
+20	ha·ze e·ma·ri wu·ha·wei e·nong yi·za·wu·yi wu·se·te·re·he wa·he·zi·wu ta·le·mi·ze da·he·za·wu le·ma·ran
+21	e·ma·ri le·hong den tu·fu ye·shu shi·la·ma a·me·hong a·yi·ka·na de·sha·de·ran·yi a·fu·yi a·fu e·na me·sha·da·ri na le·hong
+22	wu·ha·zi e·ma·ri ha·leng ne·fa·he bo·hong wo·ma·ri le·hong ka·bo·le·wu ru·ha de·ku·zi·sha
+23	e·ne te·shi·bo·kong he·ta·he le·na·shi ne·shi·ta·fu·kong le·he wo·ne te·he·dong de·na·shi a·xi·zan
+24	ta·wu·ma den ha·zi men te·re·sa·ri·ta ha·wu de·me·se·ma·ri ta·ma la wa ta·man wa a·me·hong ka·zi e·sa ye·shu
+25	wa·me·ran le·he ta·le·mi·ze he·za·yi·ne le·ma·ran hu den e·ma·ri le·hong e·la ha·ze na bo·yi·yi·za·wu·yi du·ke·ya·sa de·se·se wu·ru·me na bo·hen se·fu·a·si·yi wu·ma·wu·she·te na yi·zi·yi bo·za·fu·ne·he la me·ha·yi·men na
+26	wu·fa·sa·ri te·man·ya ya·wu·min tu·fu le·ha·wu wa·wu ta·le·mi·ze wu·sa·wu·ma a·me·hong wo·sa ye·shu ka·zi a·xi·zan ta·ri·e ka·me ba·me·sa·sa wo·ma·ri le·hong shi·la·ma a·me·hong
+27	wo·ma·ri le·sa·wu·ma a·yi·ta se·fu·a·he le·ha·ri·ka wa·he·zi yi·za·yi wa·yi·ta yi·za·he wa·wu·she·te bo·ha·bo·yi wu·la te·he·wo la me·ha·yi·me·na e·la me·ha·yi·me·na
+28	wa·na ta·wu·ma wo·ma·ri le·he ma·ri·yi wa·la·he·yi
+29	a·ma·ri le·he ye·shu ha·sha da·he·za·yi·tan·yi ha·yi·men·te tu·fa·yi·hong la·yi·leng de·la he·za·wu·ne·yi wu·ha·yi·men·wu
+30	sa·ji·yi·ya·sa den a·si·wa·sa he·ran·ya·sa fa·zi ye·shu ke·za·me ta·le·mi·za·wu·yi a·yi·leng de·la ke·si·fan ba·he·sa·fa ha·na
+31	a·fu ha·leng den da·he·si·fan da·si·ha·yi·me·nong de·ye·shu hu me·shi·ha bo·re·he de·a·la·ha wu·ma de·ha·yi·men·tong ne·hong le·hong ba·shi·me·he ha·yi·ye da·le·a·la·me

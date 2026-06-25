@@ -1,0 +1,16 @@
+1	ne·zi·ha·le ha·xi·le da·le·ma ka·zi ka·yi·ya·me mu·le·ka·na de·ma·a·le·ta de·lan·ya·he·te·he ne·shi·te·ha·he na·shi men·hong de·fa·e·shi men da·le·me·a·le
+2	a·fu he·nan ge·ri e·si·ta·ba·ri·ne a·yi·he de·a·fu he·nong e·la la a·wu·te·ru·si e·nong le·ha·nong me·le·sa da·shi·ma·wu me·tu·le de·la me·ma·zi·ha wa·si bo·ha·yi·ma·nu·sa le·ha·nong de·sha·me·wu·he
+3	a·li·nan den lan·ya·he·ta he·nan a·yi·leng de·ha·yi·men·ne a·yi·ka·na den e·ma·ri a·yi·he di·mi·si bo·ru·he·zi·yi de·la ne·long lan·ya·he·te·yi de·ha fa·za·wu·yi de·a·la·ha men shu·ru·yi·ye·he de·a·le·ma he·wa·wu
+4	a·yi·he de·e·ma·ri a·le sha·bo·sa de·e·te·ni·he a·la·ha bo·ya·wu·ma shi·fu·a·yi·ya men fa·za·wu·yi ku·le·hong
+5	wu·ha·ri·ka tu·fu e·ma·ri de·la ne·long lan·ya·he·te·yi
+6	me·tu·le ha·xi·le de·yi·yi·si wa a·si·ru de·na·shi na·shi ne·wu·le le·he wu·ha·nong de·e·si·ta·ba·ri·wu ka·zi·ma·yi·ye la a·le·wu ba·zi·la e·te·te·pi·si·wu
+7	tu·fu ya·wu·ma he·ri·na sa·e·me men ba·sa·ri za·fu·na sa·ji·yi·ya a·yi·ka·na de·men le·e·le ke·si·fu de·e·ma·ri da·wei·zi de·ya·wu·ma·na e·ne bo·ka·le·he te·shi·me·o·ne la te·ka·shan le·ba·wa·si·hong
+8	e·lu ge·ri ye·shu ba·ri nong a·ni·he wa e·nong la a·ma·ri wa men ba·sa·ri·ken a·le ya·wu·ma he·ri·na
+9	ma·zen ka·yi·ya·me wu le·ma·shi·ba·su le·a·me·he de·a·la·ha
+10	a·yi·na ge·ri de·a·le lan·ya·he·te·he e·te·te·ni·he a·fu hu men fa·za·wu·yi a·yi·he de·a·la·ha men di·le·he
+11	ne·si·ha·pa·te ha·xi·le de·ne·wu·le le·ha ne·ya·he·ta de·la ne·po·le ba·zi·mu·sa de·ha·nong de·la e·te·te·pi·si·wu
+12	ha·yi·ya yi ge·ri me·le·se·he de·a·la·ha wu·hu·le sa·ru wu·ha·ri·fa ta·fu men sa·fu·si·ru da·si·ren pu·me·he wu·a·la za·ma le·fu·ri·sha·na de·na·fu·sha wa·zi·ru·ha wa·zi·sha·ri·ya·sa wa·zi·mu·ha wa·zi·ha·ri·me wu·za·na ma·he·shi·fa·sa wu·sa·ri·ya·sa de·le·ba
+13	wu·la·yi·te bo·ri·sa de·ta·shi·ya men ke·za·me·he e·la ku·le me·de·me a·ri·te·le wa·he·le ke·za·me a·yi·na·wu·yi de·le·he ya·he·bi·nan po·si·ha·ma
+14	me·tu·le de·yi·yi·si lan ha·xi·le ru·bo ku·me·re ru·ba ye·shu me·shi·ha bo·re·he de·a·la·ha da·si·le·ke la·shi·ma·yi·ya ne·ha·me·sen bo·sa·wu·di·se·he
+15	la ge·ri yi·si lan ru·bo·ku·me·re de·la me·se de·ne·ha·shi a·me ke·ri·hu·san e·la da·me·na·sa·yi bo·hu·le·me·de·me a·he·wa·san si·ta·ri men he·ti·sa
+16	ne·si·ka·ru·fu ha·xi·le ba·he·le yi·ne le·hu·ri·si·ya de·ta·yi·bu·se·he de·ne·sa·fu ru·he·me wu·ne·shi·ka·he ta·yi·bu·sa le·wu·zi·ru·na bo·za·fu·na de·wu·wu·le·sa·na

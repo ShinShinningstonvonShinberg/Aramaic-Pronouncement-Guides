@@ -1,0 +1,30 @@
+1	wo·shi·ta·me·a·si wa·si la·shi·li·he wu·la·he de·fu·hu·zi de·a·fu a·me·me ka·bo·le·wu me·le·sa de·a·la·ha
+2	wu·ha·zi si·le·ke she·me·o·ne lu·wu·ri·shi·le·me da·nin wa·wu a·me·he ha·nong de·men ge·zu·ri·ta
+3	ka·zi a·me·ran da·le·wa·si na·sha wu·ri·le a·le wa·le·e·si a·me·hong
+4	wa·ke·fu wa she·me·o·ne ba·sa·ri ba·sa·ri le·mi·ma·ri le·hong
+5	de·ha·zi me·sa·le wei·si bo·ya·wu·pi he·zi·si bo·he·zi·wa dan·he·si wa ma·na ha·zi a·yi·na de·za·me wa le·he·ta·na wa·si·ri wa bo·a·ri·ba ka·ri·na·se·he wu·sha·e·fu wa men shi·ma·yi·ya wo·sa za·ma le·wa·si·yi
+6	wu·ha·re·si bo·he wu·ha·ze wei·si de·yi·yi·si bo·he ha·yi·wa·sa de·a·ri·bo·a·si re·he·la·yi·hen wu·ru·he·sha de·a·ri·a wa·fu pa·ru·he·sa da·shi·ma·yi·ya
+7	wu·she·me·e·si wei·si ka·la de·a·ma·ri wa li she·me·o·ne ku·me ku·si wa·hu·le
+8	wo·me·re·si ha·si ma·ri·yi de·me·me·su·me la a·le le·fu·me·yi da·te·ma wu·za·me·sa·yi·ya·fu
+9	wu·su·fu ka·la e·ma·ri li men shi·ma·yi·ya de·me·de·me de·a·la·ha da·qi a·te la te·sa·yi·ye·fu
+10	ha·ze he·wa·si te·la·si za·fu·nin wo·si·ta·la·ke le·he ku·le·me·de·me la·shi·ma·yi·ya
+11	wu·fa·he bo·sha·sa te·la·sa ga·fu·ran de·e·shi·ta·da·ri·wu le·wa·si·yi men ka·wu·ri·ni·li·yi·ya·wu·si men ke·sa·ri·yi·ya e·sa·wu wu·ka·me·wu a·le ta·ri·a de·za·ri·ta da·shi·re wei·si ba·he
+12	wo·ma·ri li ru·ha de·ze·le a·me·hong de·la pu·la·ha wo·sa·wu a·me·yi a·fu ha·leng shi·ta a·xin wu·a·le·ne le·fa·yi·te·he de·ha·fu·ru
+13	wo·shi·ta·yi lan a·yi·ka·na he·za bo·fa·yi·te·he ma·la·ha de·ka·me wo·ma·ri le·he de·sha·da·ri le·ya·wu·pi me·zi·ta wa·yi·ta le·she·me·o·ne de·me·si·ke·re qi·fa
+14	wu·hu ne·ma·le·le a·ma·he me·le da·fu·hen ti·he a·te wu·hu·le·he ba·yi·ta·he
+15	wu·ha·zi a·ke·fu·si wei·si ta·man la·me·ma·la·lu a·ge·na·si ru·ha de·ku·zi·sha la·yi·hong a·yi·he ma da·la·yi·ne men ke·zi·me
+16	wo·te·da·he·re·si me·le·se·he de·ma·ran de·e·ma·ri wa de·yu·ha·nan a·me·zi bo·ma·yi·ya a·tong den te·me·zong bo·ru·ha de·ku·zi·sha
+17	e·ne ha·xi·le a·la·ha sha·wu·ya·yi·si ya·he·ba·he ma·wu·ha·fu·ta le·a·me·me a·yi·leng de·ha·yi·men·wu bo·ma·ran ye·shu me·shi·ha a·yi·he de·a·fu lan e·na man wei·si de·e·si·pa·ke wei·si de·e·he·le la·la·ha
+18	wu·ha·zi ha·leng me·le shi·ma·wu shi·li·wu le·hong wu·sha·ba·he·wu la·la·ha wa·me·ran wa·wu da·he·fa·ri a·fu le·a·me·me a·la·ha ya·fu te·ya·bu·sa le·ha·yi·ye
+19	ha·nong den de·e·si·ba·da·ri·wu wa·wu men wu·le·sa·na da·he·wa wa a·le e·si·te·fa·na·wu·si ma·ti·wu wa·wu za·ma le·fu·ni·qi wa·fu la·si·ru de·ku·po·ru·wu·si wu·la·ne·ti·yi·ya·xi·yi·ya ka·zi a·me na·shi la me·ma·le·lin wa·wu me·le·sa e·la ba·le·hu·zi a·me yi·hu·za·yi·ye
+20	yi·si wa·wu den na·sha men·hong men ku·po·ru·wu·si wu·men ku·ri·ni ha·leng a·le·wu wa·wu la·ne·ti·yi·ya·wu·xi wa·me·ma·le·lin wa·wu a·me ya·wu·na·yi·ye wa·me·sa·bo·ran wa·wu a·le ma·ran ye·shu
+21	wei·yi·si wa·si a·me·hong yi·ze·he de·ma·ri·ya wu·sa·ji·yi·ye ha·yi·men·wu wo·si·po·ni·wu le·wa·si ma·ri·ya
+22	wo·shi·ta·me·a·si wa·si xi ha·ze le·zi·na·yi·hong da·fu·na·yi yi·ta de·fu·wu·ri·shi·le·me wu·sha·da·ri·wu le·fa·ri·na·fa la·ne·ti·yi·ya·wu·xi
+23	wu·ha·zi e·sa le·sa·man wa·he·za ta·yi·bu·se·he de·a·la·ha he·zi wu·fa·e wa men·hong da·fu·hu·le·he le·bo·hong ne·hong na·qi·fan le·ma·ran
+24	me·tu·le de·ha·fu·ru wa ta·fa wa·me·sha·me·la·yi wa bo·ru·ha de·ku·zi·sha wa·fu·ha·yi·ma·nu·sa wo·te·ta·wu·sa·fu wa a·ma sa·ji·yi·ya le·ma·ran
+25	wu·hu ne·fa·ke wa le·ta·ri·sa·wu·si le·me·fu·a le·sha·wa·le
+26	wu·ha·zi e·shi·ke·he·he a·yi·te·ye·he a·me·he la·ne·ti·yi·ya·xi·yi·ya wu·sha·ta ku·la·he a·he·he·za ke·ni·shan wa·wu bo·yi·ta wa·le·fu·wu a·ma sa·ji·yi·ya men ha·den ka·zi·ma·yi·ya·si e·si·ke·ri·wu bo·a·ne·ti·yi·ya·wu·xi ta·le·mi·ze ke·ri·si·te·ya·ne
+27	wa·fu·ya·wu·ma·sa ha·nong e·sa·wu men wu·ri·shi·le·me le·sa·man ne·fu·yi·ye
+28	wu·ka·me ha·zi men·hong da·shi·me·he he·wa a·ha·fa·wu·si wa·wu·da e·nong bo·ru·he de·ha·fu·na ru·ba ha·wo bo·hu·la·he a·ri·a wa·he·wa ka·fu·na ha·na bo·ya·wu·ma·yi ke·la·wu·zi·yi·ya·wu·si ke·sa·ri
+29	bo·ru·me den ta·le·mi·ze a·yi·he ma de·yi·yi·si wa le·na·shi na·shi men·hong po·ru·shi·wu dan·sha·de·rong le·se·shi·me·shi·ta de·a·he a·yi·leng de·a·me·ran bi·hu·zi
+30	wu·sha·da·ri·wu bo·ya·zi ba·ri·na·fa wu·sha·wa·le le·ka·shi·she de·sa·man

@@ -1,0 +1,21 @@
+1	le·me·shi·ta·fu·ha·ru wa·le e·la la pa·ka·he a·se na li ge·ri le·he·zi·wa·ne wa·le·he·le·ya·na·wu·yi de·ma·ran
+2	ya·za·na ga·fu·ru ba·me·shi·ha men ke·za·me a·ri·ba·e·si·re shi·nin e·ne ba·fu·ha·ri den wo·ne de·la po·ha·ri la ya·za na a·la·ha hu ya·za de·e·si·he·te·fu hu ha·na za·ma shi·ma·yi·ya da·si·la·sa
+3	wu·ya·za na le·he le·ha·na ba·ri·na·sha e·ne ba·fu·ha·ri den wo·ne de·la po·ha·ri la ya·za na a·la·ha hu ya·za
+4	de·e·si·he·te·fu le·fa·ri·da·yi·sa wa·shi·ma me·le de·la me·si·ma·le·lan a·yi·leng de·la sha·li·te le·fa·ri·na·sha la·me·ma·la·lu e·nen
+5	a·le ha·na e·shi·ta·fu·ha·ri a·le na·fu·shi·yi den la e·shi·ta·fu·ha·ri e·la e·ne bo·hu·ri·ha·ne
+6	e·ne e·si·bo ge·ri de·e·shi·ta·fu·ha·ri la ha·wo na sha·te·ya shi·ru·ru hu ge·ri a·ma·ri na ha·e·si·na den da·le·ma na·shi ne·si·ru·e la·yi ya·ti·ri men ma de·ha·ze li wa·zi·sha·ma men·yi
+7	wa·zi·la e·te·ri·me bo·ya·ti·ru·sa de·he·le·ya·ne e·shi·te·le·me li shi·fa·yi·ya le·fu·si·ri·yi ma·la·he·he de·sa·ta·na de·ne·he·wo me·ka·pa·he li de·la e·te·ri·me
+8	wu·a·le ha·na te·la·si za·fu·nin bo·yi·si men ma·ri·yi de·na·fu·re·ke men·yi
+9	wo·ma·ri li sa·fu·ka la·he ta·yi·bu·si·yi ha·yi·le·yi ge·ri ba·he·ri·hu·sa hu me·si·ge·ma·ri ha·zi·ya·yi·si ha·xi·le e·shi·ta·fu·ha·ri bo·hu·ri·ha·na·yi de·na·gen la·yi ha·yi·le·he da·me·shi·ha
+10	me·tu·le ha·na sa·fu na bo·hu·ri·ha·ne bo·sa·ru bo·wu·wu·le·sa·ne ba·ri·zu·fu·ya ba·he·fu·shi·ya de·a·le a·pa·yi me·shi·ha e·ma·si·yi da·he·ri·he na ge·ri ha·den wu ha·yi·le·san na
+11	ha wei·si ha·si·ri re·ya·na bo·shu·fu·ha·ri·yi de·a·tong e·la·si·tu·nan·yi ha·yi·ya·fan wa·yi·tong ge·ri de·a·tong ta·si·he·zong la·yi me·tu·le de·la ba·si·re·si me·de·me men shi·li·he a·yi·leng de·ta·fu me·ya·te·ran wa·fen la wei·si me·de·me
+12	a·si·wa·sa da·shi·li·he e·fu·de·si ba·yi·na·si·hong bo·hu·le me·sa·yi·bo·ru·nu wu·fa·he·fa·ri·wa·sa wa·fu·se·zi·me·ru·sa wa·fu·ha·yi·le
+13	bo·ma·na ge·ri e·si·ba·sa·ri·tong men yi·za·sa he·ran·ya·sa e·la e·ne bo·ha·ze de·e·na la ye·ke·re·si la·yi·kong shi·fu·ke·wu li ha·ze sa·he·lu·sa
+14	ha ha·ze da·si·la·si yi za·fu·nin da·me·ta·yi·ya·fu na de·yi·se le·wa·si·hong wu·la yi·ka·ri la·yi·kong me·tu·le de·la ba·e na di·le·hong e·la le·hong la ge·ri ha·yi·ya·fan bo·na·yi·ya la·me·sa·me si·ma·sa la·fa·he e·la a·fa·he la·fu·na·yi·hong
+15	e·na den ha·zi·ya·yi·si wu·na·fu·ka·sa a·po·ke wa·fu ke·nu·me·yi e·te·le a·le a·pa·yi na·fu·sha·si·hong a·fen ka·zi ya·ti·ru·yi·si ma·he·fu na le·hong a·tong bo·si·ru·yi·si ma·he·fan tong li
+16	wa·he·fa·ri e·na la ye·ke·re·si la·yi·kong e·la a·yi·he ga·fu·ru ha·ri·a bo·ne·he·la ge·na·fu·te·hong
+17	le·ma bo·ya·zi na·shi he·ran de·sha·de·re·si le·wa·si·hong e·si·ya·ne·si la·yi·kong
+18	men ti·ta·wu·si bo·yi·si wu·sha·de·re·si a·me·he la·he le·ma me·de·me e·si·ya·a·ne la·yi·kong ti·ta·wu·si la·wu ba·he·za ru·ha ha·le·he·ne wa·fu·hen bo·e·ke·fa·sa
+19	le·ma tu·fu sa·fu·ran tong da·le·hong na·fu·qi·nan ru·ha ke·za·me a·la·ha ba·me·shi·ha me·ma·le·li·nan wu·hu·le·hen ha·bi·fa·yi me·tu·le ben·ya·na hu di·le·hong
+20	da·he·le na ge·ri da·le·ma yi·se le·wa·si·hong wu·la e·shi·ka·he·hong a·yi·he de·sa·fu na wo·shi·te·ha·he le·hong a·fu e·na a·yi·he ma de·la sa·fu·tong da·le·ma he·ri·ya·na wa·he·sa·ma wu·he·me·sa wu·e·si·ya·na wu·me·ha·le-ka·ri·sa wu·re·te·na wa·he·si·ru·sa wa·shi·hu·shi·ya
+21	da·le·ma ka·zi yi·se le·wa·si·hong ne·ma·ke·han·yi a·la·he·yi wo·se·fu·le a·le sa·ji·yi·ye a·yi·leng da·he·ta·wu wu·la ta·fu·wu men tan·fu·sa wu·men zan·yu·sa wu·men pa·he·zu·sa da·fa·zi·wu

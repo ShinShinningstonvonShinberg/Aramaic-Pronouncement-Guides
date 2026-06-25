@@ -1,0 +1,25 @@
+1	bo·ha·wu den za·fu·na a·ri·mi wa yi·za·yi·ya a·le na·shan da·fu·yi·ta a·yi·he de·na·fu·shi le·hong he·ru·wu·ze·si ma·le·ka ha·wu de·me·si·ka·ne wa a·he·ri·pa·wu·si
+2	wa·ke·ta·le bo·sa·yi·pa le·ya·ku·fu a·hu de·yu·ha·nan
+3	wu·ha·zi he·za de·she·fu·ru·si ha·ze li·hu·za·yi·ye a·wu·se·fu wa le·me·ha·zi a·fu le·she·me·o·ne qi·fa wei·yi·sa·yi·hong wa·wu ya·wu·ma·sa de·fa·ti·re
+4	wa·he·de·he wa·ri·me·ye·he bo·si a·si·re wa·shi·le·me le·he shi·si·sa·sa·ri si·te·ru·ta·wu·ting de·ne·te·ru·ne·he de·men ba·sa·ri po·si·ha na·shi·le·mi·wu·yi le·a·ma di·hu·za·yi·ye
+5	wu·ha·zi hu she·me·o·ne me·si·ne·ta·ri wa bo·si a·si·re si·lu·sa a·min·ta me·si·ka·ri·fa wa·si men yi·ta he·la·fa·wu·yi la·la·ha
+6	wu·fu·he bo·ha·wu li·le·ya da·le·sa·fu·ru si·zi wa de·na·shi·le·mi·wu·yi ka·zi de·me·he wa she·me·o·ne bo·si te·ren e·si·te·ru·ti·yi·ya·wu·ting wa·si·ri wa bo·sa·ri·teng shi·shi·lan wa·he·ru·ne na·te·ran wa·wu ta·ri·e de·fu·si a·si·re
+7	ma·la·ha de·ma·ri·ya ka·me le·e·le me·ne·he wu·nu·he·ru a·zi·le·he bo·hu·le·he ba·yi·ta wu·za·ke·re·he bo·ha·bo·he wa·qi·me·he wo·ma·ri le·he ku·me ha·le wa·ne·fa·le shi·shi·la·sa men yi·za·wu·yi
+8	wo·ma·ri le·he ma·la·ha a·su·ri ha·sa·yi·ke wu·sa·ne te·la·ru·yi·ke wa·fa·zi ha·ha·na wu·su·fu e·ma·ri le·he e·si·a·fu ta·he·si·sa·he wu·sa ba·sa·ri·yi
+9	wa·ne·fa·ke wa·ze·le wa ba·si·re·he ka·zi la ya·za wa de·sha·ri·ru wa·si ha de·ha·wu·ya wa·si bo·ya·zi ma·la·ha sa·fa·ri wa ge·ri de·he·zi·wa ha·ze wa
+10	wu·ha·zi fa·ri·wu ma·ta·ri·sa ka·zi·ma·ta wa·zi·sa·ri·teng e·sa·wu za·ma le·sa·ri·a de·fa·ri·zi·la wo·si·po·sa·he le·hong men si·fu·si na·fu·she·he wu·ha·zi ne·fa·ke·wu wa·fa·ri·wu shu·ka ha·zi po·ru·ke men le·wa·se·he ma·la·ha
+11	ha·den e·shi·ta·wu·da she·me·o·ne wo·ma·ri ha·sha ye·zi·e·si bo·ku·shi·ta de·ma·ri·ya sha·da·ri ma·la·he·he wu·fa·le·tan·yi men yi·ze·he de·he·ru·wu·ze·si ma·le·ka wu·men me·de·me de·me·si·ha·shi·fan wa·wu la·yi yi·hu·za·yi·ye
+12	wu·ha·zi e·si·ta·ka·le e·sa le·he le·fa·yi·ta de·ma·ri·ya·me e·me·he de·yu·ha·nan ha·wu de·e·si·ka·ni ma·ri·ka·wu·si me·tu·le de·a·he sa·ji·yi·ye ta·man ke·ni·shan wa·wu wa·me·sa·leng
+13	wa·ne·ka·shi bo·sa·ri·a de·za·ri·ta wu·ne·fu·ka·si de·se·ne·wu·yi te·li·sa da·shi·ma·he ru·wu·zi
+14	wo·shi·ta·wu·de·a·si ka·le·he de·she·me·o·ne wa·fu·ha·zu·sa·he la po·si·ha·si le·he ta·ri·a e·la he·fu·ka·si bo·re·he·ta wa·me·ru le·hong she·me·o·ne ha ka·e·me a·le ta·ri·a de·za·ri·ta
+15	a·me·ran la·he me·za za·te·yi le·he·yi wu·xi me·si·ha·ri·ya wa·si de·ha·ze ha·ha·na yi a·me·ran la·he ke·fa·ri ma·la·he·he wu
+16	wu·she·me·o·ne na·ke·shi wa bo·sa·ri·a wa·ne·fa·ke·wu he·za·wu wa·si·ma·he·wu le·hong
+17	wa·me·ni·fu wa le·hong yi·ze·he a·yi·he de·ne·shi·te·kong le·hong wu·a·le wo·shi·ta·yi le·hong a·yi·ka·na ma·ri·ya a·po·ke·he men bo·si a·si·re wo·ma·ri le·hong e·shi·ta·a·wu ha·leng le·ya·ku·fu wu·la·ha·yi·ne wa·ne·fa·ke e·za·le le·he la·sa·ri he·ran
+18	wu·ha·zi he·wa sa·fu·ru he·wa wa ru·wu·ba sa·ji·yi·ya bo·si e·si·te·ru·ti·yi·ya·wu·te a·le she·me·o·ne de·ma·na he·wa le·he
+19	he·ru·wu·ze·si den ka·zi bo·a wu·la e·shi·ke·he·he dan e·nong le·na·tu·re wa·fu·ka·zi dan·mu·song wa·ne·fa·ke le·he men yi·hu·zi wei·yi·sa·wu·yi wa bo·ke·sa·ri·yi·ya
+20	wu·me·tu·le da·ri·xi·zi wa a·le su·ru·yi·ye wu·a·le sa·yi·da·na·yi·ye e·si·ka·na·shi·wu wo·sa·wu le·wa·se·he a·he·he·za wa·pi·si·wu la·fu·la·si·ta·wu·si ka·yi·tun·ka·ne·he de·ma·le·ka wu·she·le·wu me·ne·he de·ne·he·wo le·hong sha·yi·na me·tu·le de·fu·ri·na·sa de·a·si·ri·hong men ma·le·ku·se·he wa de·he·ru·wu·ze·si
+21	bo·ya·wu·ma den yi·zi·a le·fu·shi wa he·ru·wu·ze·si le·fu·sha de·ma·le·ku·sa wei·se·fu a·le bi·me wa·me·ma·le·le wa a·me ken·sha
+22	a·ma den ku·le·he ka·e wa wa·ma·ri ha·leng bo·na·si ka·le de·a·la·ha e·nen wu·la wa·yi da·fu·na·yi·na·sha
+23	wa·he·la·fu de·la ya·fu te·shi·bu·he·ta la·la·ha ba·he bo·sha·sa me·ha ma·la·he·he de·ma·ri·ya wa·ri·fa·si bo·sa·wu·le·e wu·mi·si
+24	wa·si·fa·ri·sa de·a·la·ha me·si·ka·ri·za wa·si wu·ru·fu·ya
+25	ba·ri·na·fa den wu·sha·wa·le po·na·wu men wu·ri·shi·le·me la·ne·ti·yi·ya·wu·xi men ba·sa·ri de·sha·le·me·wu te·shi·me·shi·te·hong wa·zi·fa·ri·wu a·me·hong le·yu·ha·nan ha·wu de·e·si·ka·ni ma·ri·ka·wu·si

@@ -1,0 +1,17 @@
+1	wu·men ba·sa·ri ha·ze he·zi·si a·ri·bo·a ma·la·xin ka·min a·le a·ri·ba za·wu·ya·sa·he de·a·ri·a wa·xi·zan la·ri·bo·a·si ru·he de·la ne·sha·fu ru·ha a·le a·ri·a wu·la a·le ya·ma wu·la a·le ku·le yi·lan
+2	wa·he·zi·si he·ri·na ma·la·ha da·si·le·ke men ma·zi·ne·ha·yi she·me·sha wei·yi·si le·he ha·si·ma de·a·la·ha ha·yi·ya wa·ke·a bo·ka·la ru·ma la·ri·bo·a ma·la·he ha·nong de·e·si·he·fu le·hong de·na·he·rong la·ri·a wa·le·ya·ma
+3	wo·ma·ri la ta·he·rong la·ri·a wu·la le·ya·ma wa·fu·la li·yi·la·ne za·ma de·ne·he·tu·me le·a·fu·da·wu·yi de·a·la·ha bo·si a·yi·na·yi·hong
+4	wu·she·me·e·si men·ya·na da·he·si·me ma wa·ri·bo·yi·ne wa·ri·bo·a a·le·fan men ku·le sha·ri·fan de·yi·yi·si·ru·ye·le
+5	men sha·ri·bo·se·he di·hu·za te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·ru·fu·le te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·ha·zi te·re·sa·ri a·le·fan
+6	men sha·ri·bo·se·he de·a·shi·ri te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·na·fu·ta·li te·re·sa·ri a·le·fan men sha·ri·bo·se·he da·me·na·she te·re·sa·ri a·le·fan
+7	men sha·ri·bo·se·he de·she·me·o·ne te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·yi·yi·sa·ha·ri te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·le·wei te·re·sa·ri a·le·fan
+8	men sha·ri·bo·se·he da·zi·fa·wu·long te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·ya·wu·se·fu te·re·sa·ri a·le·fan men sha·ri·bo·se·he de·fen·ya·min te·re·sa·ri a·le·fan he·si·me
+9	ba·sa·ri·ken he·zi·si ken·sha sa·ji·yi·ya a·yi·na da·le·men·ya·ne·he la·yi·te da·me·se wa men ku·le a·me wu·sha·ri·ba wo·me·wa·ne wu·le·sha·nin de·ka·min ke·za·me ku·ri·si·ya wa·ke·za·ma·wu·yi de·e·me·ru wa·me·a·te·fan e·si·te·le he·wa·ru·sa wu·fu·yi·za·yi·hong de·ke·le
+10	wu·ka·e·ne bo·ka·la ru·ba wa·me·ran pu·ri·ka·na la·la·han wu·la·zi·ya·se·fu a·le ku·ri·si·ya wu·le·me·ru
+11	wu·hu·le·hong ma·la·he ka·min wa·wu he·za·ru·wu·yi de·hu·ri·si·ya wa·zi·ka·shi·she wu·za·ri·ba ha·yi·wa·ne wa·ne·fa·le·wu ke·za·me ku·ri·si·ya a·le a·pa·yi·hong
+12	ka·zi a·me·ran a·min te·shi·bu·he·ta wu·fu·ri·ke·sa wu·he·he·me·sa wu·ku·ba·le ta·yi·bu·sa wei·yi·ka·ru wu·ha·yi·la wu·wu·shi·na la·la·han le·a·la·me a·le·min a·min
+13	wa·na ha·zi men ka·shi·she wo·ma·ri li ha·leng da·ti·fan e·si·te·le he·wa·ru·sa man e·nong wu·men a·yi·ka e·sa·wu
+14	wo·me·re·si le·he ma·ri·yi a·te ya·za a·te wo·ma·ri li ha·leng e·nong a·yi·leng de·e·sa·wu men wu·le·sa·na ru·ba wu·ha·le·le·wu e·si·te·la·yi·hong wu·ha·wa·ri·wu e·nen ba·zi·ma de·e·me·ru
+15	me·tu·le ha·na yi·sa·yi·hong ke·za·me ku·ri·si·ya de·a·la·ha wa·me·sha·me·shan le·he yi·ma·ma wu·li·le·ya bo·ha·yi·ke·le·he wa·zi·ya·se·fu a·le ku·ri·si·ya na·gen la·yi·hong
+16	la ne·he·po·nong wu·la ne·si·hong wu·she·me·sha la·yi·hong la ne·po·le wu·la ku·le sha·wu·ba
+17	me·tu·le de·e·me·ru da·fu·me·si·a·si ku·ri·si·ya ne·ri·e e·nong wa·ne·sha·bo·le e·nong se·zi ha·yi·ye wu·se·zi a·yi·na·sa de·ma·yi·ya wu·ne·le·he ku·le de·me·e men a·yi·na·yi·hong

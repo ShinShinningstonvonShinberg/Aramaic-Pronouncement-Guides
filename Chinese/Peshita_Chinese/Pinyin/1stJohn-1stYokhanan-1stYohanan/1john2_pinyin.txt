@@ -1,0 +1,29 @@
+1	bo·na·yi ha·leng ka·se·fu na le·hong de·la te·he·tong wo·ne na·shi ne·he·te yi·si lan pa·ru·ke·li·ta le·wa·si a·fa ye·shu me·shi·ha za·di·ka
+2	hu·yi·yu ge·ri hu·sa·yi·ya de·a·le a·pa·yi he·ta·ha·yi·ne wu·la·wu he·la·fa·yi·ne di·lan ba·le·hu·zi e·la a·fu he·la·fu ku·le·he a·le·ma
+3	wa·fu·ha·ze ma·ri·ge·shi·nan di·za·na e·ne na·te·ri·nan pu·ke·da·na·wu·yi
+4	ha·wu ge·ri de·a·ma·ri di·za·se·he wu·fu·ke·da·na·wu·yi la na·ta·ri da·ga·la hu wa·shi·ru·ru la·yi·te bo·he
+5	ha·wu den de·na·ta·ri me·le·se·he bo·ha·na me·sha·la·me sha·ri·ru·yi·si hu·bo·he de·a·la·ha bo·ha·ze ge·ri ya·zi·yi·nan de·fu·he he·nan
+6	ha·wu de·a·ma·ri de·fu·he yi·sa·yi wa·le le·he de·a·yi·he ha·le·ha·se·he di·le·he ne·ha·le·he
+7	ha·bi·fa·yi la·wu pu·ke·da·na ha·sa ka·se·fu na le·hong e·la pu·ke·da·na a·ti·ka ha·wu de·yi·yi·si wa le·hong men bo·re·shi·si pu·ke·da·na den a·ti·ka yi·sa·wu·yi me·le·sa ha da·shi·ma·tong
+8	tu·fu pu·ke·da·na ha·sa ka·se·fu na le·hong ha·wu de·yi·yi·sa·wu·yi sha·ri·ru bo·he wa·fu·hong de·he·shu·ha fa·ri le·he wu·nu·he·ru sha·ri·ru sha·ri me·si·he·ze
+9	man de·a·ma·ri ha·xi·le de·yi·yi·sa·wu·yi bo·nu·he·ru wu·sa·ne la·hu bo·he·shu·ha yi·sa·wu·yi za·ma le·ha·sha
+10	ha·wu den de·ma·he·fu la·hu bo·nu·he·ru me·ha·ta·ri wu·he·shi·la la·yi·te bo·he
+11	ha·wu den de·sa·ne la·hu bo·he·shu·ha yi·sa·wu·yi wa·fu·he·shu·ha me·ha·le·he wu·la ya·za la·yi·ka a·ze·le me·tu·le de·he·shu·ha sa·mi e·nen a·yi·na·wu·yi
+12	ka·se·fu na le·hong bo·na·yi·ya de·e·shi·te·fu·ke·wu le·hong he·ta·ha·yi·kong me·tu·le shi·me·he
+13	ka·se·fu na le·hong a·fa·he di·za·tu·na le·ha·wu de·yi·yi·sa·wu·yi wa men bo·re·shi·si ka·se·fu na le·hong la·yi·me da·zi·ha·yi·tu·na le·fu·sha ke·si·bo·si le·hong te·la·yi·ye di·za·tong la·fa
+14	ke·si·bo·si le·hong a·fa·he di·za·tong le·ha·wu de·men bo·re·shi·si ke·si·bo·si le·hong la·yi·me de·ha·yi·le·sa·ne tong wu·me·le·se·he de·a·la·ha sha·ri·ya bo·hong wa·zi·ha·yi·tu·na le·fu·sha
+15	la te·ri·he·man le·a·le·ma wu·la le·me·de·me de·yi·yi·si bo·he man ge·ri de·ru·he·me le·a·le·ma hu·bo·he de·a·fa la·yi·te bo·he
+16	ku·le me·de·me ge·ri de·yi·yi·si bo·he bo·a·le·ma re·ge·sa hu de·fa·he·ru wu·re·ge·sa de·a·yi·ne wu·shu·fu·ha·ru de·a·le·ma ha·leng de·la wa·yi men a·fa e·la me·ne·he e·nen men a·le·ma
+17	wu·a·fa·ri a·le·ma hu wu·re·ge·se·he ha·wu den de·a·fu·zi se·fu·ya·ne·he de·a·la·ha me·ka·wo le·a·la·me
+18	bo·na·yi za·fu·na hu he·ru·yi·ya wa·yi·he me·de·me da·shi·ma·tong de·a·se me·shi·ha da·ga·la wu·ha·sha he·wa·wu le·hong sa·ji·yi·ye me·shi·he da·ga·le wu·men ha·ze ya·zi·yi·nan de·za·fu·na hu he·ru·yi·ya
+19	me·nan ne·fa·ke·wu e·la la·wu me·nan wa·wu e·lu ge·ri me·nan wa·wu le·wa·san me·ha·te·ran wa·wu e·la ne·fa·ke·wu me·nan de·se·si·za de·la·wu me·nan wa·wu
+20	wa·tong me·shi·hu·sa yi·si le·hong men ka·di·sha wu·fa·ri·shan tong wu le·hu·le na·shi
+21	la ke·si·bo·si le·hong de·la ya·zi·yi·ne tong le·he la·shi·ru·ru e·la de·ya·zi·yi·ne tong le·he wa·zi·hu·la·he da·ga·lu·sa la wa·si me·ne·he men shi·ru·ru
+22	ma·nu da·ga·la e·la e·ne a·yi·na de·ha·fa·ri de·ye·shu la wa me·shi·ha ha·na hu me·shi·ha da·ga·la ha·wu de·ha·fa·ri bo·a·fa ka·fa·ri a·fu ba·fu·ru
+23	wu·ha·wu de·ha·fa·ri ba·fu·ru a·fu·la bo·a·fa me·ha·yi·men man de·ma·wu·de ba·fu·ru a·fu bo·a·fa ma·wu·de
+24	wa·tong me·de·me da·shi·ma·tong men ke·zi·me ne·ka·wo le·wa·si·hong e·ne ge·ri me·ka·wo le·wa·si·hong me·de·me da·shi·ma·tong men ke·zi·me a·fu a·tong me·ka·wo·ne tong bo·a·fa wu·fa·fu·ru
+25	wu·ha·na·wu shu·da·yi·ya de·e·shi·ta·wu·di lan ha·yi·ye da·le·a·la·me
+26	ha·leng den ke·si·bo·si le·hong me·tu·le a·yi·leng de·ma·te·e·ne le·hong
+27	wa·fu a·tong e·ne te·ka·wo le·wa·si·hong me·shi·hu·sa de·ka·bo·le·tong me·ne·he la si·ni·qin tong de·na·shi na·le·fu·hong e·la a·yi·he me·shi·hu·sa de·yi·yi·se·he men a·la·ha xi ma·le·fa le·hong a·le ku·le·me·de·me wu·sha·ri·ru yi wu·la·yi·te ba·he da·ga·lu·sa wa·yi·he de·a·le·fu·hong ka·wa·wu bo·he
+28	wu·ha·sha bo·na·yi ka·wa·wu bo·he de·ma de·me·si·ge·le la ne·fu·ha·si me·ne·he e·la te·he·wo lan ga·le·yu·si a·po bo·me·si·se·he
+29	e·ne yi·za·tong de·za·di·ke wu da·wu de·a·fu ku·le de·a·fu·zi za·di·ku·sa me·ne·he yi·sa·wu·yi

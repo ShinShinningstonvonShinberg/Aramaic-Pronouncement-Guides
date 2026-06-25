@@ -1,0 +1,21 @@
+1	a·ha·yi se·fu·ya·na de·le·bo·yi wu·fa·wu·si·yi da·le·wa·si a·la·ha he·la·fa·yi·hong de·ni·hong
+2	ma·si·he·zi na ge·ri la·yi·hong da·te·na·na de·a·la·ha yi·si bo·hong e·la la·wu bi·za·sa
+3	qi·nu·se·he ge·ri de·a·la·ha la yi·za·wu e·la bo·a·wu de·xi·nu·sa de·na·fu·shi·hong ne·qi·man wu·me·tu·le ha·na le·xi·nu·se·he de·a·la·ha la e·shi·ta·ba·zi·wu
+4	sa·he·he ge·ri de·na·mu·sa me·shi·ha hu le·xi·nu·sa le·hu·le da·me·ha·yi·men
+5	mu·she ge·ri ha·ha·na ke·sa·fu qi·nu·sa da·fu·na·mu·sa de·man de·ne·bo·zi ha·leng ni·he bo·hen
+6	qi·nu·sa den da·fu·ha·yi·ma·nu·sa ha·ha·na a·me·ru de·la ti·ma·ri bo·le·ba·he de·ma·nu si·le·ke la·shi·ma·yi·ya wa·he·si la·me·shi·ha
+7	wu·ma·nu ne·he·si la·si·hu·ma da·shi·yu·le wa·se·ke la·me·shi·ha men bo·si mi·se
+8	e·la ma·na e·ma·ri ka·ri·fu wu la·he po·si·ha·ma le·fu·ma·he wa·le·le·ba·he ha·ze yi me·le·sa de·ha·yi·ma·nu·sa de·ma·he·ri·zi·nan
+9	wo·ne ta·wu·de bo·fu·ma·he bo·ma·ran ye·shu wa·si·ha·yi·men bo·le·ba·he de·a·la·ha a·qi·me·he men bo·si mi·se ti·he
+10	le·ba ge·ri da·me·ha·yi·men bo·he me·zi·da·da·ke wu·fu·ma de·ma·wu·de bo·he ha·yi·ye
+11	e·ma·ri ge·ri ke·sa·fa de·hu·le da·me·ha·yi·men bo·he la ne·fu·ha·si
+12	wa·fu·ha·ze la po·ru·shi la li·hu·za·yi·ye wu·la la·ri·ma·yi·ye ha·zi wu ge·ri ma·ri·ya de·hu·le·hong de·a·ti·ri bo·hu·le de·ka·re le·he
+13	ku·le ge·ri de·ne·ke·re shi·me·he de·ma·ri·ya ni·he
+14	a·yi·ka·na ha·xi·le ne·ke·rong la·yi·na de·la ha·yi·men·wu bo·he a·wu a·yi·ka·na ne·ha·yi·me·nong le·ha·wu de·la sha·me·wu a·wu a·yi·ka·na ne·shi·me·o·ne de·la ma·he·ri·za·na
+15	a·wu a·yi·ka·na na·he·ri·zong e·ne la ne·shi·ta·le·hong a·yi·he da·he·si·fu de·ma ya·ya·ne re·he·la·yi·hong da·me·sa·bo·ru·yi shi·la·ma wu·za·me·sa·bo·ru·yi ta·fa·sa
+16	e·la la wa ku·le·hong e·shi·te·ma·wu la·si·fa·ri·sa de·e·wa·ne·ge·li·yi·ya·wu·ne e·sha·ya ge·ri e·ma·ri ma·ri·yi ma·nu ha·yi·men le·fa·si ka·lan
+17	me·qi·le ha·yi·ma·nu·sa men ma·shi·ma e·zi·na yi wu·ma·shi·ma e·zi·na men me·le·sa de·a·la·ha
+18	e·la a·ma·ri na da·le·ma la shi·ma·wu wu·ha bo·hu·la·he a·ri·a ne·fu·ka·si ba·si ka·le·hong wa·fu·sa·wu·po·he de·si·fu·le me·la·yi·hong
+19	e·la a·ma·ri na da·le·ma la yi·za yi·si·ru·yi·ye·le ka·zi·ma·yi·ya mu·she ha·ha·na e·ma·ri a·teng·hong bo·a·me de·la a·me wa·fu·a·ma de·la me·te·te·pi·si a·ri·ge·zi·hong
+20	e·sha·ya den a·me·ru·he wo·ma·ri de·e·si·he·zi·si la·yi·leng de·la bo·a·wu·ne·yi wo·shi·ta·he·he·si la·yi·leng da·la·yi la sha·e·le·wu
+21	li·yi·si·ru·yi·ye·le den e·ma·ri de·fu·shi·te·si yi·za·yi ya·wu·ma ku·le·he le·wa·si a·ma de·me·si·he·re wu·la me·te·te·pi·si

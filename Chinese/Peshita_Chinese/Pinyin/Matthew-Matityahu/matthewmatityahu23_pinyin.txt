@@ -1,0 +1,39 @@
+1	ha·den ye·shu ma·le·le a·me ken·she wu·a·me ta·le·mi·za·wu·yi
+2	wo·ma·ri le·hong a·le ku·ri·si·ya de·mu·she yi·se·fu·wu sa·fu·re wa·fu·ri·she
+3	ku·le me·de·me ha·xi·le de·ni·me·rong le·hong de·se·te·rong ta·ri·wu wa·fu·zi·wu a·yi·he fa·za·yi·hong den la te·bo·zong a·me·ran ge·ri wu·la a·fu·ding
+4	wa·si·ran ma·wu·bo·le ya·qi·ru·sa wu·sa·min a·le ka·si·pa·sa da·fu·na·yi na·sha he·nong den bo·se·fu·hong la sa·fen de·ne·ke·ri·fan le·hen
+5	wu·hu·le·hong fa·za·yi·hong a·fu·ding de·ne·si·he·zong la·fu·na·yi na·sha ma·fu·teng ge·ri te·fu·la·yi·hong wu·ma·wu·ri·xin te·he·la·sa de·ma·ri·tu·ta·yi·hong
+6	wu·ru·he·min ri·shi si·ma·he ba·he·sha·me·ya·sa wu·ri·shi ma·wu·te·fu ba·he·nu·sha·sa
+7	wa·shi·la·ma bo·shu·ke wa·zi·ne·hong me·si·ke·ren men na·sha ru·bi
+8	a·tong den la te·si·ke·rong ru·bi ha·zi wu ge·ri ru·bo·hong a·tong den ku·le·hong a·he a·tong
+9	wa·fa la te·ke·rong le·hong bo·a·ri·a ha·zi wu ge·ri a·fu·hong de·fa·shi·ma·yi·ya
+10	wu·la te·si·ke·rong me·za·bo·ru·ne me·tu·le de·ha·zi wu me·za·bo·ran·hong me·shi·ha
+11	ha·wu den de·ru·bo bo·hong ne·he·wo le·hong me·sha·me·sha·na
+12	man ge·ri dan·ri·me na·fu·she·he ne·si·ma·ka·he wu·man de·na·me·he na·fu·she·he ne·te·te·ri·me
+13	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po de·a·he·lin tong ba·te de·a·ri·me·la·sa bo·e·le·sa de·ma·wu·ri·xin tong si·la·wa·si·hong me·tu·le ha·na te·ka·bo·long di·na ya·ti·ru
+14	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po de·a·xi·zan tong ma·le·ku·sa da·shi·ma·yi·ya ke·za·me bo·na·yi na·sha a·tong ge·ri la a·lin tong wu·la·yi·leng de·a·lin la sha·fu·qin tong le·me·a·le
+15	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po de·me·si·ka·ri·qin tong ya·ma wu·ya·fu·sha de·se·bo·zong ha·zi ji·yi·yu·ru wu·ma da·he·wa a·fu·ding tong le·he bo·re·he de·xi·ha·na a·fa la·yi·kong
+16	wa le·hong na·hu·ze si·ma·yi·ya de·a·me·ran tong de·man de·ya·me bo·ha·yi·ke·la la wa me·de·me man den de·ya·me bo·za·he·fa da·fu·ha·yi·ke·la ha·e·fu
+17	sa·he·le wa·si·ma·yi·ya ma·na ge·ri ru·fu da·he·fa a·wu ha·yi·ke·la de·hu me·ka·de·shi le·he le·za·he·fa
+18	wu·man de·ya·me bo·ma·zi·bo·ha la wa me·de·me man den de·ya·me bo·ku·ri·ba·na da·le·e·le me·ne·he ha·e·fu
+19	sa·he·le wa·wei·re ma·na ru·fu ku·ri·ba·na a·wu ma·zi·bo·ha da·me·ka·de·shi le·ku·ri·ba·na
+20	man de·ya·me ha·xi·le bo·ma·zi·bo·ha ya·me bo·he wa·fu·hu·le ma de·yi·yi·si le·e·le me·ne·he
+21	wu·man de·ya·me bo·ha·yi·ke·la ya·me bo·he wa·fu·man de·a·ma·ri bo·he
+22	wu·man de·ya·me ba·shi·ma·yi·ya ya·me bo·hu·ri·si·ye·he de·a·la·ha wa·fu·man de·ya·se·fu le·e·le me·ne·he
+23	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po da·me·a·si·ran tong nan·a wa·shi·fu·ta wu·ha·mu·na wa·shi·fa·ke·tong ya·qi·ru·se·he de·na·mu·sa di·na wa·he·na·na wu·ha·yi·ma·nu·sa ha·leng den wa·le wa de·se·bo·zong wu·ha·leng la te·shi·bo·kong
+24	na·hu·ze si·ma·yi·ya da·me·sa·le·lin ba·ke wu·fa·le·yi·ne ga·me·le
+25	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po da·me·za·ken tong ba·re·he de·ha·sa wa·zi·za·fu·ru le·ha·wu den me·leng he·tu·fu·ya wu·a·wu·la
+26	po·ri·she wei·re da·ka·wu lu·ke·za·me ga·wo·he de·ha·sa wa·zi·za·fu·ru da·he·wa a·fu ba·ri·hong de·he
+27	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po de·za·men tong le·ka·fu·re ma·he·le·she de·men le·fa·ri me·si·he·zen sha·pi·re men le·ha·wu den me·leng ga·ri·me de·mi·se wu·hu·la·he tan·fu·sa
+28	ha·ha·na a·fu a·tong men le·fa·ri me·si·he·zen tong la·fu·na·yi na·sha a·yi·he za·di·ke wu·men le·ha·wu me·leng tong a·wu·la wu·ma·sa·fu bo·a·po
+29	wa le·hong sa·fu·re wa·fu·ri·she na·si·ba·yi bo·a·po de·fa·nen tong ka·fu·re dan·fu·yi·ye wa·me·sa·bo·san tong bo·si ke·fu·re de·za·di·ke
+30	wa·me·ran tong de·e·lu he·wa·yi·ne bo·ya·wu·ma·yi a·fa·ha·yi·ne la ha·wo·ne wa·yi·ne le·hong sha·wu·ta·fu ba·zi·ma dan·fu·yi·ye
+31	ma·zen ma·si·he·zan tong a·le na·fu·shi·hong da·fu·na·yi·ya a·tong de·ha·nong de·ka·te·le·wu lan·fu·yi·ye
+32	wa·fu a·tong ma·la·wu me·shu·he·sa de·a·fa·ha·yi·kong
+33	he·wa·wa·sa ya·le·da de·a·he·zi·ne a·yi·ka·na te·ri·kong men di·na de·xi·ha·na
+34	me·tu·le ha·na ha e·na me·sha·da·ri na le·wa·si·hong ne·fu·yi·ye wu·ha·qi·me wu·sa·fu·re men·hong ka·te·lin tong wu·za·ke·pin tong wu·men·hong me·na·ge·zan tong ba·he·nu·sha·si·hong wu·se·ri·de·fan e·nong men me·zi·na la·me·zi·na
+35	a·yi·ka·na de·ni·se la·yi·kong ku·le·he de·ma de·za·di·ke de·e·se·she·zi a·le a·ri·a men de·me·he de·ha·fu·le za·di·ka wa·za·ma la·zi·me·he da·zi·ha·ri·ya ba·ri bo·ru·he·ya ha·wu da·ke·ta·le·tong ba·yi·na·yi ha·yi·ke·la le·ma·zi·bo·ha
+36	a·min a·ma·ri na le·hong de·ni·si·ya·ne ha·leng ku·le·hen a·le sha·ri·bo·sa ha·ze
+37	wu·ri·shi·le·me wu·ri·shi·le·me ka·te·la·si ne·fu·yi·ye wu·ru·he·ma·si la·yi·leng da·shi·li·xin le·wa·sa·he ke·ma za·fu·nin si·fu·si de·e·ka·ne·shi bo·na·yi·ke·yi a·yi·he de·han·sha ta·ri·na·hu·le·ta pa·ru·he·he te·he·si ge·fu·he wu·la si·fa·yi·tong
+38	ha me·shi·te·fu·ke le·hong ba·yi·te·hong ha·ri·ba
+39	a·ma·ri·na le·hong ge·ri de·la te·he·zu·nan·yi men ha·sha za·ma de·si·me·rong bo·ri·he wu de·a·se ba·shi·me·he de·ma·ri·ya
