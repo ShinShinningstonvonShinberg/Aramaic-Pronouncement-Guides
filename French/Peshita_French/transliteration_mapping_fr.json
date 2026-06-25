@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "description": "Deterministic IPA->Latin mapping for the FRENCH Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "frenchified"
+    ],
+    "note": "transliterate_fr.py is authoritative; this file mirrors its hard-coded tables.",
+    "scholarly_pretty_note": "scholarly and pretty are language-neutral and byte-for-byte identical to the English Peshitta."
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "combining_dot_below": "̣",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-"
+  },
+  "segmentation": [
+    "Split on ASCII space ' ' only; spaces are preserved verbatim.",
+    "Within each token, left-to-right longest match:",
+    "  1. consonant + \\u02E4 (ˤ) -> emphatic segment (2 chars)",
+    "  2. vowel (a ɑ e i o u) + \\u02D0 (ː) -> long-vowel segment (2 chars)",
+    "  3. otherwise single char",
+    "word-initial = the FIRST segment of a whitespace/hyphen token (used by the Alaph rule). Frenchified treats a post-hyphen segment as word-initial (drops a post-hyphen alaph); scholarly/pretty stay identical to the English transducer, where only the token's first segment is word-initial."
+  ],
+  "tier_dicts": {
+    "scholarly_pretty": {
+      "consonants": {
+        "b": {
+          "scholarly": "b",
+          "pretty": "b"
+        },
+        "ɡ": {
+          "scholarly": "g",
+          "pretty": "g"
+        },
+        "d": {
+          "scholarly": "d",
+          "pretty": "d"
+        },
+        "h": {
+          "scholarly": "h",
+          "pretty": "h"
+        },
+        "w": {
+          "scholarly": "w",
+          "pretty": "w"
+        },
+        "z": {
+          "scholarly": "z",
+          "pretty": "z"
+        },
+        "k": {
+          "scholarly": "k",
+          "pretty": "k"
+        },
+        "l": {
+          "scholarly": "l",
+          "pretty": "l"
+        },
+        "m": {
+          "scholarly": "m",
+          "pretty": "m"
+        },
+        "n": {
+          "scholarly": "n",
+          "pretty": "n"
+        },
+        "s": {
+          "scholarly": "s",
+          "pretty": "s"
+        },
+        "p": {
+          "scholarly": "p",
+          "pretty": "p"
+        },
+        "q": {
+          "scholarly": "q",
+          "pretty": "q"
+        },
+        "r": {
+          "scholarly": "r",
+          "pretty": "r"
+        },
+        "t": {
+          "scholarly": "t",
+          "pretty": "t"
+        },
+        "f": {
+          "scholarly": "f",
+          "pretty": "f"
+        },
+        "v": {
+          "scholarly": "ḇ",
+          "pretty": "v"
+        },
+        "ʃ": {
+          "scholarly": "š",
+          "pretty": "sh"
+        },
+        "θ": {
+          "scholarly": "ṯ",
+          "pretty": "th"
+        },
+        "ð": {
+          "scholarly": "ḏ",
+          "pretty": "dh"
+        },
+        "x": {
+          "scholarly": "ḵ",
+          "pretty": "kh"
+        },
+        "ɣ": {
+          "scholarly": "ḡ",
+          "pretty": "gh"
+        },
+        "ħ": {
+          "scholarly": "ḥ",
+          "pretty": "ḥ"
+        },
+        "j": {
+          "scholarly": "y",
+          "pretty": "y"
+        }
+      },
+      "short_vowels": {
+        "a": {
+          "scholarly": "a",
+          "pretty": "a"
+        },
+        "ɑ": {
+          "scholarly": "a",
+          "pretty": "a"
+        },
+        "e": {
+          "scholarly": "e",
+          "pretty": "e"
+        },
+        "i": {
+          "scholarly": "i",
+          "pretty": "i"
+        },
+        "o": {
+          "scholarly": "o",
+          "pretty": "o"
+        },
+        "u": {
+          "scholarly": "u",
+          "pretty": "u"
+        }
+      },
+      "long_vowels": {
+        "a": {
+          "scholarly": "ā",
+          "pretty": "ā"
+        },
+        "ɑ": {
+          "scholarly": "ā",
+          "pretty": "ā"
+        },
+        "e": {
+          "scholarly": "ē",
+          "pretty": "ē"
+        },
+        "i": {
+          "scholarly": "ī",
+          "pretty": "ī"
+        },
+        "o": {
+          "scholarly": "ō",
+          "pretty": "ō"
+        },
+        "u": {
+          "scholarly": "ū",
+          "pretty": "ū"
+        }
+      },
+      "emphatics_explicit": {
+        "t": {
+          "scholarly": "ṭ",
+          "pretty": "ṭ"
+        },
+        "s": {
+          "scholarly": "ṣ",
+          "pretty": "ṣ"
+        }
+      }
+    },
+    "frenchified": {
+      "consonants_context_free": {
+        "b": "b",
+        "d": "d",
+        "f": "f",
+        "k": "k",
+        "l": "l",
+        "m": "m",
+        "n": "n",
+        "p": "p",
+        "q": "q",
+        "r": "r",
+        "t": "t",
+        "v": "v",
+        "z": "z",
+        "ɣ": "gh",
+        "ð": "dh",
+        "θ": "th",
+        "ʃ": "ch",
+        "x": "kh",
+        "ħ": "h",
+        "h": "h",
+        "w": "w",
+        "j": "y"
+      },
+      "short_vowels": {
+        "a": "a",
+        "ɑ": "a",
+        "e": "è",
+        "i": "i",
+        "o": "o",
+        "u": "ou"
+      },
+      "long_vowels": {
+        "a": "a",
+        "ɑ": "a",
+        "e": "é",
+        "i": "i",
+        "o": "o",
+        "u": "ou"
+      }
+    }
+  },
+  "rules": {
+    "scholarly_pretty": {
+      "alaph": {
+        "symbol": "ʔ",
+        "scholarly": "always \\u02BE (ʾ)",
+        "pretty": "word-initial -> '' (drop); else -> \"'\""
+      },
+      "ayin": {
+        "symbol": "ʕ",
+        "scholarly": "\\u02BF (ʿ)",
+        "pretty": "\\u02BF (ʿ)"
+      },
+      "emphatic_fallback": {
+        "applies_to": "any consonant + \\u02E4 not in emphatics_explicit",
+        "scholarly": "tier(C) + \\u0323 (combining dot below)",
+        "pretty": "tier(C) + \\u0323 (combining dot below)"
+      }
+    },
+    "frenchified": {
+      "alaph": {
+        "symbol": "ʔ",
+        "rule": "word-initial -> '' (drop); medial -> \"'\". 'word-initial' = first segment of a whitespace/HYPHEN token, so a post-hyphen alaph also drops (e.g. bar-ʔaba -> 'bar-aba')."
+      },
+      "ayin": {
+        "symbol": "ʕ",
+        "rule": "'' (dropped everywhere; not producible by French speakers)"
+      },
+      "hard_g": {
+        "symbol": "ɡ",
+        "rule": "'gu' if NEXT segment is a front vowel (/e/, /eː/, /i/, /iː/); else 'g'"
+      },
+      "intervocalic_s": {
+        "symbol": "s",
+        "rule": "'ss' when BOTH neighbour SEGMENTS are vowels (intervocalic); else 's'. Same rule applies to the emphatic sˤ. The test uses the LITERAL adjacent IPA segments within the token. A dropped glottal -- ayin (ʕ) anywhere, or a word-initial alaph (ʔ) -- is a CONSONANT segment, NOT a vowel, so it is OPAQUE and is never skipped over. E.g. daʕsiːq -> 'dasiq', treʕsar -> 'trèsar', mesˤʕaθ -> 'mèsath' (single s, because a ʕ segment neighbours the s). A truly intervocalic s still doubles, e.g. pesˤe -> 'pèssè'. This matches the literal spec and the parallel English 'Anglicized' convention. Cross-token word-initial s before a vowel stays single 's' (neighbour is None across the space)."
+      },
+      "emphatic_t": {
+        "symbol": "tˤ",
+        "rule": "'t'"
+      },
+      "vowel_length": "Length is collapsed (map by quality), except eː -> 'é' (e -> 'è').",
+      "limitations": [
+        "French has no /h/ (often silent to French readers).",
+        "A vowel followed by n/m may be read as a French nasal vowel.",
+        "θ, ð, x, ɣ, ħ and the emphatics are approximations."
+      ]
+    },
+    "hyphen": {
+      "symbol": "-",
+      "all_tiers": "-"
+    },
+    "space": {
+      "all_tiers": "space (preserved verbatim)"
+    },
+    "unmapped": "Any char not covered above (besides space) is recorded and passed through unchanged."
+  }
+}
