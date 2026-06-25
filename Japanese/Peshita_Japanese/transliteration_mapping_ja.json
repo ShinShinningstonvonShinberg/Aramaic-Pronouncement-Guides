@@ -1,0 +1,791 @@
+{
+  "meta": {
+    "description": "Deterministic IPA -> (Latin + Japanese kana) mapping for the Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "katakana",
+      "hiragana",
+      "romaji"
+    ],
+    "note": "transliterate_ja.py is authoritative; this file mirrors its hard-coded tables.",
+    "scholarly_pretty_source": "Byte-for-byte identical to English/Peshita_English/transliterate.py.",
+    "author": "Shin"
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "combining_dot_below": "̣",
+    "choonpu": "ー",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-"
+  },
+  "segmentation": [
+    "Split on ASCII space ' ' only; spaces are preserved verbatim.",
+    "Within each token, left-to-right longest match:",
+    "  1. consonant + \\u02E4 (ˤ) -> emphatic segment (2 chars)",
+    "  2. vowel (a ɑ e i o u) + \\u02D0 (ː) -> long-vowel segment (2 chars)",
+    "  3. otherwise single char",
+    "word-initial = the FIRST segment of a token (used by the Alaph rule in scholarly/pretty)."
+  ],
+  "scholarly_pretty": {
+    "consonants": {
+      "b": {
+        "scholarly": "b",
+        "pretty": "b"
+      },
+      "ɡ": {
+        "scholarly": "g",
+        "pretty": "g"
+      },
+      "d": {
+        "scholarly": "d",
+        "pretty": "d"
+      },
+      "h": {
+        "scholarly": "h",
+        "pretty": "h"
+      },
+      "w": {
+        "scholarly": "w",
+        "pretty": "w"
+      },
+      "z": {
+        "scholarly": "z",
+        "pretty": "z"
+      },
+      "k": {
+        "scholarly": "k",
+        "pretty": "k"
+      },
+      "l": {
+        "scholarly": "l",
+        "pretty": "l"
+      },
+      "m": {
+        "scholarly": "m",
+        "pretty": "m"
+      },
+      "n": {
+        "scholarly": "n",
+        "pretty": "n"
+      },
+      "s": {
+        "scholarly": "s",
+        "pretty": "s"
+      },
+      "p": {
+        "scholarly": "p",
+        "pretty": "p"
+      },
+      "q": {
+        "scholarly": "q",
+        "pretty": "q"
+      },
+      "r": {
+        "scholarly": "r",
+        "pretty": "r"
+      },
+      "t": {
+        "scholarly": "t",
+        "pretty": "t"
+      },
+      "f": {
+        "scholarly": "f",
+        "pretty": "f"
+      },
+      "v": {
+        "scholarly": "ḇ",
+        "pretty": "v"
+      },
+      "ʃ": {
+        "scholarly": "š",
+        "pretty": "sh"
+      },
+      "θ": {
+        "scholarly": "ṯ",
+        "pretty": "th"
+      },
+      "ð": {
+        "scholarly": "ḏ",
+        "pretty": "dh"
+      },
+      "x": {
+        "scholarly": "ḵ",
+        "pretty": "kh"
+      },
+      "ɣ": {
+        "scholarly": "ḡ",
+        "pretty": "gh"
+      },
+      "ħ": {
+        "scholarly": "ḥ",
+        "pretty": "ḥ"
+      },
+      "j": {
+        "scholarly": "y",
+        "pretty": "y"
+      }
+    },
+    "short_vowels": {
+      "a": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "ɑ": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "e": {
+        "scholarly": "e",
+        "pretty": "e"
+      },
+      "i": {
+        "scholarly": "i",
+        "pretty": "i"
+      },
+      "o": {
+        "scholarly": "o",
+        "pretty": "o"
+      },
+      "u": {
+        "scholarly": "u",
+        "pretty": "u"
+      }
+    },
+    "long_vowels": {
+      "a": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "ɑ": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "e": {
+        "scholarly": "ē",
+        "pretty": "ē"
+      },
+      "i": {
+        "scholarly": "ī",
+        "pretty": "ī"
+      },
+      "o": {
+        "scholarly": "ō",
+        "pretty": "ō"
+      },
+      "u": {
+        "scholarly": "ū",
+        "pretty": "ū"
+      }
+    },
+    "emphatics_explicit": {
+      "t": {
+        "scholarly": "ṭ",
+        "pretty": "ṭ"
+      },
+      "s": {
+        "scholarly": "ṣ",
+        "pretty": "ṣ"
+      }
+    },
+    "rules": {
+      "alaph": {
+        "symbol": "ʔ",
+        "scholarly": "always \\u02BE (ʾ)",
+        "pretty": "word-initial -> '' (drop); else -> \"'\""
+      },
+      "ayin": {
+        "symbol": "ʕ",
+        "scholarly": "\\u02BF (ʿ)",
+        "pretty": "\\u02BF (ʿ)"
+      },
+      "emphatic_fallback": {
+        "applies_to": "any consonant + \\u02E4 not in emphatics_explicit",
+        "scholarly": "tier(C) + \\u0323 (combining dot below)",
+        "pretty": "tier(C) + \\u0323 (combining dot below)"
+      },
+      "hyphen": {
+        "symbol": "-",
+        "all_tiers": "-"
+      },
+      "space": {
+        "all_tiers": "space (preserved verbatim)"
+      },
+      "unmapped": "Any char not covered above (besides space) is recorded and passed through unchanged."
+    }
+  },
+  "kana": {
+    "table": {
+      "": {
+        "a": {
+          "katakana": "ア",
+          "hiragana": "あ",
+          "romaji": "a"
+        },
+        "i": {
+          "katakana": "イ",
+          "hiragana": "い",
+          "romaji": "i"
+        },
+        "u": {
+          "katakana": "ウ",
+          "hiragana": "う",
+          "romaji": "u"
+        },
+        "e": {
+          "katakana": "エ",
+          "hiragana": "え",
+          "romaji": "e"
+        },
+        "o": {
+          "katakana": "オ",
+          "hiragana": "お",
+          "romaji": "o"
+        }
+      },
+      "k": {
+        "a": {
+          "katakana": "カ",
+          "hiragana": "か",
+          "romaji": "ka"
+        },
+        "i": {
+          "katakana": "キ",
+          "hiragana": "き",
+          "romaji": "ki"
+        },
+        "u": {
+          "katakana": "ク",
+          "hiragana": "く",
+          "romaji": "ku"
+        },
+        "e": {
+          "katakana": "ケ",
+          "hiragana": "け",
+          "romaji": "ke"
+        },
+        "o": {
+          "katakana": "コ",
+          "hiragana": "こ",
+          "romaji": "ko"
+        }
+      },
+      "g": {
+        "a": {
+          "katakana": "ガ",
+          "hiragana": "が",
+          "romaji": "ga"
+        },
+        "i": {
+          "katakana": "ギ",
+          "hiragana": "ぎ",
+          "romaji": "gi"
+        },
+        "u": {
+          "katakana": "グ",
+          "hiragana": "ぐ",
+          "romaji": "gu"
+        },
+        "e": {
+          "katakana": "ゲ",
+          "hiragana": "げ",
+          "romaji": "ge"
+        },
+        "o": {
+          "katakana": "ゴ",
+          "hiragana": "ご",
+          "romaji": "go"
+        }
+      },
+      "s": {
+        "a": {
+          "katakana": "サ",
+          "hiragana": "さ",
+          "romaji": "sa"
+        },
+        "i": {
+          "katakana": "シ",
+          "hiragana": "し",
+          "romaji": "shi"
+        },
+        "u": {
+          "katakana": "ス",
+          "hiragana": "す",
+          "romaji": "su"
+        },
+        "e": {
+          "katakana": "セ",
+          "hiragana": "せ",
+          "romaji": "se"
+        },
+        "o": {
+          "katakana": "ソ",
+          "hiragana": "そ",
+          "romaji": "so"
+        }
+      },
+      "z": {
+        "a": {
+          "katakana": "ザ",
+          "hiragana": "ざ",
+          "romaji": "za"
+        },
+        "i": {
+          "katakana": "ジ",
+          "hiragana": "じ",
+          "romaji": "ji"
+        },
+        "u": {
+          "katakana": "ズ",
+          "hiragana": "ず",
+          "romaji": "zu"
+        },
+        "e": {
+          "katakana": "ゼ",
+          "hiragana": "ぜ",
+          "romaji": "ze"
+        },
+        "o": {
+          "katakana": "ゾ",
+          "hiragana": "ぞ",
+          "romaji": "zo"
+        }
+      },
+      "sh": {
+        "a": {
+          "katakana": "シャ",
+          "hiragana": "しゃ",
+          "romaji": "sha"
+        },
+        "i": {
+          "katakana": "シ",
+          "hiragana": "し",
+          "romaji": "shi"
+        },
+        "u": {
+          "katakana": "シュ",
+          "hiragana": "しゅ",
+          "romaji": "shu"
+        },
+        "e": {
+          "katakana": "シェ",
+          "hiragana": "しぇ",
+          "romaji": "she"
+        },
+        "o": {
+          "katakana": "ショ",
+          "hiragana": "しょ",
+          "romaji": "sho"
+        }
+      },
+      "t": {
+        "a": {
+          "katakana": "タ",
+          "hiragana": "た",
+          "romaji": "ta"
+        },
+        "i": {
+          "katakana": "ティ",
+          "hiragana": "てぃ",
+          "romaji": "ti"
+        },
+        "u": {
+          "katakana": "トゥ",
+          "hiragana": "とぅ",
+          "romaji": "tu"
+        },
+        "e": {
+          "katakana": "テ",
+          "hiragana": "て",
+          "romaji": "te"
+        },
+        "o": {
+          "katakana": "ト",
+          "hiragana": "と",
+          "romaji": "to"
+        }
+      },
+      "d": {
+        "a": {
+          "katakana": "ダ",
+          "hiragana": "だ",
+          "romaji": "da"
+        },
+        "i": {
+          "katakana": "ディ",
+          "hiragana": "でぃ",
+          "romaji": "di"
+        },
+        "u": {
+          "katakana": "ドゥ",
+          "hiragana": "どぅ",
+          "romaji": "du"
+        },
+        "e": {
+          "katakana": "デ",
+          "hiragana": "で",
+          "romaji": "de"
+        },
+        "o": {
+          "katakana": "ド",
+          "hiragana": "ど",
+          "romaji": "do"
+        }
+      },
+      "n": {
+        "a": {
+          "katakana": "ナ",
+          "hiragana": "な",
+          "romaji": "na"
+        },
+        "i": {
+          "katakana": "ニ",
+          "hiragana": "に",
+          "romaji": "ni"
+        },
+        "u": {
+          "katakana": "ヌ",
+          "hiragana": "ぬ",
+          "romaji": "nu"
+        },
+        "e": {
+          "katakana": "ネ",
+          "hiragana": "ね",
+          "romaji": "ne"
+        },
+        "o": {
+          "katakana": "ノ",
+          "hiragana": "の",
+          "romaji": "no"
+        }
+      },
+      "h": {
+        "a": {
+          "katakana": "ハ",
+          "hiragana": "は",
+          "romaji": "ha"
+        },
+        "i": {
+          "katakana": "ヒ",
+          "hiragana": "ひ",
+          "romaji": "hi"
+        },
+        "u": {
+          "katakana": "フ",
+          "hiragana": "ふ",
+          "romaji": "fu"
+        },
+        "e": {
+          "katakana": "ヘ",
+          "hiragana": "へ",
+          "romaji": "he"
+        },
+        "o": {
+          "katakana": "ホ",
+          "hiragana": "ほ",
+          "romaji": "ho"
+        }
+      },
+      "f": {
+        "a": {
+          "katakana": "ファ",
+          "hiragana": "ふぁ",
+          "romaji": "fa"
+        },
+        "i": {
+          "katakana": "フィ",
+          "hiragana": "ふぃ",
+          "romaji": "fi"
+        },
+        "u": {
+          "katakana": "フ",
+          "hiragana": "ふ",
+          "romaji": "fu"
+        },
+        "e": {
+          "katakana": "フェ",
+          "hiragana": "ふぇ",
+          "romaji": "fe"
+        },
+        "o": {
+          "katakana": "フォ",
+          "hiragana": "ふぉ",
+          "romaji": "fo"
+        }
+      },
+      "b": {
+        "a": {
+          "katakana": "バ",
+          "hiragana": "ば",
+          "romaji": "ba"
+        },
+        "i": {
+          "katakana": "ビ",
+          "hiragana": "び",
+          "romaji": "bi"
+        },
+        "u": {
+          "katakana": "ブ",
+          "hiragana": "ぶ",
+          "romaji": "bu"
+        },
+        "e": {
+          "katakana": "ベ",
+          "hiragana": "べ",
+          "romaji": "be"
+        },
+        "o": {
+          "katakana": "ボ",
+          "hiragana": "ぼ",
+          "romaji": "bo"
+        }
+      },
+      "p": {
+        "a": {
+          "katakana": "パ",
+          "hiragana": "ぱ",
+          "romaji": "pa"
+        },
+        "i": {
+          "katakana": "ピ",
+          "hiragana": "ぴ",
+          "romaji": "pi"
+        },
+        "u": {
+          "katakana": "プ",
+          "hiragana": "ぷ",
+          "romaji": "pu"
+        },
+        "e": {
+          "katakana": "ペ",
+          "hiragana": "ぺ",
+          "romaji": "pe"
+        },
+        "o": {
+          "katakana": "ポ",
+          "hiragana": "ぽ",
+          "romaji": "po"
+        }
+      },
+      "m": {
+        "a": {
+          "katakana": "マ",
+          "hiragana": "ま",
+          "romaji": "ma"
+        },
+        "i": {
+          "katakana": "ミ",
+          "hiragana": "み",
+          "romaji": "mi"
+        },
+        "u": {
+          "katakana": "ム",
+          "hiragana": "む",
+          "romaji": "mu"
+        },
+        "e": {
+          "katakana": "メ",
+          "hiragana": "め",
+          "romaji": "me"
+        },
+        "o": {
+          "katakana": "モ",
+          "hiragana": "も",
+          "romaji": "mo"
+        }
+      },
+      "v": {
+        "a": {
+          "katakana": "ヴァ",
+          "hiragana": "ゔぁ",
+          "romaji": "va"
+        },
+        "i": {
+          "katakana": "ヴィ",
+          "hiragana": "ゔぃ",
+          "romaji": "vi"
+        },
+        "u": {
+          "katakana": "ヴ",
+          "hiragana": "ゔ",
+          "romaji": "vu"
+        },
+        "e": {
+          "katakana": "ヴェ",
+          "hiragana": "ゔぇ",
+          "romaji": "ve"
+        },
+        "o": {
+          "katakana": "ヴォ",
+          "hiragana": "ゔぉ",
+          "romaji": "vo"
+        }
+      },
+      "r": {
+        "a": {
+          "katakana": "ラ",
+          "hiragana": "ら",
+          "romaji": "ra"
+        },
+        "i": {
+          "katakana": "リ",
+          "hiragana": "り",
+          "romaji": "ri"
+        },
+        "u": {
+          "katakana": "ル",
+          "hiragana": "る",
+          "romaji": "ru"
+        },
+        "e": {
+          "katakana": "レ",
+          "hiragana": "れ",
+          "romaji": "re"
+        },
+        "o": {
+          "katakana": "ロ",
+          "hiragana": "ろ",
+          "romaji": "ro"
+        }
+      },
+      "y": {
+        "a": {
+          "katakana": "ヤ",
+          "hiragana": "や",
+          "romaji": "ya"
+        },
+        "i": {
+          "katakana": "イ",
+          "hiragana": "い",
+          "romaji": "i"
+        },
+        "u": {
+          "katakana": "ユ",
+          "hiragana": "ゆ",
+          "romaji": "yu"
+        },
+        "e": {
+          "katakana": "イェ",
+          "hiragana": "いぇ",
+          "romaji": "ye"
+        },
+        "o": {
+          "katakana": "ヨ",
+          "hiragana": "よ",
+          "romaji": "yo"
+        }
+      },
+      "w": {
+        "a": {
+          "katakana": "ワ",
+          "hiragana": "わ",
+          "romaji": "wa"
+        },
+        "i": {
+          "katakana": "ウィ",
+          "hiragana": "うぃ",
+          "romaji": "wi"
+        },
+        "u": {
+          "katakana": "ウ",
+          "hiragana": "う",
+          "romaji": "u"
+        },
+        "e": {
+          "katakana": "ウェ",
+          "hiragana": "うぇ",
+          "romaji": "we"
+        },
+        "o": {
+          "katakana": "ウォ",
+          "hiragana": "うぉ",
+          "romaji": "wo"
+        }
+      }
+    },
+    "ipa_consonant_to_category": {
+      "b": "b",
+      "v": "v",
+      "p": "p",
+      "f": "f",
+      "t": "t",
+      "d": "d",
+      "ð": "z",
+      "k": "k",
+      "ɡ": "g",
+      "ɣ": "g",
+      "q": "k",
+      "s": "s",
+      "z": "z",
+      "ʃ": "sh",
+      "x": "h",
+      "ħ": "h",
+      "h": "h",
+      "m": "m",
+      "n": "n",
+      "l": "r",
+      "r": "r"
+    },
+    "emphatic_to_category": {
+      "t": "t",
+      "s": "s"
+    },
+    "theta_to_category": "s",
+    "vowel_base": {
+      "a": "a",
+      "ɑ": "a",
+      "e": "e",
+      "i": "i",
+      "o": "o",
+      "u": "u"
+    },
+    "epenthetic_vowel": {
+      "default": "u",
+      "by_category": {
+        "t": "o",
+        "d": "o"
+      },
+      "note": "sh -> シュ via the sh-row 'u' cell"
+    },
+    "macron": {
+      "a": "ā",
+      "i": "ī",
+      "u": "ū",
+      "e": "ē",
+      "o": "ō"
+    },
+    "hiragana_long_vowel": {
+      "a": "あ",
+      "i": "い",
+      "u": "う",
+      "e": "え",
+      "o": "お"
+    },
+    "choonpu": "ー",
+    "rules": [
+      "Map each IPA segment to a mora: C+V -> CV kana; V alone -> vowel kana; j/w + V -> y-row/w-row (or yōon).",
+      "Drop ʔ (alaph) and ʕ (ayin).",
+      "Standalone glide /j/ -> i, standalone /w/ -> u.",
+      "A consonant with no following vowel gets an epenthetic vowel: default /u/, /o/ after t and d, /ʃ/ -> シュ.",
+      "A coda /n/ (immediately preceded by a vowel) -> the moraic nasal ン (not ヌ); an onset /n/ with no preceding vowel (word/cluster-initial) -> ヌ/nu, since a Japanese mora may never begin with ン.",
+      "Long vowels: katakana += ー; hiragana doubles the vowel; romaji uses a macron.",
+      "Romaji charset is restricted (ASCII letters, macron long vowels ā ī ū ē ō, space, hyphen, digit, tab); the standard Hepburn apostrophe (U+0027) after a moraic nasal 'n' before a vowel/y is NOT emitted (メンイ -> meni, not men'i). The ン/ん boundary is preserved in the katakana/hiragana tiers.",
+      "Hyphen '-' is preserved as a separator."
+    ]
+  },
+  "documented_limitations": [
+    "Kana tiers are an approximation and are NOT reversible.",
+    "Forced vowel epenthesis (default /u/, /o/ after t,d, /ʃ/ -> シュ) inflates length: every coda/cluster grows an extra vowel mora.",
+    "No /θ ð f v z ʃ/ vs plain-stop distinctions survive cleanly: θ, s, sˤ collapse to the サ row and ð, z collapse to the ザ row. This is a full merger, so θ and s become true homographs in kana (melθɑː and melsɑː both -> メルサー), and likewise ð and z.",
+    "l and r merge to the ラ行 (Japanese has a single liquid).",
+    "Gutturals/emphatics/glottals are approximated or dropped: x, ħ, h -> ハ row; emphasis (ˤ) is lost; ʔ (alaph) and ʕ (ayin) are dropped.",
+    "Pitch accent and fine vowel quality are not represented (a and ɑ merge).",
+    "A coda /n/ (preceded by a vowel) becomes the moraic nasal ン (not ヌ); an onset /n/ with no preceding vowel (word/cluster-initial, e.g. the imperfect prefix n-) epenthesizes to ヌ/nu, because a Japanese mora may never begin with ン.",
+    "Long vowels: katakana appends ー (chōonpu); hiragana doubles the vowel; romaji uses a macron (ā ī ū ē ō).",
+    "Romaji is constrained to a strict charset (ASCII letters, macron long vowels ā ī ū ē ō, space, hyphen, digit, tab) and therefore does NOT emit the standard Hepburn apostrophe (U+0027) after the moraic nasal 'n' before a vowel- or y-initial syllable: メンイ -> 'meni', not 'men'i'. The ン/ん boundary is still visible in the katakana/hiragana tiers.",
+    "Hiragana for foreign text is unidiomatic (katakana is the natural loanword script); it is provided as a same-mora native-glyph readback because it was requested.",
+    "Scholarly and Pretty are the language-neutral Latin renderings shared byte-for-byte with the English Peshitta and carry none of these caveats."
+  ]
+}

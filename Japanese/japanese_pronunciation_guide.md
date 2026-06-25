@@ -1,0 +1,3481 @@
+# Japanese IPA Pronunciation Guide
+
+**Version:** 1.0.0
+**Date:** 2026-06-25
+**Language:** Japanese (日本語) (ISO 639-3: `jpn`)  
+**Encoding:** UTF-8  
+**IPA Standard:** IPA (International Phonetic Alphabet, 2015 revision)  
+**Reference Standards:** Standard / Common Japanese (標準語 / 共通語, Tokyo) and Kansai / Keihan (京阪式)  
+
+Machine-readable IPA-based pronunciation guide for Modern Standard Japanese. All pronunciation data is encoded in the International Phonetic Alphabet (IPA, 2015 revision) as the primary and only phonetic system. Designed for AI-assisted pronunciation, text-to-speech reference, second-language teaching, and language documentation. Two reference standards are documented in parallel: Standard / Common Japanese (標準語 / 共通語 Hyōjungo / Kyōtsūgo, educated Tokyo / Yamanote speech, Tokyo-type pitch accent) and Kansai / Keihan (関西弁 / 京阪式 Kansai-ben / Keihan-shiki, Kyoto–Osaka, a richer register-plus-accent system). Japanese's signature MORA-TIMING (each 拍 haku of equal duration), its lexical PITCH ACCENT (a downstep, not stress and not per-syllable tone), its phonemic VOWEL LENGTH, and its high-vowel devoicing are treated as first-class data throughout.
+
+### Varieties Covered
+
+- **Standard / Common Japanese (標準語 / 共通語 Hyōjungo / Kyōtsūgo, TOK)** — Japan (the educated speech of Tokyo, especially the prestige Yamanote 山の手 district; the de facto national broadcast standard of NHK and the basis of dictionaries, schooling and TTS). Basis: based on the educated speech of Tokyo. 標準語 (Hyōjungo, 'standard language') is the older prescriptive label; 共通語 (Kyōtsūgo, 'common language') is the now-preferred descriptive term for the supraregional variety understood and used nationwide. Carries TOKYO-TYPE pitch accent (東京式アクセント). **Pitch-accent type: Tokyo-type (東京式).** A word bears AT MOST ONE accent, realized as a pitch DROP (downstep) immediately after the accented mora; the first two moras almost always differ in pitch (if mora 1 is High the word is accented on mora 1, otherwise mora 1 is Low and mora 2 is High). Accent classes are 頭高型 (atamadaka, drop after mora 1), 中高型 (nakadaka, drop word-medially), 尾高型 (odaka, drop after the final mora, audible only on a following particle), and 平板型 (heiban, accentless, no drop at all). Key features: Tokyo-type pitch accent (東京式アクセント) with one optional downstep per word, classes 頭高 / 中高 / 尾高 / 平板; minimal pairs distinguished by accent — 箸 ha˥shi (HL, atamadaka) 'chopsticks' vs 橋 hashi˥ (LH, odaka — drop on the following particle) 'bridge' vs 端 hashi (LH, heiban — no drop) 'edge', and 雨 a˥me 'rain' vs 飴 ame 'candy'; robust HIGH-VOWEL DEVOICING of /i u/ between voiceless consonants and word-finally (すき [sɯ̥ki], です [desɯ̥]); the widespread velar-nasal allophone [ŋ] (鼻濁音 bidakuon) for intervocalic /ɡ/ in conservative speech (though receding among younger speakers); and its role as the default basis of dictionaries, schooling, NHK broadcasting and most learner materials and TTS systems. Analogous to the Eastern (Madnhaya) tradition in the Peshitta guide, General American (GA) in the English guide, Peninsular Castilian in the Spanish guide, and Standard South Korean (Seoul) in the Korean guide — one of two co-equal documented standards.
+- **Kansai / Keihan Japanese (関西弁 / 京阪式アクセント Kansai-ben / Keihan-shiki akusento, KAN)** — Japan (the Kansai 関西 / Kinki 近畿 region centred on Kyoto 京都 and Osaka 大阪, the historical capital region; the major prestige alternative to Tokyo speech). Basis: the traditional speech of the Kyoto–Osaka (Keihan 京阪) heartland, the historical cultural and courtly centre before Edo/Tokyo. Carries KEIHAN-type pitch accent (京阪式アクセント), a richer two-component system. **Pitch-accent type: Keihan-type (京阪式).** Keihan-type pitch accent is RICHER than Tokyo-type: in addition to an accentual downstep, each word carries a lexical initial REGISTER (高起式 high-onset vs 低起式 low-onset). The melodies are systematically different from Tokyo and are frequently effectively 'reversed' relative to it — words that are atamadaka in Tokyo may be heiban in Kansai and vice versa, and several minimal pairs (箸/橋, 雨/飴) carry opposite contours in the two systems; Kansai therefore preserves accentual contrasts that Tokyo has merged. Key features: Keihan-type pitch accent (京阪式) with a lexical initial REGISTER (high/low onset) ON TOP OF an accentual downstep, a two-component system absent from Tokyo; accent melodies systematically different from and often 'reversed' relative to Tokyo (e.g. 雨/飴, 箸/橋 carry opposite contours); preservation of some accentual and lexical contrasts that Tokyo has leveled, with more vowel fullness and LESS high-vowel devoicing than Tokyo; a distinctive lexicon and morphology (e.g. negative ～へん, copula や rather than だ, intensifier めっちゃ) marking the variety culturally; and its status as the major regional standard and the principal alternative reference to Tokyo speech. Analogous to the Western (Serto) tradition in the Peshitta guide, Received Pronunciation (RP/SSBE) in the English guide, General Latin American in the Spanish guide, and North Korean 문화어 (Pyongyang) in the Korean guide — one of two co-equal documented standards.
+
+The central, near-iconic difference between the two reference standards is PITCH ACCENT: both have lexical pitch accent rather than stress or per-syllable tone, but Tokyo-type accent has a single optional downstep with a fixed mora-1≠mora-2 rule, whereas Keihan (Kansai) accent adds a lexical initial REGISTER (high vs low onset) on top of the downstep, yielding a richer two-component system whose melodies are systematically different from — and frequently effectively reversed relative to — Tokyo (the same word, e.g. 雨/飴 or 箸/橋, often carries opposite contours). Both standards otherwise share the full Japanese backbone — mora-timing, the five-vowel system with phonemic length, the special moras /N/ (ん) and /Q/ (っ), the same consonant allophony (s→ɕ, t→tɕ/ts, h→ç/ɸ, intervocalic ɡ→ŋ), and the three-script orthography — and diverge further in degree of high-vowel devoicing and in distinctive Kansai lexicon and morphology.
+
+### Companion Files
+
+- `Japanese/japanese_pronunciation_guide.md`
+- `Japanese/Peshita_Japanese/Scholarly/`
+- `Japanese/Peshita_Japanese/Pretty/`
+- `Japanese/Peshita_Japanese/Katakana/`
+- `Japanese/Peshita_Japanese/Hiragana/`
+- `Japanese/Peshita_Japanese/Romaji/`
+- `peshitta_pronunciation_guide.json`
+- `biblical_aramaic_pronunciation_guide.json`
+- `biblical_hebrew_pronunciation_guide.json`
+- `English/english_pronunciation_guide.json`
+- `Spanish/spanish_pronunciation_guide.json`
+- `Korean/korean_pronunciation_guide.json`
+
+The Japanese Peshitta ships in FIVE reader tiers: Scholarly and Pretty (language-neutral Latin transcription), Katakana (カタカナ, the idiomatic foreign-word reader tier), Hiragana (ひらがな, the same moras rendered in the native-word syllabary), and Romaji (a Hepburn read-back of the kana). Because Japanese is strictly moraic — no consonant clusters and no codas other than the moraic ン /N/ and the sokuon ッ /Q/ — rendering Aramaic into the kana tiers requires FORCED VOWEL EPENTHESIS (inserting a vowel, by default /ɯ/ or /o/, to break up clusters and supply syllable nuclei). All paths are repo-relative; `Japanese/japanese_pronunciation_guide.md` is the human-readable companion to this JSON.
+
+### Notes
+
+- Japanese is written in a MIXTURE of three scripts in a single sentence (漢字仮名交じり文): logographic kanji (漢字) for content roots, the cursive hiragana (ひらがな) syllabary for grammar and okurigana, and the angular katakana (カタカナ) syllabary for foreign words, names, onomatopoeia and emphasis — unlike the single-script Semitic, English and Spanish companion guides. Text may run vertically (縦書き, top-to-bottom in right-to-left columns) or horizontally (横書き, left-to-right).
+- Japanese is MORA-TIMED, and the MORA (拍 haku / モーラ), not the syllable, is the fundamental timing and phonological unit: each mora carries roughly equal duration. A SYLLABLE may be one or two moras, so にっぽん Nippon counts as FOUR moras (に・っ・ぽ・ん) but only two syllables, and the 5-7-5 of haiku counts moras, not syllables — mora ≠ syllable is a defining trait of the system.
+- Japanese has lexical PITCH ACCENT, NOT stress and NOT per-syllable tone: a Tokyo word bears at most one accent, realized as a pitch DROP (downstep) after the accented mora, with classes 頭高 (atamadaka), 中高 (nakadaka), 尾高 (odaka) and 平板 (heiban, accentless). Accent is contrastive — 箸 ha˥shi 'chopsticks' ≠ 橋 hashi˥ 'bridge' ≠ 端 hashi 'edge'; 雨 a˥me 'rain' ≠ 飴 ame 'candy' — and the two reference standards (Tokyo vs Kansai/Keihan) differ chiefly in their accent melodies, which are systematically different and often effectively reversed.
+- VOWEL LENGTH IS PHONEMIC: every one of the five vowels /a i ɯ e o/ contrasts short vs long, and minimal pairs turn on it — おばさん obasan 'aunt' vs おばあさん obāsan 'grandmother', ゆき yuki 'snow' vs ゆうき yūki 'courage'. A long vowel is two moras; in hiragana it is written by vowel doubling or by う for ō/ū, and in katakana by the chōonpu ー.
+- The HIGH vowels /i u/ DEVOICE to voiceless [i̥ ɯ̥] between voiceless consonants and word-finally after a voiceless consonant (です [desɯ̥], すき [sɯ̥ki], した [ɕi̥ta]); high-vowel devoicing is robust in Tokyo speech and weaker in Kansai, and is documented here as an allophonic process, not a separate phoneme.
+- The vowel /u/ is NOT the cardinal rounded [u]: it is a COMPRESSED, unrounded back-central high vowel [ɯ̈] (often transcribed /ɯ/), produced with lip compression rather than rounding — a frequent learner pitfall and a point where IPA, not rōmaji 'u', is the authoritative record.
+- Japanese has rich segmental ALLOPHONY driven by the following vowel: /s/ → [ɕ] before /i/ (し shi); /t/ → [tɕ] before /i/ (ち chi) and [ts] before /u/ (つ tsu); /z/ and /d/ → [dʑ]/[ʑ] before /i/ and [dz] before /u/; /h/ → [ç] before /i/ (ひ hi) and [ɸ] before /u/ (ふ fu); intervocalic /ɡ/ → the velar nasal [ŋ] (鼻濁音) for many conservative speakers; /r/ is an apico-alveolar TAP [ɾ]; /w/ is [ɰ]. These are allophones of single phonemes, so /ɕ tɕ ʑ dʑ ts ɸ/ are NOT separate phonemes.
+- Japanese has NO native /f v θ ð l/ as distinct phonemes: [ɸ] is merely the allophone of /h/ before /u/, /v/ is absent (loanword ヴ va is an artificial spelling, usually realized [b]), the dental fricatives /θ ð/ do not exist, and /l/ merges entirely into the single liquid /r/ = [ɾ] — so foreign words and the Aramaic source must be adapted into this reduced inventory.
+- Two SPECIAL moras have no vowel of their own and behave unlike ordinary CV moras: the moraic nasal /N/ (ん / ン) assimilates to its environment ([m] before labials こんばん, [n] before alveolars, [ŋ] before velars, [ɴ]/[ɰ̃] finally or before vowels/fricatives), and the sokuon /Q/ (っ / ッ) is the lengthened first half of a following obstruent geminate (きっぷ kippu); each still counts as a full mora for timing and verse.
+- Phonemic transcriptions use / / slashes and phonetic transcriptions use [ ] brackets; suprasegmentals here include /ː/ for phonemic vowel length, the downstep / pitch-drop notation for accent (e.g. ˥˩ or a drop mark after the accented mora), the under-ring /◌̥/ for devoiced high vowels, and the explicit special moras /N/ (moraic nasal) and /Q/ (sokuon).
+- Rōmaji is secondary to IPA: Hepburn (ヘボン式, phonetic — shi chi tsu fu ji) is used for the Romaji companion tier and most international usage; Kunrei-shiki (訓令式, ISO 3602, phonemic — si ti tu hu zi) is the school/government standard; Nihon-shiki (日本式, the oldest, most kana-faithful, keeping ぢ di / づ du) survives in scholarly contexts. IPA, not any rōmaji, is the authoritative pronunciation record.
+- Rendering Aramaic into the kana reader tiers (Katakana and Hiragana) requires FORCED VOWEL EPENTHESIS, because Japanese is strictly moraic: it permits no onset or coda consonant clusters and no syllable-final consonants other than the moraic ン /N/ and the sokuon ッ /Q/. Source clusters and bare consonants are therefore broken up with an inserted vowel (by default /ɯ/, or /o/ after /t d/), so that every Aramaic consonant is carried on its own (C)V mora.
+
+
+## Table of Contents
+
+- [How to Read This Guide](#how-to-read-this-guide)
+  - [Phonemic vs phonetic notation](#phonemic-vs-phonetic-notation)
+  - [How to read the IPA](#how-to-read-the-ipa)
+  - [Mora vs syllable & pitch-accent notation](#mora-vs-syllable--pitch-accent-notation)
+  - [Kanji, hiragana, katakana, and the Hepburn / Kunrei rōmaji conventions](#kanji-hiragana-katakana-and-the-hepburn--kunrei-rōmaji-conventions)
+  - [How the parallel Tokyo / Kansai standards are shown](#how-the-parallel-tokyo--kansai-standards-are-shown)
+- [Phonological Inventory](#phonological-inventory)
+  - [Consonant Phonemes](#consonant-phonemes)
+  - [Special Moras](#special-moras)
+  - [Principal Allophones](#principal-allophones)
+  - [Vowel Phonemes](#vowel-phonemes)
+  - [Cross-References](#cross-references)
+- [Consonants](#consonants)
+  - [Consonant Inventory](#consonant-inventory)
+  - [Yōon (拗音) — Palatalized Moras](#yōon-拗音--palatalized-moras)
+  - [Special Moras (特殊拍 tokushuhaku)](#special-moras-特殊拍-tokushuhaku)
+  - [Natural Classes](#natural-classes)
+  - [Summary](#summary)
+- [Vowels](#vowels)
+  - [Vowel System Overview](#vowel-system-overview)
+  - [Vowel Inventory](#vowel-inventory)
+  - [Per-Vowel Notes and Example Words](#per-vowel-notes-and-example-words)
+  - [Vowel Length](#vowel-length)
+  - [High-Vowel Devoicing](#high-vowel-devoicing)
+  - [Vowel Sequences (Hiatus)](#vowel-sequences-hiatus)
+  - [Long Vowels](#long-vowels)
+  - [IPA Symbol Summary](#ipa-symbol-summary)
+- [Moras & Special Moras](#moras--special-moras)
+  - [Reference Standards](#reference-standards)
+  - [The Mora Unit](#the-mora-unit)
+  - [Mora vs. Syllable](#mora-vs-syllable)
+  - [Ordinary Mora Shapes](#ordinary-mora-shapes)
+  - [Special Moras](#special-moras-1)
+  - [Vowel Sequences — `連母音` (*renbo'in*)](#vowel-sequences--連母音-renboin)
+  - [Worked Mora Counting](#worked-mora-counting)
+  - [Reader-Tier Relevance](#reader-tier-relevance)
+  - [Unicode Reference](#unicode-reference)
+  - [Summary Table](#summary-table)
+  - [Key Takeaways](#key-takeaways)
+- [Consonant–Vowel Mora Matrix (Gojūon 五十音)](#consonantvowel-mora-matrix-gojūon-五十音)
+  - [Romanization Systems](#romanization-systems)
+  - [Reference Vowels](#reference-vowels)
+  - [Phonology Notes](#phonology-notes)
+  - [Secondary Standard Notes (Tokyo vs Kansai)](#secondary-standard-notes-tokyo-vs-kansai)
+  - [Special Moras](#special-moras-2)
+  - [Gojūon Matrix (五十音図)](#gojūon-matrix-五十音図)
+  - [Yōon Matrix (拗音 — Palatalized Moras)](#yōon-matrix-拗音--palatalized-moras)
+  - [Foreign-Extended Matrix (外来音 — Extended Katakana)](#foreign-extended-matrix-外来音--extended-katakana)
+  - [Unicode Reference](#unicode-reference-1)
+  - [Cross-Reference](#cross-reference)
+- [Suprasegmentals & Pitch Accent](#suprasegmentals--pitch-accent)
+  - [Typological Summary](#typological-summary)
+  - [Pitch Accent](#pitch-accent)
+  - [Kansai / Keihan (関西弁 / 京阪式アクセント)](#kansai--keihan-関西弁--京阪式アクセント)
+  - [Mora Timing](#mora-timing)
+  - [High-Vowel Devoicing](#high-vowel-devoicing-1)
+  - [Downstep & Phrasal Pitch](#downstep--phrasal-pitch)
+  - [Intonation](#intonation)
+  - [Comparison to Other Systems](#comparison-to-other-systems)
+  - [Cross-References](#cross-references-1)
+- [Mora & Syllable Structure](#mora--syllable-structure)
+  - [Reference Standards](#reference-standards-1)
+  - [Components](#components)
+  - [Syllable Weight](#syllable-weight)
+  - [Syllable Types](#syllable-types)
+  - [Mora Count Examples](#mora-count-examples)
+  - [Syllabification](#syllabification)
+  - [Loanword Adaptation](#loanword-adaptation)
+  - [Constraints](#constraints)
+- [Phonological Rules](#phonological-rules)
+  - [Rules at a Glance](#rules-at-a-glance)
+  - [Rule 1: 連濁 (rendaku) — sequential voicing of a compound's second element](#rule-1-連濁-rendaku--sequential-voicing-of-a-compounds-second-element)
+  - [Rule 2: ライマンの法則 (Raiman no hōsoku) — Lyman's Law (rendaku-blocking by a voiced obstruent)](#rule-2-ライマンの法則-raiman-no-hōsoku--lymans-law-rendaku-blocking-by-a-voiced-obstruent)
+  - [Rule 3: サ行口蓋化 (sa-gyō kōgaika) — /s z/ palatalization before /i/ (and /j/)](#rule-3-サ行口蓋化-sa-gyō-kōgaika--s-z-palatalization-before-i-and-j)
+  - [Rule 4: タ行の異音 (ta-gyō no ion) — /t d/ affrication/palatalization before /i/ and /u/](#rule-4-タ行の異音-ta-gyō-no-ion--t-d-affricationpalatalization-before-i-and-u)
+  - [Rule 5: ハ行の異音 (ha-gyō no ion) — /h/ → [ç] before /i/, [ɸ] before /u/](#rule-5-ハ行の異音-ha-gyō-no-ion--h--ç-before-i-ɸ-before-u)
+  - [Rule 6: ガ行鼻濁音 (ga-gyō bidakuon) — velar nasalization of intervocalic /ɡ/ → [ŋ]](#rule-6-ガ行鼻濁音-ga-gyō-bidakuon--velar-nasalization-of-intervocalic-ɡ--ŋ)
+  - [Rule 7: 母音の無声化 (boin no museika) — high-vowel devoicing](#rule-7-母音の無声化-boin-no-museika--high-vowel-devoicing)
+  - [Rule 8: 撥音の同化 (hatsuon no dōka) — moraic nasal /N/ (ん) place assimilation](#rule-8-撥音の同化-hatsuon-no-dōka--moraic-nasal-n-ん-place-assimilation)
+  - [Rule 9: 促音 / 促音化 (sokuon / sokuonka) — gemination (the moraic obstruent /Q/, っ)](#rule-9-促音--促音化-sokuon--sokuonka--gemination-the-moraic-obstruent-q-っ)
+  - [Rule 10: 長音 / 母音の長短 (chōon / boin no chōtan) — phonemic vowel length & long-vowel formation](#rule-10-長音--母音の長短-chōon--boin-no-chōtan--phonemic-vowel-length--long-vowel-formation)
+  - [Rule 11: 母音融合・縮約 (boin yūgō / shukuyaku) — vowel coalescence & contraction (colloquial)](#rule-11-母音融合縮約-boin-yūgō--shukuyaku--vowel-coalescence--contraction-colloquial)
+  - [Rule 12: 音便 (onbin) — historical sound euphony (い音便・促音便・撥音便・ウ音便)](#rule-12-音便-onbin--historical-sound-euphony-い音便促音便撥音便ウ音便)
+  - [Rule 13: ワ行の異音・半母音 (wa-gyō no ion) — /w/, /j/ glide realization](#rule-13-ワ行の異音半母音-wa-gyō-no-ion--w-j-glide-realization)
+  - [Rule 14: ラ行音 (ra-gyō on) — /r/ as the apico-alveolar tap [ɾ]](#rule-14-ラ行音-ra-gyō-on--r-as-the-apico-alveolar-tap-ɾ)
+  - [Rule Ordering and Interaction](#rule-ordering-and-interaction)
+- [Tokyo Standard vs. Kansai](#tokyo-standard-vs-kansai)
+  - [Reference accents](#reference-accents)
+  - [Differences](#differences)
+  - [Asides: regional varieties (方言, hōgen)](#asides-regional-varieties-方言-hōgen)
+- [Orthography: Kanji, Kana & Romanization](#orthography-kanji-kana--romanization)
+  - [General Principles](#general-principles)
+  - [Kanji (漢字)](#kanji-漢字)
+  - [Syllabaries (仮名)](#syllabaries-仮名)
+  - [Gojūon Ordering (五十音)](#gojūon-ordering-五十音)
+  - [Kana → Mora → IPA Table](#kana--mora--ipa-table)
+  - [Romanization (ローマ字)](#romanization-ローマ字)
+  - [Reader Tiers](#reader-tiers)
+  - [Unicode Codepoints](#unicode-codepoints)
+  - [Summary](#summary-1)
+- [Connected Speech & Sandhi](#connected-speech--sandhi)
+  - [Reference Standards](#reference-standards-2)
+  - [Boundary Phenomena](#boundary-phenomena)
+  - [Process Classification](#process-classification)
+  - [Process Ordering](#process-ordering)
+  - [Rate & Register](#rate--register)
+  - [Dialect Variation](#dialect-variation)
+  - [Interaction & Contrast](#interaction--contrast)
+- [Sample Words in IPA](#sample-words-in-ipa)
+  - [Detailed Entry Notes](#detailed-entry-notes)
+  - [Coverage Summary](#coverage-summary)
+- [Unicode Reference](#unicode-reference-2)
+  - [IPA Consonant Symbols](#ipa-consonant-symbols)
+  - [IPA Vowel Symbols](#ipa-vowel-symbols)
+  - [Diacritics & Suprasegmentals](#diacritics--suprasegmentals)
+  - [Kana Characters](#kana-characters)
+  - [Unicode Blocks Used](#unicode-blocks-used)
+- [Cross-Reference to the Companion Guides](#cross-reference-to-the-companion-guides)
+  - [Shared Framework](#shared-framework)
+  - [Typological Contrasts](#typological-contrasts)
+  - [Companion Guides](#companion-guides)
+  - [Shared IPA Symbols](#shared-ipa-symbols)
+  - [Reader Tiers](#reader-tiers-1)
+
+## How to Read This Guide
+
+This guide records pronunciation in the International Phonetic Alphabet (IPA, 2015 revision). A few conventions are used throughout.
+
+### Phonemic vs phonetic notation
+
+- **Phonemic transcription** is written between forward slashes: `/ /`. It records the contrastive sound categories (phonemes) of the language, abstracting away from predictable detail — e.g. ふ is the phoneme /h/ before /ɯ/, written phonemically /hɯ/.
+- **Phonetic transcription** is written between square brackets: `[ ]`. It records the actual realized sounds, including allophonic detail — e.g. the bilabial fricative in ふ `[ɸɯ]`, the devoiced high vowel in です `[desɯ̥]`, and the affricate in つ `[tsɯ]`.
+
+### How to read the IPA
+
+- Consonants are described by IPA **place of articulation** (bilabial, alveolar, alveolo-palatal, palatal, velar, glottal, labial-velar), **manner of articulation** (plosive, nasal, fricative, affricate, tap/flap, approximant), and **voicing** — Japanese DOES have a phonemic voicing contrast across the obstruents (/p b/, /t d/, /k ɡ/, /s z/), unlike Korean. The alveolo-palatal [ɕ tɕ ʑ dʑ], the affricates [ts dz], and the bilabial [ɸ] are ALLOPHONES (conditioned by the following vowel), not separate phonemes.
+- Vowels are described by **height** (close/mid/open), **backness** (front/central/back), **roundedness**, and **length** — over a five-vowel system /a i ɯ e o/ in which LENGTH IS PHONEMIC. The length mark `ː` after a vowel signals a long (two-mora) vowel — e.g. おばあさん obāsan `/oba(ː)saɴ/` vs おばさん obasan, ゆうき yūki `/jɯːki/` vs ゆき yuki. The high vowel written rōmaji *u* is the compressed, unrounded back-central [ɯ̈] (transcribed /ɯ/), NOT the cardinal rounded [u].
+- Japanese has **lexical pitch accent, not stress and not per-syllable tone**, so no stress mark `ˈ` is used. Where pitch is shown it is the accentual downstep (pitch drop) after the accented mora — see the next subsection. The under-ring `◌̥` marks a devoiced high vowel (`[i̥ ɯ̥]`), an allophonic process robust in Tokyo and weaker in Kansai.
+
+### Mora vs syllable & pitch-accent notation
+
+- The fundamental timing and phonological unit is the **MORA** (拍 haku / モーラ), not the syllable: Japanese is MORA-TIMED, each mora carrying roughly equal duration. A mora is (C)(j)V, OR the moraic nasal /N/ (ん / ン), OR the sokuon /Q/ (っ / ッ), OR the length mora /R/ (ー). A **SYLLABLE** (音節 onsetsu) is one or two moras — light syllables are one mora (CV), heavy syllables two (CVN, CVQ, CVR / long vowel) — so にっぽん Nippon is FOUR moras (に・っ・ぽ・ん) but only TWO syllables, and とうきょう Tōkyō is four moras / two syllables. The 5-7-5 of haiku counts moras, not syllables.
+- **Pitch accent** is marked, since it is contrastive. A word bears at most one accent in Tokyo, realized as a pitch DROP (downstep) immediately after the accented mora; pitch is shown High/Low across the moras (e.g. 箸 ha˥shi HL 'chopsticks' vs 橋 hashi˥ LH, with the drop on a following particle, 'bridge' vs 端 hashi LH heiban, no drop, 'edge'; 雨 a˥me 'rain' vs 飴 ame 'candy'). Tokyo accent classes are 頭高 (atamadaka, drop after mora 1), 中高 (nakadaka, drop word-medially), 尾高 (odaka, drop after the final mora), and 平板 (heiban, accentless). The two special moras /N/ (ん) and /Q/ (っ) each count as a full mora for timing and can carry pitch but never bear the accent's High peak alone.
+
+### Kanji, hiragana, katakana, and the Hepburn / Kunrei rōmaji conventions
+
+- Ordinary Japanese mixes **three scripts** in one sentence (漢字仮名交じり文): **kanji** (漢字), logographic characters writing content roots, where one glyph typically has multiple readings — 音読み (on'yomi, Sino-Japanese) and 訓読み (kun'yomi, native) — so furigana (small kana) disambiguate; **hiragana** (ひらがな), the cursive moraic syllabary for native words, grammatical particles (は・が・を), and okurigana inflectional endings; and **katakana** (カタカナ), the angular moraic syllabary, mora-for-mora parallel to hiragana, used for foreign / loanwords (外来語), foreign names, onomatopoeia, and emphasis (and the idiomatic script for non-Japanese sounds, hence the katakana reader tier). Both kana follow the 五十音 (gojūon) grid of 10 consonant rows × 5 vowel columns; voicing is marked by the dakuten ゛(か→が) and the handakuten ゜ on the は-row (は→ぱ), and small kana mark yōon (きゃ kya, しゃ sha, ちゃ cha) and the sokuon (っ).
+- **Rōmaji is secondary to IPA** and is provided for cross-reference and read-back only. Two systems are referenced throughout: **Hepburn** (ヘボン式, PHONETIC / English-reader oriented — spells the surface allophones し shi, ち chi, つ tsu, ふ fu, じ ji, しゃ sha; long vowels with a macron ō ū; the default for international usage, signage, passports and the Romaji companion tier) and **Kunrei-shiki** (訓令式, PHONEMIC / system-regular and ISO 3602 — one spelling per gojūon cell si ti tu hu zi sya; long vowels with a circumflex; the Japanese-government/school standard). The oldest, most kana-faithful **Nihon-shiki** (日本式, keeping ぢ di / づ du) survives mainly in scholarly contexts. IPA, not any rōmaji, is the authoritative pronunciation record.
+
+### How the parallel Tokyo / Kansai standards are shown
+
+Two co-equal reference standards are documented in parallel:
+
+- **Standard / Common Japanese (標準語 / 共通語, Tokyo, TOK)** — Tokyo-type pitch accent (東京式): one optional downstep per word.
+- **Kansai / Keihan (関西 / 京阪式, Kyoto–Osaka, KAN)** — Keihan-type pitch accent (京阪式): a lexical initial register (high/low onset) on top of the downstep.
+
+Where the two standards differ, both contours are given side by side. The central systematic difference is PITCH ACCENT: the melodies are systematically different and frequently effectively REVERSED between the two systems — the same word (e.g. 雨/飴 or 箸/橋) often carries opposite contours — with Kansai preserving accentual contrasts that Tokyo has merged. Both standards otherwise share the full Japanese backbone: mora-timing, the five-vowel system with phonemic length, the special moras /N/ and /Q/, the same following-vowel allophony (s→ɕ, t→tɕ/ts, h→ç/ɸ, intervocalic ɡ→ŋ), and the three-script orthography; they diverge further in degree of high-vowel devoicing (robust in Tokyo, weaker in Kansai) and in distinctive Kansai lexicon and morphology.
+
+## Phonological Inventory
+
+The complete phonemic inventory of Modern Standard Japanese (日本語 *Nihongo*; ISO 639-3 jpn), organized by IPA categories and presented through a MORA-PHONEMIC analysis appropriate to a mora-timed (拍 *haku* / モーラ) language. Documented in parallel for two reference standards: **Standard / Common Japanese — 標準語 / 共通語 (Hyōjungo / Kyōtsūgo)**, the educated Tokyo (Yamanote) norm with Tokyo-type pitch accent (東京式アクセント), and **Kansai / Keihan — 関西弁 / 京阪式アクセント** (the Kyoto–Osaka standard), the major alternative. The two standards share an essentially identical SEGMENTAL inventory — the same consonant and vowel phonemes — and diverge chiefly in SUPRASEGMENTALS: lexical PITCH ACCENT (not stress, not per-syllable tone), where patterns differ systematically (e.g. 箸 'chopsticks' vs 橋 'bridge', 雨 'rain' vs 飴 'candy' swap melodies between Tokyo and Kansai), with Kansai adding a lexical initial REGISTER on top of accent and preserving some vowel-length and lexical contrasts Tokyo has levelled.
+
+The defining structural facts of the system are:
+
+1. it is **MORA-TIMED**, the mora being the basic timing and phonological unit;
+2. two **SPECIAL (independent) moras** carry no vowel of their own — the moraic nasal /N/ (`ん`/`ン`) and the sokuon /Q/ (`っ`/`ッ`, first half of a geminate);
+3. **VOWEL LENGTH is phonemic**; and
+4. extensive **ALLOPHONY conditioned by the following vowel** (palatalization before /i/, the /h/→[ɸ] and /t/→[ts] shifts before /u/).
+
+/slashes/ mark phonemes, [brackets] mark phonetic realizations. This object is a SUMMARY; exhaustive per-phoneme entries live in the separate **Consonants** and **Vowels** sections.
+
+### Consonant Phonemes
+
+The consonant phonemes of Modern Standard Japanese arranged by place and manner of articulation under a mora-phonemic analysis. The inventory is shared between Standard/Common Japanese (標準語/共通語) and Kansai (関西弁). Beyond the ordinary onset consonants, Japanese recognizes two SPECIAL MORAS that behave as independent phonemes but have no inherent vowel and occupy a mora slot of their own: the moraic nasal /N/ (`ん`/`ン`) and the sokuon /Q/ (`っ`/`ッ`). Japanese has a true VOICING contrast in obstruents (unlike the laryngeal three-way system of Korean): /p~b/, /t~d/, /k~ɡ/, /s~z/, marked orthographically by the dakuten ゙.
+
+**Total consonant phonemes:** 16  
+Counted as 16 mora-phonemic consonant units: the 14 ordinary onset consonants /p b t d k ɡ s z h m n r j w/ PLUS the two special moras /N/ (moraic nasal) and /Q/ (sokuon). Analysts who exclude the special moras from the consonant tally give 14 ordinary consonants; those who add the marginal/loan phoneme as in some treatments may adjust further. The two special moras are included here because they are mora-phonemic segments contrastive with the ordinary consonants and with zero.
+
+**Breakdown:** 14 ordinary consonant phonemes + 2 special moras = 16. ORDINARY ONSETS: plosives /p b t d k ɡ/ (6), fricatives /s z h/ (3), nasals /m n/ (2), liquid /r/ (1), glides /j w/ (2) = 14. SPECIAL MORAS: moraic nasal /N/ (`ん`/`ン`) and sokuon /Q/ (`っ`/`ッ`) = 2. Japanese has a genuine VOICING contrast (voiceless vs voiced) in obstruents, signalled by the dakuten ゙ (`か` /ka/ → `が` /ɡa/; `さ` /sa/ → `ざ` /za/), and the handakuten ゚ derives /p/ from the /h/ row (`は` /ha/ → `ぱ` /pa/).
+
+**Key allophones** (NOT separate phonemes, all heavily conditioned by the following vowel): /s/→[ɕ] before /i/ (`し` *shi* [ɕi]); /t/→[tɕ] before /i/ (`ち` *chi* [tɕi]) and →[ts] before /u/ (`つ` *tsu* [tsɯ̥]); /z/ and /d/→[dʑ]/[ʑ] before /i/ (`じ`/`ぢ` [dʑi]~[ʑi]) and /z/→[dz] before /u/ (`ず` [dzɯ]); /h/→[ç] before /i/ (`ひ` *hi* [çi]) and →[ɸ] before /u/ (`ふ` *fu* [ɸɯ̥]); /ɡ/→[ŋ] (velar nasal, 鼻濁音 *bidakuon*) intervocalically for many conservative speakers; /r/ is an apico-alveolar TAP [ɾ] (clear of any [l]/[r]-trill quality), with a lateral-flap or [d]-like onset variant; /w/ is the labio-velar [ɰ] (compression rather than rounding), occurring natively before /a/. The MORAIC NASAL /N/ is the most allophonically variable segment: it ASSIMILATES in place to the following consonant — [m] before labials (`しんぶん` *shimbun*), [n] before alveolars (`こんにちは`), [ŋ] before velars (`りんご` [ɾiŋɡo]), [ɲ] before palatals — and surfaces as a nasalized [ɴ]~[ɰ̃] (uvular / nasalized glide) utterance-finally or before a vowel, fricative or glide (`ほん` [hoɴ], `でんわ` [deɰ̃wa]). The SOKUON /Q/ has no independent quality of its own: it is a placeholder mora realized as the FIRST HALF (a held closure or prolonged frication) of the following geminate obstruent (`きっぷ` [kip̚pɯ], `がっこう` [ɡakkoː], `ざっし` [zaɕɕi]), and so is voiceless and place-assimilated to whatever obstruent follows.
+
+**Gaps vs Aramaic and European languages:** Japanese has NO native /f v θ ð l ʃ ʒ/ as distinct phonemes — [ɸ] is merely the /h/ allophone before /u/, /l/ merges into the tap /r/, and [ɕ tɕ ʑ dʑ] are allophones of /s t z d/ before /i/, not independent phonemes (a major source of L2 substitution and of the forced epenthesis needed to render Aramaic).
+
+**Standard ↔ Kansai:** the consonant phoneme set is identical; differences are suprasegmental (pitch accent) plus minor allophonic tendencies (e.g. 鼻濁音 [ŋ] is more robustly preserved in conservative Tokyo speech and weaker in much Kansai/younger speech).
+
+#### IPA Consonant Chart
+
+IPA consonant chart for Modern Standard Japanese (rows = manner, columns = place). Where two symbols appear in an obstruent cell, voiceless precedes voiced (the dakuten ゙ contrast). PARENTHESIZED alveolo-palatal symbols are conditioned ALLOPHONES of the alveolar series before /i j/, shown for orientation but NOT counted as phonemes. The two special moras /N/ and /Q/ are listed beneath the chart because they have no fixed place of articulation. The chart is shared by Standard/Common Japanese and Kansai.
+
+*Voicing cell order: voiceless → voiced.*
+
+| Manner | Bilabial | Alveolar | Alveolo-palatal | Palatal | Velar | Glottal |
+|---|---|---|---|---|---|---|
+| Plosive | p b | t d |  |  | k ɡ |  |
+| Affricate |  | (ts dz) | (tɕ dʑ) |  |  |  |
+| Fricative | (ɸ) | s z | (ɕ ʑ) |  |  | h |
+| Nasal | m | n |  |  |  |  |
+| Tap |  | r |  |  |  |  |
+| Approximant | w |  |  | j | w |  |
+
+**Special moras (outside the chart — placeless):**
+
+- **/N/** (moraic nasal `ん`/`ン`) — placeless; assimilates [m n ŋ ɲ ɴ ɰ̃]
+- **/Q/** (sokuon `っ`/`ッ`) — placeless; first half of a following geminate obstruent
+
+*The voicing pairs are visible WITHIN each obstruent cell: bilabial /p b/, alveolar /t d/ and /s z/, velar /k ɡ/. The AFFRICATES [ts dz] (`つ` *tsu*, `づ` *zu*) and [tɕ dʑ] (`ち` *chi*, `ぢ`/`じ` *ji*) are parenthesized because they are allophones of /t/ and /d~z/ before /u/ and /i/, not independent phonemes; likewise the parenthesized fricatives [ɸ] (`ふ` *fu*, an allophone of /h/ before /u/) and [ɕ ʑ] (`し` *shi*, `じ` *ji*, allophones of /s z/ before /i/). The tap row holds the single liquid /r/ = [ɾ]. /w/ is a labial-velar approximant not assignable to one column, so the single phoneme is shown in BOTH the bilabial and velar cells of the approximant row (one phoneme displayed twice, not two phonemes). PHONEME tally of ordinary onsets: plosives p b t d k ɡ (6) + fricatives s z h (3) + nasals m n (2) + tap r (1) + glides j w (2) = 14; PLUS the two special moras N and Q listed separately = 16 mora-phonemic consonant units. There is no /ŋ/ phoneme: [ŋ] is the bidakuon allophone of /ɡ/ or the pre-velar realization of /N/. STANDARD ↔ KANSAI share this chart exactly; only the suprasegmental pitch-accent layer differs.*
+
+#### Notes by Place of Articulation
+
+- **Bilabial** — /p b m/. Bilabial stops contrast in voicing: /p/ (`ぱ` *pa*, written with the handakuten ゚ and largely confined to loanwords, mimetics, and post-/Q//N/ position — `パン` *pan* 'bread', `きっぷ` *kippu* 'ticket') and /b/ (`ば` *ba* — `ばら` *bara* 'rose'). /p/ is rare word-initially in the native stratum (historical *p shifted to /h/), so initial /p/ flags a loanword or mimetic. The bilabial nasal /m/ (`ま` *ma*) occurs freely as an onset and is also one realization of the moraic nasal /N/ before a labial (`さんぽ` [sampo]). The labio-velar glide /w/ has a labial (compression) component but is listed under labial-velar. Note that [ɸ] — the voiceless bilabial fricative of `ふ` *fu* — is NOT a bilabial phoneme but the allophone of /h/ before /u/.
+- **Alveolar** — /t d s z n r/. The richest place of articulation. Stops /t/ (`た` *ta*) and /d/ (`だ` *da*) contrast in voicing but are heavily ALLOPHONIC before high vowels: /t/→[tɕ] before /i/ (`ち` *chi*) and [ts] before /u/ (`つ` *tsu*), and the voiced /d/ merges with /z/ before /i/ ([dʑ]~[ʑ]) and /u/ ([dz]~[z]) — so the plain alveolar [t d] surface only before /a e o/ (`た て と`, `だ で ど`). Fricatives /s/ (`さ` *sa*) and /z/ (`ざ` *za*) likewise palatalize before /i/ to [ɕ]/[ʑ]~[dʑ] (`し` *shi*, `じ` *ji*) and /z/→[dz] before /u/ (`ず` *zu*). The alveolar nasal /n/ (`な` *na*) is an onset and also a realization of moraic /N/ before alveolars. The single liquid /r/ is an apico-alveolar TAP [ɾ] (`ら` *ra*, `りんご` *ringo*) — neither an English [r] nor an [l]; foreign /l/ and /r/ both map onto it. In coda/special-mora position the alveolar place is the default for /N/ before /t d n s z r/ and for /Q/ before /t s/ (`きって` [kit̚te], `まっすぐ` [massɯ̥ɡɯ] — note /s/ does NOT palatalize before /u/, so the geminate is [ss], not [ɕɕ]).
+- **Alveolo-palatal** — [ɕ ʑ tɕ dʑ] (ALLOPHONES, not phonemes). PARENTHESIZED because these are ALLOPHONES, not independent phonemes. The alveolo-palatal series [ɕ] (`し` *shi*), [ʑ]~[dʑ] (`じ` *ji*), [tɕ] (`ち` *chi*), [dʑ] (`ぢ` *ji*) arises automatically from /s z t d/ before /i/ and in the palatalized YŌON moras (`しゃ` *sha* [ɕa], `ちゃ` *cha* [tɕa], `じゃ` *ja* [dʑa]). Because they never contrast with the plain alveolars in the same environment, Japanese phonology treats them as conditioned variants — which is exactly why Hepburn writes sh/ch/j but Kunrei-shiki writes si/ti/zi. This place column is therefore phonetic, included to show where the palatalized allophones live; it adds NO phoneme to the count of 16.
+- **Velar** — /k ɡ/. Velar stops contrast in voicing: /k/ (`か` *ka*) and /ɡ/ (`が` *ga*). The voiced /ɡ/ has a widespread conservative allophone, the VELAR NASAL [ŋ] (鼻濁音 *bidakuon*), used intervocalically within a word and for the particle が by many traditional Tokyo speakers (`かぎ` [kaŋi] 'key', `りんご` [ɾiŋɡo]~[ɾiŋŋo]); this nasalization is receding among younger speakers and is weaker in Kansai. There is no independent velar nasal PHONEME (unlike English /ŋ/): [ŋ] is either the bidakuon allophone of /ɡ/ or the pre-velar realization of moraic /N/ (`りんご`, `げんき` [ɡeŋki]). In coda position /Q/ before a velar is realized as a held [k̚] (`がっこう` [ɡakkoː]).
+- **Glottal** — /h/. The glottal fricative /h/ (`は` *ha*, `へ` *he*, `ほ` *ho*) is the system's only /h/-type phoneme and is strongly ALLOPHONIC by following vowel: it is a true glottal [h] before /a e o/, palatal [ç] before /i/ (`ひ` *hi* [çi]), and bilabial [ɸ] before /u/ (`ふ` *fu* [ɸɯ̥]). The bilabial [ɸ] of `ふ` is therefore a positional variant of /h/, NOT a phoneme /f/ — and the loanword 'fa/fi/fe/fo' sounds (`ファ フィ フェ フォ`) extend this [ɸ] to other vowels in foreign vocabulary without creating a native phoneme. Historically the /h/ row descends from earlier *p (preserved after /Q/ as [p], e.g. `いっぽん` *ippon*), which is why the same kana row yields /h/, /b/ (dakuten) and /p/ (handakuten).
+- **Palatal** — /j/. The palatal glide /j/ (`や` *ya*, `ゆ` *yu*, `よ` *yo*) is the on-glide of the YŌON (拗音) palatalized moras, written with a base kana + small `ゃ`/`ゅ`/`ょ` (`きゃ` *kya* [kʲa], `しゃ` *sha* [ɕa], `ちゃ` *cha* [tɕa], `にゃ` *nya* [ɲa]). It does not contrast before /i/ or /e/ in the native system (`や ゆ よ` exist but */ji/ and native */je/ do not), though loanwords add `イェ` *ye* [je]. /j/ also conditions the same palatalization as /i/ on a preceding consonant.
+- **Labial-velar** — /w/. The glide /w/ is a labio-velar approximant realized with lip COMPRESSION rather than rounding, [ɰ]~[w] (`わ` *wa*). Natively it occurs only before /a/ (`わ` *wa*); historical wi/we/wo merged with i/e/o, and the particle を, though written *wo*, is pronounced [o]. Loanwords reintroduce other combinations via katakana (`ウィ` *wi*, `ウェ` *we*, `ウォ` *wo*). Like the bilabial/velar consonants, /w/ has both a labial and a velar component and so is placed in the labial-velar column rather than a single place.
+
+### Special Moras
+
+The two SPECIAL (independent / deficient) moras of Japanese — segments that count as a full mora for timing and accent but carry no vowel of their own and never appear as ordinary syllable onsets. They are central to Japanese phonotactics and to rendering Aramaic, since they supply the only legal 'coda-like' material (moraic /N/) and the only consonant gemination (/Q/).
+
+| Mora | Phoneme | Kana | Unicode | Romanization | Notes |
+|---|---|---|---|---|---|
+| Moraic nasal | /N/ | `ん` / `ン` | `ん U+3093`, `ン U+30F3` | n (Hepburn n / m before labials in older Hepburn; Kunrei n') | A full mora with no inherent place; it ASSIMILATES to the following segment — [m] before /p b m/ (`しんぶん` *shimbun* [ɕimbɯɴ], `さんぽ` [sampo]), [n] before /t d n s z r/ (`こんにちは`, `おんな` [onna]), [ŋ] before /k ɡ/ (`りんご` [ɾiŋɡo], `げんき` [ɡeŋki]), [ɲ] before palatals — and surfaces as a nasalized uvular/glide [ɴ]~[ɰ̃] utterance-finally or before a vowel, glide or fricative (`ほん` [hoɴ] 'book', `でんわ` [deɰ̃wa] 'telephone', `きんえん` [kiɰ̃eɴ]). Minimal/length relevance: it adds a mora, so `かに` *kani* 'crab' (2 moras) vs `かんい` *kan'i* (3 moras). |
+| Sokuon | /Q/ | `っ` / `ッ` | `っ U+3063`, `ッ U+30C3` | doubled following consonant (kk, tt, ss, pp; Hepburn writes tch for `っち`) | A placeholder mora with NO quality of its own, realized as the FIRST (held/silent) HALF of a following geminate obstruent and so fully place- and manner-assimilated to it: a held closure for stops (`きって` [kit̚te] 'stamp', `がっこう` [ɡakkoː] 'school', `いっぱい` [ip̚pai]) and prolonged frication for fricatives (`ざっし` [zaɕɕi] 'magazine' — palatalized [ɕɕ] because `し` is /si/ before /i/ — vs `まっすぐ` [massɯ̥ɡɯ] 'straight', where `す` is /su/ and /s/ does NOT palatalize before /u/, giving plain [ss]). It is licit only before voiceless obstruents in the native stratum (loanwords admit voiced geminates, e.g. `ベッド` *beddo*). Gemination is PHONEMIC and mora-bearing: `おと` *oto* 'sound' (2 moras) vs `おっと` *otto* 'husband' (3 moras), `さか` *saka* vs `さっか` *sakka*. |
+
+### Principal Allophones
+
+The principal allophonic rules of the Japanese consonant system, almost all conditioned by the FOLLOWING vowel/glide or by the assimilation of the special moras. These produce the surface inventory of sounds Japanese speakers actually use and explain the Hepburn vs Kunrei-shiki romanization split. Full rule statements live in the **Phonological Rules** section; this is a summary list.
+
+| Input | Output | Environment | Example |
+|---|---|---|---|
+| /s/ | [ɕ] | before /i/ and in yōon (`し` *shi*, `しゃ` *sha*) | `し` [ɕi] *shi*, `しお` [ɕio] *shio* 'salt' |
+| /t/ | [tɕ] | before /i/ and in yōon (`ち` *chi*, `ちゃ` *cha*) | `ち` [tɕi] *chi*, `くち` [kɯtɕi] *kuchi* 'mouth' |
+| /t/ | [ts] | before /u/ (`つ` *tsu*) | `つき` [tsɯ̥ki] *tsuki* 'moon' |
+| /z/, /d/ | [dʑ] ~ [ʑ] | before /i/ (`じ`/`ぢ` *ji*) | `じかん` [dʑikaɴ] *jikan* 'time' |
+| /z/ | [dz] | before /u/ (`ず`/`づ` *zu*) | `みず` [midzɯ] *mizu* 'water' |
+| /h/ | [ç] | before /i/ (`ひ` *hi*) | `ひと` [çito] *hito* 'person' |
+| /h/ | [ɸ] | before /u/ (`ふ` *fu*) | `ふね` [ɸɯne] *fune* 'boat' |
+| /ɡ/ | [ŋ] | intervocalic, word-medial / particle が (鼻濁音 *bidakuon*; conservative Tokyo, receding) | `かぎ` [kaŋi] *kagi* 'key' |
+| /r/ | [ɾ] | always — the single liquid is an apico-alveolar tap (with [l]-like and [d]-like variants) | `さくら` [sakɯɾa] *sakura* |
+| /w/ | [ɰ] | natively before /a/; lip-compression, not rounding | `わたし` [ɰataɕi] *watashi* 'I' |
+| /N/ (moraic nasal) | [m] / [n] / [ŋ] / [ɲ] / [ɴ] ~ [ɰ̃] | place-assimilates to the following C (labial→m, alveolar→n, velar→ŋ, palatal→ɲ), nasalized uvular/glide finally or before V/fricative/glide | `しんぶん` [ɕimbɯɴ] *shimbun*, `りんご` [ɾiŋɡo] *ringo*, `ほん` [hoɴ] *hon* |
+| /Q/ (sokuon) | first half of the following geminate (held [p̚ t̚ k̚], prolonged [s ɕ]) | before a (usually voiceless) obstruent | `がっこう` [ɡakkoː] *gakkō*, `ざっし` [zaɕɕi] *zasshi* |
+
+*These are ALLOPHONIC, not phonemic: they do not add to the phoneme count and are recoverable from the phoneme + its environment, which is why Kunrei-shiki/Nihon-shiki romanization can write si/ti/tu/zi/hu (one symbol per phoneme) while Hepburn writes the surface shi/chi/tsu/ji/fu. Two further surface processes — HIGH-VOWEL DEVOICING and pitch accent — are documented under Vowel Phonemes and in the **Suprasegmentals** section respectively.*
+
+### Vowel Phonemes
+
+The five vowel phonemes of Modern Standard Japanese, with PHONEMIC vowel length (short vs long). Japanese has one of the smallest vowel systems among major languages: /a i ɯ e o/, each occurring short or long, with the special mora /R/ (long-vowel second half, written ー in katakana or by vowel-doubling/う in hiragana) supplying the length contrast as an independent mora. The two reference standards (標準語/共通語 and 関西弁) share this vowel inventory; they differ in some lexical vowel-length and in pitch accent, not in the vowel phonemes themselves. This object summarizes the vowels; full per-vowel detail, the long/short minimal pairs, and the diphthong-like vowel sequences live in the separate **Vowels** section.
+
+**Vowel quality count:** 5  
+**Length contrast:** phonemic (short vs long); long vowels = short vowel + the moraic length unit /R/ (ー / vowel-doubling).
+
+5 vowel qualities — /a/, /i/, /ɯ/, /e/, /o/ — each contrasting SHORT vs LONG, so the system has 10 vowel nuclei by length (a aː, i iː, ɯ ɯː, e eː, o oː). The typological signature is /u/, which is NOT the rounded [u] of European languages but a COMPRESSED, essentially unrounded back/central high vowel [ɯ̈]~[ɯ] (lip compression, no protrusion). VOWEL LENGTH IS PHONEMIC and mora-bearing — a long vowel is two moras — yielding many minimal pairs: `おばさん` *obasan* 'aunt' vs `おばあさん` *obāsan* 'grandmother'; `ゆき` *yuki* 'snow' vs `ゆうき` *yūki* 'courage'; `とる` *toru* 'take' vs `とおる` *tōru* 'pass through'; `くき` *kuki* vs `くうき` *kūki* 'air'. HIGH-VOWEL DEVOICING: /i/ and /ɯ/ devoice to [i̥ ɯ̥] between two voiceless consonants or word-finally after a voiceless consonant — `すき` [sɯ̥ki] *suki* 'like', `です` [desɯ̥] *desu*, `ひと` [çi̥to] *hito*, `きく` [ki̥kɯ̥] *kiku* — a hallmark of Tokyo speech that is notably WEAKER/absent in Kansai (a key audible Standard ↔ Kansai difference at the segmental level). Adjacent unlike vowels form vowel SEQUENCES across mora boundaries (`あい` *a-i*, `あお` *a-o*) rather than true single-segment diphthongs, each vowel keeping its own mora; these are catalogued in the **Vowels**/diphthongs material. There is NO phonemic stress and NO per-syllable tone — prominence is carried by lexical PITCH ACCENT (see **Suprasegmentals**).
+
+#### IPA Vowel Chart
+
+IPA vowel quadrilateral for the five Japanese monophthongs (rows = height, columns = backness/rounding). Length is phonemic but not shown as separate cells — each quality simply occurs short or long (Vː). The notable member is /ɯ/, the compressed/unrounded high back vowel that replaces the [u] of other languages.
+
+| Height | Front (unrounded) | Central | Back (unrounded) | Back (rounded) |
+|---|---|---|---|---|
+| close | i |  | ɯ |  |
+| mid | e |  |  | o |
+| open |  | a |  |  |
+
+**Long forms (Vː):**
+
+- aː (`おばあさん` *obāsan*, ー)
+- iː (`おにいさん` *oniisan*)
+- ɯː (`くうき` *kūki*)
+- eː (`おねえさん` *onēsan* / `せんせい` *sensei*)
+- oː (`おとうさん` *otōsan* / `こおり` *kōri*)
+
+*By height: CLOSE — /i/ (front unrounded, `い` [i]) and /ɯ/ (high back/central UNROUNDED, compressed [ɯ̈], `う` [ɯ]); MID — /e/ (front unrounded, close-to-open-mid [e̞], `え`) and /o/ (back ROUNDED close-to-open-mid [o̞], `お`); OPEN — /a/ (central low [a̠]~[ä], `あ`). The single typological signature is /u/ = [ɯ̈]: a high back vowel made with lip COMPRESSION (not rounding) and therefore unrounded/centralized, distinct from the protruded [u] of English, Korean or Spanish. Each vowel occurs SHORT or LONG (length doubles the mora); the long-forms list gives canonical examples, with katakana marking length by the chōonpu ー (`U+30FC`) and hiragana by doubling the vowel or writing `う`/`い` (`おとうさん`, `せんせい`). High /i ɯ/ DEVOICE [i̥ ɯ̥] between voiceless consonants or finally after a voiceless C in Tokyo speech (weaker in Kansai). No central /ə/ schwa and no reduced vowels: unstressed Japanese vowels keep full quality.*
+
+### Cross-References
+
+This section is a SUMMARY of the inventory. Per-phoneme articulatory detail, allophony, romanization (Hepburn / Kunrei-shiki / Nihon-shiki) and example words are given in the **Consonants** and **Vowels** sections; the full set of sound-change and surface processes (palatalization before /i j/, /t/→[ts]/[tɕ] and /h/→[ɸ]/[ç] vowel-conditioning, 鼻濁音 *bidakuon* /ɡ/→[ŋ], moraic-nasal place assimilation, sokuon gemination, 連濁 *rendaku* sequential voicing, high-vowel devoicing, vowel coalescence/long-vowel formation) is treated in the **Phonological Rules** and **Connected Speech and Sandhi** sections. The mora vs syllable distinction, yōon (拗音) palatalized moras, and legal mora shapes are detailed in **Syllable Structure**; the lexical PITCH ACCENT system (Tokyo-type 頭高/中高/尾高/平板 and the Kansai 京阪式 register+accent), with minimal pairs such as 箸/橋, 雨/飴, is covered in **Suprasegmentals**. The mixed kanji/hiragana/katakana orthography, gojūon order, dakuten/handakuten, small kana, chōonpu, and the foreign-sound katakana (`ファ ヴァ ティ シェ ツァ` etc.) are handled in the **Orthography** and **Unicode Reference** sections.
+
+**Companion files** (repo-relative):
+
+- `Japanese/japanese_pronunciation_guide.md`
+- `Japanese/Peshita_Japanese/Katakana/`
+- `Japanese/Peshita_Japanese/Hiragana/`
+- `Japanese/Peshita_Japanese/Romaji/`
+
+**Reader tiers:** the Japanese Peshitta ships FIVE reader tiers — Scholarly and Pretty (language-neutral Latin), Katakana (カタカナ, the idiomatic foreign-word reader tier for rendering Aramaic), Hiragana (ひらがな, the same moras in native glyphs), and Romaji (Hepburn readback of the kana) — which present the phonemes catalogued here at increasing levels of script-specificity. Because Japanese is strictly MORA-TIMED with no codas except moraic `ン` and no consonant clusters, rendering Aramaic into any of these tiers requires FORCED VOWEL EPENTHESIS, mapping each foreign consonant onto a (C)V mora.
+
+---
+
+*Guide maintained by Shin.*
+
+## Consonants
+
+The consonant phonemes of Standard Japanese (日本語 *Nihongo*), documented in parallel for two reference standards: Standard/Common Japanese (標準語 / 共通語 *Hyōjungo / Kyōtsūgo*, educated Tokyo / Yamanote speech, Tokyo-type pitch accent 東京式アクセント) and Kansai / Keihan Japanese (関西弁 / 京阪式アクセント, the Kyoto–Osaka standard). The defining feature of the Japanese consonant system is that the language is **mora-timed** and analysed mora-phonemically: a consonant is the optional onset of a (C)(j)V mora and there are **no syllable codas** except the two **special moras** — the moraic nasal `/N/` (ん/ン) and the sokuon `/Q/` (っ/ッ, first half of a geminate). Japanese has **no** phonemic voicing-aspiration ladder; instead it pairs voiceless and voiced obstruents (`/p~b/`, `/t~d/`, `/k~ɡ/`, `/s~z/`), plus the etymological は→ば (dakuten) and は→ぱ (handakuten) relations reflecting the sound change \*p > ɸ > h, and shows extremely rich, position-driven **allophony** in which the same phoneme surfaces with very different phones before different vowels (palatalization before `/i/`, fronting/labialization before `/u/`). Phonemic values are given in /slashes/ and phonetic realisations in [brackets], following IPA (2015 revision). Gaps relative to English/Aramaic: Japanese has **no** native distinct `/f v θ ð l ʃ ʒ/` — [ɸ] is only the `/h/` allophone before `/u/`, [ɕ tɕ ʑ dʑ] are allophones rather than independent phonemes, `/l/` merges into `/r/` [ɾ], and `/v/` appears only in self-conscious loanword pronunciation (ヴ). The two reference standards share an essentially identical **consonant** inventory; they differ chiefly in **pitch accent** (treated under suprasegmentals) and in a few realisational details (e.g. 鼻濁音 velar-nasal [ŋ] is robust in conservative Tokyo speech but recessive in younger Tokyo and largely absent in Kansai), recorded per-phoneme in the allophony notes.
+
+**Consonant units catalogued:** 16 | **Effective onset phonemes:** 14  
+Sixteen mora-phonemic consonant units are catalogued here: twelve ordinary onset consonants `/p b t d k ɡ s z h m n r/` plus the glides `/j w/`, and the two **special moras** `/N/` (moraic nasal) and `/Q/` (sokuon / geminate). Analyses differ on the exact count because several surface consonants ([ɕ tɕ ʑ dʑ ts ç ɸ ŋ]) are **allophones** of the plain phonemes rather than separate phonemes, and because `/N/` and `/Q/` are phonologically moras (timing units) rather than ordinary onset consonants. A narrower 'onset consonant phoneme' count is **14** (excluding `/N Q/`); a broader segmental count that promotes the palatalized and affricate allophones to phonemes (to handle loanwords) can reach the low 20s. The 14 ordinary onset consonant phonemes (`/p b t d k ɡ s z h m n r j w/`) generate the consonant onsets of the gojūon (五十音) chart and its dakuten/handakuten rows; the kana script is moraic, not segmental, so a single kana usually spells a whole CV mora rather than a lone consonant. There is no kana for a bare consonant except ん (the moraic nasal) and small っ (the sokuon). This effective inventory is shared by the Tokyo (標準語) and Kansai (関西弁) standards.
+
+### Consonant Inventory
+
+The 16 mora-phonemic consonant units with their IPA value, Japanese and English name, place, manner, voicing, gojūon row (五十音), spelling kana, example words (with IPA), and allophony notes. The ordinary onset consonants are listed first (1–14), followed by the two special moras (15–16).
+
+| # | IPA | Name (日本語 / English) | Place | Manner | Voicing | Gojūon Row | Spelling Kana | Example Words | Allophony Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | `/k/` | カ行子音 (ka-gyō shiin) / voiceless velar stop | velar | stop | voiceless | か行 (ka-row): か き く け こ / きゃ きゅ きょ | `か` `き` `く` `け` `こ` `きゃ` `きゅ` `きょ` | かさ *kasa* [ka̠sa̠] 'umbrella'; きく *kiku* [kʲikɯ̥] 'to listen / chrysanthemum'; きゃく *kyaku* [kʲakɯ̥] 'guest, customer (客)' | Largely unaspirated to lightly aspirated [k]; **fronted** to a palatalized [kʲ] before `/i/` and in the yōon きゃ/きゅ/きょ (き [kʲi], きゃ [kʲa]); slightly backed before `/o,a/`. Before `/u/` it stays a plain velar [k] (く [kɯ̥], with the high vowel often **devoiced** between voiceless sounds). As the first half of a geminate it surfaces as the sokuon `/Q/` + [k] = long [kː] (学校 *gakkō* [ɡakːoː]). Identical onset in Tokyo and Kansai. |
+| 2 | `/ɡ/` | ガ行子音 (ga-gyō shiin) / voiced velar stop (with nasal allophone 鼻濁音) | velar | stop | voiced | が行 (ga-row, dakuten of か): が ぎ ぐ げ ご / ぎゃ ぎゅ ぎょ | `が` `ぎ` `ぐ` `げ` `ご` `ぎゃ` `ぎゅ` `ぎょ` | がっこう *gakkō* [ɡakːoː] 'school (学校)'; かがみ *kagami* [kaŋami] ~ [kaɡami] 'mirror (鏡)'; ぎゅうにゅう *gyūnyū* [ɡʲɯːɲɯː] '(cow's) milk (牛乳)' | Word-**initially** a voiced stop [ɡ] (palatalized [ɡʲ] before `/i/` and in ぎゃ). **Intervocalically** and word-medially many conservative Tokyo (標準語) speakers use the **velar nasal** [ŋ] — the 鼻濁音 (*bidakuon*): かがみ 'mirror' [kaŋami], かぎ 'key' [kaŋʲi]; this nasal pronunciation is prescribed for NHK-style speech but is **recessive** among younger Tokyo speakers (who keep [ɡ] or a fricative [ɣ]) and is largely **absent** in Kansai (関西弁), where medial [ɡ] is the norm. Word-initial が never takes [ŋ]. The `/Q/`+`/ɡ/` geminate (a voiced long stop) is rare and mostly limited to loanwords (バッグ *baggu* [baɡːɯ̥] 'bag'). |
+| 3 | `/s/` | サ行子音 (sa-gyō shiin) / voiceless alveolar fricative (→ alveolo-palatal [ɕ] before `/i, j/`) | alveolar | fricative | voiceless | さ行 (sa-row): さ し す せ そ / しゃ しゅ しょ | `さ` `し` `す` `せ` `そ` `しゃ` `しゅ` `しょ` | さかな *sakana* [sa̠kana] 'fish (魚)'; しお *shio* [ɕio] 'salt (塩)'; すし *sushi* [sɯɕi] 'sushi (寿司)'; しゃしん *shashin* [ɕaɕĩɴ] 'photograph (写真)' | Plain alveolar [s] before `/a,u,e,o/` (さ [sa], す [sɯ], せ [se], そ [so]). Before `/i/` and in the yōon, it **palatalizes** to the alveolo-palatal [ɕ]: し *shi* = [ɕi], しゃ *sha* = [ɕa] — Hepburn writes this 'sh', Kunrei 'si/sya'. Hence native Japanese has no contrast between `/s/`+`/i/` and a separate `/ʃ/`. The high vowel of す/し often **devoices** between voiceless sounds (すき [sɯ̥kʲi]). The geminate `/Q/`+`/s/` is a long [sː] / [ɕː] (まっすぐ *massugu* [masːɯɡɯ], いっしょ *issho* [iɕːo]). Same in Tokyo and Kansai. |
+| 4 | `/z/` | ザ行子音 (za-gyō shiin) / voiced alveolar fricative/affricate (→ [ʑ]/[dʑ] before `/i, j/`; [dz] initially) | alveolar | fricative (affricated to [dz]/[dʑ] in some positions) | voiced | ざ行 (za-row, dakuten of さ): ざ じ ず ぜ ぞ / じゃ じゅ じょ | `ざ` `じ` `ず` `ぜ` `ぞ` `じゃ` `じゅ` `じょ` | ぞう *zō* [dzoː] ~ [zoː] 'elephant (象)'; みず *mizu* [midzɯ] ~ [mizɯ] 'water (水)'; じかん *jikan* [dʑikãɴ] 'time (時間)'; じゃま *jama* [dʑama] 'hindrance, obstacle (邪魔)' | Affricate–fricative alternation. Word-**initially** and after `/N/` or `/Q/` it is the **affricate** [dz] before `/a,u,e,o/` (ざ [dza], ぞ [dzo]) and [dʑ] before `/i,j/` (じ [dʑi], じゃ [dʑa]); **intervocalically** it often lenites to the plain fricative [z] / [ʑ] (みず 'water' [mizɯ], かじ 'fire' [kaʑi]). **Yotsugana merger:** in Standard and most modern dialects じ/ぢ have merged to `/z/`+`/i/` = [(d)ʑi] and ず/づ to `/z/`+`/u/` = [(d)zɯ], so the historically distinct ぢ/づ (from `/d/`) are now spelled じ/ず in most words (rendaku and compounds keep ぢ/づ: はなぢ *hanaji* 'nosebleed', つづく *tsuzuku* 'to continue'). Kansai patterns the same; some southern/Kyūshū dialects preserve the four-way yotsugana distinction. `/θ/`, `/ð/` of loanwords are nativized into this series or `/s/`. |
+| 5 | `/t/` | タ行子音 (ta-gyō shiin) / voiceless alveolar stop (→ [tɕ] before `/i, j/`, [ts] before `/u/`) | alveolar | stop (affricated to [ts]/[tɕ] before high vowels) | voiceless | た行 (ta-row): た ち つ て と / ちゃ ちゅ ちょ | `た` `ち` `つ` `て` `と` `ちゃ` `ちゅ` `ちょ` | たべる *taberu* [ta̠beɾɯ] 'to eat (食べる)'; ちず *chizu* [tɕizɯ] 'map (地図)'; つき *tsuki* [tsɯ̥kʲi] 'moon (月)'; ちゃ *cha* [tɕa] 'tea (茶)' | The classic three-way split: a plain alveolar stop [t] before `/a,e,o/` (た [ta], て [te], と [to]); an alveolo-palatal **affricate** [tɕ] before `/i/` and in the yōon (ち *chi* = [tɕi], ちゃ *cha* = [tɕa]); and an alveolar **affricate** [ts] before `/u/` (つ *tsu* = [tsɯ]). This is why the た-row romanizes as ta-**CHI-TSU**-te-to (Hepburn); Kunrei levels them as ta-ti-tu. Consequently native Japanese has no syllable \*ti or \*tu without affrication — loanword katakana adds ティ *ti*, トゥ *tu* to fill those gaps. `/Q/`+`/t/` gives a long [tː] (きって *kitte* [kitːe] 'stamp'), `/Q/` before ち/つ gives [tːɕ]/[tːs] (まっちゃ *matcha* [matːɕa]). Same realisations in Tokyo and Kansai. |
+| 6 | `/d/` | ダ行子音 (da-gyō shiin) / voiced alveolar stop (ぢ/づ historically [dʑ]/[dz], now merged with ザ行) | alveolar | stop | voiced | だ行 (da-row, dakuten of た): だ ぢ づ で ど / ぢゃ ぢゅ ぢょ | `だ` `ぢ` `づ` `で` `ど` | だれ *dare* [daɾe] 'who (誰)'; でぐち *deguchi* [deɡɯtɕi] 'exit (出口)'; どこ *doko* [doko] 'where (何処)'; はなぢ *hanaji* [hanadʑi] ~ [hanaʑi] 'nosebleed (鼻血, rendaku of 血)' | A plain voiced alveolar stop [d] before `/a,e,o/` (だ [da], で [de], ど [do]). Historically `/d/` also occupied the `/i/` and `/u/` slots as ぢ [dʑi] and づ [dzɯ], but in the **yotsugana merger** these fell together with ザ行 じ/ず, so modern だ-row has only だ・で・ど as live syllables; ぢ/づ survive almost only in compounds via **rendaku** (連濁: ち→ぢ, つ→づ — はなぢ *hanaji*, みかづき *mikazuki* 'crescent moon') and in spelling-preserved words (つづく *tsuzuku*). Loanword \*di, \*du are written ディ *di*, ドゥ *du* to keep the stop (ディスク *disuku* 'disk'). The `/Q/`+`/d/` geminate (long voiced stop) is rare/loanword (ベッド *beddo* [bedːo] 'bed'). Tokyo and Kansai agree. |
+| 7 | `/n/` | ナ行子音 (na-gyō shiin) / voiced alveolar nasal (→ palatal [ɲ] before `/i, j/`) | alveolar | nasal | voiced | な行 (na-row): な に ぬ ね の / にゃ にゅ にょ | `な` `に` `ぬ` `ね` `の` `にゃ` `にゅ` `にょ` | なに *nani* [nani] ~ [naɲi] 'what (何)'; ねこ *neko* [neko] 'cat (猫)'; ぎゅうにゅう *gyūnyū* [ɡʲɯːɲɯː] 'milk (牛乳)' | A plain alveolar [n] before `/a,u,e,o/`. Before `/i/` and in the yōon にゃ/にゅ/にょ it **palatalizes** to the palatal nasal [ɲ] (に *ni* = [ɲi], にゅう *nyū* = [ɲɯː]). This onset `/n/` is distinct from the moraic nasal `/N/` (ん): the onset begins a mora (な = [na]) whereas `/N/` closes one (はな 'flower' [hana] vs はん 'half' [haɴ]). The `/Q/`+`/n/` sequence is written ん+な etc. and realises as a long [nː]. Identical in Tokyo and Kansai. |
+| 8 | `/h/` | ハ行子音 (ha-gyō shiin) / voiceless glottal fricative (→ [ç] before `/i, j/`, [ɸ] before `/u/`) | glottal | fricative | voiceless | は行 (ha-row): は ひ ふ へ ほ / ひゃ ひゅ ひょ | `は` `ひ` `ふ` `へ` `ほ` `ひゃ` `ひゅ` `ひょ` | はな *hana* [hana] 'flower / nose (花 / 鼻)'; ひと *hito* [çito̞] 'person (人)'; ふね *fune* [ɸɯne] 'boat, ship (船)'; ひゃく *hyaku* [çakɯ̥] 'hundred (百)' | Three allophones determined by the vowel: glottal [h] before `/a,e,o/` (は [ha], へ [he], ほ [ho]); palatal [ç] before `/i/` and in ひゃ/ひゅ/ひょ (ひ *hi* = [çi]); and the voiceless **bilabial** fricative [ɸ] before `/u/` (ふ *fu* = [ɸɯ]). The [ɸ] of ふ is the **only** native source of an f-like sound — there is no independent `/f/` phoneme; loanword fa/fi/fe/fo are written ファ/フィ/フェ/フォ using this ふ base. Historically \*p > [ɸ] > [h], which is why は-row pairs with ば-row (`/b/`, dakuten) and ぱ-row (`/p/`, handakuten). The grammatical particle は is pronounced [wa] and へ as [e] (a spelling–reading mismatch, not allophony). Same in Tokyo and Kansai. |
+| 9 | `/b/` | バ行子音 (ba-gyō shiin) / voiced bilabial stop | bilabial | stop | voiced | ば行 (ba-row, dakuten of は): ば び ぶ べ ぼ / びゃ びゅ びょ | `ば` `び` `ぶ` `べ` `ぼ` `びゃ` `びゅ` `びょ` | ばす *basu* [basɯ̥] 'bus (バス)'; びょういん *byōin* [bʲoːĩɴ] 'hospital (病院)'; あそぶ *asobu* [asobɯ̥] ~ [asoβɯ̥] 'to play (遊ぶ)' | A voiced bilabial stop [b], palatalized [bʲ] before `/i/` and in びゃ/びゅ/びょ. **Intervocalically** it is sometimes lenited to a bilabial approximant/fricative [β] in casual speech (あそぶ [asoβɯ]), but the stop is the careful norm. Pairs with は-row `/h/` via dakuten and with ぱ-row `/p/` via handakuten. The `/Q/`+`/b/` geminate (a voiced long stop) is vanishingly rare and limited to loanwords (ウェッブ *webbu* [ɰebːɯ̥], parallel to the voiced `/d/` geminate in ベッド *beddo*). Same in Tokyo and Kansai; `/v/` of loanwords (ヴ) is normally nativized to this `/b/`. |
+| 10 | `/p/` | パ行子音 (pa-gyō shiin) / voiceless bilabial stop | bilabial | stop | voiceless | ぱ行 (pa-row, handakuten of は): ぱ ぴ ぷ ぺ ぽ / ぴゃ ぴゅ ぴょ | `ぱ` `ぴ` `ぷ` `ぺ` `ぽ` `ぴゃ` `ぴゅ` `ぴょ` | ぱん *pan* [pãɴ] 'bread (パン, from Portuguese *pão*)'; えんぴつ *enpitsu* [empʲitsɯ̥] 'pencil (鉛筆)'; きっぷ *kippu* [kʲipːɯ̥] 'ticket (切符)' | A voiceless bilabial stop [p], palatalized [pʲ] before `/i/` and in ぴゃ/ぴゅ/ぴょ; lightly aspirated to unaspirated. Written with the **handakuten** (゜) on the は-row, reflecting the original \*p of these morae. In native words `/p/` is largely **restricted** to: the second half of a geminate via `/Q/` (きっぷ *kippu* [kʲipːɯ̥], いっぱい *ippai*), after the moraic nasal `/N/` (えんぴつ *enpitsu* [empʲitsɯ̥], しんぱい *shinpai*), in onomatopoeia/mimetics (ぴかぴか *pikapika*), and in Sino-Japanese and Western loans (パン *pan*, ピアノ *piano*). Singleton word-initial `/p/` is rare outside loans. The `/Q/`+`/p/` geminate is the canonical long [pː]. Same in Tokyo and Kansai. |
+| 11 | `/m/` | マ行子音 (ma-gyō shiin) / voiced bilabial nasal | bilabial | nasal | voiced | ま行 (ma-row): ま み む め も / みゃ みゅ みょ | `ま` `み` `む` `め` `も` `みゃ` `みゅ` `みょ` | みみ *mimi* [mʲimʲi] 'ear (耳)'; むし *mushi* [mɯɕi] 'insect (虫)'; みょうじ *myōji* [mʲoːdʑi] 'surname (名字)' | A bilabial nasal [m], palatalized [mʲ] before `/i/` and in みゃ/みゅ/みょ. Stable across positions. Distinct from the moraic nasal `/N/`, although `/N/` is **realised** as [m] before bilabials (さんま *sanma* [samma], しんぶん *shinbun* [ɕimbɯɴ]) — that [m] is an allophone of `/N/`, not of onset `/m/`. Same in Tokyo and Kansai. |
+| 12 | `/r/` | ラ行子音 (ra-gyō shiin) / alveolar liquid (apico-alveolar tap [ɾ]) | alveolar | tap / flap (liquid) | voiced | ら行 (ra-row): ら り る れ ろ / りゃ りゅ りょ | `ら` `り` `る` `れ` `ろ` `りゃ` `りゅ` `りょ` | さくら *sakura* [sakɯɾa] 'cherry blossom (桜)'; りんご *ringo* [ɾiŋɡo] ~ [ɾiŋŋo] 'apple (林檎)'; りょこう *ryokō* [ɾʲokoː] 'travel, trip (旅行)' | Phonemically a single liquid `/r/`, phonetically an **apico-alveolar tap** [ɾ] (a single quick contact), palatalized [ɾʲ] before `/i,j/` (り [ɾʲi], りょ [ɾʲo]). Word-**initially** and after the moraic nasal `/N/` it tends toward a more lateral or stop-like onset — a lateral flap [ɺ] or even a brief stop [d]-like articulation — while **intervocalically** the plain tap [ɾ] dominates. Emphatic or angry speech may produce an alveolar trill [r]. Crucially Japanese has **no** `/l/`–`/r/` contrast: both English l and r, and Aramaic ל and ר, map onto this one `/r/`, the well-known source of L/R difficulty. Same realisation range in Tokyo and Kansai (Kansai may use a slightly stronger initial flap). |
+| 13 | `/j/` | ヤ行子音 (ya-gyō shiin) / voiced palatal approximant (glide) | palatal | approximant (glide) | voiced | や行 (ya-row): や (い) ゆ (え) よ — and the yōon glide in きゃ etc. | `や` `ゆ` `よ` `ゃ` `ゅ` `ょ` | やま *yama* [jama] 'mountain (山)'; ゆき *yuki* [jɯkʲi] 'snow (雪)'; よる *yoru* [joɾɯ] 'night (夜)' | A palatal approximant [j]. The や-row is **defective**: only や *ya*, ゆ *yu*, よ *yo* exist as independent morae; the `/ji/` and `/je/` slots merged into `/i/` and `/e/` historically (no native ye/yi). As the **yōon** element, `/j/` fuses with a preceding onset to give the palatalized series (き+ゃ = きゃ [kʲa]; with coronals it yields [ɕ tɕ ʑ dʑ ɲ]). Loanword katakana revives イェ *ye*. Devoiced/weak between voiceless sounds. Same in Tokyo and Kansai. |
+| 14 | `/w/` | ワ行子音 (wa-gyō shiin) / voiced labio-velar approximant (compressed [ɰ]/[w]) | labial-velar | approximant (glide) | voiced | わ行 (wa-row): わ (ゐ) (ゑ) を — natively only わ *wa* survives as an onset; を is particle [o] | `わ` `を` | わたし *watashi* [wataɕi] ~ [ɰataɕi] 'I, me (私)'; かわ *kawa* [kaɰa] 'river (川)'; を *o (wo)* [o] '(direct-object particle 〜を)' | A labio-velar approximant produced with **lip compression** rather than rounding, best transcribed [ɰ] (some use [w]); it has weak velar constriction and no protruded rounding. Natively `/w/` occurs **only** before `/a/` (わ *wa*) — the historical wi/we/wo (ゐ ゑ を) merged into i/e/o, so the wa-row is highly defective; the kana を is now used only as the object particle, pronounced [o]. The particle は is read [wa] (so `/w/` surfaces there too). Loanword katakana restores the gaps with ウィ *wi*, ウェ *we*, ウォ *wo* and クヮ/グヮ *kwa/gwa*. The high vowel of `/u/` shares the same compressed-back quality, so `/w/` and `/ɯ/` are articulatorily akin. Same in Tokyo and Kansai (Kansai わ-row is likewise limited to wa). |
+| 15 | `/N/` | 撥音 (hatsuon) — 「ん」/「ン」 / moraic nasal (placeless nasal special mora) | underspecified (assimilatory) | nasal | voiced | (special mora — closes a syllable; supplies place by assimilation) | `ん` `ン` | さんぽ *sanpo* [sampo] 'a walk (散歩) — `/N/` → [m] before `/p/`'; おんな *onna* [onna] 'woman (女) — `/N/` → [n] before `/n/`'; りんご *ringo* [ɾiŋɡo] 'apple (林檎) — `/N/` → [ŋ] before `/ɡ/`'; ほん *hon* [hoɴ] 'book (本) — `/N/` → uvular [ɴ] utterance-finally'; でんわ *denwa* [deɰ̃ɰa] 'telephone (電話) — `/N/` → nasalized [ɰ̃] before glide' | `/N/` (ん/ン), the 撥音 *hatsuon*, is a **placeless** moraic nasal: it has no fixed articulation and takes its place entirely from the **following** segment — [m] before labials, [n] before alveolars, [ɲ] before palatals, [ŋ] before velars, uvular [ɴ] utterance-finally, and a **nasalized** approximant/vowel [ɰ̃] before vowels, glides, `/h/` and fricatives. It is a full **mora**, so にほん *Nihon* is three moras (ni-ho-N) and the `/N/` is timed like any kana. It contrasts with onset `/n/` and `/m/`: かんい *kan'i* 'simple' (ka-N-i, with [ɰ̃]) vs かに *kani* 'crab' (ka-ni). An apostrophe in romaji (ほんや → *hon'ya* 本屋) marks `/N/` before a vowel/y to block mis-syllabification. Both Tokyo and Kansai realise `/N/` this way; the utterance-final realisation ranges over [ɴ]~[ŋ̩]~nasalized vowel. |
+| 16 | `/Q/` | 促音 (sokuon) — 小書きの「っ」/「ッ」 / sokuon / geminate consonant (mora-long obstruent, first half of a long consonant) | underspecified (copies following obstruent) | geminating obstruent (gemination of the following consonant) | (takes voicing of the following consonant) | (special mora — closes a syllable; copies the following obstruent) | `っ` `ッ` | がっこう *gakkō* [ɡakːoː] 'school (学校) — `/Q/`+`/k/` = long [kː]'; きって *kitte* [kʲitːe] 'postage stamp (切手) — `/Q/`+`/t/` = long [tː]'; きっぷ *kippu* [kʲipːɯ̥] 'ticket (切符) — `/Q/`+`/p/` = long [pː]'; ざっし *zasshi* [dzaɕːi] 'magazine (雑誌) — `/Q/`+`/s(→ɕ)/` = long [ɕː]'; まっちゃ *matcha* [matːɕa] 'matcha green tea (抹茶) — `/Q/` before ち = [tːɕ]' | `/Q/` (small っ/ッ), the 促音 *sokuon*, is a **placeless** obstruent mora that is realised as the **gemination** (lengthening) of the **immediately following** obstruent: it copies that consonant's place, manner and voicing and adds one mora of closure/frication, giving long [kː tː pː sː ɕː tːɕ tːs]. It is therefore the **first half** of a long consonant and never appears in absolute final position except as an emphatic glottal stop [ʔ] (あっ [aʔ]). It is restricted to occurring before **voiceless** obstruents in native words (voiced geminates appear chiefly in loans: ベッド *beddo*, バッグ *baggu*). It is a full **mora**: きって *kitte* is three moras (ki-Q-te) and contrasts minimally with non-geminate forms — きて *kite* 'come' [kʲite] vs きって *kitte* 'stamp / cut-and-…' [kʲitːe]; いか *ika* 'squid' [ika] vs いっか *ikka* 'one household' [ikːa]. Both Tokyo and Kansai share gemination; Kansai famously shortens some long vowels and can prefer `/Q/` in spots where Tokyo uses a long vowel (e.g. しまった-type emphasis), a lexical/rhythmic difference rather than a phonetic one. |
+
+### Yōon (拗音) — Palatalized Moras
+
+**拗音 (yōon)** — *palatalized (glided) moras*.
+
+A **yōon** is a single mora consisting of a consonant + the palatal glide `/j/`, written as a full `/i/`-column kana plus a **small** や/ゆ/よ (ゃ/ゅ/ょ): き + ゃ = きゃ *kya*. Phonologically the glide `/j/` fuses with the onset; for the coronals the result is the alveolo-palatal series, so しゃ *sha* is [ɕa] (one consonant), **not** [sja]. Yōon are full single moras, not two-mora sequences. Katakana yōon (キャ, シャ, チャ …) work identically and are extended for loanwords (ティ *ti*, トゥ *tu*, シェ *she*, チェ *che*, ジェ *je*, ファ *fa*, フォ *fo*).
+
+| Kana | Romaji | IPA | Gloss / source |
+|---|---|---|---|
+| `きゃ` | kya | [kʲa] | (onset of 客 *kyaku* 'guest') |
+| `しゃ` | sha | [ɕa] | (写真 *shashin* 'photograph') |
+| `ちゃ` | cha | [tɕa] | (お茶 *ocha* 'tea') |
+| `じゃ` | ja | [dʑa] | (じゃま *jama* 'hindrance') |
+| `りょ` | ryo | [ɾʲo] | (旅行 *ryokō* 'travel') |
+| `ひゃ` | hya | [ça] | (百 *hyaku* 'hundred') |
+
+The consonants that take a yōon palatal glide (C + small ゃ/ゅ/ょ) are: `/p b t d k ɡ s z h m n r/` — きゃ *kya*, ぎゃ *gya*, しゃ *sha*, じゃ *ja*, ちゃ *cha*, にゃ *nya*, ひゃ *hya*, びゃ *bya*, ぴゃ *pya*, みゃ *mya*, りゃ *rya*. The `/i/`-row consonant is the palatalized variant (e.g. しゃ = [ɕa], not [sja]).
+
+### Special Moras (特殊拍 tokushuhaku)
+
+The two **special moras** (特殊拍 *tokushuhaku*) are consonantal elements that count as a full **mora** for Japanese mora-timing yet have **no inherent place/manner** of their own — each is realised entirely by assimilation to its environment, and each can close a syllable (the only codas Japanese allows). They are central to the rhythm of the language and to rendering foreign words: a CVC sequence in Aramaic must be broken with epenthetic vowels precisely because the only legal coda elements are `/N/` and `/Q/`.
+
+#### `/N/` — 撥音 (hatsuon) — moraic nasal — ん / ン
+
+| Property | Value |
+|---|---|
+| IPA | `/N/` |
+| Japanese name | 撥音 (hatsuon) — 「ん」/「ン」 |
+| English name | moraic nasal (placeless nasal special mora) |
+| Place | underspecified (assimilatory) |
+| Manner | nasal |
+| Voicing | voiced |
+| Special mora | yes |
+| Spelling kana | `ん` `ン` |
+| Codepoint (hiragana) | `U+3093` (ん) |
+| Codepoint (katakana) | `U+30F3` (ン) |
+
+**Assimilation set** — `/N/` takes its place entirely from the following segment:
+
+| Phone | Environment | Example |
+|---|---|---|
+| [m] | before bilabials `/p b m/` | さんぽ *sanpo* [sampo], しんぶん *shinbun* [ɕimbɯɴ], さんま *sanma* [samma] |
+| [n] | before alveolars `/t d n r/`; before the `/z/`-row it follows the same [n]/[ɲ] split as before `/t,d/` — alveolar [n] before the affricate [dz] (a,u,e,o), palatal [ɲ] before [dʑi] | おんな *onna* [onna], かんたん *kantan* [kantaɴ], はんたい *hantai* [hantai], かんぞう *kanzō* [kandzoː] |
+| [ɲ] | before palatal/alveolo-palatal onsets (`/n,t,d,z/` + `/i,j/`) | こんにちは *konnichiwa* [konɲitɕiwa], かんじ *kanji* [kaɲdʑi] |
+| [ŋ] | before velars `/k ɡ/` | りんご *ringo* [ɾiŋɡo], まんが *manga* [maŋɡa], てんき *tenki* [teŋkʲi] |
+| [ɴ] | utterance-finally (uvular nasal) | ほん *hon* [hoɴ], にほん *Nihon* [nihoɴ] |
+| [ɰ̃] (nasalized vowel/glide) | before vowels, `/h/`, fricatives, `/j/`, `/w/` — the nasality colours the preceding vowel and no full nasal closure is made | でんわ *denwa* [deɰ̃ɰa], ほんや *hon'ya* [hoɰ̃ja], れんあい *ren'ai* [ɾeɰ̃ai] |
+
+**Allophony notes:** `/N/` (ん/ン), the 撥音 *hatsuon*, is a **placeless** moraic nasal: it has no fixed articulation and takes its place entirely from the **following** segment — [m] before labials, [n] before alveolars, [ɲ] before palatals, [ŋ] before velars, uvular [ɴ] utterance-finally, and a **nasalized** approximant/vowel [ɰ̃] before vowels, glides, `/h/` and fricatives. It is a full **mora**, so にほん *Nihon* is three moras (ni-ho-N) and the `/N/` is timed like any kana. It contrasts with onset `/n/` and `/m/`: かんい *kan'i* 'simple' (ka-N-i, with [ɰ̃]) vs かに *kani* 'crab' (ka-ni). An apostrophe in romaji (ほんや → *hon'ya* 本屋) marks `/N/` before a vowel/y to block mis-syllabification. Both Tokyo and Kansai realise `/N/` this way; the utterance-final realisation ranges over [ɴ]~[ŋ̩]~nasalized vowel.
+
+#### `/Q/` — 促音 (sokuon) — geminate consonant — small っ / ッ
+
+| Property | Value |
+|---|---|
+| IPA | `/Q/` |
+| Japanese name | 促音 (sokuon) — 小書きの「っ」/「ッ」 |
+| English name | sokuon / geminate consonant (mora-long obstruent, first half of a long consonant) |
+| Place | underspecified (copies following obstruent) |
+| Manner | geminating obstruent (gemination of the following consonant) |
+| Voicing | takes voicing of the following consonant |
+| Special mora | yes |
+| Spelling kana | `っ` `ッ` |
+| Codepoint (hiragana) | `U+3063` (っ) |
+| Codepoint (katakana) | `U+30C3` (ッ) |
+
+**Gemination set** — `/Q/` is realised as the lengthening of the following obstruent:
+
+| Geminate | Environment | Example |
+|---|---|---|
+| [kː] | before `/k/` | がっこう *gakkō* [ɡakːoː], さっか *sakka* [sakːa] |
+| [tː] | before `/t/` (plain) | きって *kitte* [kʲitːe], まったく *mattaku* [matːakɯ̥] |
+| [tːɕ] | before ち (`/t/`→[tɕ]) | まっちゃ *matcha* [matːɕa], こっち *kotchi* [kotːɕi] |
+| [tːs] | before つ (`/t/`→[ts]) | みっつ *mittsu* [mitːsɯ̥] |
+| [pː] | before `/p/` | きっぷ *kippu* [kʲipːɯ̥], いっぱい *ippai* [ipːai] |
+| [sː] | before `/s/` (+a,u,e,o) | まっすぐ *massugu* [masːɯɡɯ] |
+| [ɕː] | before し / しゃ (`/s/`→[ɕ]) | ざっし *zasshi* [dzaɕːi], いっしょ *issho* [iɕːo] |
+| [ʔ] (glottal stop) | utterance-finally for emphasis, and the only realisation when no following obstruent follows | あっ! *a'* [aʔ], やった! *yatta* with final cut [jatːaʔ] |
+
+**Allophony notes:** `/Q/` (small っ/ッ), the 促音 *sokuon*, is a **placeless** obstruent mora that is realised as the **gemination** (lengthening) of the **immediately following** obstruent: it copies that consonant's place, manner and voicing and adds one mora of closure/frication, giving long [kː tː pː sː ɕː tːɕ tːs]. It is therefore the **first half** of a long consonant and never appears in absolute final position except as an emphatic glottal stop [ʔ] (あっ [aʔ]). It is restricted to occurring before **voiceless** obstruents in native words (voiced geminates appear chiefly in loans: ベッド *beddo*, バッグ *baggu*). It is a full **mora**: きって *kitte* is three moras (ki-Q-te) and contrasts minimally with non-geminate forms — きて *kite* 'come' [kʲite] vs きって *kitte* 'stamp / cut-and-…' [kʲitːe]; いか *ika* 'squid' [ika] vs いっか *ikka* 'one household' [ikːa]. Both Tokyo and Kansai share gemination; Kansai famously shortens some long vowels and can prefer `/Q/` in spots where Tokyo uses a long vowel (e.g. しまった-type emphasis), a lexical/rhythmic difference rather than a phonetic one.
+
+### Natural Classes
+
+Groupings of the consonant phonemes by shared phonological features, drawn from the source data.
+
+| Class | Members |
+|---|---|
+| Stops / plosives | `/p/`, `/b/`, `/t/`, `/d/`, `/k/`, `/ɡ/` |
+| Affricate allophones | `[ts]`, `[tɕ]`, `[dz]`, `[dʑ]` |
+| Fricatives | `/s/`, `/z/`, `/h/` |
+| Fricative allophones | `[ɕ]`, `[ʑ]`, `[ç]`, `[ɸ]` |
+| Nasals | `/m/`, `/n/`, `/N/` |
+| Liquid | `/r/` |
+| Glides / approximants | `/j/`, `/w/` |
+| Special moras | `/N/`, `/Q/` |
+| Obstruents | `/p/`, `/b/`, `/t/`, `/d/`, `/k/`, `/ɡ/`, `/s/`, `/z/`, `/h/`, `/Q/` |
+| Sonorants | `/m/`, `/n/`, `/r/`, `/j/`, `/w/`, `/N/` |
+| Voiceless | `/p/`, `/t/`, `/k/`, `/s/`, `/h/` |
+| Voiced | `/b/`, `/d/`, `/ɡ/`, `/z/`, `/m/`, `/n/`, `/r/`, `/j/`, `/w/`, `/N/` |
+| Sibilants | `/s/`, `/z/` |
+| Palatalizable yōon onsets | `/p/`, `/b/`, `/t/`, `/d/`, `/k/`, `/ɡ/`, `/s/`, `/z/`, `/h/`, `/m/`, `/n/`, `/r/` |
+| Gaps (no native phoneme) | `/f/`, `/v/`, `/θ/`, `/ð/`, `/l/`, `/ʃ/`, `/ʒ/` |
+
+**Affricate allophones:** Japanese has no **independent** affricate phoneme; [ts] and [tɕ] are positional allophones of `/t/` (つ *tsu* = [tsɯ], ち *chi* = [tɕi]), and [dz] and [dʑ] are allophones of `/z/` ~ `/d/` (づ/ず = [dzɯ]~[zɯ], ぢ/じ = [dʑi]~[ʑi]). Loanword katakana (チェ *che*, ツァ *tsa*, ジェ *je*) extends them to other vowels.
+
+**Fricative allophones:** [ɕ] = `/s/` before `/i,j/` (し *shi*, しゃ *sha*); [ʑ] = `/z/` before `/i,j/` (じ *ji*); [ç] = `/h/` before `/i,j/` (ひ *hi*); [ɸ] = `/h/` before `/u/` (ふ *fu*). None are separate phonemes in native vocabulary.
+
+**Nasals:** `/m/` and `/n/` are ordinary onset nasals; `/N/` is the **moraic** nasal (special mora) whose place is supplied entirely by assimilation to the following segment ([m n ɲ ŋ ɴ] / nasalized [ɰ̃] finally).
+
+**Liquid:** a single liquid phoneme `/r/`, phonetically an apico-alveolar tap [ɾ] (occasionally a lateral flap [ɺ] or, emphatically, a trill [r]); Japanese does not distinguish `/r/` from `/l/`, so both English r and l are mapped to `/r/`.
+
+**Glides:** `/j/` = palatal approximant [j] (や *ya*, ゆ *yu*, よ *yo*; the yōon 拗音 element in きゃ *kya* etc.); `/w/` = a labialized velar approximant [ɰ] / [w], natively occurring only before `/a/` (わ *wa*). Loanword katakana adds ウィ *wi*, ウェ *we*, ウォ *wo*.
+
+**Voicing pairs:** voicing is contrastive in the obstruent series and is the phonetic basis of the **dakuten** (゛) which derives the voiced row from the voiceless (か *ka* → が *ga*, さ *sa* → ざ *za*, た *ta* → だ *da*, は *ha* → ば *ba*). The は-row is historically paired with `/b/` via dakuten and with `/p/` via **handakuten** (゜: は *ha* → ぱ *pa*), reflecting the sound change \*p > ɸ > h.
+
+| Voiceless | Voiced |
+|---|---|
+| `/p/` | `/b/` |
+| `/t/` | `/d/` |
+| `/k/` | `/ɡ/` |
+| `/s/` | `/z/` |
+
+**Gaps:** Japanese has **no** native distinct `/f v θ ð l ʃ ʒ/`. [ɸ] exists only as the `/h/`-before-`/u/` allophone (ふ *fu*), not as an independent `/f/`; `/v/` occurs only in careful loanword speech written ヴ/ヴァ and is normally nativized to `/b/` (バイオリン *baiorin* 'violin'). English `/θ ð/` are borrowed as `/s z/` (or `/ɕ/`); `/l/` is mapped to `/r/` [ɾ]; [ʃ ʒ] are matched by the native allophones [ɕ ʑ].
+
+### Summary
+
+The Japanese consonant system is best understood not as a flat list of segments but as a small set of mora-onset phonemes whose surface form is heavily conditioned by the **following vowel** (palatalization before `/i/`, affrication/fronting before `/u/`), plus two placeless **special moras** (`/N/`, `/Q/`) that supply the language's only syllable codas and much of its mora-timed rhythm. Voicing (dakuten) and the \*p>ɸ>h handakuten relationship organise the obstruents; the conspicuous gaps (`/f v θ ð l ʃ ʒ/`) are exactly the contrasts that make loanword and Aramaic rendering require katakana digraphs and forced vowel epenthesis in the Japanese Peshitta reader tiers (カタカナ / ひらがな / ローマ字).
+
+---
+
+*Section authored by Shin.*
+
+## Vowels
+
+The Japanese vowel inventory (母音 *boin*). Standard / Common Japanese (標準語 / 共通語 *Hyōjungo / Kyōtsūgo*, educated Tokyo Yamanote speech) has exactly **FIVE** contrastive vowel **qualities** — /a i ɯ e o/ — arranged in a clean, symmetrical, triangular system with no front/back rounding asymmetry of the English type and no lax/tense (checked/free) class distinction. Two defining facts set Japanese vowels apart from the English reference system and from Korean: (1) **vowel length is phonemic** — every quality contrasts short vs long (/a/ vs /aː/, /i/ vs /iː/, etc.), and length alone distinguishes minimal pairs such as おばさん *obasan* 'aunt' vs おばあさん *obāsan* 'grandmother'; this is marked throughout with the IPA length sign `/ː/`, exactly as in the English guide and unlike the no-length Korean/Spanish guides; (2) the high vowels /i ɯ/ undergo regular **high-vowel devoicing** ([i̥ ɯ̥]) between voiceless consonants and word-finally after a voiceless consonant, a process so pervasive it is a hallmark of native-sounding Japanese (e.g. すき [sɯ̥ki], です [desɯ̥]). A third structural fact is that Japanese has **no true phonemic diphthongs**: adjacent vowels such as あい *ai*, おう *ou* are sequences of two **separate moras** (V.V hiatus), each carrying its own timing and potentially its own pitch, not single gliding nuclei of the English FACE/PRICE type — so there is no separate 'diphthongs' inventory for native Japanese (the apparent 'diphthongs' of romanized loanwords are likewise V+V mora sequences).
+
+Two reference standards are documented in parallel, mirroring the GA/RP framing of the English guide and the 표준어/문화어 framing of the Korean guide: **標準語** (*Hyōjungo*, the Tokyo standard) and **関西弁 / 京阪式** (*Kansai-ben / Keihan-shiki*, the major Kyoto–Osaka alternative). For vowel quality the two standards agree almost entirely — the five qualities and the short/long contrast are shared — so the standards diverge mainly in (a) pitch-accent assignment (treated in the suprasegmentals section, not here), (b) the rate and strictness of high-vowel devoicing (markedly weaker in Kansai, where devoicing and high-vowel reduction are resisted), and (c) some lexical vowel-length facts. IPA follows the 2015 revision; /slashes/ mark phonemic transcription and [brackets] mark phonetic detail; length is marked with `/ː/`. Each vowel lists its hiragana, katakana, Hepburn rōmaji and Kunrei-shiki rōmaji, with worked example words. These transcriptions cross-reference the five shipped reader tiers — Scholarly, Pretty (language-neutral Latin), Katakana (カタカナ), Hiragana (ひらがな), and the Rōmaji (Hepburn) readback of the kana.
+
+### Vowel System Overview
+
+The five Japanese vowel phonemes plotted on the height/backness/rounding grid. The system is a tidy triangle: a single low vowel /a/, two mid vowels /e o/, and two high vowels /i ɯ/. Unlike English there is **no lax/tense pairing** (no /ɪ/–/iː/ or /ʊ/–/uː/ split) — length is an independent dimension layered on top of these five fixed qualities, so /i/ and /iː/ share one quality and differ only in duration. The single typological surprise is the high back vowel: orthographic/rōmaji 'u' is **not** the rounded cardinal [u] of English GOOSE or Spanish /u/, but a **compressed, essentially unrounded** high back-central vowel [ɯ̈] (Tokyo) — the lips are spread/compressed rather than protruded. Every quality keeps its full value in every position: because Japanese has lexical **pitch accent** (not stress) and is **mora-timed**, there is **no vowel reduction to schwa** — unaccented moras are not centralized, only (for high vowels) optionally devoiced.
+
+#### By Height
+
+| Height | Vowels |
+|---|---|
+| High / close | /i/, /ɯ/ |
+| Mid | /e/, /o/ |
+| Low / open | /a/ |
+
+*Note.* /i/ is close front; /ɯ/ is close back-central. /e/ and /o/ are mid (close-mid to mid, [e̞ o̞]), noticeably more peripheral and 'tenser' than English DRESS/CLOTH. /a/ is a low central [ä], between English TRAP /æ/ and PALM /ɑː/. There is no near-close/near-open lax layer at all.
+
+#### By Backness
+
+| Backness | Vowels |
+|---|---|
+| Front (unrounded) | /i/, /e/ |
+| Central (low) | /a/ |
+| Back | /ɯ/, /o/ |
+
+*Note.* The front pair /i e/ is unrounded; /a/ is central; the back pair is /o/ (rounded) and /ɯ/ (unrounded/compressed, and phonetically rather central [ɯ̈] in Tokyo). Crucially the back-high slot is filled by an **unrounded** vowel — Japanese has no rounded [u]. Kansai /ɯ/ is often slightly backer and a touch more rounded than the strongly compressed Tokyo [ɯ̈], but still not the protruded [u] of English.
+
+#### By Rounding
+
+| Rounding | Vowels |
+|---|---|
+| Rounded | /o/ |
+| Unrounded or compressed | /a/, /i/, /ɯ/, /e/ |
+
+*Note.* **Only** /o/ is genuinely lip-rounded (and even it is less protruded than English/Spanish /o/). The high back vowel /ɯ/ is the famous exception to the cross-linguistic tendency for back vowels to be rounded: it is produced with lip **compression** (横唇 / 平唇, spread-but-narrowed lips), transcribed [ɯ̈] or [ɯᵝ] in detailed work, never [u]. Mis-rounding /ɯ/ to [u] is one of the most audible foreign-accent markers.
+
+#### Contrast with English and Korean
+
+Japanese has the **smallest** quality inventory of the three reference languages — just five qualities, versus English's dozen-plus monophthongs and Korean's seven-to-ten. But it **adds** a dimension neither modern Korean nor Spanish has: phonemic vowel **length** (short vs long for all five), which it shares with the English `/ː/`-marked system. Unlike English, Japanese has **no** lax/tense (checked/free) class system, **no** r-coloured vowels, and **no** schwa / weak-vowel set, because — being mora-timed with pitch accent rather than stress — it does not reduce unaccented vowels. Unlike Korean it has no front-rounded vowels and no /ɯ/-vs-/u/ rounding contrast (its single high back vowel simply **is** unrounded). The closest cross-language point of contact is Korean's ㅡ /ɯ/, which is also a high unrounded back-central vowel — but Korean /ɯ/ is the unrounded partner of a separate rounded /u/, whereas Japanese /ɯ/ has no rounded counterpart at all. Finally, Japanese vowel **sequences** (あい, おう) are V+V mora hiatus, not the single-nucleus falling diphthongs of English FACE/GOAT/PRICE.
+
+### Vowel Inventory
+
+The five monophthong qualities with hiragana, katakana, Hepburn and Kunrei-shiki rōmaji, phonetic value and long counterpart.
+
+| IPA | Hiragana | Katakana | Hepburn | Kunrei | Name | Phonetic value | Long counterpart |
+|---|---|---|---|---|---|---|---|
+| /a/ | `あ` | `ア` | a | a | low central unrounded | [a] ~ [ä] | /aː/ (ああ / アー) |
+| /i/ | `い` | `イ` | i | i | close front unrounded | [i] (voiced) ~ [i̥] (devoiced) | /iː/ (いい / イー) |
+| /ɯ/ | `う` | `ウ` | u | u | close back-central unrounded / compressed | [ɯ̈] ~ [ɯᵝ] (compressed) ~ [ɯ̥] (devoiced) | /ɯː/ (うう / ウー) |
+| /e/ | `え` | `エ` | e | e | mid front unrounded | [e] ~ [e̞] | /eː/ (ええ / エー, very often spelled えい *ei*) |
+| /o/ | `お` | `オ` | o | o | mid back rounded | [o] ~ [o̞] | /oː/ (おお / オー, most often spelled おう *ou*) |
+
+### Per-Vowel Notes and Example Words
+
+#### `/a/` — `あ` `ア` — low central unrounded
+
+| Word | Kanji | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|---|
+| あき | 秋 | aki | `[aki]` | autumn | word-initial bare /a/; a single short low vowel, never reduced even though unaccented in the second mora. |
+| あさ | 朝 | asa | `[asa]` | morning | two /a/ moras, both full clear [a]; no reduction of the second the way English would reduce an unstressed syllable. |
+| おばさん | — | obasan | `[obasaɴ]` | aunt / middle-aged woman | the **short** member of the famous length minimal pair with おばあさん *obāsan* 'grandmother' [obaːsaɴ]: identical except the second /a/ is short here, long there. |
+
+*Allophony.* A low vowel, essentially **central** [ä] rather than the front cardinal [a] — between English TRAP /æ/ and PALM /ɑ/ in quality, and the most stable vowel across Tokyo and Kansai. It does not devoice (devoicing targets only the high vowels /i ɯ/). Its long counterpart /aː/ is simply a held [aː] of the same quality. Sequences like /ai/ (あい) are **not** a diphthong but /a/ + /i/ across two moras (see *Vowel Sequences (Hiatus)*).
+
+#### `/i/` — `い` `イ` — close front unrounded
+
+| Word | Kanji | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|---|
+| いし | 石 | ishi | `[iɕi]` | stone | /i/ triggers the palatal allophones: し is [ɕi] (s→[ɕ] before /i/). Word-final /i/ here may be lightly devoiced [iɕi̥] in fast speech. |
+| すき | 好き | suki | `[sɯ̥ki]` | to like / liked | shows **devoicing** of the first high vowel: /ɯ/ between /s/ and /k/ is voiceless [ɯ̥]; the /i/ of き stays voiced here because it is followed by a voiced segment / phrase. Classic devoicing environment. |
+| おじいさん | お祖父さん | ojīsan | `[odʑiːsaɴ]` | grandfather | contains **long /iː/** (じい), contrasting with おじさん *ojisan* 'uncle' [odʑisaɴ] which has short /i/ — a length minimal pair parallel to *obasan/obāsan*; じ before the long vowel is the affricate/fricative [dʑ]. |
+
+*Allophony.* A consistently close, tense front unrounded [i] in all positions (no lax [ɪ] counterpart, no unstressed shortening of quality). /i/ — like the glide /j/ — is the **trigger** for Japanese palatal allophony: /s/→[ɕ] (し *shi*), /t/→[tɕ] (ち *chi*), /z d/→[dʑ]/[ʑ] (じ *ji*), /h/→[ç] (ひ *hi*). It is one of the two **devoicing** vowels: between voiceless consonants or word-finally after a voiceless C it becomes voiceless [i̥] (e.g. ひと [çi̥to] 'person', 〜きし sequences). Devoicing is robust in Tokyo and markedly weaker in Kansai. Long /iː/ is a held [iː] of the same quality.
+
+#### `/ɯ/` — `う` `ウ` — close back-central unrounded / compressed
+
+| Word | Kanji | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|---|
+| うみ | 海 | umi | `[ɯ̈mi]` | sea | word-initial bare /ɯ/; note the **compressed unrounded** quality [ɯ̈], not English [u]. Voiced here (next to nasal /m/, not a voiceless environment). |
+| つき | 月 | tsuki | `[tsɯ̥ki]` | moon | /ɯ/ **devoiced** to [ɯ̥] between voiceless /ts/ and /k/; also shows /t/→[ts] before /ɯ/ (つ *tsu*). Prime devoicing environment. |
+| です | — | desu | `[desɯ̥]` | copula 'is/am/are' (polite) | the textbook **word-final** devoicing case: utterance-final /ɯ/ after voiceless /s/ is voiceless [ɯ̥], so です sounds like [des(ɯ̥)] — often nearly [des]. Same for ます *-masu* [masɯ̥]. |
+
+*Allophony.* The signature Japanese vowel: a high back-**central unrounded** vowel produced with lip **compression** (spread but narrowed), **not** the protruded rounded [u] of English/Spanish. Best transcribed [ɯ̈] or [ɯᵝ] (compressed); the bare /ɯ/ glyph is used phonemically. Tokyo realizes it quite centrally and strongly compressed; **Kansai** tends to a slightly backer and a touch rounder [ɯ]~[ʊ̜], one of the few quality differences between the standards. /ɯ/ is the second **devoicing** vowel (with /i/): voiceless [ɯ̥] between voiceless consonants and word-finally after a voiceless C — extremely common because the polite endings です/ます end in /sɯ/. It conditions /t z d s h/ allophony before it: つ [tsɯ], ず/づ [dzɯ], す [sɯ], ふ [ɸɯ] (h→[ɸ] before /ɯ/). Long /ɯː/ also spells the long ō/ū written with う in hiragana (see *Long Vowels*). Its long counterpart is /ɯː/ (うう / ウー, also written う after the o-row for ō and after the u-row).
+
+#### `/e/` — `え` `エ` — mid front unrounded
+
+| Word | Kanji | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|---|
+| えき | 駅 | eki | `[eki]` | (train) station | word-initial bare /e/, a full mid front vowel; no English-style off-glide ([eɪ̯]) — it stays a pure monophthong. |
+| せかい | 世界 | sekai | `[sekai]` | world | /e/ in せ, then the V+V sequence /a/+/i/ (かい) which is hiatus, **not** a diphthong — two moras se-ka-i. |
+| せんせい | 先生 | sensei | `[seɴseː]` | teacher | shows えい *ei* realized as **long /eː/**: the spelled せい is normally pronounced [seː], not [sei]. The first せん keeps its moraic /N/; the second せい is the *ei*→[eː] case. |
+
+*Allophony.* A mid front unrounded vowel, more peripheral and 'tense' than English DRESS [ɛ], around [e̞]. It is a **pure monophthong** — no off-glide of the English FACE type. It does not devoice. Note the major **orthographic** point: the spelling えい (*ei*), pervasive in Sino-Japanese readings (先生 *sensei*, 学生 *gakusei*, 時計 *tokei*), is normally pronounced as a **long /eː/** in standard speech, **not** as a true [ei] sequence — though a careful or singing pronunciation, and some dialects, may render it [ei]. Long /eː/ is otherwise written ええ (hiragana) or エー (katakana). Tokyo and Kansai agree on /e/ quality.
+
+#### `/o/` — `お` `オ` — mid back rounded
+
+| Word | Kanji | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|---|
+| おと | 音 | oto | `[oto]` | sound | two /o/ moras, both full mid rounded; no off-glide ([oʊ̯]) of the English GOAT type — pure monophthongs. |
+| とうきょう | 東京 | Tōkyō | `[toːkjoː]` | Tokyo | the textbook おう *ou* = **long /oː/** case (twice): とう→[toː], きょう→[kjoː] (with the yōon きょ /kjo/). Spelled *ou*, pronounced *ō*. |
+| おおきい | 大きい | ōkii | `[oːkiː]` | big | one of the words where long /oː/ is exceptionally spelled おお (double お) rather than おう — a small fixed set (おおきい, とおい *tōi* 'far', こおり *kōri* 'ice'). Also contains long /iː/ (きい). |
+
+*Allophony.* A mid back **rounded** vowel [o̞] — the **only** genuinely rounded vowel in the system, though less protruded than English/Spanish /o/. A pure monophthong, no GOAT-type off-glide. It does not devoice. Major **orthographic** point: long /oː/ is **usually** written おう (*ou*) in hiragana — とうきょう *Tōkyō*, がっこう *gakkō*, ありがとう *arigatō* — and pronounced as a held [oː], **not** [ou]; a smaller fixed lexical set instead writes おお (おおきい, とおい, こおり). Katakana writes the long vowel with the chōonpu ー (オー). Tokyo and Kansai agree on /o/ quality.
+
+### Vowel Length
+
+#### 母音の長短 — phonemic vowel length (short vs long)
+
+Vowel length is fully **phonemic** in Japanese: each of the five qualities contrasts a **short** vowel (one mora) with a **long** vowel (two moras, [Vː]). A long vowel is not a different quality but the **same** quality held for an extra mora, so it counts as two beats in the mora-timed rhythm. This is a core contrast a learner must master, and it is marked throughout this guide with the IPA length sign `/ː/` — mirroring the English guide's contrastive use of `/ː/` and contrasting with the no-length Korean and Spanish guides. Length is independent of pitch accent: a long vowel can carry an accent drop on either of its two moras.
+
+| Contrast | Short | Long |
+|---|---|---|
+| /a/ vs /aː/ | おばさん *obasan* [obasaɴ] 'aunt' | おばあさん *obāsan* [obaːsaɴ] 'grandmother' |
+| /i/ vs /iː/ | おじさん *ojisan* [odʑisaɴ] 'uncle' | おじいさん *ojīsan* [odʑiːsaɴ] 'grandfather' |
+| /ɯ/ vs /ɯː/ | ゆき *yuki* [jɯki] 'snow' | ゆうき *yūki* [jɯːki] 'courage' |
+| /e/ vs /eː/ | え *e* [e] 'picture' | ええ *ē* [eː] 'yes (casual)' |
+| /o/ vs /oː/ | とる *toru* [toɾɯ] 'to take' | とおる *tōru* [toːɾɯ] 'to pass through' |
+| /o/ vs /oː/ (おう spelling) | こ *ko* [ko] 'child' | こう *kō* [koː] 'like this / thus' |
+
+*Note.* The second mora of a long vowel is sometimes analyzed as a distinct 'length mora' /R/ (the chōonpu unit), parallel to the moraic /N/ (ん) and the sokuon /Q/ (っ). Failing to hold the long vowel — or inserting length where there is none — produces a different word, so length errors are not merely accentual but lexical.
+
+### High-Vowel Devoicing
+
+#### 母音の無声化 — high-vowel devoicing
+
+The high vowels /i/ and /ɯ/ regularly **devoice** — are produced voiceless, [i̥] and [ɯ̥] — in specific environments. This is an allophonic, largely automatic process in Standard (Tokyo) Japanese and is one of the strongest cues of a native-sounding accent; foreign speakers who voice these vowels fully sound noticeably non-native. Devoicing affects **only** the two high vowels; the non-high /a e o/ do not devoice. It is a quality-preserving phenomenon: the vowel keeps its [i]/[ɯ] articulation but loses voicing, often shortening or (in fast speech) approaching full elision.
+
+##### Environments
+
+**Between two voiceless consonants** — a high vowel flanked by voiceless consonants (/p t k s ɕ ts tɕ ɸ ç h/) is normally devoiced.
+
+| Word | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|
+| すき | suki | `[sɯ̥ki]` | to like | /ɯ/ between /s/ and /k/ |
+| きた | kita | `[ki̥ta]` | came / north | /i/ between /k/ and /t/ |
+| ひと | hito | `[çi̥to]` | person | /i/ between [ç] (h→[ç] before /i/) and /t/ |
+
+**Word-final / utterance-final after a voiceless consonant** — a high vowel at the end of a word or utterance, preceded by a voiceless consonant, is devoiced (and may be barely audible).
+
+| Word | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|
+| です | desu | `[desɯ̥]` | copula (polite) | utterance-final /ɯ/ after /s/ |
+| ます | -masu | `[masɯ̥]` | polite verb ending | utterance-final /ɯ/ after /s/ |
+
+*Blocking and variation.* Devoicing is **blocked** or resisted when the high vowel is **accented** (carries the pitch-accent nucleus), when two devoiceable moras occur in a row (typically only one devoices, to avoid losing both), and generally in careful or emphatic speech. Most importantly, devoicing is a **Tokyo/Eastern** feature: **Kansai** (関西) speech devoices much less, often keeping these high vowels fully voiced — so [sɯki], [çito] with voiced vowels are characteristically Kansai. This is one of the clearest segmental differences between the two reference standards.
+
+*Note.* Devoicing is distinct from the (rarer) full **elision** of a high vowel in very fast speech (e.g. です → near [des]). Both are deletion-of-voicing/segment phenomena, **not** reduction to schwa — Japanese has no schwa target.
+
+### Vowel Sequences (Hiatus)
+
+#### 母音連続 — vowel sequences (hiatus), NOT diphthongs
+
+Japanese has **no true phonemic diphthongs**. When two vowels are adjacent (あい *ai*, おう *ou*, うえ *ue*, あお *ao*, いえ *ie* …), they are **not** a single gliding nucleus like English FACE [eɪ̯] or PRICE [aɪ̯]; they are a **sequence of two separate moras** in hiatus, each with full vowel quality, full mora timing, and the ability to carry its own pitch. This is why romanized loanword 'diphthongs' do not exist as a separate inventory in Japanese the way the English diphthong section exists. Phonetically, fast or casual speech may produce a glide-like transition between the two vowels (a phonetic [ai̯]-like coarticulation), but phonologically there remain two moras.
+
+##### Evidence for two moras
+
+- **Mora count:** あい *ai* is **two** moras (a-i), not one — it occupies two beats in the mora-timed rhythm and two kana positions.
+- **Pitch:** the two vowels can bear different pitch levels (e.g. accent can fall between them), which a single diphthong nucleus could not do.
+- **Morpheme boundaries:** many sequences straddle morpheme boundaries (見上げる *mi-ageru*), confirming they are separate units.
+- **No quality change:** each vowel keeps its citation quality; there is no specialized diphthong allophone.
+
+##### Common sequences
+
+| Sequence | IPA | Example | Note |
+|---|---|---|---|
+| あい *ai* | `[a.i]` | 愛 *ai* [a.i] 'love'; 高い *takai* [takai] 'high/expensive' | two moras a-i; phonetic [ai̯] glide possible but phonologically V.V |
+| あお *ao* | `[a.o]` | 青 *ao* [a.o] 'blue' | two moras a-o |
+| うえ *ue* | `[ɯ.e]` | 上 *ue* [ɯe] 'up/above' | two moras u-e |
+| いえ *ie* | `[i.e]` | 家 *ie* [ie] 'house' | two moras i-e |
+| おい *oi* | `[o.i]` | 甥 *oi* [o.i] 'nephew'; 多い *ōi* → note 多い is /oː/+i, distinct | two moras o-i |
+
+*Contrast with long vowels.* A vowel **sequence** of two **different** qualities (あい *a+i*, あお *a+o*) is hiatus; a sequence of the **same** quality across two moras (ああ *a+a*, おお *o+o*, or the spelled おう = /oː/) is a **long vowel**, a held single quality. Both are two moras, but only the same-quality case is phonemic length. Compare おう /oː/ (long o, one held quality) with おい /o/+/i/ (two distinct qualities). The えい→[eː] and おう→[oː] spellings are the systematic cases where an orthographic vowel sequence is actually realized as a long vowel rather than as true hiatus.
+
+*No-diphthong-inventory note.* Because of all this, this Japanese guide has **no separate 'diphthongs' section** of the English type. The vowel system is exactly the five monophthong qualities (each short or long); everything that looks like a diphthong is V+V hiatus or, in the えい/おう cases, a long monophthong.
+
+### Long Vowels
+
+#### 長音 (*chōon*) — long vowels and how they are written
+
+A long vowel (長音 *chōon*) is a vowel held for **two moras**, [Vː]. Long vowels are phonemic (see *Vowel Length*) but their **orthographic** representation differs systematically across the three scripts and across the five qualities, which is a frequent source of confusion. There are three main devices: (1) the **katakana chōonpu** ー (a horizontal bar); (2) **hiragana vowel doubling** (writing the same vowel kana twice, or writing う/い after the vowel); (3) the special う-for-*ō* / う-for-*ū* and い/う conventions in Sino-Japanese spellings.
+
+##### Katakana — chōonpu `ー` (U+30FC)
+
+In katakana, long vowels of **all** qualities are written with the chōonpu (長音符) `ー`, a single horizontal stroke after the vowel kana, regardless of which vowel it lengthens. This is the dominant device for loanwords.
+
+| Word | Hepburn | IPA | Gloss | Note |
+|---|---|---|---|---|
+| コーヒー | kōhī | `[koːçiː]` | coffee | ー lengthens both /o/ (コー = [koː]) and /i/ (ヒー = [çiː]) |
+| ケーキ | kēki | `[keːki]` | cake | ー lengthens /e/ (ケー = [keː]) |
+| スーパー | sūpā | `[sɯːpaː]` | supermarket | ー lengthens /ɯ/ and /a/ |
+
+##### Hiragana — vowel doubling (and う/い after the vowel)
+
+Hiragana does **not** normally use the chōonpu. Instead it writes long vowels by following the vowel kana with another kana, by quality: /aː/ = ああ (vowel doubled); /iː/ = いい (doubled); /ɯː/ = うう (doubled); /eː/ = ええ (doubled) **or**, in most Sino-Japanese words, えい; /oː/ = おう (the usual case) **or** おお (a fixed lexical set).
+
+| Long vowel | Spelling | Word | Hepburn | IPA | Gloss |
+|---|---|---|---|---|---|
+| /aː/ | ああ | おばあさん | obāsan | `[obaːsaɴ]` | grandmother |
+| /iː/ | いい | おにいさん | onīsan | `[oniːsaɴ]` | older brother |
+| /ɯː/ | うう | くうき | kūki | `[kɯːki]` | air |
+| /eː/ | えい (usual) / ええ | せんせい | sensei | `[seɴseː]` | teacher (えい→[eː]) |
+| /oː/ | おう (usual) | とうきょう | Tōkyō | `[toːkjoː]` | Tokyo (おう→[oː]) |
+
+##### Special `お`/`え` spellings — おう for *ō*, えい for *ē*, plus the おお / えい exceptions
+
+Two systematic quirks: (1) long /oː/ is normally spelled おう (*ou*) — がっこう *gakkō*, ありがとう *arigatō*, おはよう *ohayō* — but a **small fixed set** of native words spells it おお instead: おおきい *ōkii* 'big', とおい *tōi* 'far', こおり *kōri* 'ice', とおる *tōru* 'pass', おおい *ōi* 'many'. (2) Long /eː/ is normally spelled えい (*ei*) in Sino-Japanese — せんせい *sensei*, がくせい *gakusei*, とけい *tokei*, えいが *eiga* — and pronounced [eː] in standard speech (a careful/sung [ei] is possible and is more common in some dialects). Native *ee* is spelled ええ (rare: ええ 'yes', おねえさん *onēsan* 'older sister' uses ねえ).
+
+| Spelling | Word | Hepburn | IPA | Gloss |
+|---|---|---|---|---|
+| おう = /oː/ | ありがとう | arigatō | `[aɾiɡatoː]` | thank you |
+| おお = /oː/ (exception set) | とおい | tōi | `[toːi]` | far |
+| えい = /eː/ | えいが | eiga | `[eːɡa]` | movie |
+| ねえ = /eː/ | おねえさん | onēsan | `[oneːsaɴ]` | older sister |
+
+##### Romanization of length
+
+How length is shown in the romanizations used by this guide.
+
+- **Hepburn:** marks long vowels with a **macron** — ā ī ū ē ō (*Tōkyō*, *kōhī*, *arigatō*). Long /eː/ from えい is sometimes written 'ei' (*sensei*) by convention rather than 'sē', and long ī/ū from doubled kana are macroned (*onīsan*, *kūki*). Loanword katakana ー is rendered with a macron.
+- **Kunrei-shiki (ISO 3602):** likewise uses the **circumflex** `^` for length — â î û ê ô (*Tôkyô*), though doubled vowels are sometimes written out. Hepburn macrons are the dominant convention in this guide's readback tier.
+- **Note:** when macrons are unavailable, long vowels are commonly written by doubling (*Tookyoo*) or, for *ō*/*ū*, with 'ou'/'uu' reflecting the kana (*Toukyou*) — but the macron forms are the guide's standard.
+
+*Moraic status.* A long vowel's second half is a full **mora**: it is counted in the mora-timed rhythm exactly like the moraic nasal ん /N/ or the sokuon っ /Q/. So コーヒー *kōhī* is **four** moras (ko-o-hi-i), and とうきょう *Tōkyō* is **four** moras (to-o-kyo-o). This moraic weight is why mis-timing a long vowel changes both the rhythm and (often) the word.
+
+### IPA Symbol Summary
+
+Quick reference of the Japanese vowel phonemes with their main phonetic realizations and kana/rōmaji correspondences. Values reflect Standard (Tokyo) Japanese as the default; Kansai variants are noted inline. Each quality contrasts **short** and **long**.
+
+| Vowel quality | With length |
+|---|---|
+| /a/ | /a/–/aː/ |
+| /i/ | /i/–/iː/ |
+| /ɯ/ | /ɯ/–/ɯː/ |
+| /e/ | /e/–/eː/ |
+| /o/ | /o/–/oː/ |
+
+#### Principal Realizations
+
+| Kana | Phoneme | Realization |
+|---|---|---|
+| `あ` `ア` | /a/ | [a] ~ [ä], low central unrounded; stable; does not devoice. Long /aː/ = ああ / アー. |
+| `い` `イ` | /i/ | [i] close front unrounded; devoices to [i̥] between/after voiceless C (Tokyo); triggers palatalization (し [ɕi], ち [tɕi], ひ [çi]). Long /iː/ = いい / イー. |
+| `う` `ウ` | /ɯ/ | [ɯ̈] ~ [ɯᵝ] close back-central unrounded/compressed — **not** [u]; devoices to [ɯ̥] (very common in です/ます); slightly backer/rounder in Kansai. Long /ɯː/ = うう / ウー. |
+| `え` `エ` | /e/ | [e] ~ [e̞] mid front unrounded; pure monophthong; えい normally = long [eː]. Long /eː/ = えい/ええ / エー. |
+| `お` `オ` | /o/ | [o] ~ [o̞] mid back rounded — the only rounded vowel; pure monophthong; おう normally = long [oː]. Long /oː/ = おう/おお / オー. |
+
+*Length note.* Length is **phonemic** and marked with `/ː/` (mirroring the English guide, unlike the no-length Korean/Spanish guides). Each quality has a short and a held long member; the long member is two moras. Minimal pairs: *obasan/obāsan*, *ojisan/ojīsan*, *yuki/yūki*.
+
+*Devoicing note.* The **high** vowels /i ɯ/ devoice ([i̥ ɯ̥]) between voiceless consonants and word-finally after a voiceless C in Standard Tokyo speech; /a e o/ never devoice. Devoicing is much weaker in Kansai. This is allophonic, not phonemic, and is **not** reduction to schwa.
+
+*No schwa, no diphthong.* There is **no schwa** /ə/ and **no weak/reduced vowel set**: because Japanese has pitch accent (not stress) and is mora-timed, unaccented vowels keep full quality. There are also **no true diphthongs**: vowel sequences (あい, おう…) are V+V hiatus across two moras, except the systematic えい→[eː] and おう→[oː] spellings which are long monophthongs.
+
+*/ɯ/ rounding warning.* The single most important segmental warning: rōmaji 'u' = /ɯ/ is **unrounded/compressed** [ɯ̈], not the rounded [u] of English/Spanish. Rounding it is the most audible foreign-accent error in the vowel system.
+
+---
+
+*Section signed: Shin.*
+
+## Moras & Special Moras
+
+This section is the Japanese analogue of the English guide's "Diphthongs" slot, but where English organizes its vowel glides into Wells lexical sets, Japanese organizes its phonology around the MORA (`拍` *haku* / `モーラ` *mōra*) — the fundamental unit of TIMING and of phonological weight. Japanese is a strictly MORA-TIMED language: every mora occupies roughly one isochronous beat, and it is the mora — not the syllable — that counts in poetry (the 5-7-5 of haiku is 5-7-5 MORAS), in the pitch-accent system (the accent is a pitch DROP located after a particular mora), and in the kana writing system (each basic kana spells exactly one mora). A mora is therefore the right organizing unit for this guide and for the kana reader tiers, because rendering Aramaic into idiomatic Japanese requires FORCED VOWEL EPENTHESIS: Japanese permits no consonant clusters and no syllable codas other than the two moraic consonants, so every borrowed consonant that cannot stand alone is given its own (C)V mora.
+
+This section defines the mora, contrasts it sharply with the SYLLABLE (`音節` *onsetsu*), enumerates the four ordinary mora shapes and the FOUR special moras — the moraic nasal /N/ (`撥音` *hatsuon*, `ん`/`ン`), the sokuon /Q/ (`促音`, `っ`/`ッ`), the long-vowel mora /R/ (`長音` *chōon*, `ー` / vowel-doubling), and the palatalized YŌON (`拗音`, C + small `ゃゅょ`) — then treats cross-mora vowel sequences (`連母音` *renbo'in*) and gives fully worked moraic-count derivations. Two reference standards are documented in parallel throughout: Standard / Common Japanese (`標準語`・`共通語` *Hyōjungo*/*Kyōtsūgo*, educated Tokyo Yamanote speech, Tokyo-type pitch accent `東京式アクセント`) and Kansai / Keihan Japanese (`関西弁`・`京阪式アクセント`, the Kyoto–Osaka standard). The mora INVENTORY and the moraic SHAPES are shared by both standards; what differs between them is the pitch-accent melody distributed OVER the moras (see suprasegmentals), so a single IPA field per entry suffices for the segmental content, with accent/length divergences noted in prose.
+
+### Reference Standards
+
+| Standard | Description |
+|---|---|
+| Standard / Common Japanese | `標準語` / `共通語` (*Hyōjungo* / *Kyōtsūgo*), educated Tokyo (Yamanote) speech; Tokyo-type pitch accent (`東京式アクセント`). |
+| Kansai / Keihan Japanese | `関西弁` / `京阪式アクセント` (Kyoto–Osaka); a richer pitch-accent system (lexical register + accent), melodies often "reversed" relative to Tokyo. |
+
+> **Note:** The mora inventory, the four special moras, and the (C)(j)V mora template are identical in both standards. The standards diverge in the pitch melody assigned over the moras and in some lexical vowel-length and special-mora facts: Kansai famously preserves length where Tokyo shortens (Kansai `学校` `がっこう` can be heard fuller, and one-mora content words like `木` `き` 'tree', `目` `め` 'eye', `蚊` `か` 'mosquito' are lengthened to two moras `きい`/`めえ`/`かあ` in Kansai but stay one mora in Tokyo). Pitch is treated in the suprasegmentals section; this section documents the segmental/timing skeleton the two standards share.
+
+### The Mora Unit
+
+- **Japanese term:** `拍` (*haku*) / `モーラ` (*mōra*)
+- **Definition:** The mora is the minimal unit of phonological TIMING and WEIGHT in Japanese: each mora occupies approximately one equal beat (Japanese is mora-timed, not syllable-timed or stress-timed). Native metalinguistic awareness is mora-based — speakers count `拍` *haku* when scanning poetry, naming the length of words, or spelling — and each non-compound kana corresponds to exactly one mora.
+- **Mora template:** (C)(j)V — an optional onset consonant, an optional palatal on-glide /j/ (yōon), and an obligatory vowel; OR one of the special moras /N/, /Q/, /R/ which have NO independent vowel of their own.
+- **Isochrony:** Moras are perceptually near-isochronous: `日本` (`に`・`ほ`・`ん` = ni-ho-N) and `大阪` (`お`・`お`・`さ`・`か` = o-o-sa-ka) are timed as 3 and 4 even beats respectively; the special moras /N Q R/ each take a FULL beat despite having no vowel, which is the single most important fact for non-native speakers and for the reader-tier transducer.
+
+**Why the mora, not the syllable.** Three Japanese systems are counted in moras, not syllables: (1) VERSE — haiku 5-7-5 and tanka 5-7-5-7-7 count moras, so `東京` (4 moras) fills four of the five slots in a haiku line; (2) PITCH ACCENT — the Tokyo accent is a downstep located after the n-th MORA; (3) ORTHOGRAPHY — kana are a moraic syllabary, one symbol per mora (with small `ゃゅょ` and `っ` as the systematic exceptions). The mora is thus the load-bearing unit for the kana reader tiers.
+
+### Mora vs. Syllable
+
+A SYLLABLE (`音節` *onsetsu*) in Japanese is one or two moras; the syllable, not the mora, is the domain of some phonetic processes, but the MORA is the domain of timing, accent placement and verse. A LIGHT syllable = one mora (a plain (C)(j)V mora). A HEAVY syllable = two moras, formed when a base mora is followed by one of the special moras /N/, /Q/, or /R/ (a long vowel), or by certain vowel sequences. Thus `東京` `とうきょう` is 4 MORAS (to-u-kyo-u) but only 2 SYLLABLES (too.kyoo, each a heavy CVR syllable); `学校` `がっこう` is 4 MORAS (ga-Q-ko-u) but 2 SYLLABLES (gak.koo). This 4-mora / 2-syllable mismatch is the canonical illustration that Japanese counts moras.
+
+#### Syllable Weight
+
+| Weight | Structure | Description | Examples |
+|---|---|---|---|
+| Light (one mora) | (C)(j)V | A single ordinary mora. | `か` ka, `き` ki, `しゃ` sha, `こ` ko |
+| Heavy (two moras) | CVN / CVQ / CVR | A base mora plus a following special mora that cannot start a syllable of its own. The special mora is the second mora of the heavy syllable. | `かん` ka-N (CVN), `かっ` ka-Q (CVQ, before the geminate's second half), `かあ` / `カー` ka-R (CVR) |
+
+> **Note:** Some analyses additionally count certain vowel sequences (e.g. -ai, -oi) as the coda of a heavy syllable; this guide treats cross-mora vowel sequences (`連母音`) as separate moras for counting purposes (see Vowel Sequences below).
+
+#### Worked Contrast
+
+| Word | Kana | Hepburn | Mora Breakdown | Moras | Syllable Breakdown | Syllables | IPA | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `東京` | `とうきょう` | Tōkyō | `と` to · `う` u · `きょ` kyo · `う` u | 4 | `とう` /toː/ (heavy, CVR) · `きょう` /kjoː/ (heavy, CjVR) | 2 | `[toːkʲoː]` | The classic example: 4 moras, 2 syllables. Each `う` here is a long-vowel mora /R/ lengthening the preceding `お`-row vowel (`おう` = /oː/, not [ou]). `きょ` is a single yōon mora (palatalized), NOT two moras. |
+| `学校` | `がっこう` | gakkō | `が` ga · `っ` Q (sokuon) · `こ` ko · `う` u (= R) | 4 | `がっ` /ɡak̚/ (heavy, CVQ) · `こう` /koː/ (heavy, CVR) | 2 | `[ɡakkoː]` | 4 moras, 2 syllables. The `っ` (sokuon /Q/) is a full mora — the first, unreleased half of the geminate [kk] — yet has no vowel; the final `う` lengthens `こ` to /koː/. |
+| `日本` | `にほん` | Nihon | `に` ni · `ほ` ho · `ん` N | 3 | `に` /ɲi/ (light) · `ほん` /hoɴ/ (heavy, CVN) | 2 | `[ɲihoɴ]` | 3 moras (`に`・`ほ`・`ん`, each one beat), 2 syllables. The moraic nasal `ん` is a full mora on its own. |
+| `切手` | `きって` | kitte | `き` ki · `っ` Q · `て` te | 3 | `きっ` /kit̚/ (heavy, CVQ) · `て` /te/ (light) | 2 | `[kitte]` | 'postage stamp'. Minimal-pair backbone: `きて` kite 'come' (2 moras) vs `きって` kitte 'stamp' (3 moras) — the sokuon adds a whole mora of timing. |
+
+### Ordinary Mora Shapes
+
+The four shapes of an ordinary (non-special) mora. Each is exactly one mora and (except the bare-vowel shape) one basic kana.
+
+#### V — Bare vowel mora (zero onset)
+
+| Kana | Rōmaji | IPA |
+|---|---|---|
+| `あ` | a | `[a]` |
+| `い` | i | `[i]` |
+| `う` | u | `[ɯ̈]` |
+| `え` | e | `[e]` |
+| `お` | o | `[o]` |
+
+#### CV — Consonant + vowel (the statistically dominant mora shape)
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `か` | ka | `[ka]` | — |
+| `し` | shi | `[ɕi]` | /s/→[ɕ] before /i/ |
+| `つ` | tsu | `[tsɯ̈]` | /t/→[ts] before /u/ |
+| `ふ` | fu | `[ɸɯ̈]` | /h/→[ɸ] before /u/ |
+| `を` | wo/o | `[o]` | object particle `は`/`を`; `を` is pronounced [o] |
+
+#### jV (yōon) — Consonant + palatal glide /j/ + vowel
+
+Written with a base i-row kana + small `ゃ`/`ゅ`/`ょ`. A SINGLE mora despite two kana symbols. Treated in full under Yōon below.
+
+| Kana | Rōmaji | IPA |
+|---|---|---|
+| `きゃ` | kya | `[kʲa]` |
+| `しゅ` | shu | `[ɕɯ̈]` |
+| `ちょ` | cho | `[tɕo]` |
+
+#### special — The three vowelless / dependent special moras
+
+/N/, /Q/, /R/ (each a full mora), enumerated in Special Moras below.
+
+| Kana | Rōmaji | IPA | Type |
+|---|---|---|---|
+| `ん`/`ン` | n | `[ɴ]` (allophonic) | moraic nasal /N/ |
+| `っ`/`ッ` | (geminate) | `[kk]` (first half [k̚]) | sokuon /Q/ |
+| `ー` / vowel-doubling | (length) | `[ː]` | long-vowel mora /R/ |
+
+### Special Moras
+
+#### Moraic Nasal — `撥音` (*hatsuon*) — /N/
+
+| Field | Value |
+|---|---|
+| Hiragana | `ん` (`U+3093`) |
+| Katakana | `ン` (`U+30F3`) |
+| Rōmaji (Hepburn) | n (n' or m before certain letters) |
+| Full mora? | Yes |
+| Has own vowel? | No |
+| Can begin a syllable? | No |
+
+A vowelless nasal that constitutes a FULL mora and forms the second (coda) mora of a heavy syllable; it is the only true coda consonant in Japanese. It has NO fixed place of articulation: /N/ is archiphonemic and PLACE-ASSIMILATES to whatever follows, with five principal allophones. It never begins a word or syllable (no native word starts with `ん`), and it always takes a full beat of timing — a fact non-native speakers routinely under-time.
+
+**Allophones**
+
+| Environment | IPA | Example | Rōmaji | Example IPA | Gloss |
+|---|---|---|---|---|---|
+| before bilabials /p b m/ (and `ぱ行`/`ば行`/`ま行`) | `[m]` | `さんぽ` | sanpo | `[sampo]` | a walk |
+| before alveolars /t d n/ /ts dz/ /r/ | `[n]` | `おんな` | onna | `[onna]` | woman |
+| before velars /k ɡ/ | `[ŋ]` | `りんご` | ringo | `[riŋɡo]` | apple |
+| before palatal /j/, palato-alveolars, and the /i/-glide | `[ɲ]` | `こんにちは` | konnichiwa | `[koɲɲitɕiwa]` | hello / good day |
+| utterance-finally, before a vowel, or before fricatives /s z h/ and approximants /w j/ | `[ɴ]` / `[ɰ̃]` (nasalized; preceding vowel nasalized) | `ほん` | hon | `[hoɴ]` | book |
+
+**Minimal & timing pairs**
+
+| A | B | Point |
+|---|---|---|
+| `かに` kani 'crab' (2 moras) | `かんい` kan'i 'simplicity' (3 moras) | the moraic nasal adds a whole beat |
+| `きん` kin 'gold' `[kiɴ]` | `きに` ki-ni (2 plain moras) | coda /N/ vs onset /n/ + vowel |
+
+> **Romanization note:** Hepburn writes `ん` as n, but as m before b/m/p in traditional Hepburn (`しんぶん` shimbun) and as n' before a vowel or y to disambiguate from a /n/-onset mora (`はんい`→han'i 'range' vs `はに` hani). The reader-tier transducer must treat `ん` as a standalone mora, never merging it into a following kana.
+
+> **Kansai note:** Allophony is shared with Tokyo; Kansai differs only in the pitch contour carried over a syllable containing /N/.
+
+#### Sokuon (geminate / "small tsu") — `促音` (*sokuon*) — /Q/
+
+| Field | Value |
+|---|---|
+| Hiragana | `っ` (`U+3063`) |
+| Katakana | `ッ` (`U+30C3`) |
+| Rōmaji (Hepburn) | doubling of the following consonant (kk, tt, pp, ss, …; cch for `っち`) |
+| Full mora? | Yes |
+| Has own vowel? | No |
+| Can begin a syllable? | No |
+
+A vowelless mora realized as the FIRST, unreleased/held half of a GEMINATE (long) obstruent — a full beat of silence or sustained closure/frication before the following consonant is released. Written with a small `っ`/`ッ` (a reduced `つ`/`ツ`). /Q/ has no fixed segmental content of its own: it is a "placeholder" that copies the place and manner of the consonant that follows. It occurs chiefly before voiceless obstruents /p t k s/ (and their allophones) in native vocabulary; in loanwords and emphatic/expressive forms it also appears before voiced obstruents and other consonants.
+
+**Realizations**
+
+| Following | IPA | Example | Rōmaji | Example IPA | Gloss |
+|---|---|---|---|---|---|
+| /p/ (`ぱ行`) | `[pp]` (held [p̚] + [p]) | `いっぱい` | ippai | `[ippai]` | full / a lot |
+| /t/ (`た`・`て`・`と`) | `[tt]` (held [t̚] + [t]) | `きって` | kitte | `[kitte]` | stamp |
+| /t/ before /i/ → [tɕ] | `[ttɕ]` (Hepburn 'cch') | `まっちゃ` | matcha | `[mattɕa]` | matcha (powdered tea) |
+| /t/ before /u/ → [ts] | `[tts]` | `みっつ` | mittsu | `[mittsɯ̈]` | three (things) |
+| /k/ (`か行`) | `[kk]` (held [k̚] + [k]) | `がっこう` | gakkō | `[ɡakkoː]` | school |
+| /s/ (`さ`・`す`・`せ`・`そ`) | `[ss]` (long fricative) | `ざっそう` | zassō | `[dzassoː]` | weeds |
+| /s/ before /i/ → [ɕ] | `[ɕɕ]` (Hepburn 'ssh') | `ざっし` | zasshi | `[zaɕɕi]` | magazine (`さ`→[ɕ] before `し`) |
+| voiced obstruent (loanwords/emphatic) | `[bb]`, `[ɡɡ]`, `[dd]`, `[zz]` | `ベッド` | beddo | `[beddo]` | bed (loanword) |
+| utterance-final (expressive) | `[ʔ]` (glottal stop) | `あっ` | a' | `[aʔ]` | oh! / ah! (cut-off) |
+
+**Minimal & timing pairs**
+
+| A | B | Point |
+|---|---|---|
+| `きて` kite 'come' (2 moras, `[kite]`) | `きって` kitte 'stamp' (3 moras, `[kitte]`) | sokuon adds a full mora |
+| `ぶか` buka 'subordinate' (2 moras) | `ぶっか` bukka 'commodity prices' (3 moras) | geminate length is phonemic |
+| `さか` saka 'slope' | `さっか` sakka 'author' | minimal pair on /Q/ |
+
+> **Constraint:** Native /Q/ only precedes voiceless obstruents and cannot be word-final in the standard lexicon (the glottal-stop and final-`っ` uses are expressive/onomatopoeic). It never appears before vowels, nasals, /r/, /w/, /j/, or /h/ in native words.
+
+> **Kansai note:** Kansai may realize some geminates with slightly different timing/length but the phonemic /Q/ category is shared.
+
+#### Long-vowel Mora (chōon) — `長音` (*chōon*) — /R/
+
+(the second half of a long vowel; sometimes /H/)
+
+| Field | Value |
+|---|---|
+| Katakana mark | `ー` (chōonpu, `U+30FC`) |
+| Hiragana strategy | vowel doubling (`ああ`/`いい`/`うう`/`ええ`/`おお`) or row-specific `え`→`い`, `お`→`う` spellings |
+| Rōmaji (Hepburn) | macron ā ī ū ē ō (Hepburn) / ou, ei spellings (Kunrei sometimes â î û) |
+| Full mora? | Yes |
+| Has own vowel? | No |
+| Can begin a syllable? | No |
+
+Vowel LENGTH is PHONEMIC in Japanese, and a long vowel is analyzed as TWO MORAS: a base (C)V mora plus a following length mora /R/ that simply prolongs the preceding vowel for one more full beat. /R/ has no quality of its own — it copies the preceding vowel. Short vs long is contrastive and the single most error-prone length feature for learners.
+
+**Spelling conventions**
+
+| Context | Convention |
+|---|---|
+| Katakana | A long vowel is written with the chōonpu `ー` (`U+30FC`) after the base kana: `ケーキ` kēki 'cake' `[keːki]`, `コーヒー` kōhī 'coffee' `[koːhiː]`, `ラーメン` rāmen `[raːmeɴ]`. |
+| Hiragana `あ`-row | Double `あ` — `おばあさん` obāsan `[obaːsaɴ]` 'grandmother'. |
+| Hiragana `い`-row | Double `い` — `おじいさん` ojīsan `[odʑiːsaɴ]` 'grandfather'. |
+| Hiragana `う`-row | Double `う` — `くうき` kūki `[kɯ̈ːki]` 'air'. |
+| Hiragana `え`-row | Usually spelled `え` + `い` (`せんせい` sensei `[seɴseː]` 'teacher'), occasionally `え` + `え` (`おねえさん` onēsan `[oneːsaɴ]` 'older sister'). |
+| Hiragana `お`-row | Usually spelled `お` + `う` (`とうきょう` Tōkyō `[toːkʲoː]`, `がっこう` gakkō `[ɡakkoː]`), with a fixed historical set spelled `お` + `お` (`おおきい` ōkii 'big', `とおい` tōi 'far', `こおり` kōri 'ice'). |
+
+**Long vowels**
+
+| Short Kana | Short IPA | Long Kana (Hira) | Long Kana (Kata) | Long IPA | Rōmaji |
+|---|---|---|---|---|---|
+| `あ` | `[a]` | `ああ` | `アー` | `[aː]` | ā |
+| `い` | `[i]` | `いい` | `イー` | `[iː]` | ī |
+| `う` | `[ɯ̈]` | `うう` | `ウー` | `[ɯ̈ː]` | ū |
+| `え` | `[e]` | `えい` / `えe` | `エー` | `[eː]` | ē / ei |
+| `お` | `[o]` | `おう` / `おお` | `オー` | `[oː]` | ō / ou |
+
+**Minimal & timing pairs**
+
+| A | B | Point |
+|---|---|---|
+| `おばさん` obasan 'aunt' (4 moras, `[obasaɴ]`) | `おばあさん` obāsan 'grandmother' (5 moras, `[obaːsaɴ]`) | vowel length is phonemic |
+| `おじさん` ojisan 'uncle' | `おじいさん` ojīsan 'grandfather' | same length contrast on /i/ |
+| `ゆき` yuki 'snow' (2 moras) | `ゆうき` yūki 'courage' (3 moras) | /R/ adds a mora |
+| `とる` toru 'to take' | `とおる` tōru 'to pass through' | `お` + `お` long vowel |
+| `ここ` koko 'here' | `こうこう` kōkō 'high school' (4 moras) | double long-vowel word |
+
+> **`えい` realization note:** The hiragana sequence `えい` is normally realized as a long `[eː]` in fast/standard Tokyo speech (`せんせい` `[seɴseː]`), though a careful or sung pronunciation may keep a true `[ei]` sequence; this is a length mora /R/, not a diphthong, in the moraic analysis.
+
+> **Kansai note:** Kansai tends to PRESERVE or even ADD length where Tokyo shortens: one-mora content words are lengthened to two moras (`き`→`きい` /kiː/ 'tree', `め`→`めえ` /meː/ 'eye', `て`→`てえ` /teː/ 'hand', `か`→`かあ` /kaː/ 'mosquito'). Tokyo keeps these as single short moras.
+
+#### Yōon (palatalized mora) — `拗音` (*yōon*) — Cj + V (a single (C)jV mora)
+
+| Field | Value |
+|---|---|
+| Kana structure | a base i-row kana (`き ぎ し じ ち ぢ に ひ び ぴ み り`) + a SMALL `ゃ`/`ゅ`/`ょ` (small_ya `U+3083`, small_yu `U+3085`, small_yo `U+3087`; katakana `ャ` `U+30E3`, `ュ` `U+30E5`, `ョ` `U+30E7`) |
+| Rōmaji (Hepburn) | kya/kyu/kyo, sha/shu/sho, cha/chu/cho, etc. |
+| Full mora? | Yes |
+| Single mora? | Yes |
+| Has own vowel? | Yes |
+
+Yōon are PALATALIZED moras: a consonant followed by the palatal on-glide /j/ and a vowel, written as a base kana (whose inherent vowel is /i/) plus a SMALL `ゃ`/`ゅ`/`ょ` that supplies the actual vowel /a/, /u/, /o/. Crucially a yōon is ONE mora and ONE beat even though it is spelled with two kana symbols — `きょ` kyo is a single mora, not 'ki-yo'. (Contrast a FULL-size `や`/`ゆ`/`よ`, which is its own separate mora: `きや` ki-ya = 2 moras.) Yōon are the Japanese counterpart of the English guide's glide-bearing nuclei. With the sibilant/affricate rows the /j/ is absorbed into a palato-alveolar consonant, so `しゃ` is `[ɕa]` (not [sʲa]) and `ちゃ` is `[tɕa]`.
+
+**Yōon table**
+
+| Base | `ゃ` (ya) | IPA | `ゅ` (yu) | IPA | `ょ` (yo) | IPA | Note |
+|---|---|---|---|---|---|---|---|
+| `き` | `きゃ` kya | `[kʲa]` | `きゅ` kyu | `[kʲɯ̈]` | `きょ` kyo | `[kʲo]` | — |
+| `ぎ` | `ぎゃ` gya | `[ɡʲa]` | `ぎゅ` gyu | `[ɡʲɯ̈]` | `ぎょ` gyo | `[ɡʲo]` | intervocalic /ɡ/ may nasalize to [ŋʲ] (`鼻濁音`) for some speakers |
+| `し` | `しゃ` sha | `[ɕa]` | `しゅ` shu | `[ɕɯ̈]` | `しょ` sho | `[ɕo]` | /s/+/j/ → palato-alveolar [ɕ] |
+| `じ` | `じゃ` ja | `[dʑa]` | `じゅ` ju | `[dʑɯ̈]` | `じょ` jo | `[dʑo]` | [dʑ] word-initially / after /N/, [ʑ] intervocalically |
+| `ち` | `ちゃ` cha | `[tɕa]` | `ちゅ` chu | `[tɕɯ̈]` | `ちょ` cho | `[tɕo]` | /t/+/j/ → affricate [tɕ] |
+| `ぢ` | `ぢゃ` ja (di) | `[dʑa]` | `ぢゅ` ju | `[dʑɯ̈]` | `ぢょ` jo | `[dʑo]` | rare; merged with `じゃ` row (yotsugana merger); appears only in a few words and rendaku forms |
+| `に` | `にゃ` nya | `[ɲa]` | `にゅ` nyu | `[ɲɯ̈]` | `にょ` nyo | `[ɲo]` | /n/+/j/ → palatal nasal [ɲ] |
+| `ひ` | `ひゃ` hya | `[ça]` | `ひゅ` hyu | `[çɯ̈]` | `ひょ` hyo | `[ço]` | /h/+/j/ → palatal fricative [ç] |
+| `び` | `びゃ` bya | `[bʲa]` | `びゅ` byu | `[bʲɯ̈]` | `びょ` byo | `[bʲo]` | — |
+| `ぴ` | `ぴゃ` pya | `[pʲa]` | `ぴゅ` pyu | `[pʲɯ̈]` | `ぴょ` pyo | `[pʲo]` | — |
+| `み` | `みゃ` mya | `[mʲa]` | `みゅ` myu | `[mʲɯ̈]` | `みょ` myo | `[mʲo]` | — |
+| `り` | `りゃ` rya | `[ɾʲa]` | `りゅ` ryu | `[ɾʲɯ̈]` | `りょ` ryo | `[ɾʲo]` | palatalized apico-alveolar tap |
+
+**Example words**
+
+| Word | Kana | Rōmaji | IPA | Yōon | Gloss | Moras |
+|---|---|---|---|---|---|---|
+| `東京` | `とうきょう` | Tōkyō | `[toːkʲoː]` | `きょ` kyo (1 mora) | Tokyo | — |
+| `写真` | `しゃしん` | shashin | `[ɕaɕiɴ]` | `しゃ` sha | photograph | 3 |
+| `お茶` | `おちゃ` | ocha | `[otɕa]` | `ちゃ` cha | tea | 2 |
+| `百` | `ひゃく` | hyaku | `[çakɯ̈]` | `ひゃ` hya | hundred | 2 |
+| `旅行` | `りょこう` | ryokō | `[ɾʲokoː]` | `りょ` ryo | travel | 3 |
+
+> **Foreign yōon note:** Loanword katakana extends the small-kana mechanism to non-native moras with small `ァィゥェォ` and small `ャュョ` and small `ヮ`: `ファ` fa `[ɸa]`, `フィ` fi `[ɸi]`, `ティ` ti `[ti]`, `トゥ` tu `[tɯ̈]`, `ディ` di `[di]`, `シェ` she `[ɕe]`, `ジェ` je `[dʑe]`, `チェ` che `[tɕe]`, `ツァ` tsa `[tsa]`, `ウィ` wi `[wi]`, `ウェ` we `[we]`, `ウォ` wo `[wo]`, `フォ` fo `[ɸo]`, `ヴァ` va `[ba~va]`. Each such combination is still a SINGLE mora.
+
+**Contrast with full kana**
+
+| | Kana | Rōmaji | Moras | IPA | Note |
+|---|---|---|---|---|---|
+| Yōon (one mora) | `きょ` | kyo | 1 | `[kʲo]` | — |
+| Full kana (two moras) | `きよ` | kiyo | 2 | `[kijo]` | full-size `よ` is its own mora |
+
+> **Point:** Small `ょ` vs full `よ` is the difference between 1 mora and 2 moras — load-bearing for kana-tier transduction.
+
+> **Kansai note:** Yōon inventory and realization are shared with Tokyo; only the pitch contour over them differs.
+
+### Vowel Sequences — `連母音` (*renbo'in*)
+
+Japanese has NO true falling/closing diphthongs of the English FACE/PRICE type. A sequence of two different vowels (V.V across a mora boundary) is TWO SEPARATE MORAS, each a full beat, with a clear vocalic transition — not a single gliding nucleus. This is why this "diphthongs" slot is reframed as moras: the language packs vowel-on-vowel runs into successive moras rather than into diphthongs. (A long vowel — same vowel twice — is the special /R/ mora above and is one long vowel, two moras; a vowel SEQUENCE here is two DIFFERENT vowels, also two moras but two distinct qualities.) In casual fast speech some of these may phonetically approach a glide (`[ai]` → [aɪ]-like, `[oi]` → [oɪ]-like), but the moraic count and the phonemic analysis keep them as two vowel moras.
+
+**Common sequences**
+
+| Sequence | Rōmaji | IPA | Moras | Example Word | Example Kana | Example IPA | Gloss | Note |
+|---|---|---|---|---|---|---|---|---|
+| `あい` | ai | `[ai]` | 2 | `愛` | `あい` | `[ai]` | love | — |
+| `あう` | au | `[aɯ̈]` | 2 | `会う` | `あう` | `[aɯ̈]` | to meet | — |
+| `あえ` | ae | `[ae]` | 2 | `前` | `まえ` | `[mae]` | front / before | — |
+| `あお` | ao | `[ao]` | 2 | `青` | `あお` | `[ao]` | blue | — |
+| `おい` | oi | `[oi]` | 2 | `甥` | `おい` | `[oi]` | nephew | — |
+| `うい` | ui | `[ɯ̈i]` | 2 | `薄い` | `うすい` | `[ɯ̈sɯ̈i]` | thin (`薄い`; final `うい`) | — |
+| `えい` | ei | `[ei]` ~ `[eː]` | 2 | `先生` | `せんせい` | `[seɴseː]` | teacher | `えい` is usually realized as long `[eː]` in standard speech; analyzed as e + length mora /R/ rather than a true vowel sequence in most words (see chōon). |
+| `おう` | ou | `[oː]` | 2 | `王` | `おう` | `[oː]` | king | `おう` normally = long `[oː]` (length mora /R/), NOT [ou]; true `[ou]` survives only across morpheme boundaries (`思う` omou `[omoɯ̈]`). |
+| `いえ` | ie | `[ie]` | 2 | `家` | `いえ` | `[ie]` | house | — |
+| `うえ` | ue | `[ɯ̈e]` | 2 | `上` | `うえ` | `[ɯ̈e]` | above / up | — |
+
+**Triple and longer**
+
+| Word | Kana | Rōmaji | IPA | Moras | Gloss | Note |
+|---|---|---|---|---|---|---|
+| `多い` | `おおい` | ōi | `[oːi]` | 3 | many / numerous | `おお` (long `[oː]`) + `い` → 3 moras |
+| `良い` | `いい` | ii | `[iː]` | 2 | good | long `[iː]`, two moras |
+| `青い` | `あおい` | aoi | `[aoi]` | 3 | blue (adj.) | three distinct vowel moras a-o-i |
+
+**Contrast with English.** Where the English guide lists FACE /eɪ/, PRICE /aɪ/, MOUTH /aʊ/ as single phonemic diphthong nuclei, Japanese `あい`, `あう` etc. are two timed moras and behave as two units for accent and verse: `愛` ai fills TWO of the five slots in a haiku line, whereas English 'I' /aɪ/ is one syllable. This is the core typological contrast that motivates treating Japanese in moras.
+
+### Worked Mora Counting
+
+Step-by-step moraic derivations, the procedure the kana reader tier follows when assigning beats. **RULE:** count one mora per basic kana; a small `ゃゅょ` does NOT add a mora (it fuses with the preceding kana into a yōon); each of `ん`, `っ`, `ー` (and each doubled long vowel) adds ONE mora.
+
+| Word | Kana | Kana Units | Moras | Syllables | IPA | Explanation |
+|---|---|---|---|---|---|---|
+| `東京` | `とうきょう` | `と` · `う` · `きょ` · `う` | 4 | 2 | `[toːkʲoː]` | `と`(1) + `う`長音(2) + `きょ` yōon=1 mora(3) + `う`長音(4) = 4 moras; small `ょ` adds nothing; the two `う` are length moras /R/. |
+| `学校` | `がっこう` | `が` · `っ` · `こ` · `う` | 4 | 2 | `[ɡakkoː]` | `が`(1) + `っ` sokuon=1 mora(2) + `こ`(3) + `う`長音(4) = 4 moras; the small `っ` is a FULL mora of held closure. |
+| `新聞` | `しんぶん` | `し` · `ん` · `ぶ` · `ん` | 4 | 2 | `[ɕimbɯ̈ɴ]` | 'newspaper'. `し`(1) + `ん` N=1 mora(2) + `ぶ`(3) + `ん` N=1 mora(4) = 4 moras; first `ん`→[m] before /b/, second `ん`→[ɴ] utterance-finally. |
+| `切符` | `きっぷ` | `き` · `っ` · `ぷ` | 3 | 2 | `[kippɯ̈]` | 'ticket'. `き`(1) + `っ` Q=1 mora(2) + `ぷ`(3) = 3 moras. |
+| `コーヒー` | `コーヒー` | `コ` · `ー` · `ヒ` · `ー` | 4 | 2 | `[koːhiː]` | 'coffee' (loanword). `コ`(1) + `ー`長音(2) + `ヒ`(3) + `ー`長音(4) = 4 moras; each chōonpu `ー` is a length mora /R/. |
+| `写真` | `しゃしん` | `しゃ` · `し` · `ん` | 3 | 2 | `[ɕaɕiɴ]` | 'photograph'. `しゃ` yōon=1 mora(1) + `し`(2) + `ん` N=1 mora(3) = 3 moras; small `ゃ` adds no mora. |
+| `ちょっと` | `ちょっと` | `ちょ` · `っ` · `と` | 3 | 2 | `[tɕotto]` | 'a little / a moment'. `ちょ` yōon=1 mora(1) + `っ` Q=1 mora(2) + `と`(3) = 3 moras; combines a yōon AND a sokuon. |
+| `病院` | `びょういん` | `びょ` · `う` · `い` · `ん` | 4 | 3 | `[bʲoːiɴ]` | 'hospital'. `びょ` yōon=1 mora(1) + `う`長音(2) + `い`(3) + `ん` N(4) = 4 moras; `びょう` = heavy CjVR, then `い` (light), then `ん`. |
+
+> **Haiku note:** A traditional haiku is 5-7-5 MORAS (not syllables). `古池や`/`かわずとびこむ`/`みずのおと` (Bashō) scans 5 (`ふ`・`る`・`い`・`け`・`や`) - 7 (`か`・`わ`・`ず`・`と`・`び`・`こ`・`む`) - 5 (`み`・`ず`・`の`・`お`・`と`) MORAS. The kana reader tier preserves this moraic timing.
+
+### Reader-Tier Relevance
+
+This mora model is the engine of the Japanese Peshitta kana reader tiers (KATAKANA `カタカナ` and HIRAGANA `ひらがな`, with a ROMAJI readback in Hepburn). Because every Japanese mora must be (C)(j)V or one of /N Q R/, Aramaic words — which freely have consonant clusters and codas — cannot be transcribed directly and require FORCED VOWEL EPENTHESIS.
+
+- **Epenthesis rule:** Any source consonant that would form a cluster or a non-/N/ coda is given its own (C)V mora by inserting a default epenthetic vowel — conventionally /u/ (`[ɯ̈]`) after most consonants (the maximally neutral, devoiceable vowel), and /o/ after /t d/ (since `つ`/`づ` are affricated `[tsɯ̈]`/`[dzɯ̈]`, Japanese loan phonology inserts `お`: e.g. English 'bed' → `ベッド` beddo, 'hit' → `ヒット` hitto). Each epenthetic vowel SPAWNS A NEW MORA, so a single Aramaic cluster becomes several Japanese beats.
+- **Coda handling:** A source nasal coda maps to the moraic nasal `ん`/`ン` (/N/, a legal coda mora). A source geminate or a stop-before-stop maps to the sokuon `っ`/`ッ` (/Q/). A long vowel maps to the length mora `ー` / vowel doubling (/R/). Everything else gets an epenthetic-vowel mora.
+
+| Concept | Illustration |
+|---|---|
+| cluster broken by epenthetic /u/ | a source /kl/ → ku-ra/ku-ru type two moras (`ク` + `ラ`), never a single `クl` mora |
+| stop coda → /Q/ + epenthesis | English-style 'cap' pattern → `キャップ` kyappu (`きゃ` + `っ` + `ぷ` = 3 moras) |
+| nasal coda → /N/ | a source -n coda stays a single moraic `ん`, e.g. `パン` pan `[paɴ]` 'bread' (2 moras) |
+
+> **Tiers:** The Japanese Peshitta ships five reader tiers: Scholarly + Pretty (language-neutral Latin), KATAKANA (`カタカナ`, the idiomatic foreign-word tier), HIRAGANA (`ひらがな`, same moras in native glyphs), and ROMAJI (Hepburn readback of the kana). All four kana/romaji tiers share this single moraic skeleton; only the glyphs differ.
+
+### Unicode Reference
+
+**Small kana**
+
+| Glyph | Name | Codepoint |
+|---|---|---|
+| `ゃ` | small ya (hiragana) | `U+3083` |
+| `ゅ` | small yu (hiragana) | `U+3085` |
+| `ょ` | small yo (hiragana) | `U+3087` |
+| `ャ` | small ya (katakana) | `U+30E3` |
+| `ュ` | small yu (katakana) | `U+30E5` |
+| `ョ` | small yo (katakana) | `U+30E7` |
+| `ァ` | small a (katakana) | `U+30A1` |
+| `ィ` | small i (katakana) | `U+30A3` |
+| `ゥ` | small u (katakana) | `U+30A5` |
+| `ェ` | small e (katakana) | `U+30A7` |
+| `ォ` | small o (katakana) | `U+30A9` |
+| `ヮ` | small wa (katakana) | `U+30EE` |
+
+**Special-mora marks**
+
+| Glyph | Name | Codepoint |
+|---|---|---|
+| `っ` | sokuon (hiragana) | `U+3063` |
+| `ッ` | sokuon (katakana) | `U+30C3` |
+| `ん` | moraic n (hiragana) | `U+3093` |
+| `ン` | moraic n (katakana) | `U+30F3` |
+| `ー` | chōonpu (prolonged sound mark) | `U+30FC` |
+| `・` | katakana middle dot | `U+30FB` |
+
+**Blocks**
+
+| Block | Range |
+|---|---|
+| Hiragana | `U+3040`–`U+309F` |
+| Katakana | `U+30A0`–`U+30FF` |
+| Katakana Phonetic Extensions | `U+31F0`–`U+31FF` |
+| Halfwidth Katakana | `U+FF61`–`U+FF9F` |
+
+### Summary Table
+
+Quick reference: the four mora types and their timing/spelling/IPA behavior.
+
+| Type | Example Kana | Rōmaji | IPA | Moras | Has Vowel | Notes |
+|---|---|---|---|---|---|---|
+| Ordinary mora (C)(j)V | `か` / `きゃ` | ka / kya | `[ka]` / `[kʲa]` | 1 | Yes | the default beat; one basic kana (yōon = base kana + small `ゃゅょ`, still 1 mora) |
+| Moraic nasal /N/ | `ん` / `ン` | n | `[m n ŋ ɲ ɴ]` (assimilating) | 1 | No | `撥音`; only true coda; place-assimilates; full beat |
+| Sokuon /Q/ | `っ` / `ッ` | (doubled C) | `[pp tt kk ss …]` | 1 | No | `促音`; held first half of a geminate obstruent; full beat |
+| Long-vowel mora /R/ | `ー` / `あ` doubled | macron ā ī ū ē ō | `[ː]` | 1 | No | `長音`; prolongs preceding vowel one beat; length is phonemic |
+
+### Key Takeaways
+
+- Japanese is MORA-TIMED: the mora (`拍` / `モーラ`), not the syllable, is the unit of timing, pitch-accent placement, and verse (haiku = 5-7-5 moras).
+- A mora is (C)(j)V, or one of the FOUR special moras: moraic nasal /N/ (`ん`), sokuon /Q/ (`っ`), long-vowel mora /R/ (`ー` / doubling), and yōon (palatalized C+小`ゃゅょ`, a single mora).
+- Special moras each take a FULL beat but have no vowel of their own (yōon excepted): the #1 timing error for learners and the key fact for the reader tier.
+- A syllable is 1–2 moras; the canonical mismatch is `東京` `とうきょう` = 4 moras / 2 syllables and `学校` `がっこう` = 4 moras / 2 syllables.
+- Japanese has NO English-style diphthongs: vowel sequences (`連母音` ai, oi, ae …) are two separate moras; only same-vowel length /R/ is a single long vowel (two moras).
+- Vowel length is PHONEMIC (`おばさん` vs `おばあさん`); geminate length is phonemic (`きて` vs `きって`); both are realized as extra moras.
+- The moraic skeleton drives the kana reader tiers, which use FORCED VOWEL EPENTHESIS (default /u/, /o/ after t/d) so every Aramaic consonant gets its own (C)V mora; nasal codas → `ん`, geminates → `っ`, long vowels → `ー`.
+
+*Section maintained by Shin.*
+
+## Consonant–Vowel Mora Matrix (Gojūon 五十音)
+
+子音×母音モーラ表（五十音図・拗音・外来音）— Consonant × Vowel Mora Matrix (Gojūon, Yōon, Foreign-Extended Kana)
+
+Systematic consonant-series × vowel mora matrix — effectively the **GOJŪON** (五十音図, "fifty sounds" table) with its *dakuten*/*handakuten* voiced rows, plus a **YŌON** (拗音, palatalized-mora) sub-table and a **FOREIGN-SOUND** extended-katakana (外来音) sub-table. Japanese is **MORA-TIMED**, so the fundamental unit tabulated here is the **MORA** (拍 *haku* / モーラ), not the segment: each cell is a (C)V mora and is given as hiragana (ひらがな), katakana (カタカナ), Hepburn romaji (ヘボン式), Kunrei-shiki romaji (訓令式, shown only where it differs from Hepburn), the **PHONEMIC** IPA, and a **phonetic** IPA showing the principal allophonic SURFACE form. The phonemic forms keep one consonant per row (e.g. /s/, /t/, /h/), but Japanese onset allophony is heavily vowel-conditioned, so the surface realizations differ sharply within a row: `し` /si/ → [ɕi], `ち` /ti/ → [tɕi], `つ` /tu/ → [tsɯ], `ふ` /hu/ → [ɸɯ], `ひ` /hi/ → [çi], `じ`/`ぢ` /zi/,/di/ → [(d)ʑi], `づ`/`ず` /du/,/zu/ → [(d)zɯ]. Read each cell together with its row phonetic note. Rows cover the ten plain consonant series of the gojūon — ∅ (あ行, vowel-initial), k (か行), s (さ行), t (た行), n (な行), h (は行), m (ま行), y (や行, defective), r (ら行), w (わ行, defective) — followed by the voiced/semivoiced series formed with the **DAKUTEN** ゛ (g が行, z ざ行, d だ行, b ば行) and the **HANDAKUTEN** ゜ (p ぱ行). The moraic nasal `ん`/`ン` /N/ and the sokuon `っ`/`ッ` /Q/ are special moras with no vowel of their own and are documented separately in the Special Moras block (and in detail in the syllable-structure and phonological-rules sections), not as rows of this CV matrix. Transcription level: **PHONEMIC** with explicit phonetic surface forms per cell. The reference standard is Standard / Common Japanese (Tokyo).
+
+- **Reference standard:** Standard / Common Japanese (Tokyo) — 標準語 / 共通語 (Hyōjungo / Kyōtsūgo), educated Tokyo (Yamanote) speech
+- **Secondary reference standard:** Kansai / Keihan — 関西弁 / 京阪式アクセント (Kyoto–Osaka)
+- **Transcription level:** phonemic with explicit phonetic (surface allophonic) forms per cell
+- **Unit of analysis:** mora (拍 *haku* / モーラ) — the fundamental timing and phonological unit of mora-timed Japanese; each plain cell is a (C)(j)V mora
+
+### Romanization Systems
+
+| System | Japanese name | Description |
+|---|---|---|
+| Hepburn | ヘボン式 (Hepburn) | Phonetically transparent; *shi chi tsu fu ji*; default in this matrix and in the romaji reader tier. |
+| Kunrei | 訓令式 (Kunrei-shiki, ISO 3602) | Systematic/morphophonemic; *si ti tu hu zi*, *sya tya*, *zi/zya* for both `じ`/`ぢ`; shown per cell only where it differs from Hepburn. |
+| Nihon | 日本式 (Nihon-shiki) | Oldest, like Kunrei but keeps the historical だ行 distinctions *di/du* (`ぢ`/`づ`) and *wi/we/wo* (`ゐ`/`ゑ`/`を`); noted where relevant. |
+
+### Reference Vowels
+
+The five vowels /a i ɯ e o/ used as columns in the matrix. Vowel length is phonemic throughout (short vs long).
+
+| Vowel | Kana | Name | IPA | Example | Note |
+|---|---|---|---|---|---|
+| a | `あ` / `ア` | open (low) central-to-back unrounded vowel | /a/ | `か` /ka/ ("mosquito; 蚊"); `さ` in `さくら` /sakɯra/ ("cherry blossom; 桜") | Stable [a], slightly more central/back than cardinal [a]. Length is PHONEMIC: short /a/ vs long /aː/ (おばさん *obasan* "aunt" ≠ おばあさん *obāsan* "grandmother"). The only vowel that natively follows /w/ (`わ` *wa*). |
+| i | `い` / `イ` | close front unrounded vowel | /i/ | `き` /ki/ ("tree; 木"); `いし` /isi/ → [iɕi] ("stone; 石") | Close front unrounded [i]. The strongest trigger of onset palatalization in this matrix: /s t z d h/ front before it — `し` [ɕi], `ち` [tɕi], `じ`/`ぢ` [(d)ʑi], `ひ` [çi]. Undergoes HIGH-VOWEL DEVOICING to [i̥] between voiceless consonants or word-finally after a voiceless C (e.g. `ひと` [çi̥to] "person"). Its non-syllabic counterpart is the on-glide /j/ (や行 and yōon). |
+| ɯ | `う` / `ウ` | close back UNROUNDED (compressed) vowel | /ɯ/ | `く` /kɯ/ ("to come, classical"); `うみ` /ɯmi/ ("sea; 海") | Japanese /u/ is [ɯ̈] — a close back UNROUNDED vowel with weak lip COMPRESSION (not protrusion), NOT cardinal [u]; often centralized [ɨ̞]. Romanized ⟨u⟩ but never fully rounded. Conditions special surface forms: `す` [sɯ], `つ` [tsɯ], `づ`/`ず` [(d)zɯ], `ふ` [ɸɯ]. Undergoes HIGH-VOWEL DEVOICING to [ɯ̥] (`すき` [sɯ̥ki] "like"; `です` [desɯ̥]). Length is phonemic (/ɯ/ vs /ɯː/, e.g. くき *kuki* "stem" vs くうき *kūki* "air"). |
+| e | `え` / `エ` | close-mid (to mid) front unrounded vowel | /e/ | `け` /ke/ ("hair; 毛"); `えき` /eki/ ("station; 駅") | Close-mid front unrounded [e], often mid [e̞]. No native palatalization triggered. Length phonemic (/e/ vs /eː/); long *ē* is usually written えい/けい in hiragana (*sensei* せんせい [seɴseː]) or with the chōonpu ー in katakana. |
+| o | `お` / `オ` | close-mid (to mid) back rounded vowel | /o/ | `こ` /ko/ ("child; 子"); `おと` /oto/ ("sound; 音") | Close-mid back rounded [o], often mid [o̞]; lip rounding is weaker than cardinal [o]. Length phonemic (/o/ vs /oː/); long *ō* is written おう/こう in hiragana (とうきょう *Tōkyō* [toːkʲoː]) or おお in a few native words (おおきい *ōkii*), and with ー in katakana. |
+
+### Phonology Notes
+
+- **Mora-timed, not syllable-timed.** Japanese rhythm is MORA-TIMED: each mora (拍) is given roughly equal timing weight. A plain CV mora, the moraic nasal `ん` /N/, the sokuon `っ` /Q/, and the second half of a long vowel ー /R/ each count as ONE mora. `にっぽん` *Nippon* is four moras に-っ-ぽ-ん (ni-Q-po-N), not two syllables. This matrix tabulates the plain (C)V moras; /N/, /Q/, and long-vowel /R/ are special moras documented below.
+- **Pitch accent, not stress.** These moras carry NO inherent stress. Tokyo-type Japanese has lexical PITCH ACCENT — at most one downstep (pitch DROP) per word — not stress and not per-mora tone. Cell values therefore encode no prominence; accent is a word-level property (see the suprasegmentals section). Kansai (京阪式) overlays a lexical initial register (high/low) on top of accent and frequently has melodies "reversed" relative to Tokyo (e.g. 箸/橋, 雨/飴 swap), but the segmental mora inventory tabulated here is shared.
+- **Allophony is vowel-conditioned.** The core reason a single /s/, /t/, /z/, /d/, /h/ row shows several different surface consonants is that Japanese onset allophony is conditioned by the FOLLOWING vowel/glide: palatalization to [ɕ tɕ ʑ dʑ ç] before /i/ and /j/; affrication of /t d/ → [ts dz] and frication of /h/ → [ɸ] before /ɯ/. [ɕ tɕ ʑ dʑ ts dz ɸ ç ŋ] are ALLOPHONES, NOT separate phonemes — Japanese has no phonemic /f v θ ð l ʃ ʒ/; [ɸ] is an /h/ allophone and /l/ merges into /r/.
+- **Rendaku (連濁).** Sequential voicing: the initial consonant of a non-initial element in a compound often VOICES — k→g, s→z (incl. [ɕ]→[ʑ]), t→d (incl. [tɕ]→[dʑ], [ts]→[(d)z]), h→b — e.g. `やま` *yama* + `かわ` *kawa* → `やまがわ` *yamagawa*; `ひと` *hito* + `ひと` → `ひとびと` *hitobito*. This relates the plain か/さ/た/は rows to the dakuten が/ざ/だ/ば rows and the handakuten ぱ row (h→p in some compounds and after `っ`/`ん`). Lyman's Law blocks rendaku when the second element already contains a voiced obstruent.
+- **が行 velar nasal (鼻濁音 bidakuon).** For many (especially older / NHK-traditional) Tokyo speakers, が行 /g/ is realized as the VELAR NASAL [ŋ] word-MEDIALLY/intervocalically — `かがみ` [kaŋami] "mirror" — while word-initial が行 stays [ɡ]. This medial [ŋ] realization is receding among younger speakers, who tend to use [ɡ] (or fricative [ɣ]) everywhere. The matrix gives [ɡ] as the citation (word-initial) form and flags the [ŋ] medial allophone in the が行 row.
+- **High-vowel devoicing.** /i/ and /ɯ/ DEVOICE ([i̥ ɯ̥]) between two voiceless consonants, and word-finally after a voiceless consonant: `きく` *kiku* "chrysanthemum" [ki̥kɯ̥], `した` *shita* "under" [ɕi̥ta], `です` *desu* [desɯ̥]. This is regular in Standard Tokyo speech and is largely ABSENT in Kansai, a salient dialect difference. Devoicing is not encoded in the phonemic cells but applies to the /i/ and /ɯ/ columns in voiceless-consonant rows.
+
+### Secondary Standard Notes (Tokyo vs Kansai)
+
+The segmental mora inventory of this matrix is shared between Standard Tokyo and Kansai (関西弁). The principal differences are SUPRASEGMENTAL and lexical, not in the CV cell values: (1) **PITCH ACCENT** — Kansai uses the richer 京阪式 system (a lexical high/low initial register plus accent), with many words' melodies effectively reversed vs Tokyo (箸 "chopsticks" / 橋 "bridge", 雨 "rain" / 飴 "candy" swap patterns). (2) **HIGH-VOWEL DEVOICING** is largely absent in Kansai, so the /i ɯ/ columns stay fully voiced there. (3) Some lexical vowel-length and form differences. The か行・さ行 … rows below read the same segmentally in both standards.
+
+### Special Moras
+
+The moraic nasal, the sokuon (geminate first half), and the long-vowel second mora each count as one full mora but take no vowel of their own, so they are **not** rows of the CV matrix.
+
+| Mora | Kana | Romaji | Phonemic | Unicode | Name | Phonetic note |
+|---|---|---|---|---|---|---|
+| Moraic nasal | `ん` / `ン` | n (Hepburn *n*; before b/m/p sometimes *m*, e.g. *shinbun* vs *senmon*) | /N/ | `ん` U+3093 / `ン` U+30F3 | moraic (syllabic) nasal — one full mora | A full mora with no vowel; place-ASSIMILATES to the following sound: [m] before labials /p b m/ (`さんぽ` *sanpo* [sampo]), [n] before alveolars /t d n/ (`おんな` *onna* [onna]), [ŋ] before velars /k g/ (`りんご` *ringo* [riŋɡo]), and [ɴ] (uvular) or a nasalized vowel [ɰ̃] utterance-finally or before vowels, /h/, /s/, glides (`ほん` *hon* [hoɴ]; `でんわ` *denwa* [deɰ̃wa]). Not a row of the CV matrix because it takes no vowel. |
+| Sokuon (geminate) | `っ` / `ッ` | (doubles the following consonant: kk, ss/ssh, tt/tch, pp) | /Q/ | `っ` U+3063 / `ッ` U+30C3 | sokuon / geminate first half (促音) — one full mora | A full mora of held closure/silence forming the FIRST half of a geminate; surfaces as gemination of the following obstruent: `きって` *kitte* [kit̚te] "stamp", `にっぽん` *Nippon* [nippoɴ], `まっすぐ` *massugu*, `いっしょ` *issho* [iɕɕo], `マッチ` *matchi* [mattɕi]. Occurs only before voiceless obstruents (and in loans, some voiced ones, e.g. `ベッド` *beddo*). Not a CV row because it takes no vowel. |
+| Long-vowel mora | `ー` (katakana chōonpu) / vowel doubling in hiragana (`あ い う え お`) | macron in Hepburn (ā ī ū ē ō) — or aa/ii/uu/ei/ou by spelling | /R/ (the second mora of a long vowel) | chōonpu `ー` U+30FC | long-vowel second mora (引き音 / 長音) | Vowel length is PHONEMIC and the second half of a long vowel counts as a separate MORA: `おばあさん` has five moras o-ba-a-sa-n. Written by doubling the vowel kana in hiragana (`おかあさん` *okāsan*), by う for ō/ū (`とうきょう` *Tōkyō*, `がっこう` *gakkō*), or by the chōonpu `ー` in katakana (`コーヒー` *kōhī*). |
+
+### Gojūon Matrix (五十音図)
+
+Each cell gives **hiragana / katakana** above, then the **Hepburn** romaji, then the **phonemic** /…/ and **phonetic** […] IPA. Kunrei-shiki and notes are listed in the per-row Row Notes below where they differ. Columns are the five vowels a / i / ɯ (u) / e / o.
+
+| Series | Row (行) | Phoneme | a | i | ɯ (u) | e | o |
+|---|---|---|---|---|---|---|---|
+| ∅ | あ行 (a-gyō) | ∅ (none) | `あ`/`ア` a `/a/` [a] | `い`/`イ` i `/i/` [i] | `う`/`ウ` u `/ɯ/` [ɯ̈] | `え`/`エ` e `/e/` [e] | `お`/`オ` o `/o/` [o] |
+| k | か行 (ka-gyō) | /k/ | `か`/`カ` ka `/ka/` [ka] | `き`/`キ` ki `/ki/` [kʲi] | `く`/`ク` ku `/kɯ/` [kɯ̈] | `け`/`ケ` ke `/ke/` [ke] | `こ`/`コ` ko `/ko/` [ko] |
+| s | さ行 (sa-gyō) | /s/ | `さ`/`サ` sa `/sa/` [sa] | `し`/`シ` shi `/si/` [ɕi] | `す`/`ス` su `/sɯ/` [sɯ̈] | `せ`/`セ` se `/se/` [se] | `そ`/`ソ` so `/so/` [so] |
+| t | た行 (ta-gyō) | /t/ | `た`/`タ` ta `/ta/` [ta] | `ち`/`チ` chi `/ti/` [tɕi] | `つ`/`ツ` tsu `/tɯ/` [tsɯ̈] | `て`/`テ` te `/te/` [te] | `と`/`ト` to `/to/` [to] |
+| n | な行 (na-gyō) | /n/ | `な`/`ナ` na `/na/` [na] | `に`/`ニ` ni `/ni/` [ɲi] | `ぬ`/`ヌ` nu `/nɯ/` [nɯ̈] | `ね`/`ネ` ne `/ne/` [ne] | `の`/`ノ` no `/no/` [no] |
+| h | は行 (ha-gyō) | /h/ | `は`/`ハ` ha `/ha/` [ha] | `ひ`/`ヒ` hi `/hi/` [çi] | `ふ`/`フ` fu `/hɯ/` [ɸɯ̈] | `へ`/`ヘ` he `/he/` [he] | `ほ`/`ホ` ho `/ho/` [ho] |
+| m | ま行 (ma-gyō) | /m/ | `ま`/`マ` ma `/ma/` [ma] | `み`/`ミ` mi `/mi/` [mʲi] | `む`/`ム` mu `/mɯ/` [mɯ̈] | `め`/`メ` me `/me/` [me] | `も`/`モ` mo `/mo/` [mo] |
+| y | や行 (ya-gyō) — defective | /j/ | `や`/`ヤ` ya `/ja/` [ja] | (`い`)/(`イ`) — — — | `ゆ`/`ユ` yu `/jɯ/` [jɯ̈] | (`え`)/(`イェ`) (ye) — [je] | `よ`/`ヨ` yo `/jo/` [jo] |
+| r | ら行 (ra-gyō) | /r/ | `ら`/`ラ` ra `/ra/` [ɾa] | `り`/`リ` ri `/ri/` [ɾʲi] | `る`/`ル` ru `/rɯ/` [ɾɯ̈] | `れ`/`レ` re `/re/` [ɾe] | `ろ`/`ロ` ro `/ro/` [ɾo] |
+| w | わ行 (wa-gyō) — defective | /w/ | `わ`/`ワ` wa `/wa/` [ɰa] | `ゐ`/`ヰ` (obsolete) wi — [i] | (`う`)/(`ウ`) — — — | `ゑ`/`ヱ` (obsolete) we — [e] | `を`/`ヲ` wo `/o/` [o] |
+| g | が行 (ga-gyō) — dakuten ゛ | /ɡ/ | `が`/`ガ` ga `/ɡa/` [ɡa] (medial [ŋa]) | `ぎ`/`ギ` gi `/ɡi/` [ɡʲi] (medial [ŋʲi]) | `ぐ`/`グ` gu `/ɡɯ/` [ɡɯ̈] (medial [ŋɯ̈]) | `げ`/`ゲ` ge `/ɡe/` [ɡe] (medial [ŋe]) | `ご`/`ゴ` go `/ɡo/` [ɡo] (medial [ŋo]) |
+| z | ざ行 (za-gyō) — dakuten ゛ | /z/ | `ざ`/`ザ` za `/za/` [(d)za] | `じ`/`ジ` ji `/zi/` [(d)ʑi] | `ず`/`ズ` zu `/zɯ/` [(d)zɯ̈] | `ぜ`/`ゼ` ze `/ze/` [(d)ze] | `ぞ`/`ゾ` zo `/zo/` [(d)zo] |
+| d | だ行 (da-gyō) — dakuten ゛ | /d/ | `だ`/`ダ` da `/da/` [da] | `ぢ`/`ヂ` ji `/di/` [(d)ʑi] | `づ`/`ヅ` zu `/du/` [(d)zɯ̈] | `で`/`デ` de `/de/` [de] | `ど`/`ド` do `/do/` [do] |
+| b | ば行 (ba-gyō) — dakuten ゛ | /b/ | `ば`/`バ` ba `/ba/` [ba] | `び`/`ビ` bi `/bi/` [bʲi] | `ぶ`/`ブ` bu `/bɯ/` [bɯ̈] | `べ`/`ベ` be `/be/` [be] | `ぼ`/`ボ` bo `/bo/` [bo] |
+| p | ぱ行 (pa-gyō) — handakuten ゜ | /p/ | `ぱ`/`パ` pa `/pa/` [pa] | `ぴ`/`ピ` pi `/pi/` [pʲi] | `ぷ`/`プ` pu `/pɯ/` [pɯ̈] | `ぺ`/`ペ` pe `/pe/` [pe] | `ぽ`/`ポ` po `/po/` [po] |
+
+#### Gojūon Row Notes
+
+- **あ行 (∅, vowel-initial)** — Example: `あめ` /ame/ ("candy; 飴" or "rain; 雨", distinguished by pitch accent). Pure vowel moras with no consonant onset. These five あいうえお are the canonical reference vowels; /i ɯ/ here can still devoice between/after voiceless contexts at phrase edges. Recall /ɯ/ = [ɯ̈] (unrounded compressed).
+- **か行 (/k/, voiceless velar plosive)** — Example: `かき` /kaki/ ("persimmon; 柿" / "oyster; 牡蠣", by accent). Voiceless [k], unaspirated to lightly aspirated word-initially. Fronts toward palatal [kʲ] before /i/ and /e/. Rendaku-voices to が行 /g/ in compounds. No allophonic surprises across the row.
+- **さ行 (/s/, voiceless alveolar sibilant → [ɕ] before /i/)** — Example: `すし` /sɯsi/ → [sɯ̥ɕi] ("sushi; 寿司"). /s/ = [s] before /a ɯ e o/, but PALATALIZES to the alveolo-palatal [ɕ] before /i/ — `し` is [ɕi], NOT [si]. Hepburn writes this row *sa SHI su se so*; Kunrei keeps it regular *sa SI su se so*. Rendaku-voices to ざ行 /z/.
+  - `し`: Hepburn **shi** vs Kunrei **si**; surface [ɕi].
+- **た行 (/t/, voiceless alveolar plosive → [tɕ] before /i/, [ts] before /ɯ/)** — Example: `ちず` /tizu/ → [tɕizɯ] ("map; 地図"); `つき` /tɯki/ → [tsɯ̥kʲi] ("moon; 月"). /t/ = [t] before /a e o/, but AFFRICATES: [tɕ] before /i/ (`ち` chi) and [ts] before /ɯ/ (`つ` tsu). Hepburn *ta CHI TSU te to*; Kunrei regularizes *ta TI TU te to*. Rendaku-voices to だ行 /d/ (`ち`→`ぢ` [dʑi], `つ`→`づ` [(d)zɯ]).
+  - `ち`: Hepburn **chi** vs Kunrei **ti**; surface affricate [tɕi].
+  - `つ`: Hepburn **tsu** vs Kunrei **tu**; surface affricate [tsɯ̈].
+- **な行 (/n/, voiced alveolar nasal → [ɲ] before /i/)** — Example: `にく` /niku/ → [ɲikɯ̥] ("meat; 肉"). Voiced nasal: [n] before /a ɯ e o/, palatal [ɲ] before /i/ (`に` [ɲi]). Distinct from the moraic nasal `ん` /N/ (a separate mora). No rendaku (already voiced).
+- **は行 (/h/, voiceless glottal fricative → [ç] before /i/, [ɸ] before /ɯ/)** — Example: `ひと` /hito/ → [çi̥to] ("person; 人"); `ふね` /hɯne/ → [ɸɯne] ("boat; 船"). /h/ = glottal [h] before /a e o/, but FRONTS to the palatal [ç] before /i/ (`ひ` hi) and to the bilabial [ɸ] before /ɯ/ (`ふ` fu). Hepburn *ha hi FU he ho*; Kunrei *ha hi HU he ho*. Rendaku-voices to ば行 /b/; after `っ`/`ん` and in some compounds gives handakuten ぱ行 /p/.
+  - `は`: also the topic particle *wa* [wa] — particle reading only, not a mora-table value.
+  - `ふ`: Hepburn **fu** vs Kunrei **hu**; surface bilabial [ɸɯ̈] (no labiodental /f/ in Japanese).
+  - `へ`: also the directional particle *e* [e] — particle reading only.
+- **ま行 (/m/, voiced bilabial nasal)** — Example: `みみ` /mimi/ ("ear; 耳"). Voiced bilabial nasal [m], stable across the row (slight palatalization [mʲ] before /i/). No rendaku (already voiced).
+- **や行 (/j/, voiced palatal approximant — defective)** — Example: `やま` /jama/ ("mountain; 山"); `ゆき` /jɯki/ ("snow; 雪"). DEFECTIVE row: only `や` /ja/, `ゆ` /jɯ/, `よ` /jo/ exist in modern Japanese. The /i/ slot would be homophonous with plain `い` (no separate "yi"), and the /e/ slot ゑ→え is obsolete (the historical kana 𛀀/ye is no longer used). The small ゃゅょ form the yōon (see below).
+  - `(い)` (/i/ slot): No native "yi" mora; the slot is filled by plain `い` /i/.
+  - `(イェ)` (/e/ slot): Native "ye" (kana 𛀁/ゑ) is obsolete; modern loans write *ye* as `イェ` (see Foreign-Extended Matrix).
+- **ら行 (/r/, voiced apico-alveolar tap/flap)** — Example: `りんご` /riNɡo/ → [ɾiŋɡo] ("apple; 林檎"). /r/ = the apico-alveolar TAP [ɾ] (NOT English [ɹ], NOT a trill); word-initially or emphatically it can be a brief lateral-flap [l]-like or postalveolar variant. Japanese has NO separate /l/ — borrowed *l* merges here. Palatalized [ɾʲ] before /i/. No rendaku.
+- **わ行 (/w/, voiced labial-velar approximant — defective)** — Example: `わたし` /watasi/ → [wataɕi] ("I"). DEFECTIVE row: in modern Japanese only `わ` /wa/ is fully native, where /w/ = [ɰ] (a compressed labial-velar, weakly rounded). `を` /wo/ survives ONLY as the object particle, pronounced [o]. The historical `ゐ` *wi* (U+3090) and `ゑ` *we* (U+3091) are OBSOLETE and merged to `い`/`え`. Foreign *wi/we/wo* are written `ウィ`/`ウェ`/`ウォ` (see Foreign-Extended Matrix).
+  - `ゐ`/`ヰ` (U+3090/U+30F0): obsolete, merged to `い` /i/. Modern loan "wi" = `ウィ`.
+  - `(う)` (/ɯ/ slot): No native "wu" mora; filled by plain `う` /ɯ/.
+  - `ゑ`/`ヱ` (U+3091/U+30F1): obsolete, merged to `え` /e/. Modern loan "we" = `ウェ`.
+  - `を`/`ヲ` (U+3092/U+30F2): survives only as the OBJECT PARTICLE, pronounced [o]; Hepburn writes it "o" (sometimes "wo"); Kunrei *o*. Not a productive CV mora.
+- **が行 (/ɡ/, voiced velar plosive → velar nasal [ŋ] / 鼻濁音 medially, dakuten ゛)** — Example: `かがみ` /kaɡami/ → [kaŋami] ("mirror; 鏡"). Voiced [ɡ] word-initially; word-MEDIALLY many (traditional/NHK) speakers use the velar nasal [ŋ] (鼻濁音 bidakuon) — `かがみ` [kaŋami] — though [ɡ]/[ɣ] is spreading among younger speakers. Fronts before /i e/ ([ɡʲ]). Formed from か行 by DAKUTEN ゛; the rendaku partner of /k/.
+- **ざ行 (/z/, voiced alveolar sibilant → [(d)ʑ] before /i/, dakuten ゛)** — Example: `ぞう` /zoː/ ("elephant; 象"); `じかん` /zikaN/ → [dʑikaɴ] ("time; 時間"). /z/ surfaces as the affricate [dz] word-initially/after `ん`, fricative [z] intervocalically, and PALATALIZES before /i/ to [(d)ʑ] (`じ` = [dʑi]~[ʑi]). Hepburn *za JI zu ze zo*; Kunrei *za ZI zu ze zo*. `じ` and `ぢ` are HOMOPHONOUS [(d)ʑi] (yotsugana merger), as are `ず` and `づ` [(d)zɯ]; spelling differs by etymology. Rendaku partner of /s/.
+  - `じ`: Hepburn **ji** vs Kunrei **zi**; homophonous with `ぢ`. Surface [(d)ʑi].
+  - `ず`: Kunrei **zu**; homophonous with `づ`. Surface [(d)zɯ̈].
+- **だ行 (/d/, voiced alveolar plosive; ぢ→[(d)ʑi], づ→[(d)zɯ] merge with ざ行, dakuten ゛)** — Example: `でんき` /deNki/ → [deŋki] ("electricity; 電気"). Voiced [d] before /a e o/. The /i/ and /ɯ/ slots — `ぢ` /di/ and `づ` /du/ — have MERGED phonetically with `じ` /zi/ and `ず` /zu/: `ぢ` = [(d)ʑi], `づ` = [(d)zɯ] (the YOTSUGANA merger). They survive in spelling mainly via rendaku (`はな`+`ち`→`はなぢ` *hanaji*) or repetition (`つづく` *tsuzuku*). Hepburn *ji/zu* for `ぢ`/`づ`; Nihon-shiki keeps *di/du*. Rendaku partner of /t/.
+  - `ぢ`: Nihon-shiki **di**; Hepburn/Kunrei merge to **ji/zi**. Homophonous with `じ`; surface [(d)ʑi].
+  - `づ`: Nihon-shiki **du**; Hepburn/Kunrei merge to **zu**. Homophonous with `ず`; surface [(d)zɯ̈].
+- **ば行 (/b/, voiced bilabial plosive, dakuten ゛)** — Example: `ばら` /bara/ ("rose; 薔薇"). Voiced [b], stable; intervocalically can lenite toward [β]. Palatalized [bʲ] before /i/. Formed from は行 by DAKUTEN ゛; the rendaku partner of /h/ (h→b alternations).
+- **ぱ行 (/p/, voiceless bilabial plosive, handakuten ゜)** — Example: `ぱん` /paN/ → [paɴ] ("bread; パン"); `きっぷ` /kiQpɯ/ → [kippɯ̥] ("ticket; 切符"). Voiceless [p], unaspirated to lightly aspirated. Formed from は行 by the HANDAKUTEN ゜. Native /p/ occurs mainly after the sokuon `っ` (geminate っぷ) and the moraic nasal `ん`, in some compounds (h→p rendaku, e.g. `さんぽ` *sanpo* from 散+歩), and abundantly in loanwords and mimetics. Palatalized [pʲ] before /i/.
+
+### Yōon Matrix (拗音 — Palatalized Moras)
+
+**YŌON** (拗音) = PALATALIZED moras: a consonant in the /i/-column kana (`き し ち に ひ み り ぎ じ ぢ び ぴ`) followed by a SMALL `ゃ`/`ゅ`/`ょ` (`ャ`/`ュ`/`ョ`). The whole sequence is ONE mora (`きゃ` *kya* is one mora, `きや` *kiya* is two). Phonemically these are Cj + /a ɯ o/; because the base kana are already the palatalized /i/-row allophones, the surface onsets are [kʲ ɕ tɕ ɲ çʲ mʲ ɾʲ ɡʲ (d)ʑ bʲ pʲ]. Only the a/u/o columns exist (an /e/ yōon like `きェ` is a foreign-only extension, listed in the Foreign-Extended Matrix; the /i/ slot is the base kana itself). Romaji: Hepburn folds the sibilants/affricates so `しゃ`=*sha* `しゅ`=*shu* `しょ`=*sho*, `ちゃ`=*cha* `ちゅ`=*chu* `ちょ`=*cho*, `じゃ`=*ja* `じゅ`=*ju* `じょ`=*jo*; Kunrei is systematic *sya syu syo*, *tya tyu tyo*, *zya zyu zyo*.
+
+- **Unit of analysis:** one mora each (consonant + glide /j/ + vowel)
+- **Vowels used:** a / ɯ (u) / o
+
+| Series | Row | Onset | a | ɯ (u) | o |
+|---|---|---|---|---|---|
+| ky | きゃ行 | [kʲ] | `きゃ`/`キャ` kya `/kja/` [kʲa] | `きゅ`/`キュ` kyu `/kjɯ/` [kʲɯ̈] | `きょ`/`キョ` kyo `/kjo/` [kʲo] |
+| sh | しゃ行 | [ɕ] | `しゃ`/`シャ` sha `/sja/` [ɕa] (Kunrei *sya*) | `しゅ`/`シュ` shu `/sjɯ/` [ɕɯ̈] (Kunrei *syu*) | `しょ`/`ショ` sho `/sjo/` [ɕo] (Kunrei *syo*) |
+| ch | ちゃ行 | [tɕ] | `ちゃ`/`チャ` cha `/tja/` [tɕa] (Kunrei *tya*) | `ちゅ`/`チュ` chu `/tjɯ/` [tɕɯ̈] (Kunrei *tyu*) | `ちょ`/`チョ` cho `/tjo/` [tɕo] (Kunrei *tyo*) |
+| ny | にゃ行 | [ɲ] | `にゃ`/`ニャ` nya `/nja/` [ɲa] | `にゅ`/`ニュ` nyu `/njɯ/` [ɲɯ̈] | `にょ`/`ニョ` nyo `/njo/` [ɲo] |
+| hy | ひゃ行 | [çʲ]~[ç] | `ひゃ`/`ヒャ` hya `/hja/` [ça] | `ひゅ`/`ヒュ` hyu `/hjɯ/` [çɯ̈] | `ひょ`/`ヒョ` hyo `/hjo/` [ço] |
+| my | みゃ行 | [mʲ] | `みゃ`/`ミャ` mya `/mja/` [mʲa] | `みゅ`/`ミュ` myu `/mjɯ/` [mʲɯ̈] | `みょ`/`ミョ` myo `/mjo/` [mʲo] |
+| ry | りゃ行 | [ɾʲ] | `りゃ`/`リャ` rya `/rja/` [ɾʲa] | `りゅ`/`リュ` ryu `/rjɯ/` [ɾʲɯ̈] | `りょ`/`リョ` ryo `/rjo/` [ɾʲo] |
+| gy | ぎゃ行 (dakuten) | [ɡʲ] (medial [ŋʲ]) | `ぎゃ`/`ギャ` gya `/ɡja/` [ɡʲa] | `ぎゅ`/`ギュ` gyu `/ɡjɯ/` [ɡʲɯ̈] | `ぎょ`/`ギョ` gyo `/ɡjo/` [ɡʲo] |
+| j | じゃ行 (dakuten) | [(d)ʑ] | `じゃ`/`ジャ` ja `/zja/` [(d)ʑa] (Kunrei *zya*) | `じゅ`/`ジュ` ju `/zjɯ/` [(d)ʑɯ̈] (Kunrei *zyu*) | `じょ`/`ジョ` jo `/zjo/` [(d)ʑo] (Kunrei *zyo*) |
+| (ぢゃ) j | ぢゃ行 (dakuten, rare) | [(d)ʑ] | `ぢゃ`/`ヂャ` ja `/dja/` [(d)ʑa] (Kunrei *zya*) | `ぢゅ`/`ヂュ` ju `/djɯ/` [(d)ʑɯ̈] (Kunrei *zyu*) | `ぢょ`/`ヂョ` jo `/djo/` [(d)ʑo] (Kunrei *zyo*) |
+| by | びゃ行 (dakuten) | [bʲ] | `びゃ`/`ビャ` bya `/bja/` [bʲa] | `びゅ`/`ビュ` byu `/bjɯ/` [bʲɯ̈] | `びょ`/`ビョ` byo `/bjo/` [bʲo] |
+| py | ぴゃ行 (handakuten) | [pʲ] | `ぴゃ`/`ピャ` pya `/pja/` [pʲa] | `ぴゅ`/`ピュ` pyu `/pjɯ/` [pʲɯ̈] | `ぴょ`/`ピョ` pyo `/pjo/` [pʲo] |
+
+#### Yōon Row Examples
+
+| Series | Example |
+|---|---|
+| ky (きゃ行) | `きゃく` /kjakɯ/ ("guest; 客") |
+| sh (しゃ行) | `しゃしん` /sjasiN/ → [ɕaɕiɴ] ("photo; 写真") |
+| ch (ちゃ行) | `ちゃ` /tja/ → [tɕa] ("tea; 茶") |
+| ny (にゃ行) | `にゃー` (*nyā*, "meow") |
+| hy (ひゃ行) | `ひゃく` /hjakɯ/ → [çakɯ̥] ("hundred; 百") |
+| my (みゃ行) | `みゃく` /mjakɯ/ ("pulse; 脈") |
+| ry (りゃ行) | `りゃくご` /ɾjakɯɡo/ ("abbreviation; 略語") |
+| gy (ぎゃ行) | `ぎゃく` /ɡjakɯ/ ("reverse; 逆") |
+| j (じゃ行) | `じゃ` /zja/ → [(d)ʑa] ("then/well") |
+| (ぢゃ) j (ぢゃ行) | rare; merges with じゃ行 (yotsugana) |
+| by (びゃ行) | `びょういん` /bjoːiN/ ("hospital; 病院") |
+| py (ぴゃ行) | `ぴょん` (*pyon*, "hop", mimetic) |
+
+### Foreign-Extended Matrix (外来音 — Extended Katakana)
+
+**FOREIGN-SOUND** extended katakana (外来音 / 外来語の表記) — innovative kana spellings developed to write sounds absent from native Japanese, used almost exclusively in **KATAKANA** for loanwords (外来語), foreign names, and onomatopoeia. They are built from a full-size base kana + a SMALL vowel/glide kana (`ァ ィ ゥ ェ ォ ャ ュ ョ`) — e.g. `フ` + small `ァ` → `ファ` *fa*, `ウ` + small `ィ` → `ウィ` *wi* — or use `ヴ` (U+30F4, ウ + dakuten) for *v*-sounds. These extend the inventory toward [f v ti tu di du ɕe (d)ʑe tɕe tsa wi we wo ɸo …] but remain PHONETICALLY Japanese: there is still no true labiodental [v] for many speakers (`ヴ` is widely read [b]), [ɸ] (not [f]) realizes the *f*-row, and [ɰ] realizes the *w*-glides. Naturalized loans often substitute the nearest native mora (`ファ`→`ハ`, `ティ`→`チ`, `ヴ`→`バ`).
+
+- **Scope:** katakana-only loanword orthography; not part of the native gojūon
+
+| Group | Built from | Katakana | Hepburn | Phonemic | Phonetic | Approximates | Example |
+|---|---|---|---|---|---|---|---|
+| f-row (ファ行) | `フ` + small vowel | `ファ` | fa | /ɸa/ | [ɸa] | English f / fa | `ファイル` *fairu* "file" |
+| f-row (ファ行) | `フ` + small vowel | `フィ` | fi | /ɸi/ | [ɸi] | f / fi | `フィルム` *firumu* "film" |
+| f-row (ファ行) | `フ` + small vowel | `フェ` | fe | /ɸe/ | [ɸe] | f / fe | `カフェ` *kafe* "café" |
+| f-row (ファ行) | `フ` + small vowel | `フォ` | fo | /ɸo/ | [ɸo] | f / fo | `フォーク` *fōku* "fork" |
+| f-row (ファ行) | `フ` + small vowel | `フュ` | fyu | /ɸjɯ/ | [ɸʲɯ̈] | f + yu | `フュージョン` *fyūjon* "fusion" |
+| v-row (ヴァ行) | `ヴ` (U+30F4) | `ヴァ` | va | /va/ | [va]~[ba] | English v / va | `ヴァイオリン` *vaiorin* "violin" |
+| v-row (ヴァ行) | `ヴ` (U+30F4) | `ヴィ` | vi | /vi/ | [vi]~[bi] | v / vi | `ヴィーナス` *Vīnasu* "Venus" |
+| v-row (ヴァ行) | `ヴ` (U+30F4) | `ヴ` | vu | /vɯ/ | [vɯ̈]~[bɯ̈] | v / vu | `ヴ` (bare); `レヴュー` *revyū* |
+| v-row (ヴァ行) | `ヴ` (U+30F4) | `ヴェ` | ve | /ve/ | [ve]~[be] | v / ve | `ヴェール` *vēru* "veil" |
+| v-row (ヴァ行) | `ヴ` (U+30F4) | `ヴォ` | vo | /vo/ | [vo]~[bo] | v / vo | `ヴォーカル` *vōkaru* "vocal" |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `ティ` | ti | /ti/ | [ti] | English ti | `パーティー` *pātī* "party" |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `トゥ` | tu | /tɯ/ | [tɯ̈] | to/tu (e.g. "two") | `トゥー` *tū* "two" |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `ディ` | di | /di/ | [di] | English di | `ディスク` *disuku* "disk" |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `ドゥ` | du | /dɯ/ | [dɯ̈] | do/du | `ドゥー` *dū* "do"; `ヒンドゥー` *Hindū* |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `テュ` | tyu | /tjɯ/ | [tʲɯ̈] | tu (as in "tune") | `テューバ` *tyūba* "tuba" |
+| t-/d- extended | `テ/ト/デ/ド` + small `ィ`/`ゥ` | `デュ` | dyu | /djɯ/ | [dʲɯ̈] | du (as in "duo") | `デュオ` *dyuo* "duo" |
+| sh-/j-/ch- + e | `シ/ジ/チ` + small `ェ` | `シェ` | she | /sje/ | [ɕe] | English she/sh+e | `シェフ` *shefu* "chef" |
+| sh-/j-/ch- + e | `シ/ジ/チ` + small `ェ` | `ジェ` | je | /zje/ | [(d)ʑe] | English je/g+e | `ジェット` *jetto* "jet" |
+| sh-/j-/ch- + e | `シ/ジ/チ` + small `ェ` | `チェ` | che | /tje/ | [tɕe] | English che/ch+e | `チェス` *chesu* "chess" |
+| ts-row + non-u | `ツ` + small `ァ`/`ィ`/`ェ`/`ォ` | `ツァ` | tsa | /tsa/ | [tsa] | ts / za (German z) | `ピッツァ` *pittsa* "pizza"; `モーツァルト` *Mōtsaruto* |
+| ts-row + non-u | `ツ` + small `ァ`/`ィ`/`ェ`/`ォ` | `ツィ` | tsi | /tsi/ | [tsi] | ts / tsi | `ツィター` *tsitā* "zither" |
+| ts-row + non-u | `ツ` + small `ァ`/`ィ`/`ェ`/`ォ` | `ツェ` | tse | /tse/ | [tse] | ts / tse | `ツェッペリン` *Tsepperin* "Zeppelin" |
+| ts-row + non-u | `ツ` + small `ァ`/`ィ`/`ェ`/`ォ` | `ツォ` | tso | /tso/ | [tso] | ts / tso | `カンツォーネ` *kantsōne* "canzone" |
+| w-glide extended | `ウ` + small `ィ`/`ェ`/`ォ` | `ウィ` | wi | /wi/ | [wi]~[ɰi] | English wi | `ウィスキー` *wisukī* "whisky" |
+| w-glide extended | `ウ` + small `ィ`/`ェ`/`ォ` | `ウェ` | we | /we/ | [we]~[ɰe] | English we | `ウェブ` *webu* "web" |
+| w-glide extended | `ウ` + small `ィ`/`ェ`/`ォ` | `ウォ` | wo | /wo/ | [wo]~[ɰo] | English wo | `ウォーター` *wōtā* "water" |
+| y-glide + e | `イ` + small `ェ` | `イェ` | ye | /je/ | [je] | English ye | `イェーガー` *yēgā*; `イェス` *yesu* "yes" |
+| kw-/gw- | `ク/グ` + small `ァ`/`ィ`/`ェ`/`ォ` | `クァ` | kwa | /kwa/ | [kʷa]~[kɰa] | English qua/kwa | `クァルテット` *kwarutetto* "quartet" (also `カルテット`) |
+| kw-/gw- | `ク/グ` + small `ァ`/`ィ`/`ェ`/`ォ` | `クォ` | kwo | /kwo/ | [kʷo]~[kɰo] | English quo/kwo | `クォーツ` *kwōtsu* "quartz" (also `コーツ`) |
+| kw-/gw- | `ク/グ` + small `ァ`/`ィ`/`ェ`/`ォ` | `グァ` | gwa | /ɡwa/ | [ɡʷa]~[ɡɰa] | English gua/gwa | `グァテマラ` *Gwatemara* "Guatemala" (also `ガテマラ`) |
+
+#### Foreign-Extended Group Notes
+
+- **f-row (ファ行):** *f* written with `フ` [ɸɯ] base; surface onset is bilabial [ɸ], not labiodental [f].
+- **v-row (ヴァ行):** `ヴ` and ヴァ行 target [v]; MANY speakers read them as [b]/バ行 (`ヴァイオリン` ≈ `バイオリン`).
+- **t-/d- extended (ティ・トゥ・ディ・ドゥ):** breaks the native [tɕi]/[tsɯ] affrication to write plain [ti] [tɯ] [di] [dɯ]; older loans naturalize `ティ`→`チ`, `ディ`→`ジ`.
+- **sh-/j-/ch- + e (シェ・ジェ・チェ):** the only common /e/ values for these palatal onsets; native gojūon lacks *she/je/che*.
+- **ts-row + non-u (ツァ・ツィ・ツェ・ツォ):** extends the [ts] affricate (native only `ツ` [tsɯ]) to other vowels.
+- **w-glide extended (ウィ・ウェ・ウォ):** modern way to write *wi/we/wo* (the historical `ヰ`/`ヱ`/`ヲ` being obsolete/particle-only); [w]=[ɰ].
+- **y-glide + e (イェ):** writes [je], the gap in the native や行.
+- **kw-/gw- (クァ・グァ etc.):** labialized velars for loans (often simplified to `カ`/`ガ`).
+
+### Unicode Reference
+
+| Block / Mark | Code points |
+|---|---|
+| Hiragana block | U+3040–U+309F |
+| Katakana block | U+30A0–U+30FF |
+| Katakana phonetic extensions | U+31F0–U+31FF |
+| Halfwidth katakana | U+FF61–U+FF9F |
+| Kanji (CJK Unified) | U+4E00–U+9FFF (plus extensions) |
+| Dakuten | `゙` U+3099 (combining) / `゛` U+309B (spacing) |
+| Handakuten | `゚` U+309A (combining) / `゜` U+309C (spacing) |
+| Chōonpu (long vowel) | `ー` U+30FC |
+| Katakana middle dot | `・` U+30FB |
+| Sokuon | `っ` U+3063 / `ッ` U+30C3 |
+| Moraic *n* | `ん` U+3093 / `ン` U+30F3 |
+| Small vowels (hiragana) | `ぁ` U+3041, `ぃ` U+3043, `ぅ` U+3045, `ぇ` U+3047, `ぉ` U+3049; `ゃ` U+3083, `ゅ` U+3085, `ょ` U+3087 |
+| Small vowels (katakana) | `ァ` U+30A1, `ィ` U+30A3, `ゥ` U+30A5, `ェ` U+30A7, `ォ` U+30A9; `ャ` U+30E3, `ュ` U+30E5, `ョ` U+30E7 |
+| vu | `ヴ` U+30F4 |
+| Obsolete kana | `ゐ` U+3090 / `ヰ` U+30F0 (*wi*); `ゑ` U+3091 / `ヱ` U+30F1 (*we*); `を` U+3092 / `ヲ` U+30F2 (*wo*) |
+
+**Note:** Yōon and foreign-extended moras are SEQUENCES of code points (base kana + small kana), not single precomposed characters — e.g. `きゃ` = U+304D U+3083, `ファ` = U+30D5 U+30A1, `ウィ` = U+30A6 U+30A3.
+
+### Cross-Reference
+
+- **Companion files:** `Japanese/japanese_pronunciation_guide.md`; `Japanese/Peshita_Japanese/Katakana/`; `Japanese/Peshita_Japanese/Hiragana/`; `Japanese/Peshita_Japanese/Romaji/`
+- **Related sections:** phonological_inventory, consonants, vowels, syllable_structure, phonological_rules, orthography_grapheme_phoneme, suprasegmentals, unicode_reference
+- **Reader tiers note:** The Japanese Peshitta ships five reader tiers: Scholarly + Pretty (language-neutral Latin), KATAKANA (カタカナ, the idiomatic foreign-word tier), HIRAGANA (ひらがな, same moras in native glyphs), and ROMAJI (Hepburn readback). Because Japanese is strictly moraic (no consonant clusters, no codas except moraic `ン` and the sokuon), rendering Aramaic into these tiers requires FORCED VOWEL EPENTHESIS — every non-permitted coda/cluster consonant is given an epenthetic vowel (default /ɯ/, written ウ-row; /o/ after /t d/ to avoid つ/ち affrication). This mora matrix is the inventory those epenthesized syllables are drawn from, with the foreign-extended sub-table supplying the closest fits for Aramaic sounds (e.g. *ti/tu*, ファ-row, ヴ-row) absent from the native gojūon.
+
+*— Shin*
+
+## Suprasegmentals & Pitch Accent
+
+Prosodic and suprasegmental features of Standard Japanese (日本語), documented in parallel for two reference systems: Standard / Common Japanese — 標準語 / 共通語 (*Hyōjungo / Kyōtsūgo*), educated Tokyo (Yamanote) speech with Tokyo-type pitch accent (東京式アクセント) — and Kansai / Keihan — 関西弁 / 京阪式アクセント (Kyoto–Osaka), the major alternative system. The single most important fact about Japanese suprasegmentals is its TYPE: Japanese is a MORA-TIMED language with a LEXICAL PITCH-ACCENT system. This is doubly contrastive with the other guides in this set. Unlike ENGLISH, Japanese has NO lexical STRESS — prominence is not signalled by loudness/duration/vowel-quality on a "stressed syllable", and there is NO vowel reduction to schwa. Unlike KOREAN (which has neither lexical stress nor lexical tone, organizing pitch only at the phrase level), Japanese DOES have a contrastive WORD-LEVEL pitch property: each accentable word has at most ONE accent, realized as a pitch DROP (downstep) after a specific mora, and this drop position is lexically stored and contrastive (箸 *ha\shi* 'chopsticks' vs 橋 *hashi\\* 'bridge'). And unlike a full TONE language (Mandarin, Cantonese), Japanese does NOT assign an independent tone to every syllable — there is at most one accentual fall per word, and the rest of the pitch pattern is predictable. The basic timing and tone-bearing unit is the MORA (拍 *haku* / モーラ), NOT the syllable: Japanese counts moras, accent docks to a mora, and the whole rhythmic system is mora-isochronous. Additional suprasegmental processes are HIGH-VOWEL DEVOICING (/i u/ → [i̥ ɯ̥] between voiceless consonants), phrase-level DOWNSTEP / catathesis within the Accentual Phrase (AP) and Intonation Phrase (IP), and sentence-level INTONATION (question rises, statement falls, focus). Kansai/Keihan layers an additional lexical initial REGISTER (high vs low onset) on top of the accent, giving a richer system whose melodies are often "reversed" relative to Tokyo.
+
+### Typological Summary
+
+Japanese suprasegmental type is stated up front and contrasted explicitly with the parallel guides, because the single biggest learner error is importing English STRESS (or assuming Korean-style flatness) into Japanese.
+
+- **Japanese IS:** MORA-TIMED + LEXICAL PITCH ACCENT (downstep model): at most one accentual pitch DROP per word, docked to a specific MORA, lexically contrastive; rhythm counts moras, not syllables or stress beats.
+- **Japanese is NOT:** NOT stress-accent (no contrastive loudness/duration "stress", no vowel reduction); NOT a full tone language (not every syllable carries an independent tone — at most one drop per word); NOT prosodically flat at the word level the way Standard Korean is.
+
+| Contrast | Japanese vs. that system |
+|---|---|
+| **vs. ENGLISH** | English = stress-accent, stress-timed, with phonemic lexical STRESS (`ˈrecord` noun vs `reˈcord` verb) and heavy vowel reduction to schwa. Japanese has NONE of this: no stress minimal pairs of the English type, no schwa reduction (every mora keeps a full vowel), and prominence is PITCH (a drop), not loudness. Where English compresses unstressed syllables to keep a stress beat, Japanese gives every mora roughly equal time. |
+| **vs. KOREAN** | Korean (Seoul 표준어) has NEITHER lexical stress NOR lexical tone — pitch lives entirely at the phrase level (the Accentual Phrase LHLH tune + IP boundary tones). Japanese DIFFERS crucially: it HAS a contrastive WORD-LEVEL pitch property (the lexical accent / downstep). So Korean learners must add a word-level accent that their L1 lacks; the Japanese 箸/橋 and 雨/飴 minimal pairs have NO Korean equivalent at the word level. |
+| **vs. TONE LANGUAGES** | Unlike Mandarin (4 lexical tones on every syllable) or Cantonese (6+ tones), Japanese pitch accent specifies only WHERE (if anywhere) a single pitch fall occurs; the surrounding pitch is filled in by rule (mora 1 ≠ mora 2; high plateau until the drop). A Japanese word has at most one "tonal event" (the drop), not one tone per syllable. |
+
+### Pitch Accent
+
+Japanese has LEXICAL PITCH ACCENT, the signature suprasegmental feature. In the Tokyo-type system (東京式アクセント) a word carries AT MOST ONE accent, defined as a pitch DROP (下げ核 *sagekaku*, a "downstep") that occurs immediately AFTER the accented mora. Everything before the drop (after the obligatory initial low/high adjustment) is HIGH; everything from the drop onward is LOW. The accent is a property of the LEXEME and is contrastive: two words identical in segments and mora count can differ solely in WHERE (or WHETHER) the drop falls. Accent docks to a MORA, not a syllable.
+
+#### The Downstep Model
+
+The Tokyo accent is most economically described by a single feature: the location of the accent kernel (アクセント核 *akusento-kaku*) = the mora AFTER which pitch drops. A word either has a kernel on some mora (accented) or has no kernel at all (unaccented / 平板 *heiban*). Given the kernel location plus the mora 1 ≠ mora 2 rule, the entire pitch contour is predictable.
+
+**Pitch realization rules:**
+
+| # | Rule | Statement |
+|---|---|---|
+| 1 | mora 1 ≠ mora 2 | The first two moras of an Accentual Phrase ALWAYS differ in pitch. If the accent is on mora 1 (atamadaka), mora 1 = High and mora 2 = Low; otherwise mora 1 = Low and mora 2 = High. |
+| 2 | one drop | After the accented mora, pitch falls to Low and STAYS low for the remainder of the phrase. There is at most ONE such fall. |
+| 3 | high plateau | Between the post-initial rise and the drop, moras are High (a flat high plateau), not a contour on each mora. |
+| 4 | unaccented = no drop | An unaccented (heiban) phrase rises L→H over moras 1→2 and then STAYS high to the end, including onto a following particle (no drop ever). |
+
+**IPA notation:** Pitch is shown per mora as H (high) / L (low), or with the IPA downstep mark `ꜜ` placed at the drop, or with a backslash after the accented mora in romanized notation (`ha\shi` = accent on mora 1). Per-mora marking: 箸 `[háꜜɕì]` = H-L; 橋 `[hàɕíꜜ]` = L-H with drop after the final mora (revealed on a following particle). Global pitch movement may use ↘ (fall) / ↗ (rise); AP boundary `|` and IP boundary `‖`.
+
+#### Accent Classes (Tokyo)
+
+Tokyo-type words fall into four traditional accent classes, defined by the kernel position. For an *n*-mora word there are *n*+1 possible patterns (kernel on mora 1, 2, … *n*, or no kernel). The four named TYPES group these.
+
+##### 頭高型 (atamadaka-gata) — "head-high"
+
+**Kernel:** Accent on mora 1; drop after mora 1.  
+**Contour:** H-L-L-L… (high first mora, then low to the end).
+
+| Word | Kana | Rōmaji | Pitch | Per-mora | IPA | Gloss |
+|---|---|---|---|---|---|---|
+| 雨 | `あめ` | ame | `a\me` | H-L | `[áꜜme]` (drop after mora 1) | 'rain' |
+| 箸 | `はし` | hashi | `ha\shi` | H-L | `[háꜜɕì]` | 'chopsticks' |
+| 電気 | `でんき` | denki | `de\nki` | H-L-L | `[déꜜɴki]` | 'electricity' |
+
+##### 中高型 (nakadaka-gata) — "middle-high"
+
+**Kernel:** Accent on a NON-initial, NON-final mora; drop occurs word-medially.  
+**Contour:** L-H-…-Hꜜ-L… (low first mora, rise, high plateau, then a medial drop).
+
+| Word | Kana | Rōmaji | Pitch | Per-mora | IPA | Gloss |
+|---|---|---|---|---|---|---|
+| 心 | `こころ` | kokoro | `koko\ro` | L-H-L | `[kòkóꜜɾò]` | 'heart/mind' (drop after mora 2) |
+| お菓子 | `おかし` | okashi | `oka\shi` | L-H-L | `[òkáꜜɕì]` | 'sweets/snacks' (drop after mora 2) |
+| あなた | `あなた` | anata | `ana\ta` | L-H-L | `[ànáꜜtà]` | 'you' (drop after mora 2) |
+
+##### 尾高型 (odaka-gata) — "tail-high"
+
+**Kernel:** Accent on the FINAL mora of the word; the drop is INAUDIBLE on the word in isolation (nothing follows to be low) and is REVEALED only when a particle attaches — the particle is Low.  
+**Contour:** L-H-H (word) but L-H-H + Lꜜ on the following particle.
+
+| Word | Kana | Rōmaji | Pitch | Per-mora | IPA | Gloss |
+|---|---|---|---|---|---|---|
+| 橋 | `はし` | hashi | `hashi\` | L-H (+ particle Low) | `[hàɕí]` alone; 橋が `[hàɕí.ɡàꜜ]` 'bridge(-SUBJ)' — が is Low | 'bridge' |
+| 男 | `おとこ` | otoko | `otoko\` | L-H-H (+ particle Low) | `[òtókó]` alone; 男が `[òtókó.ɡàꜜ]` — が is Low | 'man' |
+
+##### 平板型 (heiban-gata) — "flat/level" (UNACCENTED)
+
+**Kernel:** NO kernel — the word has no accent and never drops. Pitch rises L→H over moras 1→2 and stays HIGH to the end, INCLUDING onto a following particle.  
+**Contour:** L-H-H-H… (flat high after the initial rise; particle stays High).
+
+| Word | Kana | Rōmaji | Pitch | Per-mora | IPA | Gloss |
+|---|---|---|---|---|---|---|
+| 端 | `はし` | hashi | `hashi` (heiban) | L-H (+ particle High) | `[hàɕí]` alone; 端が `[hàɕí.ɡá]` 'edge(-SUBJ)' — が stays High | 'edge/end' |
+| 桜 | `さくら` | sakura | `sakura` (heiban) | L-H-H (+ particle High) | `[sàkúɾá]` ; 桜が `[sàkúɾá.ɡá]` — が stays High | 'cherry blossom' |
+| 日本語 | `にほんご` | nihongo | `nihongo` (heiban) | L-H-H-H | `[ɲìhóŋɡó]` ; 日本語が stays High onto が | 'the Japanese language' |
+
+**Summary:** For an *n*-mora word: *atamadaka* = kernel on mora 1; *odaka* = kernel on mora *n* (revealed on a particle); *nakadaka* = kernel on any mora 2…(*n*−1); *heiban* = no kernel. The CRITICAL diagnostic that separates *odaka* from *heiban* is the FOLLOWING PARTICLE (see Particle Diagnostic below).
+
+#### The Mora 1 ≠ Mora 2 Rule
+
+A foundational Tokyo-type rule: within an Accentual Phrase, MORA 1 AND MORA 2 ALWAYS HAVE DIFFERENT PITCH. Consequently, only words accented on mora 1 (atamadaka) begin HIGH; ALL other words (nakadaka, odaka, heiban) begin LOW on mora 1 and rise to High on mora 2. This is why the initial pitch of a Tokyo word already tells you whether the accent is on the first mora or not.
+
+**Implication:** The "shape" of any Tokyo phrase is: (initial L→H rise unless atamadaka) → high plateau → optional single drop. The learner does not memorize a tone per syllable; they memorize only WHERE the single drop is (or that there is none).
+
+**IPA notation:** Marked per mora as L vs H; e.g., heiban `sakura` = L-H-H, atamadaka `denki` = H-L-L.
+
+#### Minimal Pairs
+
+Lexical pitch accent is contrastive: segmentally identical strings are distinguished SOLELY by accent (kernel position or its absence). These are the Japanese analog of English stress minimal pairs (record/record) — but the cue is PITCH, not stress — and they have NO equivalent in Standard Korean (which lacks lexical pitch). The famous showcase is the three-way はし and the two-way あめ.
+
+##### はし (hashi) — a three-way contrast
+
+| Word | Pitch | IPA | With particle | Gloss |
+|---|---|---|---|---|
+| 箸 | `ha\shi` (atamadaka, H-L) | `[háꜜɕì]` | 箸が `[háꜜɕìɡà]` (が Low) | 'chopsticks' |
+| 橋 | `hashi\` (odaka, L-H + particle Low) | `[hàɕí]`; 橋が `[hàɕíɡàꜜ]` (が Low) | 橋が `[hàɕíɡàꜜ]` (が Low) | 'bridge' |
+| 端 | `hashi` (heiban, L-H + particle High) | `[hàɕí]`; 端が `[hàɕíɡá]` (が High) | 端が `[hàɕíɡá]` (が High) | 'edge/end' |
+
+**Note:** 箸 and 橋/端 differ in ISOLATION (H-L vs L-H). 橋 and 端 are IDENTICAL in isolation (both L-H) and are distinguished ONLY by what the following particle does: 橋が has が Low (drop), 端が has が High (no drop).
+
+##### あめ (ame) — a two-way contrast
+
+| Word | Pitch | IPA | Gloss |
+|---|---|---|---|
+| 雨 | `a\me` (atamadaka, H-L) | `[áꜜme]` | 'rain' |
+| 飴 | `ame` (heiban, L-H) | `[àmé]`; 飴が `[àméɡá]` (が High) | 'candy' |
+
+**Note:** 雨 (H-L) vs 飴 (L-H, flat) — distinguished in isolation by the first two moras and confirmed by the particle (雨が drops onto が-Low region; 飴が stays High). Tokyo and Kansai SWAP these (see Kansai / Keihan below).
+
+##### かみ (kami) — two-way
+
+| Word | Pitch | IPA | Gloss |
+|---|---|---|---|
+| 神 | `ka\mi` (atamadaka, H-L) | `[káꜜmi]` | 'god/deity' |
+| 紙 | `kami` (heiban, L-H) | `[kàmí]` | 'paper' |
+
+**Note:** 神 'god' H-L vs 紙 'paper' L-H (flat); 髪 'hair' is also heiban (kami), homophonous with 紙 in accent.
+
+##### いま (ima) — two-way
+
+| Word | Pitch | IPA | Gloss |
+|---|---|---|---|
+| 今 | `i\ma` (atamadaka, H-L) | `[íꜜma]` | 'now' |
+| 居間 | `ima` (heiban, L-H) | `[ìmá]` | 'living room' |
+
+#### Particle Diagnostic
+
+Because the odaka (tail-high) drop falls AFTER the final mora, and the heiban (flat) word never drops, the two are INDISTINGUISHABLE on the word alone — both surface as L-H(-H). The ONLY way to tell them apart is to add a grammatical PARTICLE (が *ga*, は *wa*, を *o*, に *ni*, etc.) and listen to the particle's pitch: with an ODAKA word the particle is LOW (the kernel's drop lands on it); with a HEIBAN word the particle stays HIGH (no kernel, no drop).
+
+| Word alone | With が (ga) | Interpretation |
+|---|---|---|
+| 橋 hashi = L-H (odaka) | 橋が = L-H-L  (が is LOW) | Drop after final mora → が low → ODAKA / accented on final mora. |
+| 端 hashi = L-H (heiban) | 端が = L-H-H  (が is HIGH) | No drop ever → が high → HEIBAN / unaccented. |
+
+**Note:** This particle test is the standard fieldwork and pedagogy diagnostic for Tokyo accent. It is why accent dictionaries cite words WITH a following particle. Heiban words are the most common accent class in the modern Tokyo lexicon, and many loanwords default to heiban.
+
+#### Accent and Morphology
+
+Accent interacts with word formation. Compounds typically receive a single NEW compound accent (often on or near the boundary), erasing the accents of the parts (compound accent rules / 複合語アクセント). Many derivational and inflectional patterns are accent-changing, and verb/adjective accent is partly predictable from class. Crucially, accent assignment in compounds is rule-governed, not free.
+
+| Type | Example |
+|---|---|
+| Compound noun accent | 電気 `de\nki` (atamadaka) + 製品 *seihin* → 電気製品 *denkiseˋhin* 'electrical appliance' takes a single compound accent, not two separate drops. |
+| Verb accentedness | Verbs are broadly two-way: ACCENTED (e.g., 食べる `ta\beru` 'to eat', drop pattern) vs UNACCENTED/heiban (e.g., 開ける *akeru* 'to open'); the class is lexical and carries through the conjugation by rule. |
+| Loanword default | Many gairaigo (loanwords) take an accent on the mora 3-from-the-end (antepenultimate) by default, e.g., パソコン `paso\kon` 'PC'; but many also surface heiban, and usage varies. |
+
+### Kansai / Keihan (関西弁 / 京阪式アクセント)
+
+The major ALTERNATIVE reference system is Kansai / Keihan — 関西弁 / 京阪式アクセント (the Kyoto–Osaka type, 京阪 = Kyōto + Ōsaka). It is a RICHER pitch-accent system than Tokyo: in addition to an accent (a drop, like Tokyo), each word carries a lexical initial REGISTER — a High-onset vs Low-onset specification on the first mora — that Tokyo lacks. So a Keihan word is specified for (a) starting High or Low AND (b) where, if anywhere, the pitch falls. The two parameters together yield more contrasting melodies than Tokyo, and the melodies are frequently "REVERSED" relative to Tokyo (a word that is H-L in Tokyo is often L-H in Kansai, and vice versa).
+
+#### Register + Accent
+
+Keihan's two independent lexical parameters: REGISTER (式 *shiki*): 高起式 (*kōki-shiki*, HIGH-register / high onset) vs 低起式 (*teiki-shiki*, LOW-register / low onset). ACCENT: the location of a pitch fall (or its absence), as in Tokyo. Because register is independent of the mora 1 ≠ mora 2 rule, Keihan does NOT obey Tokyo's "first two moras must differ" constraint — a Keihan phrase can begin H-H (high-register, no early drop) or L-L-…, patterns impossible in Tokyo.
+
+**Consequence:** More distinct word melodies than Tokyo (Keihan preserves contrasts Tokyo merged), and a different overall "tune". Learners cannot derive Kansai accent from Tokyo by a single rule; the systems must be learned separately.
+
+#### Tokyo ↔ Kansai Swaps
+
+The most-cited illustration: several minimal pairs have their melodies SWAPPED between Tokyo and Kansai. The classic showcases are 箸/橋 and 雨/飴.
+
+| Word | Tokyo | Kansai | Note |
+|---|---|---|---|
+| 箸 'chopsticks' | `ha\shi` — H-L (atamadaka) | `hashi\` — L-H rising (the patterns are reversed) | Tokyo high-then-low; Kansai low-then-high for 'chopsticks'. |
+| 橋 'bridge' | `hashi\` — L-H (odaka, drop on particle) | `ha\shi` — H-L type | Mirror image of 箸 across the two systems. |
+| 雨 'rain' | `a\me` — H-L (atamadaka) | high-register (高起式); begins high — opposite register from 飴 | 雨 and 飴 contrast by REGISTER in Keihan, and the pair is reversed relative to Tokyo (a frequently cited demonstration); the precise per-mora melody varies by Kyoto vs Osaka, so only the register-level contrast is stated here. |
+| 飴 'candy' | `ame` — L-H (heiban) | low-register (低起式); begins low — opposite register from 雨 | The Tokyo↔Kansai reversal of the あめ pair, expressed at the register level (高起式 vs 低起式) since the exact per-mora contour differs by Kyoto vs Osaka sub-variety. |
+
+**Caveat:** The precise Keihan contours vary by source and by Kyoto vs Osaka sub-variety; the load-bearing point is that Kansai has a DIFFERENT, register-bearing system whose melodies are systematically related to — but not identical with — Tokyo's, and several famous pairs are reversed.
+
+#### Other Kansai Features
+
+Kansai also shows some segmental and length differences relevant to prosody.
+
+- Kansai tends to PRESERVE vowel length where Tokyo shortens monomoraic words: e.g., 木 'tree' is often *kiː* (two moras) in Kansai vs *ki* (one mora) in Tokyo; 目 *me*, 蚊 *ka*, 手 *te* similarly lengthen, because a content word resists being a single light mora.
+- Overall melodic "colour" differs; Kansai is popularly perceived by Tokyo speakers as more melodic/sing-song, a perception driven by the register system and the reversed contours.
+- Kansai retains accent distinctions that Tokyo has merged, making it the more conservative pitch-accent system in several respects.
+
+#### Accent Difference
+
+| System | Description |
+|---|---|
+| Tokyo (標準語/共通語) | Tokyo-type (東京式): ONE parameter (kernel location or none); strict mora 1 ≠ mora 2; four classes 頭高/中高/尾高/平板. This is the reference for the Japanese Peshitta's primary pronunciations. |
+| Kansai (関西弁) | Keihan-type (京阪式): TWO parameters (register 式 + accent); no mora 1 ≠ mora 2 constraint; richer, often-reversed melodies; some preserved length. Documented here as the major parallel system, not the Peshitta default. |
+
+**Note:** Both are LEXICAL PITCH-ACCENT systems (contrastive word-level pitch) — distinguishing Japanese as a whole from non-pitch Korean and from stress-based English. They differ in the NUMBER of lexical parameters and the resulting melodies.
+
+### Mora Timing
+
+Japanese is MORA-TIMED (モーラ拍リズム / 拍 *haku*): the MORA, not the syllable and not a stress beat, is the unit of rhythmic timing, and moras tend toward EQUAL DURATION (mora isochrony). An utterance's length scales with its MORA count. This is the rhythmic class of Japanese and contrasts with stress-timed English (which compresses unstressed syllables between stress beats) and with syllable-timed Spanish (equal SYLLABLES). It also differs from Korean, which is syllable-timed-tending. Each mora is allotted roughly one timing slot, so a long vowel, a moraic nasal ん, and the sokuon っ each occupy their OWN slot just like a full CV mora.
+
+#### What Counts as a Mora
+
+A MORA = one timing/tone-bearing unit. The four mora types each take one beat.
+
+| Type | Examples | Note |
+|---|---|---|
+| (C)(j)V — a basic mora | か ka, き ki, きゃ kya (yōon = ONE mora), あ a | A palatalized yōon (きゃ/しゃ/ちゃ) is ONE mora despite two kana. |
+| Long-vowel second half /R/ (ー or doubled vowel) | おばあさん o-ba-a-sa-n (the あ is its own mora); ビール bi-i-ru; コーヒー ko-o-hi-i | The second half of a long vowel is a FULL separate mora. |
+| Moraic nasal /N/ (ん / ン) | にほん ni-ho-n (3 moras); 日本語 ni-ho-n-go (4 moras) | ん is a mora by itself; it never starts a mora, it fills its own beat. |
+| Sokuon /Q/ (っ / ッ — first half of a geminate) | がっこう ga-Q-ko-o (4 moras: ga / っ / ko / o); きって ki-Q-te (3 moras) | The little っ occupies a full silent/closure mora. |
+
+#### Mora vs. Syllable
+
+A SYLLABLE (音節 *onsetsu*) and a MORA are NOT the same. A heavy syllable (CVN, CVQ, CVR) = TWO moras = ONE syllable. Japanese timing and accent operate on MORAS, but some phenomena (and the foot in some analyses) refer to syllables. The mora is primary for this guide.
+
+| Word | Kana | Moras | Syllables | IPA | Note |
+|---|---|---|---|---|---|
+| 日本 | `にほん` | ni-ho-n = 3 moras | ni.hon = 2 syllables (the last is a heavy CVN syllable) | `[ɲihoɴ]` | — |
+| 学校 | `がっこう` | ga-Q-ko-o = 4 moras | gak.kō = 2 syllables (gak heavy by Q, kō heavy by long vowel) | `[ɡakːoː]` | — |
+| 東京 | `とうきょう` | to-o-kyo-o = 4 moras | tō.kyō = 2 syllables | `[toːkʲoː]` | きょ kyo is one mora (yōon); the following う/ー is the second mora of the long vowel. |
+
+#### Isochrony and Evidence
+
+Mora isochrony is the claim that each mora occupies a roughly equal span of time. As with all isochrony claims, strict acoustic equality is only approximate (segmental makeup, devoicing, and phrase-final lengthening perturb it), but Japanese is the textbook case of a mora-timed language and the psycholinguistic evidence for the mora as the operative unit is strong.
+
+- Speakers count moras, not syllables: a haiku is 5-7-5 MORAS (がっこう counts as 4), and そうですか is felt as 5 beats.
+- Verse, word games (しりとり), and language play operate on the mora.
+- Native speech errors and "tip-of-the-tongue" segmentation respect mora boundaries.
+- The writing system itself is moraic: each kana = one mora (with yōon written as kana+small-kana but counting as one), reinforcing strong mora awareness.
+- Loanword adaptation inserts epenthetic vowels to satisfy the mora template (e.g., 'strike' → ストライク su-to-ra-i-ku, 5 moras), which is also the basis for the kana reader tiers' FORCED VOWEL EPENTHESIS in this Peshitta.
+
+#### Contrast with Other Rhythms
+
+| Language(s) | Rhythmic type vs. Japanese |
+|---|---|
+| English | STRESS-TIMED: stresses recur at roughly equal intervals and unstressed syllables are COMPRESSED/reduced. Japanese does the opposite — it does NOT compress moras to keep a stress beat; every mora keeps its slot. |
+| Spanish / Korean | SYLLABLE-TIMED (Spanish) / syllable-timed-tending (Korean): equal SYLLABLES. Japanese counts MORAS, so a heavy (two-mora) syllable takes twice as long as a light one — a finer-grained timing than syllable-timing. |
+| (No vowel reduction) | Like Korean and Spanish (and unlike English), Japanese does NOT reduce vowels to schwa for rhythmic reasons. Every mora carries a full vowel quality (subject only to high-vowel DEVOICING, which removes voicing but keeps the timing slot — see High-Vowel Devoicing). |
+
+**IPA notation:** Mora boundaries may be shown with the period `.` or a raised dot; long vowels with `ː` (each half still a mora); the moraic nasal as `ɴ`/N and the sokuon as the first half of a geminate (`ː` on the following consonant or a held closure). Phrase-final lengthening with `ː`/`ˑ` on the final rhyme.
+
+### High-Vowel Devoicing
+
+HIGH-VOWEL DEVOICING (母音の無声化 *boin no museika*) is a pervasive Standard (Tokyo) process: the high vowels /i/ and /u/ become VOICELESS [i̥] and [ɯ̥] (or are deleted) when they occur BETWEEN two voiceless consonants, or word-FINALLY after a voiceless consonant (especially utterance-finally). The mora keeps its TIMING SLOT — devoicing removes voicing, not the beat — so mora-timing is preserved. This is a hallmark of Tokyo speech and a major contributor to its characteristic rhythm; it is much weaker or absent in Kansai.
+
+**Environment:**
+
+| Context | Rule |
+|---|---|
+| Primary | /i u/ → [i̥ ɯ̥] between two VOICELESS consonants (C[−voice] _ C[−voice]). |
+| Secondary | /i u/ → voiceless word-finally / utterance-finally after a voiceless consonant (notably the copula です and verb endings in -ます). |
+| Blocking | Devoicing is generally BLOCKED if the vowel is ACCENTED (carries the pitch kernel), and tends not to apply in two adjacent moras in a row (successive devoicing is avoided). Tempo and register modulate it. |
+
+**IPA notation:** The voiceless diacritic `◌̥` under the vowel: `[i̥]`, `[ɯ̥]`. Full deletion is shown by omitting the vowel; the timing slot may be implied by the surrounding consonant cluster.
+
+| Word | Kana | Rōmaji | IPA | Gloss |
+|---|---|---|---|---|
+| 好き | `すき` | suki | `[sɯ̥ki]` | 'liking/fond of' — /u/ devoiced between /s/ and /k/. |
+| です | `です` | desu | `[desɯ̥]` | copula 'to be' — final /u/ devoiced after /s/ utterance-finally (often nearly deleted: `[des]`). |
+| 靴 | `くつ` | kutsu | `[kɯ̥tsɯ̥]` | 'shoes' — both high vowels in a voiceless environment; typically the first devoices (avoidance of two in a row may keep one voiced). |
+| 人 | `ひと` | hito | `[çi̥to]` | 'person' — /i/ devoiced between [ç] (the /h/ allophone before /i/) and /t/. |
+| します | `します` | shimasu | `[ɕimasɯ̥]` | 'do (polite)' — final /u/ of -ます devoiced utterance-finally. |
+| 学生 | `がくせい` | gakusei | `[ɡakɯ̥seː]` | 'student' — /u/ devoiced between /k/ and /s/. |
+
+**Accent difference:**
+
+| System | Devoicing behavior |
+|---|---|
+| Tokyo (標準語/共通語) | Devoicing is ROBUST and characteristic of Standard Tokyo speech; failing to devoice (e.g., pronouncing です with a full voiced [u]) sounds non-native or marked. |
+| Kansai (関西弁) | Kansai/Keihan speakers devoice MUCH LESS (often retaining a full voiced vowel, e.g., `[desɯ]` rather than `[desɯ̥]`); reduced devoicing is one audible marker of Kansai speech. |
+
+**Note:** High-vowel devoicing is an allophonic, post-lexical process; the underlying vowel is still /i/ or /u/ and the mora still occupies its timing slot. It interacts with accent (an accented high vowel resists devoicing).
+
+### Downstep & Phrasal Pitch
+
+Above the word, Japanese pitch is organized into prosodic phrases — the ACCENTUAL PHRASE (アクセント句 / 文節-based phrase, AP) and the larger INTONATION PHRASE (イントネーション句, IP) — over which pitch DECLINES and undergoes DOWNSTEP (catathesis 階段下降). The lexical accents of individual words combine with these phrasal effects to produce the actual F0 contour. This is the level at which word accents are "played out" in connected speech, and it parallels (but is built on a pitch-accent base, unlike Korean's) the K-ToBI-style AP/IP architecture.
+
+#### The Accentual Phrase
+
+The Accentual Phrase (AP) is the domain over which AT MOST ONE lexical accent (drop) is realized. An AP usually = a content word plus its following particles/clitics. The AP shows the initial L→H rise (the "phrasal H" that gives the post-initial high) and, if the word is accented, the single drop; if all words are unaccented, the AP is one flat high plateau after the initial rise.
+
+**Components:**
+
+- Initial rise (上昇 *jōshō*): pitch rises from a low onset to high over moras 1→2 (the mora 1 ≠ mora 2 effect, here a phrasal property).
+- High plateau: high pitch is maintained until the accent kernel (or to the AP end if unaccented).
+- Accentual drop (下げ核 *sagekaku*): a single fall after the accented mora, if any.
+- (In connected speech) the next AP's pitch range is lowered relative to this one — see downstep below.
+
+#### Downstep / Catathesis
+
+DOWNSTEP (catathesis; ダウンステップ / 階段下降): within an Intonation Phrase, EACH accented Accentual Phrase LOWERS the pitch register (the ceiling) for everything that follows, so successive accent peaks step DOWN in a staircase. An UNACCENTED AP does NOT trigger downstep — it does not lower the following register. This is why a string of accented words sounds progressively lower, and why the FIRST accent in an IP is the highest. Downstep is cumulative across the phrase and is reset only at a major (IP) boundary.
+
+**Consequences:**
+
+- The overall IP shows DECLINATION (gradual lowering) PLUS stepwise downstep at each accent.
+- An accented word lowers the pitch ceiling of following material; an unaccented (heiban) word does not — so heiban words "let the pitch ride high".
+- Pitch range is RESET at the start of a new Intonation Phrase (after a major break), restoring a high ceiling.
+
+**IPA notation:** Downstep marked `ꜜ` (or ↓) at each register-lowering accent; upstep/reset ↑; declination shown as an overall falling trend; AP boundary `|`, IP boundary `‖`.
+
+**Example:** 青い 傘 (`あおい かさ`, *aoi kasa*) 'a blue umbrella' — Each accented word contributes its drop; the second AP's peak is realized in a lowered register relative to the first (downstep), so 傘 does not rise back to the height of 青い.
+
+#### Focus and Phrasing
+
+FOCUS is realized prosodically by (a) EXPANDING the pitch range / RAISING the peak of the focused AP, and (b) COMPRESSING or DEPHRASING the post-focal material (post-focal pitch range is reduced, and following lexical accents may be flattened — "post-focal reduction"). Because Japanese has lexical accent, focus does NOT relocate a stress "nucleus" the way English does; instead it manipulates the pitch RANGE around the existing accents and re-phrases the AP/IP structure. Focus can also be marked morphologically (particles は/が, scrambling).
+
+| Focus type | Realization |
+|---|---|
+| Neutral (broad focus) | 田中さんが 来ました。 /tanaka-saɴ ɡa kimaɕi̥ta/ — 'Mr. Tanaka came.' |
+| Focused subject (narrow focus) | [田中さんが] 来ました。 — narrow focus on 田中さん ('it was TANAKA who came'): pitch range expands on 田中さん and the post-focal 来ました is compressed/dephrased (its own accent is reduced). |
+
+### Intonation
+
+INTONATION is the use of pitch over the Intonation Phrase for sentence-type, focus, and attitudinal meaning, OVERLAID on the lexical-accent + downstep system. Because lexical accent and phrasal downstep already shape the F0 line, Japanese intonation works largely at the EDGES (boundary pitch movements / 文末イントネーション *bunmatsu intonation*) — most importantly the SENTENCE-FINAL rise or fall — and through global pitch-range adjustments (focus, emphasis). The functional load on the final boundary is lighter than in Korean (Japanese has overt question particles like か and sentence-final particles), but final intonation still distinguishes, e.g., a statement from a question that lacks か, and conveys attitude.
+
+#### Structure of the Intonation Phrase
+
+The IP is the largest prosodic unit: one or more Accentual Phrases plus overall declination and downstep, terminated by a boundary pitch movement (BPM, 境界音調) on the final mora/particle.
+
+**Components:**
+
+- Accentual phrases (アクセント句) — each with its initial rise + optional single accentual drop.
+- Declination + downstep — overall lowering across the IP, stepped down at each accent.
+- Sentence-final boundary pitch movement (文末イントネーション) — a final rise (上昇調) or fall (下降調), or rise-fall, on the last mora/particle, setting sentence type and attitude.
+
+**IPA notation:** Final movements: ↗ rise, ↘ fall, → level, ↗↘ rise-fall; AP break `|`, IP break `‖`; downstep `ꜜ`. A sentence-final rise is often written as a ↗ on the final particle/vowel.
+
+#### Intonation Patterns
+
+##### 平叙文 (heijobun) — Declarative / statement
+
+**Contour:** Final FALL (下降調) — ↘
+
+A neutral statement ends with a falling/low final boundary: the IP declines and the final particle/copula falls, conveying finality. Often closed by the copula です/だ or a plain verb.
+
+- **学生です。** (`がくせいです`) — `[ɡakɯ̥seː desɯ̥ ↘]` — '(I) am a student.' — final です falls (and its /u/ devoices); a plain, complete declarative.
+
+##### 疑問文 (gimonbun) — Yes/No (polar) question (with か, or by intonation alone)
+
+**Contour:** Final RISE (上昇調) — ↗
+
+A polar question is canonically marked by the sentence-final particle か (formal/neutral). In casual speech か is often DROPPED and the question is signalled by a final RISE alone on the predicate/particle — exactly the statement-vs-question intonational contrast. Even WITH か, a rise is common in conversational style.
+
+- **学生ですか。** (`がくせいですか`) — `[ɡakɯ̥seː desɯ̥ ka ↗]` — 'Are (you) a student?' — か + final rise marks the polar question.
+- **学生？** (`がくせい`) — `[ɡakɯ̥seː ↗]` — '(You're a) student?' — no か; the final RISE alone turns the statement into a question (casual). This is Japanese's statement↔question intonational minimal contrast.
+
+##### 疑問詞疑問文 — Wh- (content) question
+
+**Contour:** Final FALL or mild rise; prominence on the wh-word — ↘ (often), with a pitch peak on the 疑問詞
+
+Content questions contain an interrogative (誰 *dare* 'who', 何 *nani* 'what', いつ *itsu* 'when', どこ *doko* 'where', なぜ/どうして *naze* 'why', どう *dō* 'how'), which carries focus/a pitch peak. Often closed with か and a FALL (the か already marks the question), though a rise is also possible in casual speech. The interrogative word is the focus and expands its pitch range.
+
+- **何を食べますか。** (`なにをたべますか`) — `[naɲi o tabemasɯ̥ ka ↘]` — 'What will (you) eat?' — pitch peak/focus on 何, closed with か and a fall.
+
+##### 命令文 / 依頼 — Imperative / request
+
+**Contour:** Falling (firm) for command; softened/slight rise for polite request — ↘ / (↗)
+
+Plain commands (-ろ/-え, 食べろ) and polite requests (〜てください) take a falling/directive contour; politeness softens the fall and a request with ください may carry a gentle final rise.
+
+- **ここに座ってください。** (`ここにすわってください`) — `[koko ni sɯwatte kɯdasai ↘]` — 'Please sit here.' — polite request, falling/settling final contour.
+
+##### Continuation / non-final (listing, conjoined/subordinate clause)
+
+**Contour:** Sustained or rising (non-final, "more to come") — → / ↗
+
+A non-final clause — ending in a connective such as て-form (〜て 'and'), 〜が/〜けど ('but'), 〜から/〜ので ('because'), or a non-final list item — ends on a sustained or slightly rising tone projecting continuation; the final clause then takes the terminal contour (a fall for a closed statement).
+
+- **りんごと、みかんと、ぶどうを買いました。** (`りんごと みかんと ぶどうを かいました`) — `[ɾiŋɡo to ↗ mikaɴ to ↗ bɯdoː o kaimaɕi̥ta ↘]` — 'I bought apples, oranges, and grapes.' — non-final items sustain/rise; the final 買いました falls.
+
+##### 終助詞 — Sentence-final particles modulate intonation
+
+**Contour:** Particle-dependent (rise on confirmation-seeking; fall on assertion) — ↗ / ↘
+
+Japanese carries much pragmatic intonation on SENTENCE-FINAL PARTICLES (終助詞 *shūjoshi*) — ね (*ne*, seeking agreement), よ (*yo*, asserting/informing), な, わ, etc. — whose meaning is shaded by a final RISE vs FALL. ね↗ seeks confirmation ('right?'); ね↘ shares a feeling; よ↘ firmly asserts. This is a major locus of attitudinal intonation in Japanese.
+
+- **いいですね↗** — `[iː desɯ̥ ne ↗]` — 'It's good, isn't it?' — rising ね seeks agreement.
+- **行きますよ↘** — `[ikimasɯ̥ jo ↘]` — '(I) AM going (I tell you).' — falling よ asserts/informs.
+
+##### 感嘆 — Exclamative / emphatic
+
+**Contour:** Expanded pitch range, often rise-fall — ↗↘
+
+Exclamations widen the pitch range and raise the peak, conveying strong feeling (surprise, admiration), frequently with rise-fall on the final.
+
+- **きれいですね！** (`きれいですね`) — `[kiɾeː desɯ̥ ne ↗↘]` — '(It's) beautiful!' — expanded high peak with admiring rise-fall.
+
+#### Functions Overview
+
+| Function | Role |
+|---|---|
+| Grammatical | Distinguishes statement (fall) vs intonation-only question (rise) when か is absent; the question particle か and sentence-final particles carry much of the load that English assigns to inversion/intonation. Marks clause boundaries (continuation rise) and completion (fall). |
+| Focus and information | Pitch-range EXPANSION on the focused AP plus POST-FOCAL COMPRESSION/dephrasing marks new information / contrast; works with particles (は/が) and scrambling rather than relocating a stress nucleus. |
+| Attitudinal | Final rise/fall on sentence-final particles (ね, よ) and overall pitch range convey politeness, confirmation-seeking, assertion, surprise, doubt, irritation, affection. |
+| Discourse | AP/IP phrasing, declination/downstep resets at IP boundaries, and final particles manage turn-taking and topic structure. |
+
+#### Accent Difference
+
+| System | Intonation behavior |
+|---|---|
+| Tokyo (標準語/共通語) | Standard intonation as described: declarative fall, polar-question rise (with or without か), wh-question fall with focus on the interrogative, continuation rise. Sentence-final-particle intonation (ね/よ) is central. |
+| Kansai (関西弁) | Kansai shares the same inventory of sentence-final movements (statement fall, question rise) but has its own overall melodic "colour" driven by the register system, different default contours and tempo, and characteristic sentence-final particles (e.g., や, ねん, へん). The architecture (final rise = question, fall = statement) is shared. |
+
+**Note:** Both systems use a final RISE for intonation-only questions and a FALL for statements; differences are in melodic detail, pitch range, particle inventory, and the register-driven "colour" of Kansai.
+
+### Comparison to Other Systems
+
+Explicit cross-system placement of Japanese prosody, since this guide is one of a parallel set (English, Korean, …). The single sentence to remember: JAPANESE = mora-timed + lexical PITCH ACCENT; KOREAN = syllable-timed-tending with NO lexical stress/tone (phrase-level pitch only); ENGLISH = stress-timed with phonemic STRESS.
+
+| Feature | Japanese | Korean | English |
+|---|---|---|---|
+| Word-level prominence type | LEXICAL PITCH ACCENT — at most one contrastive pitch DROP per word (箸/橋/端) | NONE at the word level — no lexical stress, no lexical tone | LEXICAL STRESS — contrastive stressed syllable (`ˈrecord`/`reˈcord`) |
+| Phonetic correlate of prominence | PITCH (a drop); NOT loudness/duration | Phrase-edge pitch (AP tune) only; no word prominence | Loudness + duration + pitch + full vowel quality |
+| Vowel reduction (schwa) | NONE (full vowels; only high-vowel DEVOICING, which keeps the mora slot) | NONE (full vowels) | EXTENSIVE (unstressed → schwa) |
+| Rhythmic timing | MORA-TIMED (counts moras; heavy syllable = 2 moras = 2 beats) | Syllable-timed-tending (with phrase-final lengthening) | STRESS-TIMED (compress unstressed syllables to a beat) |
+| Minimal pairs by suprasegment | YES, by PITCH ACCENT (箸 `ha\shi` / 橋 `hashi\` / 端 `hashi`; 雨 `a\me` / 飴 `ame`) | NO (Standard) — except the peripheral Gyeongsang/Hamgyŏng pitch-accent dialects | YES, by STRESS (record N/V, present N/V) |
+| Sentence-type marking | Question particle か + final RISE; statement FALL; heavy use of final particles ね/よ | IP boundary tone carries a VERY heavy load (often the sole disambiguator of 해요체) | Inversion/do-support + intonation |
+
+### Cross-References
+
+- **Consonants:** High-vowel DEVOICING depends on the voiceless-consonant environment and interacts with the allophony /s/→[ɕ], /t/→[tɕ]/[ts], /h/→[ç]/[ɸ] before /i u/ (e.g., 人 `[çi̥to]`, 靴 `[kɯ̥tsɯ̥]`); see the **Consonants** section for the allophone set and the special moras /N/ (ん) and /Q/ (っ).
+- **Vowels:** Mora-timing, vowel length, and devoicing reference the 5-vowel system /a i ɯ e o/ — note /u/ = compressed unrounded [ɯ̈], NOT [u] — and PHONEMIC vowel length (short vs long); the second half of a long vowel is its own MORA. See the **Vowels** section.
+- **Syllable Structure:** The mora vs syllable distinction, the four mora types ((C)(j)V, long-vowel /R/, moraic /N/, sokuon /Q/), and yōon (one mora) are detailed in the **Syllable Structure** / mora section, which underpins the kana reader tiers' FORCED VOWEL EPENTHESIS.
+- **Phonological Rules:** Accentual phrasing is the domain of the connected-speech rules — rendaku 連濁, /N/ assimilation, gemination, /g/→[ŋ] 鼻濁音 — and compound accent assignment; see **Phonological Rules** and **Connected Speech & Sandhi**.
+- **Dialect Differences:** The Kansai/Keihan (京阪式) register+accent system, reduced Kansai devoicing, and Kansai vowel-length retention are expanded in the **Dialect Differences** section; this section gives the prosody-specific contrasts.
+- **Orthography:** Kana = one mora per glyph (yōon = kana + small kana, one mora; sokuon っ and moraic ん each one mora; chōonpu ー / vowel doubling = long-vowel mora) underpins Japanese mora awareness; see the **Orthography** section.
+
+**Companion files:**
+
+- `Japanese/japanese_pronunciation_guide.md`
+- `Japanese/Peshita_Japanese/Scholarly/`
+- `Japanese/Peshita_Japanese/Pretty/`
+- `Japanese/Peshita_Japanese/Katakana/`
+- `Japanese/Peshita_Japanese/Hiragana/`
+- `Japanese/Peshita_Japanese/Romaji/`
+
+**Reader-tiers note:** The Japanese Peshitta ships FIVE reader tiers — Scholarly and Pretty (language-neutral Latin), Katakana (カタカナ, the idiomatic foreign-word reader tier for rendering Aramaic), Hiragana (ひらがな, the same moras in native glyphs), and Romaji (Hepburn readback of the kana). Suprasegmental information — lexical PITCH ACCENT (the drop position), high-vowel devoicing, mora timing, downstep, and sentence intonation — is NOT encoded in the kana or romaji tiers themselves and lives in this guide; readers using those tiers should consult this section for pitch accent and prosody. Because Aramaic rendered into Japanese requires FORCED VOWEL EPENTHESIS to satisfy the strict moraic template (no codas except moraic ン, no consonant clusters), every epenthetic vowel adds a MORA and therefore a timing slot — making the mora-timing described here directly relevant to how the reader tiers scan.
+
+## Mora & Syllable Structure
+
+Mora and syllable structure in Standard Japanese, documented for two reference standards in parallel: Standard / Common Japanese (標準語 / 共通語 Hyōjungo / Kyōtsūgo, educated Tokyo Yamanote speech, Tokyo-type pitch accent 東京式アクセント) and the major alternative Kansai / Keihan (関西弁 / 京阪式アクセント, Kyoto–Osaka). The organizing unit of Japanese phonology is NOT the syllable but the MORA (`拍` haku / `モーラ`): Japanese is MORA-TIMED, so every mora occupies roughly one isochronous beat and the mora is the unit that the kana scripts (hiragana・katakana) encode one-glyph-per-mora and the unit that pitch accent docks to. A mora has the maximal shape (C)(j)V — an optional onset consonant, an optional palatal on-glide /j/ (yōon 拗音, written with a small `ゃ`/`ゅ`/`ょ`), and an obligatory short vowel — OR it is one of the SPECIAL (non-(C)(j)V) moras: the moraic nasal /N/ (撥音, `ん`/`ン`), the sokuon /Q/ (促音, the first half of a geminate, written small `っ`/`ッ`), or the second half /R/ of a long vowel (the chōonpu `ー` in katakana, a doubled or appended vowel in hiragana). A SYLLABLE (音節 onsetsu) is then built FROM moras and is one or two moras long: a LIGHT (短音節) syllable is a single (C)(j)V mora, while a HEAVY (重音節) syllable is two moras — a (C)(j)V mora followed by one of the special moras /N Q R/ (giving CVN, CVQ, CVR) or by a second vowel mora. Japanese is in sharp contrast with English: it has NO onset or coda consonant CLUSTERS at all, and the ONLY codas it tolerates are the special moras /N/ (`ん`) and /Q/ (`っ`); it has a strict CV preference. Foreign words with clusters or stray codas are therefore repaired by FORCED VOWEL EPENTHESIS, each inserted vowel spawning a new (C)V mora — this is the core operation of the kana reader-tier transducer (Katakana・Hiragana). This section is the Japanese equivalent of the Peshitta guide's syllable_structure section; here the primary timing unit is the mora, with the syllable a derived (1–2 mora) constituent.
+
+**Primary timing unit:** mora (`拍` haku / `モーラ`) — Japanese is mora-timed, not syllable-timed or stress-timed.
+
+**Mora template:** `(C)(j)V | N | Q | R`
+
+**Syllable template:** σ = μ | μμ (a syllable is one mora [light] or two moras [heavy]); the moraic shape of a heavy syllable is `(C)(j)V + {N | Q | R | V}`
+
+**Maximal syllable:** `CjVR / CjVN / CjVQ` (a full (C)(j)V mora plus one special mora = a heavy, two-mora syllable)
+
+**Preferred mora:** `CV`
+
+### Reference Standards
+
+| Standard | Description |
+|---|---|
+| Standard / Common Japanese | 標準語 / 共通語 (Hyōjungo / Kyōtsūgo), educated Tokyo (Yamanote) speech; Tokyo-type pitch accent (東京式アクセント). |
+| Kansai / Keihan | 関西弁 / 京阪式アクセント (Kyoto–Osaka), the major alternative; a richer pitch-accent system (lexical register + accent), with tonal melodies often reversed relative to Tokyo. |
+
+**Note:** Mora and syllable STRUCTURE proper — the (C)(j)V mora, the special moras /N Q R/, the 1–2 mora syllable, the strict CV phonotactics and `ん`/`っ`-only codas — is shared by both standards. The standards differ mainly in SUPRASEGMENTALS riding on this skeleton: pitch-accent placement (the downstep) differs systematically (箸/橋, 雨/飴 swap between Tokyo and Kansai), and Kansai adds a lexical initial REGISTER (high/low) on top of accent and tends to preserve some vowel-length and lexical contrasts Tokyo has reduced. Because pitch accent docks to MORAS (the drop falls after a specified mora), the mora count established in this section is the exact frame the accent patterns are stated over; see the suprasegmentals / pitch_accent section for the standard-by-standard melodies.
+
+### Components
+
+A mora is maximally (C)(j)V: an optional onset, an optional palatal on-glide /j/, and an obligatory short-vowel nucleus. Alternatively, a mora is one of the three SPECIAL moras /N Q R/.
+
+- **Onset:** 0 to 1 consonant; NO clusters *(optional)*
+- **Glide:** the single palatal on-glide /j/ (yōon) *(optional)*
+- **Nucleus:** exactly one short vowel from /a i ɯ e o/ *(required)*
+- **Special moras:** /N/ (`ん`), /Q/ (`っ`), /R/ (long-vowel second half) — the only non-(C)(j)V moras and the only codas
+
+#### Onset
+
+The optional single onset consonant of a (C)(j)V mora — Japanese has NO onset clusters whatsoever. Any of the mora-phonemic consonants /p b t d k ɡ s z h m n r j w/ may fill the slot, subject to the gojūon distribution and rich allophony: /s/→[ɕ] before /i/ (`し` shi) and before /j/; /t/→[tɕ] before /i/ (`ち` chi), [ts] before /u/ (`つ` tsu); /z d/→[dʑ]/[ʑ] before /i/, [dz] before /u/; /h/→[ç] before /i/ (`ひ` hi), [ɸ] before /u/ (`ふ` fu); /ɡ/→[ŋ] (鼻濁音 bidakuon) intervocalically for many speakers; /r/ = the apico-alveolar tap [ɾ]; /w/ = [ɰ] (labio-velar, natively only before /a/, `わ` wa). High vowels /i u/ DEVOICE to [i̥ ɯ̥] between voiceless consonants or word-finally after a voiceless consonant, which can make a CV mora sound consonant-only (e.g. `すき` [sɯ̥ki], `です` [desɯ̥]) without changing the mora count.
+
+- **Minimum consonants:** 0
+- **Maximum consonants:** 1
+
+**No clusters:** Japanese permits no consonant clusters in onset position at all (no /pl/, /st/, /spr/, etc.). The only consonant SEQUENCES that arise tautosyllabically are a (C)(j)V mora followed by the special moras /N/ or /Q/ (i.e. CVN, CVQ); these are coda special moras, not onset clusters. Foreign clusters are repaired by epenthesis of a default /u/ (written `ウ`/`う`), each inserted vowel spawning a new CV mora — the core operation of the kana reader-tier transducer (see loanword adaptation and constraints).
+
+**Onset consonants:**
+
+| Phoneme | Row (行) and kana |
+|---|---|
+| /p/ | `ぱ`行 (`ぱぴぷぺぽ`) |
+| /b/ | `ば`行 (`ばびぶべぼ`) |
+| /t/ | `た`行 (`た` [ta], `ち` [tɕi], `つ` [tsɯ], `て` [te], `と` [to]) |
+| /d/ | `だ`行 (`だ` [da], `ぢ` [dʑi], `づ` [dzɯ], `で` [de], `ど` [do]) |
+| /k/ | `か`行 (`かきくけこ`) |
+| /ɡ/ | `が`行 (`がぎぐげご`; intervocalic [ŋ] 鼻濁音 for many speakers) |
+| /s/ | `さ`行 (`さ` [sa], `し` [ɕi], `す` [sɯ], `せ` [se], `そ` [so]) |
+| /z/ | `ざ`行 (`ざ` [dza], `じ` [dʑi], `ず` [dzɯ], `ぜ` [dze], `ぞ` [dzo]) |
+| /h/ | `は`行 (`は` [ha], `ひ` [çi], `ふ` [ɸɯ], `へ` [he], `ほ` [ho]) |
+| /m/ | `ま`行 (`まみむめも`) |
+| /n/ | `な`行 (`な` [na], `に` [ɲi], `ぬ` [nɯ], `ね` [ne], `の` [no]) |
+| /r/ | `ら`行 ([ɾa ɾi ɾɯ ɾe ɾo]) |
+| /j/ | `や`行 (`や` [ja], `ゆ` [jɯ], `よ` [jo]) |
+| /w/ | `わ`行 (`わ` [ɰa]) |
+
+| Phonemic | Phonetic | Kana | Romaji | Onset | Gloss |
+|---|---|---|---|---|---|
+| /ka/ | [ka] | `か / カ` | ka | /k/ | (mosquito 蚊; mora か) |
+| /ɕi/ | [ɕi] | `し / シ` | shi | /s/ → [ɕ] before /i/ | (four 四; allophonic palatalization) |
+| /tsɯ/ | [tsɯ̈] | `つ / ツ` | tsu | /t/ → [ts] before /u/ | (allophonic affrication of /t/ before /u/) |
+| /ɸɯ/ | [ɸɯ̈] | `ふ / フ` | fu | /h/ → [ɸ] before /u/ | (the bilabial-fricative allophone of /h/) |
+| /a/ | [a] | `あ / ア` | a | ∅ (onsetless mora) | (the vowel-only mora あ) |
+
+#### Glide
+
+The optional palatal on-glide /j/ between onset and vowel — this is YŌON (拗音), a single palatalized mora. In kana, yōon is written as a base `い`-row (palatal) glyph plus a SMALL `ゃ`/`ゅ`/`ょ` (and, in foreign sounds, small `ぃ`/`ぇ`): `き`+`ゃ` → `きゃ` kya, `し`+`ゃ` → `しゃ` sha (= /sja/ → [ɕa]), `ち`+`ゃ` → `ちゃ` cha (= /tja/ → [tɕa]), `に`+`ゅ` → `にゅ` nyu, `ひ`+`ょ` → `ひょ` hyo, `ぎゃ` gya, `びゅ` byu, `ぴょ` pyo, `りゃ` rya, `みゃ` mya. A yōon glyph pair counts as ONE mora (the small kana does not add a beat); compare the TWO-mora sequence with a full-size `や` (`きや` ki-ya, 2 moras). The /w/ on-glide is not productive in the native yōon system (historical `くゎ` kwa, `ぐゎ` gwa are obsolete; modern /w/ appears only as the onset of `わ`行). The labial glide returns only in the foreign-sound katakana digraphs (`ウィ` wi, `ウェ` we, `ウォ` wo, `クァ` kwa, etc.).
+
+**Glides:**
+
+- j (productive native on-glide; the yōon series)
+
+| Phonemic | Phonetic | Kana | Romaji | Glide | Gloss |
+|---|---|---|---|---|---|
+| /kja/ | [kʲa] | `きゃ / キャ` | kya | j | (one mora; cf. two-mora きや ki-ya) |
+| /sja/ | [ɕa] | `しゃ / シャ` | sha | j (with /s/ → [ɕ]) | (写 sha 'copy'; the /j/ + /s/ palatalization fuses to [ɕa]) |
+| /tja/ | [tɕa] | `ちゃ / チャ` | cha | j (with /t/ → [tɕ]) | (茶 cha 'tea') |
+| /rjo/ | [ɾʲo] | `りょ / リョ` | ryo | j | (料 ryō as in 料理 ryōri; the yōon mora りょ) |
+
+#### Nucleus
+
+The obligatory vocalic core of a (C)(j)V mora — exactly ONE short vowel from the five-vowel system /a i ɯ e o/ (where /u/ is the compressed unrounded back [ɯ̈], NOT [u]). A mora's nucleus is always a single SHORT vowel; phonemic vowel LENGTH (short vs long) is realized not by a long-vowel nucleus but by ADDING the special long-vowel mora /R/, so a long vowel = two moras (V + R). The high vowels /i u/ are subject to DEVOICING ([i̥ ɯ̥]) between voiceless consonants or word-finally after a voiceless consonant; this is a phonetic, beat-preserving process — the devoiced vowel still counts as a full mora.
+
+- **Required:** yes
+
+**No syllabic consonants:** There are NO syllabic-consonant nuclei in the (C)(j)V mora (nothing like English 'bottle' /l̩/ or 'button' /n̩/). The closest analogues are the SPECIAL MORAS /N/ and /Q/, which carry their own beat without a vowel but are coda elements, not nuclei.
+
+**Vowels:**
+
+- /a/ `あ・ア` [a]
+- /i/ `い・イ` [i] (devoices to [i̥] between voiceless C)
+- /ɯ/ `う・ウ` [ɯ̈] (compressed unrounded; devoices to [ɯ̥])
+- /e/ `え・エ` [e]
+- /o/ `お・オ` [o]
+
+| Phonemic | Phonetic | Kana | Romaji | Nucleus | Gloss |
+|---|---|---|---|---|---|
+| /a/ | — | `あ / ア` | a | /a/ | (interjection; the bare-vowel mora) |
+| /ɯ/ | [ɯ̈] | `う / ウ` | u | /ɯ/ | (the default epenthetic vowel; compressed unrounded back vowel) |
+| /sɯ/ | [sɯ̥] | `す / ス` | su | /ɯ/ devoiced to [ɯ̥] | (high-vowel devoicing in です desu [desɯ̥]; still a full mora) |
+
+#### Special Moras
+
+The three NON-(C)(j)V moras that have no vowel nucleus of their own yet each occupy one full mora (one beat) and can only occur as the SECOND mora of a heavy syllable (or the second of a long vowel). They are the only Japanese 'codas', and they are the source of all heavy syllables. Each is phonemic and each shows position-conditioned realization.
+
+| Symbol | Name | Kana | Unicode |
+|---|---|---|---|
+| /N/ | 撥音 (hatsuon) — the moraic nasal | `ん / ン` | `ん U+3093` / `ン U+30F3` |
+| /Q/ | 促音 (sokuon) — the geminate / 'small tsu' | `っ / ッ` | `っ U+3063` / `ッ U+30C3` |
+| /R/ | 長音 (chōon) — the second mora of a long vowel | `ー` (katakana chōonpu) / vowel-doubling or appended `う`・`い` (hiragana) | `ー U+30FC` (katakana chōonpu) |
+
+##### /N/ — moraic nasal (撥音, `ん`/`ン`)
+
+A full-mora nasal that has no fixed place of articulation; it ASSIMILATES to the following segment and is the only nasal that can close a syllable. It can never begin a word and never begins a mora's onset (no Japanese word starts with `ん`).
+
+**Allophones:**
+
+- [m] before labials /p b m/ (`さんぽ` sanpo [sampo] '散歩' walk)
+- [n] before alveolars /t d n r/ (`おんな` onna [onna] '女' woman)
+- [ŋ] before velars /k ɡ/ (`りんご` ringo [ɾiŋɡo] 'apple')
+- [ɲ] before palatals (`こんにちは` konnichiwa [koɲ.ɲi.tɕi.wa])
+- [ɴ]/[ɰ̃] (uvular / nasalized vowel) utterance-finally or before vowels, glides, and fricatives (`ほん` hon [hoɴ] '本' book; `でんわ` denwa [deɰ̃wa] '電話')
+
+| Phonemic | Phonetic | Kana | Romaji | Moras | Weight | Gloss |
+|---|---|---|---|---|---|---|
+| /hoN/ | [hoɴ] | `ほん / ホン` | hon | 2 | heavy (CVN) | book 本 — 2 moras ho + N, ONE heavy syllable |
+| /saNpo/ | [sampo] | `さんぽ / サンポ` | sanpo | 3 | — | walk 散歩 — sa + N([m]) + po, 3 moras / 2 syllables (san.po) |
+
+##### /Q/ — sokuon (促音, `っ`/`ッ`)
+
+A full-mora obstruent placeholder: the FIRST half of a geminate (long/double) consonant, written with a SMALL `っ`/`ッ`. It has no segmental content of its own; it surfaces as the (silent, unreleased) hold of whatever consonant begins the next mora, copying that consonant's place and manner ([k.k], [t.t], [s.s], [p.p], etc.). It cannot occur word-initially or word-finally in native words (only marginally word-final as an emphatic glottal stop `あっ!` [aʔ]) and never before a vowel, nasal, or /r/ in native phonology.
+
+| Phonemic | Phonetic | Kana | Romaji | Moras | Gloss |
+|---|---|---|---|---|---|
+| /kiQte/ | [kit.te] | `きって / キッテ` | kitte | 3 | postage stamp 切手 — ki + Q + te, 3 moras; the Q is the held [t]. Contrast きて kite [kite] 'come' (2 moras) |
+| /maQta/ | [mat.ta] | `まった / マッタ` | matta | 3 | waited 待った — ma + Q + ta; cf. また mata [mata] 'again' (2 moras). Minimal pair turning on /Q/ |
+
+##### /R/ — long-vowel mora (長音, chōonpu `ー`)
+
+The mora that realizes phonemic vowel LENGTH: a long vowel = the base vowel mora PLUS this length mora, i.e. two moras of the same vowel quality. In katakana it is written with the chōonpu `ー` (`カー` kā, `コーヒー` kōhī); in hiragana it is written by DOUBLING the vowel (`おかあさん` okāsan), or by appending `う` for ō/ū (`とうきょう` Tōkyō = to-u-kyo-u) and `い` for ē/ī in many words. Vowel length is phonemic and contrastive: `おばさん` obasan 'aunt' (4 moras) vs `おばあさん` obāsan 'grandmother' (5 moras).
+
+| Phonemic | Phonetic | Kana | Romaji | Moras | Gloss |
+|---|---|---|---|---|---|
+| /oba(R)saN/ | [obasaɴ] | `おばさん` | obasan | 4 | aunt / middle-aged woman — o.ba.sa.N (short /a/) |
+| /obaRsaN/ | [obaːsaɴ] | `おばあさん` | obāsan | 5 | grandmother — o.ba.R.sa.N; the extra /R/ mora lengthens /aː/. Minimal pair with obasan on vowel length |
+| /koRhiR/ | [koːçiː] | `コーヒー` | kōhī | 4 | coffee — ko + R + hi + R; chōonpu ー realizes each length mora (4 moras) |
+
+### Syllable Weight
+
+A syllable (音節) is built from moras and is one or two moras long. LIGHT (軽音節 / 短音節) = a single (C)(j)V mora (1 mora). HEAVY (重音節) = two moras: a (C)(j)V mora followed by a special mora /N Q R/ or by a second vowel. The special moras /N Q R/ never form a syllable on their own — they always attach to the preceding (C)(j)V mora to make it heavy. Mora count and syllable count therefore differ: `にっぽん` Nippon is 4 moras (ni-Q-po-N) but 2 (heavy) syllables (nip.pon).
+
+#### Light syllable (軽音節 / 短音節, 1 mora)
+
+**Shapes:** `V`, `CV`, `CjV`
+
+| Kana | Phonemic | Moras | Gloss |
+|---|---|---|---|
+| `き` | /ki/ | 1 | tree 木 |
+| `きゃ` | /kja/ | 1 | yōon mora (1 mora despite 2 glyphs) |
+
+#### Heavy syllable (重音節, 2 moras)
+
+**Shapes:** `CVN`, `CVQ`, `CVR`, `CjVN`, `CjVQ`, `CjVR`, `CVV`
+
+| Kana | Phonemic | Syllable | Moras | Type | Gloss |
+|---|---|---|---|---|---|
+| `ほん` | /hoN/ | hon | 2 | CVN | book 本 |
+| `がっ` | /ɡaQ/ | gak (in 学校 gakkō) | 2 | CVQ | first heavy syllable of 学校 gak.kō |
+| `コー` | /koR/ | kō | 2 | CVR | first heavy syllable of コーヒー kō.hī |
+| `きょう` | /kjoR/ | kyō | 2 | CjVR | today 今日 — yōon きょ + length う |
+
+### Syllable Types
+
+| Type | Description | Phonemic example | Phonetic | Kana | Romaji | Moras | Gloss | Frequency |
+|---|---|---|---|---|---|---|---|---|
+| V (μ, light) | Bare short vowel; no onset, no glide, no special mora. One mora, one light syllable. | /e/ | — | `え / エ` | e | 1 | picture 絵 | Common (vowel-initial words, particles) |
+| CV (μ, light) | Onset consonant + vowel — the canonical, statistically dominant Japanese mora and syllable. | /ka/ | — | `か / カ` | ka | 1 | mosquito 蚊 | Most common |
+| CjV (μ, light) | Onset + palatal glide /j/ (yōon) + vowel — one mora, written with a small `ゃ`/`ゅ`/`ょ`. | /kja/ | — | `きゃ / キャ` | kya | 1 | (yōon mora; e.g. きゃく kyaku '客' guest) | Common |
+| CVN (μμ, heavy) | (C)V mora + moraic nasal /N/ (`ん`) — a two-mora heavy syllable; the only nasal coda. | /hoN/ | [hoɴ] | `ほん / ホン` | hon | 2 | book 本 | Very common |
+| CVQ (μμ, heavy) | (C)V mora + sokuon /Q/ (`っ`) — a two-mora heavy syllable; the first half of a geminate, closed by the gemination of the next onset. | /ɡaQ/ (in /ɡaQkoR/) | [ɡak̚.koː] | `がっ (がっこう)` | gak (in gakkō) | 2 | school 学校 gak.kō — the first heavy syllable is gaQ | Very common |
+| CVR (μμ, heavy) | (C)V mora + long-vowel mora /R/ (`ー` / vowel-doubling) — a two-mora heavy syllable carrying phonemic vowel length. | /koR/ (in /koRhiR/) | [koː] | `コー (コーヒー)` | kō (in kōhī) | 2 | first heavy syllable of コーヒー kō.hī 'coffee' | Very common |
+| CjVR (μμ, heavy) | Onset + glide + vowel + length mora — the fullest legal mora-onset heavy syllable: yōon plus long vowel. | /kjoR/ | [kʲoː] | `きょう / キョー` | kyō | 2 | today 今日 kyō — き+ょ (yōon) + う (length) | Common |
+| N / Q / R (special mora, never syllabic alone) | A special mora occupies a beat but is NOT a syllable on its own — it always attaches to the preceding (C)(j)V mora to form a heavy syllable. Listed here to show it is a mora type but not a standalone syllable type. | /N/, /Q/, /R/ | — | `ん・っ・ー` | n / (geminate) / (length) | 1 | moraic units that build heavy syllables; cannot bear an onset or stand alone | Very common as the second mora of heavy syllables |
+
+### Mora Count Examples
+
+Worked examples contrasting MORA count (the timing/beat count, = kana count with the small-kana convention) with SYLLABLE count (1–2 moras each). These are the counts the kana transducer must reproduce and the frame pitch accent is stated over.
+
+| Word | Romaji | Kana | Moras | Mora breakdown | Syllables | Syllable breakdown | Note |
+|---|---|---|---|---|---|---|---|
+| 日本 | Nihon | `にほん` | 3 | に・ほ・ん (ni-ho-N) | 2 | ni.hon (light + heavy CVN) | the final ん is its own mora but closes a heavy syllable |
+| 日本 | Nippon | `にっぽん` | 4 | に・っ・ぽ・ん (ni-Q-po-N) | 2 | nip.pon (two heavy syllables: CVQ + CVN) | 4 moras but 2 syllables; the /Q/ and /N/ are non-onset moras |
+| 学校 | gakkō | `がっこう` | 4 | が・っ・こ・う (ga-Q-ko-R) | 2 | gak.kō (CVQ + CVR) | the っ and the length う are each a mora; 4 moras, 2 heavy syllables |
+| 東京 | Tōkyō | `とうきょう` | 4 | と・う・きょ・う (to-R-kjo-R) | 2 | tō.kyō (CVR + CjVR) | 5 kana but 4 moras (the small ょ does not add a beat); ō written とう and きょう |
+| 切手 | kitte | `きって` | 3 | き・っ・て (ki-Q-te) | 2 | kit.te (CVQ + CV) | contrast きて kite (2 moras, ki.te) — the /Q/ adds a mora and a heavy syllable |
+| おばあさん | obāsan | `おばあさん` | 5 | お・ば・あ・さ・ん (o-ba-R-sa-N) | 3 | o.bā.san (V + CVR + CVN) | minimal pair with おばさん obasan (4 moras) on the length mora /R/ |
+| きゃく | kyaku | `きゃく` | 2 | きゃ・く (kja-ku) | 2 | kya.ku (CjV + CV) | 3 kana but 2 moras: the yōon きゃ is one mora; contrast きやく ki-ya-ku (3 moras) |
+
+### Syllabification
+
+**Principle:** Mora-first parsing with CV maximization: an input string is segmented into a sequence of moras — greedily forming (C)(j)V moras and attaching any following /N Q R/ (or second vowel) as the special mora of a heavy syllable — under the strict constraint that no mora may contain a consonant cluster and the only codas are /N/ (`ん`) and /Q/ (`っ`).
+
+Because Japanese is mora-timed and kana is one-glyph-per-mora (the small `ゃゅょ`/`っ` being the only exceptions), syllabification is fundamentally a MORA segmentation: each (C)(j)V is one beat, and the special moras /N Q R/ are separate beats that bind leftward into heavy syllables. There is no onset-maximization tug-of-war as in English because there are no clusters to assign; the only decisions are (a) does a small kana fuse into a yōon mora (one beat) and (b) does a special mora attach to the preceding mora as the heavy-syllable second half. Voicing/devoicing and the /N/-assimilation are surface effects that do not alter the mora parse.
+
+| Word | Kana | Phonemic | Phonetic | Mora parse | Syllable parse | Note |
+|---|---|---|---|---|---|---|
+| 学校 | `がっこう` | /ɡaQkoR/ | [ɡak̚.koː] | が \| っ \| こ \| う | がっ.こう (gak.kō) | the /Q/ binds left to が (heavy がっ), and the length う binds left to こ (heavy こう) |
+| 賛成 | `さんせい` | /saNseR/ | [sanseː] | さ \| ん \| せ \| い | さん.せい (san.sei/sē) | /N/ → [n] before /s/; せい is realized as a long [seː] heavy syllable (せ + length い) |
+| 社会 | `しゃかい` | /sjakai/ | [ɕakai] | しゃ \| か \| い | しゃ.かい (sha.kai) | the yōon しゃ is ONE mora; かい is a heavy CVV syllable (か + diphthongal vowel mora い) |
+| 新聞 | `しんぶん` | /siNbuN/ | [ɕimbɯɴ] | し \| ん \| ぶ \| ん | しん.ぶん (shin.bun) | two heavy CVN syllables; first /N/ → [m] before /b/, second /N/ → [ɴ] utterance-finally |
+
+### Loanword Adaptation
+
+Because Japanese moras allow NO consonant clusters and the only codas are /N/ (`ん`) and /Q/ (`っ`), foreign words with clusters or with codas other than a nasal are repaired by FORCED VOWEL EPENTHESIS: a vowel is inserted to give each stray consonant its own (C)V mora. This both breaks clusters and supplies a vowel after a word-final consonant. This is exactly the operation the Katakana (and parallel Hiragana) reader tier performs when transducing a Latin/IPA reading into legal kana moras, and the same mechanism Aramaic requires for rendering in the Japanese Peshitta tiers (no codas except moraic `ン`, no clusters).
+
+**Default epenthetic vowel:** /u/ → `ウ`/`う` (the default minimal vowel, phonetically the compressed [ɯ̈] and often devoiced)
+
+**Context-sensitive epenthesis:**
+
+- after /t d/ the epenthetic vowel is /o/ → `ト`/`ド` (because /tu/, /du/ would surface as `つ` tsu / `づ` in native phonology): e.g. /t/-final 'bed' → `ベッド` beddo, 'hint' → `ヒント` hinto
+- after /tʃ dʒ/ (and other palatals) the epenthetic vowel is /i/ → `チ`/`ジ`: e.g. 'match' → `マッチ` macchi, 'orange' → `オレンジ` orenji
+- /u/ → `ウ` elsewhere by default: 'gram' → `グラム` guramu, 'milk' → `ミルク` miruku
+- word-final /k g s z m p b f v/ etc. take default /u/ → `ウ` (mask → `マスク` masuku); a final nasal that maps to `ん` stays as the /N/ coda (pen → `ペン` pen)
+
+| Source | Source IPA | Kana | Romaji | Japanese IPA | Moras | Note |
+|---|---|---|---|---|---|---|
+| English 'strike' | /straɪk/ | `ストライク` | sutoraiku | [sɯ̥toɾaikɯ] | 5 | su-to-ra-i-ku: /str/ broken by epenthetic ウ after /s/ and オ after /t/; final /k/ takes ウ. 5 moras |
+| English / Greek 'Christ' | /kraɪst/ | `クリスト` | kurisuto | [kɯ̥ɾisɯto] | 4 | ku-ri-su-to: /kr/ split by ウ, the /st/ coda resolved with ウ then オ. 4 moras |
+| English 'milk' | /mɪlk/ | `ミルク` | miruku | [miɾɯkɯ] | 3 | mi-ru-ku: /lk/ cluster split (and /l/ → /r/ ru) with epenthetic ウ; final /k/ takes ウ |
+| English 'bed' | /bɛd/ | `ベッド` | beddo | [bed.do] | 3 | be-Q-do: final /d/ takes /o/ (not /u/), and gemination /Q/ models the tense final stop. be + っ + ど = 3 moras |
+| English 'McDonald('s)' | /məkˈdɒnəld/ | `マクドナルド` | makudonarudo | [makɯdonaɾɯdo] | 6 | ma-ku-do-na-ru-do: every coda/cluster consonant gets its own CV mora (/u/ after k, /o/ after d, /u/ after l→r, /o/ after final d) |
+
+### Constraints
+
+- The fundamental unit is the MORA, not the syllable: Japanese is MORA-TIMED, every mora takes roughly one isochronous beat, kana encode one glyph per mora (small `ゃゅょ` and small `っ` being the exceptions), and PITCH ACCENT docks to moras (the downstep falls after a specified mora).
+- A mora is maximally (C)(j)V — at most one onset consonant, an optional palatal on-glide /j/ (yōon), and an obligatory single short vowel — OR it is one of the three SPECIAL moras /N/ (`ん`), /Q/ (`っ`), /R/ (long-vowel second half). There are no other mora shapes.
+- There are NO consonant clusters anywhere (no onset clusters, no coda clusters). The only consonant that can close a mora/syllable is the moraic nasal /N/ (`ん`) or the sokuon /Q/ (`っ`); there are NO other codas. The preferred and dominant mora shape is CV.
+- A SYLLABLE is 1–2 moras: LIGHT = one (C)(j)V mora; HEAVY = a (C)(j)V mora plus a special mora /N Q R/ (or a second vowel), giving CVN, CVQ, CVR (and the yōon variants CjVN, CjVQ, CjVR). Special moras never form a syllable alone — they always bind to the preceding mora.
+- YŌON (拗音) is a single palatalized mora (Cj V), written base-glyph + SMALL `ゃ`/`ゅ`/`ょ`; the small kana adds NO beat (`きゃ` kya = 1 mora; cf. `きや` ki-ya = 2 moras). The /j/ glide is the only productive on-glide; native /w/-glides (`くゎ` kwa) are obsolete, surviving only in foreign-sound katakana digraphs.
+- The moraic nasal /N/ (`ん`) is a full mora with NO fixed place: it assimilates to [m] before labials, [n] before alveolars, [ŋ] before velars, [ɲ] before palatals, and [ɴ]/[ɰ̃] utterance-finally or before vowels/glides/fricatives. It never begins a word and never bears an onset.
+- The sokuon /Q/ (`っ`) is a full mora with no segmental content of its own: it is the first (held, unreleased) half of a geminate and copies the place/manner of the following onset consonant ([k.k t.t s.s p.p] etc.). In native phonology it cannot occur word-initially, word-finally, or before a vowel, nasal, or /r/.
+- Vowel LENGTH is phonemic and is realized by the LENGTH mora /R/ (a second mora of the same vowel quality): a long vowel = two moras. `おばさん` obasan 'aunt' (4 moras) vs `おばあさん` obāsan 'grandmother' (5 moras); `コーヒー` kōhī = 4 moras. Katakana writes /R/ with the chōonpu `ー`; hiragana doubles the vowel or appends `う` (ō/ū) / `い`.
+- The nucleus is always exactly one SHORT vowel from /a i ɯ e o/ (/u/ = compressed unrounded [ɯ̈], not [u]); there are no syllabic consonants. High vowels /i u/ DEVOICE ([i̥ ɯ̥]) between voiceless consonants or word-finally after a voiceless consonant — a phonetic, beat-preserving process that does not change the mora count.
+- Mora count and syllable count differ and BOTH matter: `にっぽん` Nippon = 4 moras (ni-Q-po-N) but 2 heavy syllables (nip.pon); 東京 Tōkyō = 4 moras but 2 syllables. Verse/haiku metrics, gemination, and accent are stated in MORAS; syllable weight (light vs heavy) conditions certain accent and rhythmic phenomena.
+- Loanwords and any non-Japanese input are forced into legal moras by VOWEL EPENTHESIS (the kana-transducer core operation): default /u/ → `ウ`/`う`; /o/ → `ト`/`ド` after /t d/; /i/ → `チ`/`ジ` after /tʃ dʒ/. 'strike' → `ストライク` su-to-ra-i-ku (5 moras); 'Christ' → `クリスト` ku-ri-su-to (4 moras). The same epenthesis is what renders consonant-final / cluster-bearing Aramaic in the Japanese reader tiers.
+- Pitch accent (Tokyo-type vs Kansai/Keihan-type) rides on this mora skeleton and differs by standard (箸/橋, 雨/飴 swap between Tokyo and Kansai), but it does NOT alter mora or syllable STRUCTURE; see the suprasegmentals / pitch_accent section. Japanese has lexical pitch accent, not stress, so syllable weight does not drive a stress system.
+
+> **Cross-reference:** This section underpins the KATAKANA (カタカナ) and HIRAGANA (ひらがな) reader tiers and their Romaji (Hepburn) readback among the five Japanese Peshitta reader tiers (Scholarly, Pretty, Katakana, Hiragana, Romaji). The (C)(j)V mora template, the special moras /N Q R/, the 1–2 mora syllable, the strict CV / no-cluster phonotactics, and the forced-vowel-epenthesis behavior specified here drive the kana transducer that maps a phonemic reading into legal moras and composes them into kana — the mechanism that makes the moraic Japanese scripts able to host Aramaic at all. See the companion files `Japanese/japanese_pronunciation_guide.md` and the kana tiers under `Japanese/Peshita_Japanese/Katakana/` and `Japanese/Peshita_Japanese/Hiragana/`. Allophonic detail lives in the consonants/vowels sections, and accent melodies in the suprasegmentals section of this guide.
+
+## Phonological Rules
+
+Japanese's system of largely automatic phonological and morphophonological processes (音韻規則 *on'in kisoku* / 音便 *onbin*) that map underlying mora-phonemic forms — and, by extension, kana/kanji orthography — onto surface phonetic forms. Japanese is MORA-TIMED with no phonemic voicing-independent consonant series of the Korean kind, but it has a rich allophony driven by the following vowel, a productive compound-voicing rule (連濁 *rendaku*) with a dissimilatory blocker (Lyman's Law), high-vowel devoicing, place-assimilation of the moraic nasal /N/ (`ん`), gemination via the sokuon /Q/ (`っ`), and phonemic vowel length. These rules are documented in parallel for the two reference standards: Standard / Common Japanese (標準語・共通語 *Hyōjungo / Kyōtsūgo*, educated Tokyo Yamanote speech, Tokyo-type pitch accent 東京式アクセント) and Kansai / Keihan Japanese (関西弁・京阪式アクセント, the Kyoto–Osaka standard). The overwhelming majority of segmental rules are shared by both standards; the principal divergences are (a) the velar-nasal allophone /ɡ/→[ŋ] (鼻濁音 *bidakuon*), historically robust in conservative Tokyo speech but largely absent in Kansai and receding among younger Tokyo speakers, and (b) the pitch-accent system itself (Tokyo has accent-as-downstep only; Kansai adds a lexical initial register), which interacts with — but is mechanically independent of — the segmental rules below. Accent scope is marked 'both', 'Tokyo', or 'Kansai'; where a process applies in both but differs in detail, the divergence is noted. IPA examples are given as kana (with kanji where relevant) → Hepburn romaji → surface IPA after the rule applies, using /slashes/ for underlying mora-phonemic forms and [brackets] for surface phonetic forms; the romaji tier reflects standard Hepburn (which already encodes the s→sh, t→ch/ts, h→f allophony in spelling).
+
+### Rules at a Glance
+
+| # | Rule | Process | Accents |
+|---|---|---|---|
+| 1 | 連濁 (rendaku) — sequential voicing | `C₂ → [+voice] / E₁ # _` | both |
+| 2 | ライマンの法則 — Lyman's Law (rendaku blocker) | rendaku blocked if E₂ already has a voiced obstruent | both |
+| 3 | サ行口蓋化 — /s z/ palatalization before /i, j/ | `/s/ → [ɕ]`, `/z/ → [dʑ]~[ʑ]` | both |
+| 4 | タ行の異音 — /t d/ affrication before /i, ɯ/ | `/t/ → [tɕ]/[ts]`, `/d/ → [dʑ]/[dz]` | both |
+| 5 | ハ行の異音 — /h/ → [ç] before /i/, [ɸ] before /ɯ/ | `/h/ → [ç]/[ɸ]/[h]` | both |
+| 6 | ガ行鼻濁音 — intervocalic /ɡ/ → [ŋ] | `/ɡ/ → [ŋ] / V_V` | Tokyo |
+| 7 | 母音の無声化 — high-vowel devoicing | `/i, ɯ/ → [i̥, ɯ̥]` | both |
+| 8 | 撥音の同化 — moraic nasal /N/ place assimilation | `/N/ → [m n ŋ ɲ ɴ ɰ̃]` | both |
+| 9 | 促音 / 促音化 — gemination (moraic obstruent /Q/) | `/Q/ → [Cː]` (copy following obstruent) | both |
+| 10 | 長音 / 母音の長短 — phonemic vowel length | `V + /R/ → [Vː]` (+1 mora) | both |
+| 11 | 母音融合・縮約 — vowel coalescence & contraction | `/ai oi ei ou/ → [eː oː]`; mora contractions | both |
+| 12 | 音便 (onbin) — euphonic verb/adjective inflection | stem-final C → /i/, /Q/, /N/, /ɯ/ | both |
+| 13 | ワ行の異音・半母音 — /w/, /j/ glide realization | `/w/ → [ɰ]/_a`; `/j/ → [j]` | both |
+| 14 | ラ行音 — /r/ as the apico-alveolar tap [ɾ] | `/r/ → [ɾ]` (never English [ɹ]) | both |
+
+### Rule 1: 連濁 (rendaku) — sequential voicing of a compound's second element
+
+*Category: morphophonology / compound voicing*
+
+Rendaku (literally 'sequential voicing') voices the INITIAL voiceless obstruent of the second (and later) element of a native compound: か→が, さ→ざ, た→だ, は→ば. Because of the consonant allophony, the voiced outputs are: /k/→[ɡ], /s/→[z] (し: [ɕ]→[dʑ]), /t/→[d] (ち: [tɕ]→[dʑ], つ: [tsɯ]→[dzɯ]), and the /h/-series → [b] (since historical \*p underlies は-row, the voiced partner of h/ç/ɸ is b, not v): 山+川 *yama+kawa* → 山川 *yamagawa*, 折り+紙 *ori+kami* → 折り紙 *origami*, 小+鳥 *ko+tori* → 小鳥 *kodori* (`こどり`, と→ど), 昔+話 *mukashi+hanashi* → 昔話 *mukashibanashi* [mɯ̥.ka.ɕi.ba.na.ɕi]. Rendaku is morphologically conditioned and only PARTIALLY predictable: it strongly favours native Yamato vocabulary (和語 *wago*), is much rarer in Sino-Japanese (漢語 *kango*) and essentially absent in recent Western loans (外来語 *gairaigo*); it is blocked or weakened in coordinate (dvandva) compounds (山川 'mountains and rivers' *yamakawa*, no rendaku, vs. 'mountain river' *yamagawa* with rendaku) and is governed by Lyman's Law (next rule). Because it is lexically variable, a transducer should back rendaku with an exception lexicon rather than apply it blindly.
+
+**IPA example:** 手紙 て+かみ → てがみ *tegami* [te.ɡa.mi] (か→が) ; 人々 ひと+ひと → ひとびと *hitobito* [çi.to.bi.to] (ひ→び) ; 鼻血 はな+ち → はなぢ *hanaji* [ha.na.dʑi] (ち→ぢ) ; 三日月 みか+つき → みかづき *mikazuki* [mi.ka.dzɯ̥.ki] (つ→づ)  
+**IPA notation:** `C₂(initial of E₂) → [+voice] / E₁ # _` (within a compound; voiceless onset of a non-initial element voices: /k/→[ɡ], /s/ ([ɕ])→[z]/[dʑ], /t/ ([tɕ]/[ts])→[d]/[dʑ]/[dz], /h/ ([ç]/[ɸ])→[b])  
+**Environment:** Voiceless obstruent that is the INITIAL segment of a non-initial element inside a (mostly native) compound; does not apply to element-initial position of the whole word, nor word-internally to a single morpheme  
+**Notes:** Strongest in 和語 *wago*; suppressed in 漢語/外来語 and in dvandva (coordinate) compounds; interacts with Lyman's Law (blocker) and with right-branch length effects. The ぢ/づ outputs (*hanaji* 鼻血, *mikazuki* 三日月) are spelled with the historical じ/ず partners ぢ/づ precisely because they arise by rendaku from ち/つ.  
+**Accents:** both  
+
+### Rule 2: ライマンの法則 (Raiman no hōsoku) — Lyman's Law (rendaku-blocking by a voiced obstruent)
+
+*Category: morphophonology / dissimilation (constraint)*
+
+Lyman's Law (formulated by Benjamin Smith Lyman, restating an Edo-period observation) is a dissimilatory CONSTRAINT that blocks rendaku when the second element already contains a voiced obstruent (が, ざ, だ, ば, etc.). The motivation is an OCP-style prohibition on two voiced obstruents inside one element. Thus 'lizard' とかげ *tokage* (already has /ɡ/) does not voice its initial in 大蜥蜴 *ōtokage*; 'trash' くず *kuzu* (already has /z/) keeps its /k/ in 紙屑 *kamikuzu*. The law refers only to voiced OBSTRUENTS — voiced sonorants (m n r w y) and the moraic nasal do not count, so やまみち *yama+michi* → 山道 *yamamichi* can and does undergo rendaku in other compounds because /m/ is irrelevant to the law. Lyman's Law must be ordered to evaluate the candidate output of rendaku and veto it; it is one of the most reliable parts of an otherwise lexically capricious process.
+
+**IPA example:** 大+蜥蜴(とかげ) → おおとかげ *ōtokage* [oː.to.ka.ɡe] (NOT \*ōdokage — 2nd element already has /ɡ/) ; 紙+屑(くず) → かみくず *kamikuzu* [ka.mi.kɯ.zɯ] (NOT \*kamiguzu — element contains /z/) ; cf. 春+風 はる+かぜ → 春風 *harukaze* [ha.ɾɯ.ka.ze] blocked vs. 大+風(かぜ→) where /z/ already present blocks further voicing  
+**IPA notation:** RENDAKU blocked if E₂ already contains a voiced obstruent: `*[+voice obstruent ... +voice obstruent]` within the second element (OCP-[+voice] dissimilation)  
+**Environment:** Evaluated on the second compound element when rendaku would apply; blocks voicing iff that element already contains a [+voice] obstruent (が ぎ ぐ げ ご, ざ じ ず ぜ ぞ, だ ぢ づ で ど, ば び ぶ べ ぼ)  
+**Notes:** Counts only voiced OBSTRUENTS, not nasals/liquids/glides. Together with the wago/kango distinction and dvandva-blocking, it is the main predictor of rendaku application. Order: generate rendaku candidate → veto by Lyman's Law.  
+**Accents:** both  
+
+### Rule 3: サ行口蓋化 (sa-gyō kōgaika) — /s z/ palatalization before /i/ (and /j/)
+
+*Category: allophony / coronal palatalization*
+
+The alveolar fricative /s/ is realized as the alveolo-palatal [ɕ] before /i/ and before the palatal glide /j/ of yōon (拗音): し is [ɕi] (Hepburn 'shi'), しゃ/しゅ/しょ are [ɕa ɕɯ ɕo] ('sha shu sho'). Its voiced counterpart /z/ surfaces as the affricate [dʑ] in strong position (utterance-initial, or after the moraic nasal `ん` or the sokuon `っ`) and as the fricative [ʑ] intervocalically: じ is [dʑi] initially (富士 → *Fuji* [ɸɯ.dʑi] has it intervocalic → [ʑi]). This is the reason Hepburn writes 'shi/ji/sha/sho' where Kunrei-shiki writes 'si/zi/sya/syo'. The rule is exceptionless in native and Sino-Japanese vocabulary; in foreign words katakana can force a non-palatalized [si]/[t͡si] only via special spellings (`スィ`, `ツィ`), which many speakers still merge to [ɕi].
+
+**IPA example:** し → *shi* [ɕi] ; 塩 しお → *shio* [ɕi.o] ; 寿司 すし → *sushi* [sɯ̥.ɕi] ; じ → *ji* [dʑi] (word-initial) / [ʑi] (intervocalic) ; 火事 かじ → *kaji* [ka.dʑi] ; しゃ → *sha* [ɕa] (拗音, /s/+小ゃ)  
+**IPA notation:** `/s/ → [ɕ] / _/i, j/` ; `/z/ → [dʑ]` (initial/after N,Q) ~ `[ʑ]` (intervocalic) `/ _/i, j/`  
+**Environment:** /s/ and /z/ immediately before the high front vowel /i/ or the palatal glide /j/ (yōon); does not affect /s z/ before /a e o ɯ/  
+**Notes:** Hepburn spells the output (shi, ji, sha…); Kunrei/Nihon-shiki spell the phoneme (si, zi, sya…). The [dʑ]~[ʑ] choice for /z/ is positional (fortis after pause/N/Q, lenis intervocalically). Same target [dʑ] is also reached from /d/+/i/ (see next rule), and ぢ/じ are homophonous in Standard Japanese (yotsugana merger).  
+**Accents:** both  
+
+### Rule 4: タ行の異音 (ta-gyō no ion) — /t d/ affrication/palatalization before /i/ and /u/
+
+*Category: allophony / coronal affrication*
+
+The stop /t/ has three surface realizations conditioned by the following vowel: plain [t] before /a e o/ (た て と), the affricate [tɕ] before /i/ and yōon /j/ (ち = 'chi', ちゃ/ちゅ/ちょ = 'cha chu cho'), and the affricate [ts] before /ɯ/ (つ = 'tsu'). Its voiced counterpart /d/ is [d] before /a e o/ (だ で ど) but is BLOCKED from appearing before /i/ and /ɯ/ as a plain stop: historical だ-row /di/ and /du/ merged with the ざ-row, surfacing as [dʑi] (ぢ) and [dzɯ] (づ) — homophonous with じ [dʑi] and ず [dzɯ] in Standard Japanese (the 四つ仮名 *yotsugana* merger). This is why the syllabary has no plain 'ti/tu/di/du' moras natively; Hepburn writes chi/tsu/ji/zu. Foreign words use special katakana (`ティ` ti, `トゥ` tu, `ディ` di, `ドゥ` du) to reintroduce the plain stops.
+
+**IPA example:** ち → *chi* [tɕi] ; 力 ちから → *chikara* [tɕi.ka.ɾa] ; つ → *tsu* [tsɯ] ; 月 つき → *tsuki* [tsɯ̥.ki] ; ぢ → *ji* [dʑi] ; づ → *zu* [dzɯ] ; ちゃ → *cha* [tɕa] (拗音)  
+**IPA notation:** `/t/ → [tɕ] / _/i, j/` ; `/t/ → [ts] / _/ɯ/` ; `/d/ → [dʑ] / _/i, j/` ; `/d/ → [dz] / _/ɯ/` ; elsewhere [t]/[d]  
+**Environment:** /t/ and /d/ before /i/ (→ affricate, palatal) or before /ɯ/ (→ affricate, non-palatal); plain [t d] only before /a e o/  
+**Notes:** Creates the gaps that katakana `ティ`/`トゥ`/`ディ`/`ドゥ` fill for loanwords. In Kansai and elsewhere ぢ/づ are merged with じ/ず (yotsugana → two-way); a few peripheral dialects (e.g. parts of Kōchi/Kyūshū) preserve the four-way contrast.  
+**Accents:** both  
+
+### Rule 5: ハ行の異音 (ha-gyō no ion) — /h/ → [ç] before /i/, [ɸ] before /u/
+
+*Category: allophony / glottal-fricative coarticulation*
+
+The phoneme /h/ assimilates to the place of the following high vowel: before /i/ (and yōon /j/) it fronts to the voiceless palatal fricative [ç] (ひ = [çi], ひゃ/ひゅ/ひょ = [ça çɯ ço]); before /ɯ/ it becomes the voiceless BILABIAL fricative [ɸ] (ふ = [ɸɯ], romanized 'fu' in Hepburn); and it stays as the glottal [h] before /a e o/ (は ヘ ほ = [ha he ho]). Crucially [ɸ] is the /h/-allophone, NOT a separate phoneme — Japanese has no native labiodental /f/. The same [ɸ] is what loanword katakana exploits with the `ファ`-row (`ファ` fa, `フィ` fi, `フェ` fe, `フォ` fo) to render foreign /f/, all built on ふ. Because the は-row historically descends from \*p (→ \*ɸ → h), this allophony plus rendaku (h→b) and the handakuten (h→p, ぱ-row) all reflect that \*p ancestry.
+
+**IPA example:** ひ → *hi* [çi] ; 人 ひと → *hito* [çi̥.to] ; ふ → *fu* [ɸɯ] ; 富士 ふじ → *Fuji* [ɸɯ.dʑi] ; 服 ふく → *fuku* [ɸɯ̥.kɯ] ; は he ほ → [ha he ho] (plain glottal) ; ひゃ → *hya* [ça]  
+**IPA notation:** `/h/ → [ç] / _/i, j/` ; `/h/ → [ɸ] / _/ɯ/` ; `[h] / _/a e o/`  
+**Environment:** /h/ before /i/ or /j/ → [ç]; before /ɯ/ → [ɸ]; before /a e o/ → [h]  
+**Notes:** [ɸ] and [ç] are allophones of /h/, not phonemes; loanword `ファ`/`フィ`/`フェ`/`フォ` and the ぱ-row (p) both build on this row's \*p history. Devoicing often co-occurs (人 *hito* [çi̥to], 服 *fuku* [ɸɯ̥kɯ]).  
+**Accents:** both  
+
+### Rule 6: ガ行鼻濁音 (ga-gyō bidakuon) — velar nasalization of intervocalic /ɡ/ → [ŋ]
+
+*Category: allophony / lenition (dialect-marked)*
+
+In conservative Standard (Tokyo) Japanese, the voiced velar stop /ɡ/ is realized as the velar NASAL [ŋ] (鼻濁音 *bidakuon*, 'nasal voiced sound') when it is word-internal and intervocalic: 鏡 *kagami* → [kaŋami], 鍵 *kagi* → [kaŋi], 十五 *jūgo* → [dʑɯːŋo]. Word-INITIAL /ɡ/ is always the plain stop [ɡ] (学校 *gakkō* [ɡakːoː], 銀行 *ginkō* [ɡiŋkoː] with the first /ɡ/ a stop). This is the single most salient Tokyo↔Kansai segmental difference: KANSAI speech generally lacks bidakuon, using [ɡ] throughout, and the [ŋ] realization is also receding among younger Tokyo speakers and is suppressed in transparent compounds, numerals in counting, and recent loanwords (so it is variable even within Tokyo). NHK announcer training historically prescribed bidakuon, which is why it is associated with 'proper' broadcast Standard Japanese.
+
+**IPA example:** 鏡 かがみ → *kagami* [ka.ŋa.mi] (Tokyo bidakuon) vs. [ka.ɡa.mi] (Kansai / younger Tokyo) ; 学校 がっこう → *gakkō* [ɡak̚.koː] (word-initial /ɡ/ stays [ɡ]) ; 十五 じゅうご → *jūgo* [dʑɯː.ŋo] ; 鍵 かぎ → *kagi* [ka.ŋi]  
+**IPA notation:** `/ɡ/ → [ŋ] / V_V` (word-internal, non-initial) ; `[ɡ]` word-initially and (for many) in recent compounds/loans  
+**Environment:** Word-internal, intervocalic /ɡ/ in native/established vocabulary; NOT word-initial; variable in compounds, counting numerals, and loanwords  
+**Notes:** PRIMARY Tokyo↔Kansai contrast: robust in conservative Tokyo (and old NHK norm), generally absent in Kansai and weakening in young Tokyo speech. A transducer should make bidakuon a switchable parameter keyed to the chosen reference standard.  
+**Accents:** Tokyo  
+
+### Rule 7: 母音の無声化 (boin no museika) — high-vowel devoicing
+
+*Category: allophony / vowel devoicing*
+
+The high vowels /i/ and /ɯ/ devoice (lose voicing, becoming whispered [i̥ ɯ̥]) when they stand between two voiceless consonants, or after a voiceless consonant at the end of an utterance. Thus すき *suki* → [sɯ̥ki] ('su' devoiced between [s] and [k]), です *desu* → [desɯ̥] (final 'su' after [s]), 靴 *kutsu* → [kɯ̥tsɯ̥] (both high vowels devoice). Devoicing can even make the vowel inaudible, so the mora is realized as a bare voiceless consonant, yet the MORA TIMING is preserved — the syllable still counts as one mora. The process is most regular in Tokyo Standard speech; it is sequentially blocked when two devoicing environments are adjacent (one of two consecutive candidate moras typically stays voiced to avoid a long voiceless stretch), and it interacts with pitch accent (an ACCENTED high vowel resists devoicing). KANSAI speech devoices markedly LESS than Tokyo, often keeping these vowels fully voiced.
+
+**IPA example:** 好き すき → *suki* [sɯ̥.ki] ; です → *desu* [de.sɯ̥] ; 靴 くつ → *kutsu* [kɯ̥.tsɯ̥] ; 人 ひと → *hito* [çi̥.to] ; 切手 きって → *kitte* [ki̥t̚.te] ; 〜ます → *masu* [ma.sɯ̥]  
+**IPA notation:** `/i, ɯ/ → [i̥, ɯ̥] / [−voice C] _ [−voice C]` , and `/ [−voice C] _ #` (utterance-finally)  
+**Environment:** /i ɯ/ between two voiceless consonants, or after a voiceless consonant utterance-finally; reduced/blocked on accented moras and to avoid consecutive devoicing  
+**Notes:** Tokyo↔Kansai difference of DEGREE: pervasive in Tokyo, much rarer in Kansai. Mora count is unchanged. Accent placement and anti-adjacency constraints modulate where it applies; treat as gradient/optional in the transducer.  
+**Accents:** both  
+
+### Rule 8: 撥音の同化 (hatsuon no dōka) — moraic nasal /N/ (ん) place assimilation
+
+*Category: allophony / nasal place assimilation*
+
+The moraic nasal /N/ (`ん` / `ン`) is a single mora whose place of articulation is supplied entirely by what follows (regressive place assimilation): [m] before bilabials /p b m/ (新聞 *shinbun* [ɕimbɯɴ], 散歩 *sanpo* [sampo]); [n] before alveolars /t d n r z/ (案内 *annai* [annai]); [ŋ] before velars /k ɡ/ (漫画 *manga* [maŋɡa], 銀行 *ginkō* [ɡiŋkoː]); [ɲ] before palatals (こんにゃく *konnyaku* [koɲːakɯ]); the uvular [ɴ] utterance-finally or before a pause (本 *hon* [hoɴ]); and a nasalized vocoid / nasalized preceding vowel [ɰ̃ ~ Ṽ] before a vowel, glide, /h/ or a fricative (千円 *sen'en* [seɰ̃.eɴ], 善意 *zen'i*). Despite this surface variety, all are one phoneme /N/ occupying one mora — and it is precisely this single-mora status that justifies the apostrophe in Hepburn (*kin'en* 禁煙 'no smoking' vs. *kinen* 記念 'commemoration') and the kana boundary ん|あ. Vowels adjacent to /N/ are typically nasalized.
+
+**IPA example:** 新聞 しんぶん → *shinbun* [ɕim.bɯɴ] (ん→[m] before /b/) ; 案内 あんない → *annai* [an.nai] (→[n]) ; 漫画 まんが → *manga* [maŋ.ɡa] (→[ŋ]) ; 本 ほん → *hon* [hoɴ] (utterance-final →[ɴ]) ; 千円 せんえん → *sen'en* [seɰ̃.eɴ] (before vowel →nasalized [ɰ̃])  
+**IPA notation:** `/N/ → [m]/_[labial]` ; `[n]/_[alveolar]` ; `[ŋ]/_[velar]` ; `[ɲ]/_[palatal]` ; `[ɴ]/_#` ; `[ɰ̃ Ṽ] / _{V, fricative, glide, approximant}`  
+**Environment:** The moraic nasal in any position; its place is determined by the following segment (or uvular/nasalized-vocoid when nothing oral follows)  
+**Notes:** Always exactly ONE mora regardless of surface place. Drives the Hepburn apostrophe before vowels/y (*sen'en*, *kin'en*). The pre-vocalic/pre-fricative nasalized-vocoid realization [ɰ̃] is what distinguishes it from a true [n] onset.  
+**Accents:** both  
+
+### Rule 9: 促音 / 促音化 (sokuon / sokuonka) — gemination (the moraic obstruent /Q/, っ)
+
+*Category: allophony & morphophonology / gemination*
+
+The sokuon /Q/ (small `っ`/`ッ`) is a special mora with NO inherent features of its own: it is realized as the lengthened/unreleased first half of the FOLLOWING obstruent, producing a geminate. Thus きって *kitte* = [kit̚te] (held [t]), がっこう *gakkō* = [ɡak̚koː] (held [k]), ざっし *zasshi* = [zaɕɕi] (long [ɕ]), いっぱい *ippai* = [ipːai]. The held portion occupies one full mora of timing — geminate length is contrastive (来た *kita* [kita] 'came' vs. 切った *kitta* [kitːa] 'cut'). Natively /Q/ appears only before voiceless obstruents (p t k s and their allophones), but loanwords admit geminate voiced stops (`ベッド` *beddo* [bedːo], `バッグ` *baggu*) and the sound-symbolic/intensive vocabulary uses it freely. /Q/ also arises morphophonologically via the 促音便 (*sokubin*) sub-type of onbin (see 音便), e.g. consonant-stem verbs forming the て/た gerund: 買う *kau* → 買って *katte*, 立つ *tatsu* → 立って *tatte*.
+
+**IPA example:** 切手 きって → *kitte* [kit̚.te] ; 学校 がっこう → *gakkō* [ɡak̚.koː] ; 雑誌 ざっし → *zasshi* [zaɕ.ɕi] ; 一杯 いっぱい → *ippai* [ip̚.pai] ; 服 ふく+〜て → 〜って (促音便) ; loan `ベッド` *beddo* [bed̚.do]  
+**IPA notation:** `/Q/` = first (unreleased) half of a following geminate obstruent: `/Q/ → [C̚]/[Cː]` sharing place+manner with the following C (only before voiceless obstruents natively; before voiced ones in loans/onbin)  
+**Environment:** /Q/ immediately before an obstruent, copying its place and manner as an unreleased/lengthened first half; counts as one mora  
+**Notes:** Contrastive length (*kita* vs. *kitta*). Native only before voiceless obstruents; loans add voiced geminates. Productively generated by 促音便 in verb inflection. Distinct from the moraic nasal but parallel to it as a 'special mora'.  
+**Accents:** both  
+
+### Rule 10: 長音 / 母音の長短 (chōon / boin no chōtan) — phonemic vowel length & long-vowel formation
+
+*Category: phonotactics / quantity*
+
+Vowel LENGTH is phonemic: a long vowel is a short vowel plus a second timing mora /R/ (often analysed as a vowel-copy), and short↔long is contrastive — おばさん *obasan* 'aunt' (4 moras) vs. おばあさん *obāsan* 'grandmother' (5 moras); ここ *koko* 'here' vs. こうこう *kōkō* 'high school'; 主人 *shujin* 'husband' vs. 囚人 *shūjin* 'prisoner'. The long vowel counts as TWO moras and (in heavy syllables) interacts with pitch accent. Orthography encodes length three ways: hiragana DOUBLES the vowel letter for /aa ii ee/ (おかあさん *okāsan*, おにいさん *oniisan*) and writes う after o/u for the historically /ou/-derived /oː/ and /uː/ (こうこう *kōkō*, くうき *kūki*) and い for /eː/ (えいご *eigo* [eːɡo]); katakana uses the CHŌONPU `ー` for any long vowel (`カード` *kādo*, `コーヒー` *kōhī*). The sequences /ei/ and /ou/ are commonly monophthongized to [eː] and [oː] in normal speech (see vowel coalescence).
+
+**IPA example:** おばさん *obasan* [o.ba.saɴ] 'aunt' vs. おばあさん *obāsan* [o.baː.saɴ] 'grandmother' ; ここ *koko* [ko.ko] 'here' vs. 高校 こうこう *kōkō* [koː.koː] 'high school' ; `カード` *kādo* [kaː.do] (katakana chōonpu `ー`) ; えい *ei* → [eː] (colloquial)  
+**IPA notation:** `V + /R/ → [Vː]` (one extra mora); orthographically: hiragana doubles the vowel (おかあさん) or writes う for ō/ū (こうこう), katakana uses the chōonpu `ー` (カード)  
+**Environment:** Any vowel followed by its length mora /R/; orthographic realization differs by script (kana doubling / う・い / chōonpu `ー`)  
+**Notes:** Long vowel = 2 moras; contrastive (*obasan*/*obāsan*). /ei/→[eː] and /ou/→[oː] are the regular colloquial monophthongizations. Romaji marks length with a macron (ō, ū) in Hepburn; Kunrei uses a circumflex (ô, û).  
+**Accents:** both  
+
+### Rule 11: 母音融合・縮約 (boin yūgō / shukuyaku) — vowel coalescence & contraction (colloquial)
+
+*Category: connected speech / vowel coalescence*
+
+In connected and casual speech, vowel sequences coalesce into a single long vowel and certain grammatical sequences contract. The regular, near-universal coalescences are /ei/ → [eː] (英語 *eigo* [eːɡo], 先生 *sensei* [seɴseː]) and /ou/ → [oː] (the orthographic basis of ō). More COLLOQUIAL (and somewhat rough/casual register) is the monophthongization of adjectival /ai/ and /oi/ to [eː]: 高い *takai* → たけえ [takeː], すごい *sugoi* → すげえ [sɯɡeː], ない *nai* → ねえ [neː] — stereotypically Tokyo-shitamachi/masculine casual speech. Grammatical CONTRACTIONS reduce mora count: 〜てしまう *-te shimau* → 〜ちゃう *-chau*, 〜でしまう → 〜じゃう, では → じゃ (*ja*), 〜ては → 〜ちゃ, 〜という → 〜って/〜っつう. These are register- and dialect-sensitive: Kansai has its own contraction set (e.g. negative 〜へん, 〜ひん) and treats some sequences differently, so the surface vowel of a given lexeme can diverge Tokyo↔Kansai.
+
+**IPA example:** 高い たかい → *takai* → colloq. たけえ *takee* [ta.keː] (ai→[eː]) ; すごい *sugoi* → すげえ *sugee* [sɯ.ɡeː] (oi→[eː]) ; 〜てしまう → 〜ちゃう *-chau* ([te ɕi]→[tɕa]) ; では → じゃ *ja* ; 〜ては → 〜ちゃ ; えい *ei* → [eː], おう *ou* → [oː]  
+**IPA notation:** `/ai/, /oi/ → [eː]` (casual) ; `/ei/ → [eː]`, `/ou/ → [oː]` (general) ; sequence contractions: `/te ɕi/→[tɕa]`, `/de wa/→[dʑa]` (mora reduction)  
+**Environment:** Adjacent vowels within a word or across a clitic boundary in casual register; grammatical auxiliary sequences in fast/casual speech  
+**Notes:** /ei/→[eː], /ou/→[oː] are general and largely obligatory; /ai,oi/→[eː] is casual/register-marked. Contractions (*-chau*, *ja*, *-cha*) are core to natural speech. Kansai has a distinct contraction inventory (〜へん negatives, etc.).  
+**Accents:** both  
+
+### Rule 12: 音便 (onbin) — historical sound euphony (い音便・促音便・撥音便・ウ音便)
+
+*Category: morphophonology / euphonic verb & adjective inflection*
+
+Onbin ('sound convenience') is a set of HISTORICAL euphonic sound changes, now lexicalized in the inflection of consonant-stem (五段 *godan*) verbs before the gerund/past suffixes て/た, and in some adjective and honorific forms. Four classic types: (1) い音便 (*i-onbin*): velar/some stems → /i/, 書く *kaku* → 書いて *kaite*, 泳ぐ *oyogu* → 泳いで *oyoide* (the suffix voices to で after a former /ɡ/). (2) 促音便 (*soku-onbin*): /t(s)/, /r/, /(w)/ stems → /Q/, 立つ *tatsu* → 立って *tatte*, 取る *toru* → 取って *totte*, 買う *kau* → 買って *katte*. (3) 撥音便 (*hatsu-onbin*): nasal-final /m n b/ stems → /N/, with the suffix VOICING to で/だ, 飲む *nomu* → 飲んで *nonde*, 死ぬ *shinu* → 死んで *shinde*, 呼ぶ *yobu* → 呼んで *yonde*. (4) ウ音便 (*u-onbin*): → /ɯ/, largely classical/Western — surviving in honorific お〜ございます (ありがとう < ありがたく *arigataku* → *arigatō*) and in KANSAI adjective gerunds (早く *hayaku* → はよう *hayō*, ようこそ etc.). The irregular 行く *iku* → 行って *itte* uses 促音便 against the い音便 expected for a /k/-stem — a memorized exception.
+
+**IPA example:** 書く *kaku* + て → 書いて *kaite* [kai.te] (い音便) ; 立つ *tatsu* + て → 立って *tatte* [tat̚.te] (促音便) ; 飲む *nomu* + て → 飲んで *nonde* [non.de] (撥音便, with voicing of て→で) ; 早く *hayaku* → はよう *hayō* [ha.joː] (ウ音便, Kansai/classical)  
+**IPA notation:** stem-final C + `/te, ta/` → euphonic mora: → `/i/` (い音便), → `/Q/` (促音便), → `/N/` (撥音便) with following て/た → で/だ after /N/; → `/ɯ/` (ウ音便)  
+**Environment:** Consonant-stem (godan) verb + て/た suffix (and certain adjective/honorific forms); the euphonic mora and suffix voicing are determined by the historical stem-final consonant class  
+**Notes:** ウ音便 is the clearest Tokyo↔Kansai split: Standard uses い/促/撥音便 for verbs but Kansai retains ウ音便 in adjective gerunds (はよう, よう〜) and the standard お〜ございます honorific (*arigatō*, *omedetō*) is a frozen ウ音便. 行く→行って is a lexical exception. Suffix voicing (て→で) accompanies 撥音便 and ɡ-stem い音便.  
+**Accents:** both  
+
+### Rule 13: ワ行の異音・半母音 (wa-gyō no ion) — /w/, /j/ glide realization
+
+*Category: allophony / glide articulation*
+
+The native glide /w/ is a labial-velar approximant with weak, compressed rounding, best transcribed [ɰ] (or [w̜]) — it appears natively ONLY before /a/ (わ *wa* [ɰa]). Historically /w/ before other vowels was lost: ゐ *wi*, ゑ *we* merged to い/え, and the object-particle を, though spelled with the wa-row glyph, is pronounced simply [o]. Loanwords reintroduce /w/ before non-/a/ vowels via special katakana (`ウィ` wi, `ウェ` we, `ウォ` wo, `ウュ`), which many speakers approximate. The palatal glide /j/ (や ゆ よ = ya yu yo = [ja jɯ jo]) also underlies all yōon (拗音): a consonant + small ゃ/ゅ/ょ is C+/j/+V (きゃ *kya* [kja], みょ *myo* [mjo]), forming a single mora. There is no native /je/ or /wu/ mora (え/イ・ウ fill those slots), and loan `シェ`/`ジェ`/`チェ` reintroduce [ɕe dʑe tɕe].
+
+**IPA example:** わ → *wa* [ɰa] ; 私 わたし → *watashi* [ɰa.ta.ɕi] ; を → *o* [o] (particle, /w/ lost) ; や ゆ よ = ya yu yo [ja jɯ jo] ; `ウィ` *wi* [wi], `ウェ` *we* [we] (loan, re-introduced /w/ before non-/a/)  
+**IPA notation:** `/w/ → [ɰ]` (labial-velar approximant, unrounded) `/ _/a/` natively; lost before other vowels (を→[o]); `/j/ → [j] / _V`  
+**Environment:** /w/ before /a/ only (native); /j/ before any vowel and in all yōon; both glides reintroduced before other vowels in loanword katakana  
+**Notes:** を is [o] not [wo] in Standard Japanese. [ɰ] is unrounded/compressed, matching the unrounded /ɯ/ vowel. Yōon (Cʲ + small ya/yu/yo) is one mora built on /j/. No native /je wu wi we wo/; loans restore them.  
+**Accents:** both  
+
+### Rule 14: ラ行音 (ra-gyō on) — /r/ as the apico-alveolar tap [ɾ]
+
+*Category: allophony / liquid articulation*
+
+The single Japanese liquid phoneme /r/ is realized chiefly as an apico-alveolar TAP [ɾ] — a quick single contact of the tongue tip against the alveolar ridge, identical to the Spanish single 'r' or the American flapped 't' in 'water'. It is NOT the English approximant [ɹ] and not a trill. Allophonic variants include a lateral [l]~[ɺ] and a postalveolar [ɽ], especially word-initially, in emphatic or rough speech, and in song; these are free/sociolinguistic variants, not separate phonemes. Critically, Japanese has NO phonemic /l/: foreign /l/ and /r/ both map onto this single /r/ (so 'light' and 'right' both → `ライト` *raito*), which is the classic source of L/R difficulty. The tap is the same in Tokyo and Kansai; the lateral-leaning realizations are more salient in some Kansai and downtown-Tokyo registers but remain allophonic.
+
+**IPA example:** ら → *ra* [ɾa] ; 桜 さくら → *sakura* [sa.kɯ.ɾa] ; 練習 れんしゅう → *renshū* [ɾeɴ.ɕɯː] (initial) ; 鈴 すず → (cf.) ; 凍る こおる → *kōru* [koː.ɾɯ]  
+**IPA notation:** `/r/ → [ɾ]` (apico-alveolar tap) default ; → `[l]/[ɺ]` (lateral) or `[ɽ]` variably (initial / emphatic) ; never the English [ɹ]  
+**Environment:** /r/ in all positions; default tap [ɾ], with lateral/retroflex variants word-initially and in emphatic registers  
+**Notes:** One liquid only: foreign /l/ merges into /r/ (*raito* = 'light'/'right'). [ɾ] ≠ English [ɹ]. Variation is allophonic/registral, not Tokyo↔Kansai phonemic.  
+**Accents:** both  
+
+### Rule Ordering and Interaction
+
+Japanese surface phonology is the product of a small set of ORDERED processes that the kana/kanji-to-IPA transducer must apply in sequence. A robust default ordering is:
+
+1. **MORPHOPHONOLOGY first** — resolve 音便 (*onbin*) in verb/adjective inflection and 連濁 (*rendaku*) in compounding, vetoing rendaku candidates by ライマンの法則 (Lyman's Law) and by the wago/kango and dvandva conditions, both best backed by an exception lexicon since neither is fully predictable.
+2. **Syllabify into MORAS**, instantiating the special moras /N/ (`ん`), /Q/ (`っ`) and the length mora /R/ (`ー` / vowel-doubling / う・い), since later allophony is conditioned by the resulting segments.
+3. **Apply VOWEL coalescence/contraction** (/ei/→[eː], /ou/→[oː] generally; /ai,oi/→[eː] and grammatical contractions in casual register).
+4. **Apply the vowel-conditioned CONSONANT allophony** — /s/→[ɕ]/_i, /t/→[tɕ]/_i & [ts]/_ɯ, /z d/→[dʑ]/_i & [dz]/_ɯ, /h/→[ç]/_i & [ɸ]/_ɯ — together with /w/→[ɰ]/_a and /r/→[ɾ].
+5. **Place-assimilate the moraic nasal /N/** to its following segment ([m n ŋ ɲ ɴ ɰ̃]) and let /Q/ copy the following obstruent into a geminate.
+6. **Apply low-level, dialect/register-sensitive allophony LAST** — high-vowel devoicing (/i ɯ/→[i̥ ɯ̥] between/after voiceless consonants) and, for the conservative-Tokyo standard only, ガ行鼻濁音 (/ɡ/→[ŋ] intervocalically).
+
+PITCH ACCENT (Tokyo downstep vs. Kansai register+accent) is computed on the mora string in PARALLEL with, and largely independently of, this segmental derivation, but it modulates step (6): an accented high vowel resists devoicing. The two reference standards share essentially the whole segmental rule set; the transducer should branch on standard only for (a) 鼻濁音 (Tokyo applies it, Kansai does not), (b) the DEGREE of high-vowel devoicing (heavy in Tokyo, light in Kansai), (c) ウ音便 in adjective gerunds (retained in Kansai, replaced by い/促/撥音便 in Standard verb inflection), and (d) the pitch-accent module.
+
+These rules are documented in parallel with the five companion tiers shipped for the Japanese Peshitta — Scholarly + Pretty (language-neutral Latin), Katakana (カタカナ, e.g. `Japanese/Peshita_Japanese/Katakana/`), Hiragana (ひらがな, e.g. `Japanese/Peshita_Japanese/Hiragana/`), and the Romaji (Hepburn) readback of the kana — and cross-reference the `syllable_structure`, suprasegmentals (pitch accent), and `orthography_grapheme_phoneme` sections of `Japanese/japanese_pronunciation_guide.md`.
+
+---
+
+*Compiled by Shin.*
+
+## Tokyo Standard vs. Kansai
+
+Systematic differences between the two REFERENCE STANDARDS of Modern Japanese, expressed in IPA and kana/kanji. The two traditions documented in parallel are Standard / Common Japanese — 標準語 / 共通語 (Hyōjungo / Kyōtsūgo), the educated-Tokyo (Yamanote 山の手) speech that underpins broadcasting, education, and dictionaries and uses Tokyo-type pitch accent (東京式アクセント) — and Kansai / Keihan — 関西弁 with its 京阪式アクセント (Kyōto–Ōsaka system), the major and most prestigious non-Tokyo standard. As with the Eastern (Madnhaya) and Western (Serto) traditions of Syriac, or General American and Received Pronunciation in English, neither is intrinsically more correct: they are two coexisting prosodic systems of one mutually-intelligible language. The single deepest structural division is NOT segmental but PROSODIC — Japanese carries lexical PITCH ACCENT (高低アクセント), and Tokyo and Kansai assign accent by systematically different, often near-mirror-image rules. Famous reversals: 箸 'chopsticks' vs 橋 'bridge', 雨 'rain' vs 飴 'candy', and the Tokyo/Kansai swap of which member of such pairs is head-high. Kansai additionally adds a lexical initial REGISTER (高起式 high-register vs 低起式 low-register) layered on top of accent, a contrast Tokyo lacks. Segmental, lexical, and grammatical differences (the negative auxiliary ない vs へん, the copula だ vs や, the velar-nasal 鼻濁音 [ŋ]) are documented after the prosody. Tōhoku (ずーずー弁), Kyūshū, and the RYUKYUAN languages (Okinawan 沖縄語 etc.) are treated below as clearly secondary ASIDES — the Ryukyuan group being a separate branch of Japonic, not dialects of Japanese. Phonemic transcriptions use /slashes/; phonetic detail uses [brackets]. Pitch is shown with H (high) / L (low) per mora and a downstep mark ꜜ after the accented mora; romanization follows Hepburn (ヘボン式).
+
+### Reference accents
+
+- **標準語 / 共通語 (Hyōjungo / Kyōtsūgo) — Standard / Common Japanese:** based on educated Tokyo Yamanote (山の手) speech; the variety of NHK broadcasting, national education, and most dictionaries. Uses TOKYO-TYPE pitch accent (東京式アクセント): each word has AT MOST ONE accent, realized as a pitch DROP (downstep) after the accented mora; mora 1 and mora 2 almost always differ in pitch (if mora 1 is L, mora 2 is H, and vice-versa). Accent classes: 頭高型 atamadaka (drop after mora 1), 中高型 nakadaka (drop medially), 尾高型 odaka (drop after the FINAL mora — audible only on a following particle), 平板型 heiban (accentless, no drop, stays high to the end). Has the 鼻濁音 (velar nasal [ŋ]) for many older/careful speakers as an intervocalic allophone of /ɡ/. Negative on verbs is the standard -ない -nai; copula is だ da / です desu.
+- **関西弁 / 京阪式 (Kansaiben / Keihanshiki) — Kansai / Keihan Japanese:** 関西弁 (Kyōto–Ōsaka) — uses the KEIHAN-TYPE accent system (京阪式アクセント), historically the older and richer system. On top of a Tokyo-style downstep it carries a lexical INITIAL REGISTER: every word begins on a lexically fixed HIGH (高起式) or LOW (低起式) pitch. This two-dimensional system (register × accent) yields more distinct accent patterns than Tokyo and produces the famous tonal 'reversals' relative to Tokyo on pairs like 箸/橋 and 雨/飴. Kansai tends to LENGTHEN historically short one-mora words (手 te → てえ teː, 木 ki → きい kiː) so they carry a full melody. Largely LACKS the 鼻濁音 — intervocalic /ɡ/ stays a plosive [ɡ]. Distinctive morphology: negative -へん -hen (and -ん -n) beside standard -ない; copula や ya for standard だ da; the polite/aspectual -はる -haru honorific.
+
+### Differences
+
+| Feature | Tokyo (標準語) | Kansai (関西弁) | Examples | Explanation |
+|---|---|---|---|---|
+| PITCH-ACCENT REVERSAL on minimal pairs — 箸 / 橋 / 端 and 雨 / 飴 (the signature division) | Tokyo-type downstep: 箸 atamadaka (HꜜL), 橋 odaka (drop on the particle), 端 heiban (accentless); 雨 atamadaka (HꜜL), 飴 heiban (LH→stays high). IPA: 箸 `はꜜし` [ha˥ɕi˩] HL 'chopsticks'; 橋 `はしꜜ(が)` [ha˩ɕi˥(ɡa˩)] LH+drop-on-が 'bridge'; 端 `はし(が)` [ha˩ɕi˥(ɡa˥)] LH heiban 'edge'; 雨 `あꜜめ` [a˥me˩] HL 'rain'; 飴 `あめ` [a˩me˥] LH 'candy' | Keihan accent typically MIRRORS Tokyo on these: the member Tokyo makes head-high (atamadaka) Kansai makes low-then-rising, and vice-versa, on top of register. IPA: 箸 `はし` [ha˩ɕi˥] LH 'chopsticks'; 橋 `はꜜし` [ha˥ɕi˩] HL 'bridge'; 雨 `あめ` [a˩me˥] (低起 LH) 'rain'; 飴 `あꜜめ` [a˥me˩] (高起+drop) 'candy' — i.e. the HL/LH assignment is swapped relative to Tokyo | 箸 'chopsticks': Tokyo `はꜜし` HL (atamadaka) — Kansai `はし` LH; 橋 'bridge': Tokyo `はしꜜ` LH, drop on particle (odaka) — Kansai `はꜜし` HL; 端 'edge': Tokyo `はし` LH heiban (accentless) — Kansai `はꜜし` HL (高起式 high-register, drop after mora 1); 雨 'rain': Tokyo `あꜜめ` HL (atamadaka) — Kansai `あめ` LH (低起式); 飴 'candy': Tokyo `あめ` LH heiban — Kansai `あꜜめ` HL (高起式 + drop) | The defining division of the two standards. Both are pitch-accent systems (NOT stress, NOT per-syllable tone): a word has at most one accent = a downstep after the accented mora. But Tokyo and Kansai assign that accent — and the initial pitch leading up to it — by systematically different, frequently MIRROR-IMAGE rules. The textbook pairs 箸 'chopsticks' / 橋 'bridge' / 端 'edge' and 雨 'rain' / 飴 'candy' are minimal sets distinguished ONLY by pitch, and the head-high (HL) vs rising (LH) assignment is essentially swapped between the two systems. A Tokyo speaker hears 雨 as HL and 飴 as flat LH; a Kansai speaker has the opposite intuition. This single difference is the most reliable, most frequent cue to which standard a speaker uses, and it is invisible in kana spelling — the kana for 箸 and 橋 are identical (`はし`); only the melody differs. |
+| Initial REGISTER (高起式 vs 低起式) — Kansai's extra prosodic dimension | NO lexical register: initial pitch is predictable from accent (mora 1 L unless accented, then H); a word is simply accented or accentless (heiban). IPA: 桜 `さくら` [sa˩kɯ˥ɾa˥] LHH heiban; 心 `こころ` [ko˩ko˥ɾo˥] LHH heiban — onset is automatically L | TWO lexical registers chosen per word: 高起式 (high-onset, word starts H) vs 低起式 (low-onset, word starts L), layered ON TOP of the downstep. IPA: 高起式 example `さくら` [sa˥kɯ˥ɾa˥] HHH (high onset); 低起式 example 雨 `あめ` [a˩me˥] LH; the same accent can pair with either onset → more distinct patterns than Tokyo | 高起式 (high-register) word: starts HIGH, e.g. many native words Kansai keeps high-onset where Tokyo forces a L mora-1; 低起式 (low-register) word: starts LOW then rises, e.g. 雨 `あめ` LH; 桜 'cherry blossom': Tokyo `さくら` LHH (heiban) — Kansai realizes with its lexical register (often high-onset HHH) | Kansai (Keihan) accent is TWO-DIMENSIONAL: each word is lexically marked both for a downstep (as in Tokyo) AND for an initial REGISTER — 高起式 (high-onset) or 低起式 (low-onset). Tokyo has only the downstep dimension; its initial pitch is fully predictable (mora 1 is L unless the word is accented on mora 1). Because Kansai crosses register × accent, it distinguishes MORE melodic patterns than Tokyo and preserves contrasts Tokyo has neutralized. This register layer is the structural reason the Kansai system is described as 'richer' and historically older, and it is what makes the 箸/橋, 雨/飴 reversals systematic rather than random — the swaps fall out of how the two systems map the same lexical classes onto pitch. |
+| Accent on accentless (平板型 heiban) vs accented classes — pattern membership differs | large heiban (accentless) class; many 2- and 3-mora words are flat LHH(H) with no drop. IPA: 鞄 `かばん` [ka˩baŋ˥(ɡa˥)] heiban; 学校 `がっこう` [ɡa˩k̚ko˥ː˥] L-H-H-H heiban (tone letters only on the syllabic moras が・こ・う; the geminate closure [k̚] and the bare length mark bear no tone); 友達 `ともだち` [to˩mo˥da˥tɕi˥] LHHH heiban | the SAME words frequently fall in a different accent class — often carrying a drop where Tokyo is flat, or vice-versa. IPA: 学校 `がっこう` Kansai commonly `がꜜっこう` [ɡa˥k̚ko˩ː˩] with an early drop (high onset on が, drop to low on こう) where Tokyo is heiban; many Tokyo-heiban words are accented in Kansai | 学校 'school': Tokyo `がっこう` heiban (flat) — Kansai `がꜜっこう` (high-onset, early drop); 友達 'friend': Tokyo `ともだち` LHHH heiban — Kansai differs in class/register; 卵 'egg': Tokyo `たまご` heiban — Kansai `たꜜまご` (accented) | Beyond the famous minimal pairs, whole WORDS belong to different accent CLASSES in the two systems. Tokyo has a very large 平板型 (heiban, accentless) class — words that simply rise on mora 2 and stay high through any following particle, with no drop. Many of those same words are ACCENTED in Kansai (carrying a downstep), and conversely some Tokyo-accented words are flat in Kansai. Because class membership is lexical and not predictable from the segments, learners must memorize accent per word per standard. This is the everyday, high-frequency face of the prosodic split: not just 箸/橋 but ordinary vocabulary like 学校 and 卵 carries audibly different melodies in Tokyo vs Kansai. |
+| Negative auxiliary — ない (-nai) vs へん (-hen) / ん (-n) | verb negative is -ない -nai (plain) / -ません -masen (polite). IPA: 食べない /ta.be.na.i/ [ta.be.na.i] 'does not eat'; 行かない /i.ka.na.i/ 'does not go'; わからない /wa.ka.ɾa.na.i/ 'does not understand' | characteristic negative -へん -hen (and older/literary -ん -n); -へん attaches widely to the stem. IPA: 食べへん /ta.be.heɴ/ [ta.be.heɴ] 'does not eat'; 行かへん /i.ka.heɴ/ 'does not go'; わからへん /wa.ka.ɾa.heɴ/ 'does not understand' | 'does not eat': Tokyo 食べない (tabenai) — Kansai 食べへん (tabehen); 'does not go': Tokyo 行かない (ikanai) — Kansai 行かへん (ikahen) / 行かん (ikan); 'does not understand': Tokyo わからない (wakaranai) — Kansai わからへん (wakarahen); 'is not / there isn't': Tokyo ない (nai) — Kansai あらへん (arahen) / ない | The most recognizable GRAMMATICAL marker of Kansai speech is the negative auxiliary -へん -hen, which replaces standard -ない -nai on verbs (食べへん for 食べない). It coexists with the more pan-western terse negative -ん -n (行かん 'won't go'). -へん is thought to derive from a contracted は-せぬ negative and patterns differently across verb classes (e.g. 来(こ)おへん / 来(き)いひん for 来ない). Segmentally this just substitutes morphemes, but it changes the surface IPA of every negated verb wholesale and is, alongside the copula や, the instant lexical-grammatical flag of Kansai vs Tokyo speech. |
+| Copula — だ (da) vs や (ya) | plain copula だ da (polite です desu); 'X is Y' → XはYだ. IPA: そうだ /so.o.da/ [soːda] 'that's right'; 学生だ /ɡa.k.se.e.da/ 'is a student'; だめだ /da.me.da/ 'no good' | plain copula や ya (polite です retained); 'X is Y' → XはYや. IPA: そうや /so.o.ja/ [soːja] 'that's right'; 学生や /ɡa.k.se.e.ja/ 'is a student'; あかんわ /a.kaɴ.wa/ 'no good' (with あかん for だめ) | 'that's right / yes': Tokyo そうだ (sō da) — Kansai そうや (sō ya); '(it) is a student': Tokyo 学生だ (gakusei da) — Kansai 学生や (gakusei ya); 'because it is ~': Tokyo ～だから (da kara) — Kansai ～やから (ya kara) / ～やさかい; 'isn't it? (tag)': Tokyo ～だろう (darō) — Kansai ～やろ (yaro) | The Kansai copula や ya replaces standard だ da in every plain-form position (そうや for そうだ, 学生や for 学生だ, やから for だから, やろ for だろう). Historically や derives from であ(る) just as だ derives from であ(る) by a different reduction, so they are sister contractions rather than borrowings. Like -へん, this is a morphological substitution, not a sound change, but because the copula and its inflections (やった past, やろ presumptive, やん/やんか tag) saturate ordinary sentences, the だ↔や swap is — together with the negative へん and the pitch reversals — one of the three instantly audible badges of Kansai vs Tokyo. |
+| 鼻濁音 (bidakuon) — velar nasal [ŋ] allophone of /ɡ/ present (Tokyo) vs absent (Kansai) | intervocalic (non-initial) /ɡ/ → velar nasal [ŋ] (鼻濁音) for many traditional Tokyo / NHK speakers. IPA: 鏡 `かがみ` [ka.ŋa.mi] 'mirror'; 学校 [ɡa.k.koː] (word-initial ɡ stays plosive); 〜が (subject particle) [ŋa] | no 鼻濁音 — intervocalic /ɡ/ stays a plosive [ɡ] in all positions. IPA: 鏡 `かがみ` [ka.ɡa.mi] 'mirror'; 〜が (particle) [ɡa]; 鍵 `かぎ` [ka.ɡi] 'key' | 鏡 'mirror': Tokyo [ka.ŋa.mi] (鼻濁音) — Kansai [ka.ɡa.mi] (plosive); subject particle が: Tokyo [ŋa] (traditional) — Kansai [ɡa]; 鍵 'key': Tokyo [ka.ŋi] ~ [ka.ɡi] — Kansai [ka.ɡi]; 午後 'afternoon': Tokyo [ɡo.ŋo] (medial が→ŋ) — Kansai [ɡo.ɡo] | A SEGMENTAL (allophonic) difference. In traditional Tokyo / Yamanote and conservative NHK pronunciation, the voiced velar stop /ɡ/ is realized as a VELAR NASAL [ŋ] (the 鼻濁音 bidakuon) when it is non-word-initial — so 鏡 is [ka.ŋa.mi] and the subject particle が is [ŋa]. Word-initial /ɡ/ stays a plosive [ɡ]. Kansai (and, increasingly, younger Tokyo speakers across the board) lacks the 鼻濁音 and keeps a plain [ɡ] everywhere. This is genuinely allophonic, not phonemic — there is no /ŋ/ vs /ɡ/ contrast — but the presence of the soft [ŋ] is a classic marker of careful, traditional Tokyo speech, and its absence is one cue (among the prosodic ones) distinguishing Kansai. Note: the moraic nasal ん before a velar is [ŋ] in BOTH standards (e.g. りんご [ɾiŋɡo]); the difference here is only about intervocalic /ɡ/. |
+| One-mora-word lengthening and vowel treatment | short one-mora content words stay one mora; vowels kept short. IPA: 手 `て` [te] 'hand'; 木 `き` [ki] 'tree'; 血 `ち` [tɕi] 'blood'; 目 `め` [me] 'eye' | historically short one-mora nouns are LENGTHENED to two moras so they can bear a full pitch melody. IPA: 手 `てえ` [teː] 'hand'; 木 `きい` [kiː] 'tree'; 血 `ちい` [tɕiː] 'blood'; 目 `めえ` [meː] 'eye' | 手 'hand': Tokyo `て` [te] — Kansai `てえ` [teː]; 木 'tree': Tokyo `き` [ki] — Kansai `きい` [kiː]; 血 'blood': Tokyo `ち` [tɕi] — Kansai `ちい` [tɕiː]; 目 'eye': Tokyo `め` [me] — Kansai `めえ` [meː] | Kansai tends to LENGTHEN historically monomoraic nouns (手 te → てえ teː, 木 ki → きい kiː, 目 me → めえ meː). The motivation is prosodic: a single mora cannot host a two-mora pitch melody, and the Keihan register-plus-accent system 'wants' at least two moras to realize a register contour, so the vowel is lengthened to carry it. This is a phonetic/prosodic consequence of the accent system rather than an independent vowel change, and it interacts with vowel length, which is phonemic in BOTH standards (おばさん obasan 'aunt' vs おばあさん obāsan 'grandmother'). High-vowel devoicing (すき [sɯ̥ki], です [desɯ̥]) is shared by both standards, though it is somewhat weaker/less consistent in Kansai. |
+| Selected lexical and discourse-particle differences | standard vocabulary and final particles. IPA: ありがとう /a.ɾi.ɡa.to.o/ 'thanks'; だめ /da.me/ 'no good'; とても /to.te.mo/ 'very'; 〜ね /ne/, 〜よ /jo/ (final particles) | characteristic Kansai lexicon and intensifiers / final particles. IPA: おおきに /o.o.ki.ni/ 'thanks'; あかん /a.kaɴ/ 'no good'; めっちゃ /me.t.tɕa/ 'very'; 〜や(ん) /jaɴ/, 〜で /de/, 〜わ /wa/ (final particles) | 'thank you': Tokyo ありがとう (arigatō) — Kansai おおきに (ōkini); 'no good / no way': Tokyo だめ (dame) — Kansai あかん (akan); 'very / really': Tokyo とても (totemo) — Kansai めっちゃ (meccha) / ごっつ (gottsu); 'true / really?': Tokyo ほんとう (hontō) — Kansai ほんま (honma); 'silly / stupid': Tokyo ばか (baka) — Kansai あほ (aho) | A non-exhaustive sample of LEXICAL divergence. Kansai keeps a layer of distinctive everyday words — おおきに 'thanks', あかん 'no good', ほんま 'really', あほ (softer, more affectionate than Tokyo's harsher ばか), and intensifiers めっちゃ / ごっつ for とても — plus its own final-particle inventory (〜で asserting, 〜やん/〜やんか tag, 〜わ). These are lexical/morphological rather than phonological differences, but, like the copula や and negative へん, they pervade ordinary speech and immediately signal the variety. Note ばか and あほ are not exact equivalents: their offensiveness is, famously, nearly reversed between the two regions. |
+
+Standard / Common Japanese (標準語・共通語, Tokyo 東京式) and Kansai/Keihan (関西弁, 京阪式) differ most consequentially in PROSODY, not segments: both are lexical PITCH-ACCENT systems (at most one downstep per word, mora 1 ≠ mora 2 in pitch), but they assign accent by near-MIRROR-IMAGE rules, giving the famous reversals 箸 'chopsticks' / 橋 'bridge' / 端 'edge' and 雨 'rain' / 飴 'candy' (HL↔LH swapped between Tokyo and Kansai), and Kansai layers an extra lexical REGISTER (高起式 high vs 低起式 low) that Tokyo lacks, so whole words fall in different accent classes (Tokyo heiban 平板型 vs Kansai accented, e.g. 学校, 卵). The instantly audible NON-prosodic badges of Kansai are grammatical/lexical — the negative -へん -hen (食べへん for 食べない), the copula や ya (そうや, 学生や, やから for だ/だから), and lexicon like おおきに, あかん, ほんま, めっちゃ, あほ — plus the segmental split that Tokyo keeps the 鼻濁音 velar nasal [ŋ] for intervocalic /ɡ/ (鏡 [ka.ŋa.mi], が [ŋa]) while Kansai uses plain [ɡ], and that Kansai lengthens monomoraic nouns (手 て→てえ teː, 目 め→めえ meː) to carry a melody. Vowel length, the five vowels with [ɯ̈], high-vowel devoicing, and moraic ん/っ are shared by both. The ASIDES stand clearly apart: Tōhoku (ずーずー弁) merges シ/ス・チ/ツ and voices medial stops; Kyūshū ranges from Hakata particles (〜と, 〜たい, 〜ばい) to Kagoshima's two-pattern 二型アクセント, with some Honshū/Kyūshū zones 無アクセント (no lexical pitch at all); and the RYUKYUAN languages (Okinawan 沖縄語 めんそーれ, Amami, Miyako, Yaeyama, Yonaguni) are a SEPARATE Japonic branch — sister languages, not dialects — marked by the mid-vowel raising e→i, o→u (雨 ame ↔ あみ ami, こころ ↔ くくる) and endangered throughout.
+
+### Asides: regional varieties (方言, hōgen)
+
+CLEARLY SECONDARY. The items below are other regional varieties (方言 hōgen) of Japanese, plus the RYUKYUAN languages, which are NOT part of the two reference standards above and are NOT targets of the five Japanese reader tiers (Scholarly+Pretty, Katakana, Hiragana, Romaji). The Ryukyuan group in particular is a SEPARATE branch of the Japonic family — sister languages to Japanese, not dialects of it. Everything here is for orientation only.
+
+#### Regional dialects
+
+| Dialect | Key feature | IPA illustration | Explanation |
+|---|---|---|---|
+| 東北方言 — Tōhoku (Northeast Honshū: Aomori, Akita, Yamagata, Iwate, Sendai) | ずーずー弁 (zūzū-ben): merger/centralization of シ/ス and チ/ツ, and intervocalic voicing of /k t/ | 寿司 sushi → [ɕɯ̈sɯ̈]~[sɯsɯ] (シ and ス neutralized); 口 kuchi 'mouth' with [tɕi]/[tsɨ] blurred; medial voiceless stops voice, so 烏賊 ika 'squid' ~ [iɡa] and 父 chichi ~ [dʑidʑi]; vowels centralized to [ɨ] | Tōhoku speech, nicknamed ずーずー弁, is the stereotyped 'northern' accent. Its hallmarks are the neutralization of the high-front sibilant moras (シ shi / ス su and チ chi / ツ tsu collapse toward a central [ɨ]-colored articulation, so 寿司 sushi and 煤 susu can sound alike), and the VOICING of intervocalic voiceless stops (/k/→[ɡ], /t/→[d]), giving 烏賊 ika ~ [iɡa]. It is a Tokyo-TYPE accent zone prosodically (no Keihan register), so its divergence is segmental and phonetic rather than a different pitch system. Mutually intelligible with the standard, but heavily marked. |
+| 九州方言 — Kyūshū (Fukuoka/Hakata, Kumamoto, Kagoshima) | distinctive final particles (〜と, 〜たい, 〜ばい) and, in the south, a divergent/older accent; Kagoshima has a TWO-PATTERN accent | Hakata 〜と as a question/nominalizer (何しよると? 'what are you doing?'); Kagoshima 二型アクセント — words fall into just two melodic types regardless of length; vowel reduction/clipping of final high vowels in the far south | Kyūshū is not one dialect but a cluster. Northern (Hakata/Fukuoka) speech is close to the standard segmentally but flagged by its final particles — 〜と, 〜たい, 〜ばい — and intonation. Southern Satsuma (Kagoshima) is markedly more divergent, with a TWO-PATTERN pitch-accent system (二型アクセント: every word is one of just two melodic types, assigned by syllable count) quite unlike both Tokyo and Keihan, plus heavy reduction of word-final high vowels and consonant changes. It is the most prosodically distinct of the mainland (non-Ryukyuan) zones. |
+| 西関東 / 中部・東海ほか — other Honshū zones (orientation) | a continuum: most of eastern/central Honshū uses Tokyo-type accent; western Honshū and Shikoku trend toward Keihan-type | broadly, the Tokyo-type vs Keihan-type isogloss runs through central Honshū; pockets (e.g. parts of the Chūbu/Ⅰ-type-less zones) are 'accentless' (無アクセント), distinguishing no pitch melodies at all | Between the two reference poles lies a continuum. Eastern and much of central Honshū pattern as Tokyo-type; western Honshū, Shikoku, and Kansai proper are Keihan-type. Crucially, some zones (e.g. parts of northern Kantō, southern Tōhoku, and central Kyūshū) are 無アクセント (accentless / one-pattern), assigning NO lexical pitch melody — the polar opposite of the rich Keihan system. This shows the full Japanese range from two-dimensional Keihan accent down to no lexical pitch at all. |
+
+#### 琉球諸語 — Ryukyuan languages (Okinawan 沖縄語/ウチナーグチ, Amami, Miyako, Yaeyama, Yonaguni)
+
+- **Status:** A SEPARATE BRANCH of the Japonic family — sister LANGUAGES to Japanese, NOT dialects of it; all are UNESCO-listed as endangered to critically endangered.
+- **Key feature:** low mutual intelligibility with Tokyo Japanese; conservative + innovative phonology, including the Ryukyuan vowel raising e→i, o→u, and (in Miyako/Yaeyama) syllabic consonants and extra vowels.
+- **IPA illustration:** Okinawan (Shuri) めんそーれ [mensoːɾeː] 'welcome'; Ryukyuan high-vowel correspondence: Japanese 雨 ame ~ Okinawan あみ [ami], 心 kokoro ~ くくる [kɯkɯɾɯ] (Japanese mid e/o ↔ Ryukyuan high i/u); Miyako has a syllabic fricative/approximant, e.g. 'rain' [ks̩]~[pˢ̩], and Yonaguni shows further consonant shifts (Japanese h ~ Yonaguni initial stops).
+
+The Ryukyuan languages of Okinawa and the Amami/Sakishima islands form the OTHER primary branch of Japonic (Japanese + Ryukyuan); they split from mainland Japanese over a millennium ago and are NOT mutually intelligible with Tokyo Japanese. They share Japanese roots (めんそーれ contains recognizable cognate material) but underwent their own sweeping changes — most famously the raising of mid vowels (Japanese e → Ryukyuan i, Japanese o → u, so 雨 ame ↔ あみ ami, こころ kokoro ↔ くくる kukuru), plus glottalized consonants, distinctive accent systems, and in Miyako/Yaeyama syllabic consonants and additional vowel qualities absent from standard Japanese. Treating them as 'dialects' (方言) is a political/folk usage, not a linguistic one. They are wholly outside the scope of the two reference standards and are included here purely for orientation.
+
+---
+
+*Section compiled by Shin.*
+
+## Orthography: Kanji, Kana & Romanization
+
+Japanese is written with a MIXED script (漢字仮名交じり文 *kanji-kana majiri bun*) that combines THREE coexisting systems in a single running text: KANJI (漢字), logographic characters borrowed from Chinese, each carrying meaning and one or more readings; and TWO moraic syllabaries (仮名 *kana*) derived from those kanji — HIRAGANA (ひらがな), a cursive syllabary, and KATAKANA (カタカナ), an angular syllabary. A typical sentence interleaves all three: 私はカタカナを読みます (*watashi wa katakana o yomimasu*, 'I read katakana') uses kanji (私, 読), hiragana (は, を, みます), and katakana (カタカナ). Unlike an alphabet, the kana are NOT letters for single phonemes but signs for whole MORAS — the fundamental timing unit of this mora-timed language: each basic kana spells exactly one mora of the shape (C)(j)V, plus three special-mora signs (`ん`/`ン` for /N/, `っ`/`ッ` for /Q/, and `ー` or vowel-doubling for the long-vowel second half /R/). The kana grapheme-to-phoneme mapping is therefore unusually SHALLOW and regular (one kana ≈ one mora ≈ a predictable IPA realization, modulo allophony like `し`=[ɕi], `つ`=[tsɯ], `ふ`=[ɸɯ]), with only a handful of historical irregularities (the particles `は`/`へ`/`を` read *wa*/*e*/*o*, the long-vowel spelling `おう`/`えい`, and `おお` vs `おう`). KANJI, by contrast, are deeply NON-phonemic: a single character has multiple readings split into 音読み (*on'yomi*, Sino-Japanese readings imported with the character) and 訓読み (*kun'yomi*, native Japanese readings assigned by meaning), and the correct reading is selected by compound, context, and convention (生 alone can be read *sei*, *shō*, *nama*, *ki*, *i-*, *u-*, *ha-*, *o-*, *fu-* and more). Reading aloud thus requires (a) trivially mapping each kana to its mora, and (b) non-trivially resolving each kanji to the contextually correct reading — which is why learner and liturgical texts add FURIGANA (振り仮名), small kana printed beside kanji to disambiguate the reading. Both reference standards (Standard/Tokyo 標準語 and Kansai/Keihan 関西弁) share the IDENTICAL script and kana mappings; they differ in pitch-accent (which the orthography does not mark at all) and a few lexical items, not in spelling. This guide documents the three scripts, the GOJŪON (五十音) ordering, the diacritics (濁点/半濁点), the small-kana conventions (拗音 *yōon* and 促音 *sokuon*), the long-vowel marks (長音符 *chōonpu* `ー` and hiragana vowel-doubling), the historical-kana particle spellings, a full kana→mora→IPA table, and the three competing romanizations (Hepburn, Kunrei-shiki, Nihon-shiki).
+
+**Reference standards:**
+
+| Label | Standard |
+|---|---|
+| Standard | 標準語 / 共通語 (Hyōjungo / Kyōtsūgo) — Standard/Common Japanese, educated Tokyo (Yamanote) speech; Tokyo-type pitch accent (東京式アクセント). Uses the modern orthography 現代仮名遣い (Gendai Kana-zukai, 1946/1986 reform) and the 常用漢字 (Jōyō Kanji, the 2,136 government-listed 'common-use' characters). The Japanese Peshitta's Rōmaji tier uses HEPBURN (ヘボン式). |
+| Kansai | 関西弁 / 京阪式アクセント (Kansai-ben / Keihan-shiki) — Kyoto–Osaka speech, the major alternative. CRUCIALLY, Kansai uses the SAME script, the SAME kana→mora mappings, and the SAME modern orthography as Tokyo: the difference is in PITCH-ACCENT (richer Keihan register + accent, with melodies often reversed relative to Tokyo) and some lexical/vowel-length differences, NONE of which the kana orthography encodes. A sentence written in kana is spelled identically for a Tokyo and a Kansai reader; only the spoken pitch differs. |
+
+### General Principles
+
+Nine organising principles govern how the three scripts map to sounds.
+
+- **Three scripts, one text:** Modern Japanese is written by INTERLEAVING three scripts in a single line (漢字仮名交じり文). Each script has a conventional job: KANJI carry the lexical roots of content words (nouns, verb/adjective stems); HIRAGANA write the grammatical glue — particles (`は`, `が`, `を`, `に`), inflectional endings/okurigana (`-ます`, `-しい`), and native words lacking a common kanji; KATAKANA write loanwords/foreign names, onomatopoeia, scientific names, and emphasis. The division of labour, not the sound, tells the reader which script to expect where.
+  - 食べました 'ate' = 食 (kanji root) + べました (hiragana inflection/okurigana)
+  - コーヒーを飲む 'drink coffee' = コーヒー (katakana loanword) + を (hiragana particle) + 飲む (kanji + okurigana)
+  - ドキドキ 'heart pounding' (katakana onomatopoeia) vs どきどき (same word, hiragana, softer feel) — script choice carries nuance, not a different sound
+  - ありがとうございます 'thank you' — all hiragana, no kanji needed
+- **Kana are moraic, not alphabetic:** A kana sign maps to a whole MORA, not a phoneme: the unit is (C)(glide)V. There is no way to write a bare consonant except the two special moras /N/ (`ん`/`ン`) and /Q/ (`っ`/`ッ`). This makes the kana grapheme→phoneme correspondence SHALLOW and near-one-to-one: `か` is always /ka/ [ka], `き` /ki/ [ki], and so on, with the realization fixed by the consonant's allophony before the vowel. Reading kana aloud is essentially a lookup, the polar opposite of resolving a kanji.
+  - `か` /ka/ [ka], `く` /ku/ [kɯ], `け` /ke/ [ke] — one kana, one mora, one predictable mora-shape
+  - `ん` = the moraic nasal /N/, the only standalone coda consonant sign (place assimilates: [m]/[n]/[ŋ]/[ɴ])
+  - `っ` = the sokuon /Q/, written as a small `つ`, occupying a mora of silence = gemination of the following consonant
+  - No kana can write a consonant CLUSTER: 'strike' is forced to ストライク *su-to-ra-i-ku*, five moras
+- **Kanji readings: on vs kun:** Each kanji has one or more READINGS in two etymological layers. 音読み (*on'yomi*) are Sino-Japanese readings — Japanese approximations of the Middle Chinese pronunciation imported WITH the character (subdivided historically into 呉音 *go-on*, 漢音 *kan-on*, 唐音 *tō-on* by import era). 訓読み (*kun'yomi*) are native Japanese (大和言葉 *Yamato-kotoba*) words MAPPED onto the character by meaning. As a rule of thumb, *on'yomi* appear in multi-kanji compounds (熟語 *jukugo*) and *kun'yomi* when a kanji stands alone with hiragana okurigana — but this is only a tendency, and many characters have several of each. Selecting the right reading is the hardest part of reading Japanese aloud and is what FURIGANA exist to disambiguate.
+  - 山: *on'yomi* サン *san* (in 富士山 *Fuji-san*), *kun'yomi* やま *yama* ('mountain', alone)
+  - 生: *on* セイ・ショウ (*sei*/*shō*), *kun* なま (*nama* 'raw'), い-きる (*i-kiru* 'live'), う-まれる (*u-mareru* 'be born'), き (*ki*), は-える (*ha-eru*) — one of the most multi-read kanji
+  - 人: *on* ジン/ニン (*nihon-JIN* 'Japanese person', ニンゲン *ningen* 'human'), *kun* ひと (*hito* 'person')
+  - 日本: usually にほん *nihon* or にっぽん *nippon* (*on'yomi* compound); 日 alone = ひ *hi* (*kun*) 'day/sun'
+- **Okurigana and furigana:** OKURIGANA (送り仮名) are the trailing HIRAGANA written after a kanji to spell out an inflectional ending and thereby fix which reading the kanji takes; they are part of the standard orthography of every verb and adjective. FURIGANA (振り仮名, also ルビ *rubi*) are small kana set ABOVE (horizontal text) or to the RIGHT (vertical text) of a kanji to GLOSS its reading; they are optional reading aids, mandatory only in children's books, learner material, and texts (like a liturgical Peshitta) that must guarantee a single correct vocalization.
+  - okurigana fixes the reading: 上がる *a-garu* 'go up' vs 上る *nobo-ru* 'ascend' vs 上 *ue* 'top' — same kanji 上, the trailing kana select the reading
+  - okurigana spells the inflection: 食べる *ta-beru*, 食べない *ta-benai*, 食べました *ta-bemashita* — 食 stays, べ-… changes
+  - furigana glosses a rare reading: 紫陽花 with ruby あじさい (*ajisai* 'hydrangea'), a reading unpredictable from the characters
+  - in this guide's tradition, furigana is the mechanism that lets a kanji text be read aloud unambiguously — the same role the kana reader tiers serve for the Peshitta
+- **Diacritics — dakuten & handakuten:** Two small diacritics modify a base kana's consonant. The DAKUTEN (濁点, *ten-ten* `゛`) marks VOICING, turning a voiceless obstruent series into its voiced (濁音 *dakuon*) counterpart: k→g, s→z, t→d, h→b. The HANDAKUTEN (半濁点, *maru* `゜`) applies ONLY to the `は`-row and turns h→p (半濁音 *handakuon*). The diacritic attaches identically in both syllabaries. Crucially the `は`-row is the source of THREE series (h-, b-, p-) because of the sound's history (older /p/ → /ɸ/ → /h/).
+  - dakuten voicing: `か` *ka* → `が` *ga*; `さ` *sa* → `ざ` *za*; `た` *ta* → `だ` *da*; `は` *ha* → `ば` *ba*
+  - handakuten only on `は`-row: `は` *ha* → `ぱ` *pa*; `ひ` *hi* → `ぴ` *pi*; `ふ` *fu* → `ぷ` *pu*; `へ` *he* → `ぺ` *pe*; `ほ` *ho* → `ぽ` *po*
+  - the `は`-row thus yields three series from one base: `は`/`ば`/`ぱ` (*ha*/*ba*/*pa*), giving the system its only h~b~p triad
+  - minimal effect of one mark: かき *kaki* 'persimmon' vs かぎ *kagi* 'key' — only the dakuten on the second mora differs (real minimal pair)
+- **Small kana — yōon & sokuon:** Small (捨て仮名 *sutegana*) kana have special phonological jobs. A small `ゃ`/`ゅ`/`ょ` (the ya/yu/yo signs) written after an i-column kana forms a YŌON (拗音) — a single PALATALIZED mora with a /j/ glide: `き` + `ゃ` = `きゃ` /kja/ (still ONE mora, not two). A small `っ`/`ッ` (sokuon, the small tsu) marks the special mora /Q/ — a beat of held silence that GEMINATES the following consonant. Small `あ`/`い`/`う`/`え`/`お` are also used in loanword orthography to write foreign sounds (`ファ` *fa*, `ティ` *ti*).
+  - yōon (one mora each): きゃ *kya*, きゅ *kyu*, きょ *kyo*; しゃ *sha* [ɕa], しゅ *shu* [ɕɯ], しょ *sho* [ɕo]; ちゃ *cha* [tɕa]; にゃ *nya*; みょ *myo*; りゃ *rya*
+  - sokuon geminates and counts as a mora: きって *ki-t-te* [kitte] 'stamp' (3 moras) vs きて *ki-te* 'come' (2 moras) — minimal pair on /Q/
+  - sokuon before each obstruent: がっこう *gakkō* 'school', いっぱい *ippai* 'full', まって *matte* 'wait', ざっし *zasshi* 'magazine'
+  - small vowel kana for loans: フォ *fo* (フォーク *fōku* 'fork'), ウィ *wi*, シェ *she*, チェ *che*, ティ *ti*, ドゥ *du*
+- **Long-vowel spelling:** Vowel LENGTH is phonemic, and the two syllabaries mark a long vowel DIFFERENTLY. KATAKANA uses the CHŌONPU (長音符 `ー`, the prolongation bar) for ANY long vowel: コーヒー *kōhī*. HIRAGANA has no bar in normal use and instead DOUBLES the vowel — but with historical conventions: long /aː/ = `ああ`, /iː/ = `いい`, /uː/ = `うう`, but long /eː/ is conventionally written `えい` (and read [eː]) and long /oː/ is conventionally written `おう` (read [oː]), with a residue of words spelling /oː/ as `おお`. This split (え-row uses `い`, お-row uses `う`) is the single biggest 'historical-spelling' wrinkle in hiragana.
+  - katakana `ー` (chōonpu): ラーメン *rāmen*, スーパー *sūpā*, ケーキ *kēki*, ノート *nōto*, メニュー *menyū* — any vowel lengthened by the bar
+  - hiragana doubling: おばあさん *obāsan* 'grandmother' (`ああ`) vs おばさん *obasan* 'aunt'; おじいさん *ojīsan* 'grandfather' (`いい`)
+  - hiragana `えい` = [eː]: せんせい *sensei* [senseː] 'teacher', えいが *eiga* [eːɡa] 'movie'
+  - hiragana `おう` = [oː]: がっこう *gakkō* [ɡakːoː] 'school', ありがとう *arigatō* [aɾiɡatoː]; residual `おお`: おおきい *ōkii* 'big', とおい *tōi* 'far', こおり *kōri* 'ice'
+- **Historical-kana particles:** Three GRAMMATICAL PARTICLES are spelled with a kana whose value differs from its normal phonetic reading — a fossil of pre-1946 historical kana usage (歴史的仮名遣い) preserved by the 1946 reform precisely because they are high-frequency function words. The topic particle `は` is read WA (not *ha*); the direction particle `へ` is read E (not *he*); the object particle `を` is read O (not *wo*, since /wo/ merged to /o/). Elsewhere `は`/`へ` remain *ha*/*he* and `を` is used ONLY as this particle.
+  - `は` = *wa* as topic particle: 私は学生です *watashi WA gakusei desu* 'I am a student' (`は` read [wa])
+  - `へ` = *e* as direction particle: 東京へ行く *Tōkyō E iku* 'go to Tokyo' (`へ` read [e])
+  - `を` = *o* as object particle: パンを食べる *pan O taberu* 'eat bread' (`を` read [o]); `を` occurs essentially only here
+  - contrast: `は` inside a word keeps *ha* — はな *hana* 'flower', はは *haha* 'mother'; へや *heya* 'room' keeps *he*
+- **No suprasegmentals marked:** Like Hangul, Japanese orthography marks NO pitch accent and NO mora boundaries explicitly. The kana give the segmental string and (via length spellings, `ん`, `っ`) the mora count, but the lexical PITCH-ACCENT pattern (which distinguishes 箸 *ha\\shi* 'chopsticks' from 橋 *hashi\\* 'bridge' from 端 *hashi* 'edge') is NOT written and must be supplied from the lexicon. This is why the Tokyo and Kansai standards spell identically yet sound systematically different — the accent that separates them lives entirely outside the script.
+  - 箸 / 橋 / 端 are all はし *hashi* in kana — identical spelling, three different pitch accents, distinguished only by kanji or context
+  - 雨 / 飴 are both あめ *ame* in kana — *a\\me* 'rain' (HL) vs *ame* 'candy' (LH heiban), no spelling difference
+  - the mora count IS recoverable (`っ`, `ん`, `ー`, doubled vowels each add a mora) but the pitch melody is not
+  - Tokyo vs Kansai: 同じ綴り、違うアクセント — same kana spelling, different accent, no orthographic cue
+
+### Kanji (漢字)
+
+漢字 (kanji) are logographic characters of Chinese origin, each an indivisible sign carrying a MEANING and one or more READINGS. They are the deep, non-phonemic layer of the writing system. Japanese officially recognizes the 常用漢字 (Jōyō Kanji), 2,136 characters for general use (as revised in 2010); proper names draw additionally on the 人名用漢字 (Jinmeiyō Kanji). A kanji's readings split into 音読み (*on'yomi*, Sino-Japanese, used mostly in compounds) and 訓読み (*kun'yomi*, native, used mostly stand-alone with okurigana). The same character may have several of each, so the reading is selected by compound, context, and convention; furigana resolve the ambiguity in print.
+
+#### Reading Layers
+
+| Layer | Origin | Sub-layers | Typical use |
+|---|---|---|---|
+| 音読み (*on'yomi*) | Sino-Japanese — a Japanized rendering of the Middle Chinese reading, imported with the character. | 呉音 *go-on* (earliest, via the Wu region / Buddhism), 漢音 *kan-on* (Tang-era standard, the most common), 唐音/宋音 *tō-on*/*sō-on* (latest, fewest). | multi-kanji compounds 熟語 (*jukugo*) |
+| 訓読み (*kun'yomi*) | Native Japanese (大和言葉) — a Japanese word of matching meaning assigned to the character. | none by import era; may include 名乗り (*nanori*) special name-readings. | the kanji standing alone, usually with hiragana okurigana |
+
+**音読み (on'yomi) examples:**
+
+- 行: *go-on* ギョウ *gyō* (行儀 *gyōgi*), *kan-on* コウ *kō* (旅行 *ryokō*), *tō-on* アン *an* (行脚 *angya*)
+- 明: *go-on* ミョウ *myō* (明日 *myōnichi*), *kan-on* メイ *mei* (明確 *meikaku*)
+
+**訓読み (kun'yomi) examples:**
+
+- 行: *kun* い-く *i-ku* ('go'), おこな-う *okona-u* ('carry out')
+- 明: *kun* あ-かるい *a-karui* ('bright'), あ-ける *a-keru* ('open/dawn')
+
+#### Reading-Selection Examples
+
+- 生 (an extreme case): *on* セイ *sei* (学生 *gakusei*), ショウ *shō* (一生 *isshō*); *kun* い-きる *i-kiru*, う-まれる *u-mareru*, なま *nama*, き *ki*, は-える *ha-eru*, お-う *o-u* — context picks one
+- 山: 富士山 *Fuji-SAN* (*on*, in a name-compound) vs やま *yama* (*kun*, alone) vs 山田 *Yama-da* (*kun*, in a surname)
+- 下: した *shita* (*kun*, 'below'), もと *moto* (*kun*), くだ-る *kuda-ru* (*kun*), カ *ka* (*on*, 下記 *kaki*), ゲ *ge* (*on*, 下水 *gesui*)
+
+**Structural note.** Most kanji are 形声 (*keisei*, phono-semantic compounds): a SEMANTIC radical (部首 *bushu*) hints at meaning and a PHONETIC component hints at the *on'yomi* (e.g. characters containing 青 *sei*/*shō* often read *sei*/*shō*: 清・晴・請). This gives partial, unreliable phonetic clues to *on'yomi* only, never to *kun'yomi*.
+
+**Unicode.** CJK Unified Ideographs U+4E00–U+9FFF, with Extensions A (U+3400–U+4DBF), B–I in the Supplementary Ideographic Plane (U+20000+), plus CJK Compatibility Ideographs (U+F900–U+FAFF).
+
+### Syllabaries (仮名)
+
+The two 仮名 (kana) syllabaries each provide a sign for every mora of the language; they are functionally PARALLEL (a one-to-one transliteration exists between them) but stylistically distinct. Both descend from kanji: hiragana from cursive (草書) abbreviations of whole characters (安→`あ`, 以→`い`, 宇→`う`), katakana from fragments of characters (阿→`ア`, 伊→`イ`, 宇→`ウ`). Both are ordered by the GOJŪON (五十音, 'fifty sounds') grid — a 5-vowel × 10-consonant-row table read a/i/u/e/o down each column. The same diacritics and small-kana rules apply to both.
+
+| Syllabary | Name | Origin | Primary use | Long-vowel convention | Unicode |
+|---|---|---|---|---|---|
+| Hiragana | ひらがな (hiragana) | cursive simplifications of whole man'yōgana kanji (安→`あ`, 以→`い`, 宇→`う`, 衣→`え`, 於→`お`) | grammatical particles, okurigana (inflectional endings), furigana, and native words without a common/Jōyō kanji; the default 'connective tissue' script | double the vowel (`ああ`/`いい`/`うう`), with `えい` for [eː] and `おう` for [oː] (residual `おお`) | Hiragana block U+3040–U+309F |
+| Katakana | カタカナ (katakana) | fragments/single strokes of man'yōgana kanji (阿→`ア`, 伊→`イ`, 宇→`ウ`, 江→`エ`, 於→`オ`) | foreign loanwords (外来語 *gairaigo*) and foreign names, onomatopoeia (擬音語/擬態語), scientific/technical names, telegrams/legacy, and EMPHASIS (like italics); the script in which Aramaic words are idiomatically rendered for the Japanese Peshitta's Katakana reader tier | the CHŌONPU bar `ー` for every long vowel (コーヒー, メニュー) | Katakana block U+30A0–U+30FF; Katakana Phonetic Extensions U+31F0–U+31FF; Halfwidth Katakana U+FF61–U+FF9F |
+
+#### Katakana Foreign-Sound Extensions
+
+Katakana extends the basic grid with small-vowel and dakuten combinations to write sounds absent from native Japanese:
+
+| Sound family | Kana | Romanization |
+|---|---|---|
+| f-series (small vowel after フ) | `ファ` `フィ` `フェ` `フォ` | *fa*, *fi*, *fe*, *fo* |
+| v-series (ウ + dakuten = ヴ) | `ヴ` `ヴァ` `ヴィ` `ヴェ` `ヴォ` | *vu*, *va*, *vi*, *ve*, *vo* |
+| ti/tu, di/du (テ/デ/ト/ド + small vowel) | `ティ` `トゥ` ; `ディ` `ドゥ` | *ti*, *tu*; *di*, *du* |
+| she/je/che, tsa-series, wi/we/wo | `シェ` `ジェ` `チェ` ; `ツァ` `ツェ` `ツォ` ; `ウィ` `ウェ` `ウォ` | *she*, *je*, *che*; *tsa*, *tse*, *tso*; *wi*, *we*, *wo* |
+
+### Gojūon Ordering (五十音)
+
+The canonical ordering of the kana is the GOJŪON (五十音, 'fifty sounds'), a grid of 5 vowel COLUMNS (段 *dan*: あ *a*, い *i*, う *u*, え *e*, お *o*) crossed with 10 consonant ROWS (行 *gyō*: あ-, か-, さ-, た-, な-, は-, ま-, や-, ら-, わ-). Reading down each row gives a five-mora set (か き く け こ *ka ki ku ke ko*). It is the basis of dictionary collation, the 'alphabetical' order of Japanese. (The older IROHA いろは ordering — a pangram poem using each kana once — survives in enumerations like list items い・ろ・は.)
+
+| 行 (gyō / row) | あ (a) | い (i) | う (u) | え (e) | お (o) |
+|---|---|---|---|---|---|
+| あ行 (a-row, pure vowels) | あ *a* | い *i* | う *u* | え *e* | お *o* |
+| か行 (k-row) | か *ka* | き *ki* | く *ku* | け *ke* | こ *ko* |
+| さ行 (s-row) | さ *sa* | し *shi* | す *su* | せ *se* | そ *so* |
+| た行 (t-row) | た *ta* | ち *chi* | つ *tsu* | て *te* | と *to* |
+| な行 (n-row) | な *na* | に *ni* | ぬ *nu* | ね *ne* | の *no* |
+| は行 (h-row) | は *ha* | ひ *hi* | ふ *fu* | へ *he* | ほ *ho* |
+| ま行 (m-row) | ま *ma* | み *mi* | む *mu* | め *me* | も *mo* |
+| や行 (y-row, defective) | や *ya* | (い) | ゆ *yu* | (え) | よ *yo* |
+| ら行 (r-row) | ら *ra* | り *ri* | る *ru* | れ *re* | ろ *ro* |
+| わ行 (w-row, defective) | わ *wa* | (ゐ *wi*, obsolete) | (う) | (ゑ *we*, obsolete) | を *wo*/*o* |
+| ん (moraic nasal, ordered last) | ん *N* | | | | |
+
+**Notes:**
+
+- The や-row and わ-row are DEFECTIVE: native /j/ occurs only before a/u/o (や ゆ よ), and native /w/ only before a (わ); the gaps are filled by the plain vowels い/う/え.
+- ゐ (*wi*) and ゑ (*we*) were dropped in the 1946 reform (the /wi/ /we/ contrasts had merged into /i/ /e/); を survives ONLY as the object particle, read *o*.
+- ん (the moraic nasal /N/) and the diacritic series (が-row, ざ-row, だ-row, ば-row, ぱ-row) and yōon are placed AFTER their base rows in standard collation.
+
+### Kana → Mora → IPA Table
+
+Grapheme→mora→IPA mapping for the kana, given in hiragana / katakana pairs. Each entry: the kana pair, the Hepburn romanization, the phonemic mora, and the surface IPA realization (showing the key allophony — `し`=[ɕi], `ち`=[tɕi], `つ`=[tsɯ], `ふ`=[ɸɯ], `ひ`=[çi], the /u/=[ɯ] backing, intervocalic /ɡ/→[ŋ] for some speakers, and high-vowel devoicing where typical). The mapping is the same for both reference standards. Phonemic forms are given in /slashes/, phonetic in [brackets].
+
+#### Vowels (あ-row)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `あ` / `ア` | a | /a/ | [a] |
+| `い` / `イ` | i | /i/ | [i] (devoiced [i̥] between voiceless C) |
+| `う` / `ウ` | u | /u/ | [ɯ̈] compressed unrounded back; devoiced [ɯ̥] between voiceless C / word-final after voiceless C |
+| `え` / `エ` | e | /e/ | [e] |
+| `お` / `オ` | o | /o/ | [o] |
+
+#### k-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `か` / `カ` | ka | /ka/ | [ka] |
+| `き` / `キ` | ki | /ki/ | [ki] |
+| `く` / `ク` | ku | /ku/ | [kɯ] (devoiced [kɯ̥]) |
+| `け` / `ケ` | ke | /ke/ | [ke] |
+| `こ` / `コ` | ko | /ko/ | [ko] |
+
+#### g-row (dakuten)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `が` / `ガ` | ga | /ɡa/ | [ɡa]; intervocalically [ŋa] (鼻濁音 *bidakuon*) for many speakers |
+| `ぎ` / `ギ` | gi | /ɡi/ | [ɡi] ~ [ŋi] |
+| `ぐ` / `グ` | gu | /ɡu/ | [ɡɯ] ~ [ŋɯ] |
+| `げ` / `ゲ` | ge | /ɡe/ | [ɡe] ~ [ŋe] |
+| `ご` / `ゴ` | go | /ɡo/ | [ɡo] ~ [ŋo] |
+
+#### s-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `さ` / `サ` | sa | /sa/ | [sa] |
+| `し` / `シ` | shi | /si/ | [ɕi] (/s/→[ɕ] before /i/; devoiced [ɕi̥]) |
+| `す` / `ス` | su | /su/ | [sɯ] (devoiced [sɯ̥]) |
+| `せ` / `セ` | se | /se/ | [se] |
+| `そ` / `ソ` | so | /so/ | [so] |
+
+#### z-row (dakuten)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ざ` / `ザ` | za | /za/ | [za] ~ [dza] |
+| `じ` / `ジ` | ji | /zi/ | [dʑi] ~ [ʑi] (before /i/) |
+| `ず` / `ズ` | zu | /zu/ | [zɯ] ~ [dzɯ] |
+| `ぜ` / `ゼ` | ze | /ze/ | [ze] ~ [dze] |
+| `ぞ` / `ゾ` | zo | /zo/ | [zo] ~ [dzo] |
+
+#### t-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `た` / `タ` | ta | /ta/ | [ta] |
+| `ち` / `チ` | chi | /ti/ | [tɕi] (/t/→[tɕ] before /i/) |
+| `つ` / `ツ` | tsu | /tu/ | [tsɯ] (/t/→[ts] before /u/) |
+| `て` / `テ` | te | /te/ | [te] |
+| `と` / `ト` | to | /to/ | [to] |
+
+#### d-row (dakuten)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `だ` / `ダ` | da | /da/ | [da] |
+| `ぢ` / `ヂ` | ji (di) | /di/ | [dʑi] — merged with `じ` (the 四つ仮名 *yotsugana* merger); used only after rendaku/repetition (ちぢむ) |
+| `づ` / `ヅ` | zu (du) | /du/ | [dzɯ] — merged with `ず`; used only after rendaku/repetition (つづく) |
+| `で` / `デ` | de | /de/ | [de] |
+| `ど` / `ド` | do | /do/ | [do] |
+
+#### n-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `な` / `ナ` | na | /na/ | [na] |
+| `に` / `ニ` | ni | /ni/ | [ɲi] (palatalized before /i/) |
+| `ぬ` / `ヌ` | nu | /nu/ | [nɯ] |
+| `ね` / `ネ` | ne | /ne/ | [ne] |
+| `の` / `ノ` | no | /no/ | [no] |
+
+#### h-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `は` / `ハ` | ha | /ha/ | [ha]; as topic particle read [wa] |
+| `ひ` / `ヒ` | hi | /hi/ | [çi] (/h/→[ç] before /i/) |
+| `ふ` / `フ` | fu | /hu/ | [ɸɯ] (/h/→[ɸ] before /u/) |
+| `へ` / `ヘ` | he | /he/ | [he]; as direction particle read [e] |
+| `ほ` / `ホ` | ho | /ho/ | [ho] |
+
+#### b-row (dakuten)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ば` / `バ` | ba | /ba/ | [ba] |
+| `び` / `ビ` | bi | /bi/ | [bi] |
+| `ぶ` / `ブ` | bu | /bu/ | [bɯ] |
+| `べ` / `ベ` | be | /be/ | [be] |
+| `ぼ` / `ボ` | bo | /bo/ | [bo] |
+
+#### p-row (handakuten)
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ぱ` / `パ` | pa | /pa/ | [pa] |
+| `ぴ` / `ピ` | pi | /pi/ | [pi] |
+| `ぷ` / `プ` | pu | /pu/ | [pɯ] |
+| `ぺ` / `ペ` | pe | /pe/ | [pe] |
+| `ぽ` / `ポ` | po | /po/ | [po] |
+
+#### m-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ま` / `マ` | ma | /ma/ | [ma] |
+| `み` / `ミ` | mi | /mi/ | [mi] |
+| `む` / `ム` | mu | /mu/ | [mɯ] |
+| `め` / `メ` | me | /me/ | [me] |
+| `も` / `モ` | mo | /mo/ | [mo] |
+
+#### y-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `や` / `ヤ` | ya | /ja/ | [ja] |
+| `ゆ` / `ユ` | yu | /ju/ | [jɯ] |
+| `よ` / `ヨ` | yo | /jo/ | [jo] |
+
+#### r-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ら` / `ラ` | ra | /ra/ | [ɾa] (apico-alveolar tap) |
+| `り` / `リ` | ri | /ri/ | [ɾi] |
+| `る` / `ル` | ru | /ru/ | [ɾɯ] |
+| `れ` / `レ` | re | /re/ | [ɾe] |
+| `ろ` / `ロ` | ro | /ro/ | [ɾo] |
+
+#### w-row
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `わ` / `ワ` | wa | /wa/ | [ɰa] (labial-velar approximant, natively only before /a/) |
+| `を` / `ヲ` | o (wo) | /o/ | [o] — object particle only; /wo/ merged to /o/ |
+
+#### Special Moras
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `ん` / `ン` | n | /N/ | [m] before labials (さんぽ [sampo]), [n] before alveolars (こんど [kondo]), [ŋ] before velars (りんご [ɾiŋɡo]), [ɴ]/[ɰ̃] utterance-finally or before vowels/fricatives (ほん [hoɴ]) |
+| `っ` / `ッ` | (geminate) | /Q/ | first half of a geminate obstruent = one mora of held closure/silence; assimilates to the following C: がっこう [ɡakːoː], きって [kitːe], いっぱい [ipːai], ざっし [zaɕːi] |
+| `ー` | (length) | /R/ | katakana long-vowel mark; lengthens the preceding vowel by one mora — コーヒー [koːçiː], ラーメン [ɾaːmeɴ] |
+
+#### Yōon (拗音) Examples
+
+| Kana | Hepburn | Mora | IPA |
+|---|---|---|---|
+| `きゃ` / `キャ` | kya | /kja/ | [kʲa] — ONE palatalized mora (small `ゃ`) |
+| `しゃ` / `シャ` | sha | /sja/ | [ɕa] |
+| `しゅ` / `シュ` | shu | /sju/ | [ɕɯ] |
+| `しょ` / `ショ` | sho | /sjo/ | [ɕo] |
+| `ちゃ` / `チャ` | cha | /tja/ | [tɕa] |
+| `ちゅ` / `チュ` | chu | /tju/ | [tɕɯ] |
+| `ちょ` / `チョ` | cho | /tjo/ | [tɕo] |
+| `じゃ` / `ジャ` | ja | /zja/ | [dʑa] ~ [ʑa] |
+| `にゃ` / `ニャ` | nya | /nja/ | [ɲa] |
+| `ひゃ` / `ヒャ` | hya | /hja/ | [ça] |
+| `みょ` / `ミョ` | myo | /mjo/ | [mʲo] |
+| `りゅ` / `リュ` | ryu | /rju/ | [ɾʲɯ] |
+| `ぎょ` / `ギョ` | gyo | /ɡjo/ | [ɡʲo] ~ [ŋʲo] |
+| `びゃ` / `ビャ` | bya | /bja/ | [bʲa] |
+| `ぴゅ` / `ピュ` | pyu | /pju/ | [pʲɯ] |
+
+### Romanization (ローマ字)
+
+Japanese has THREE competing systems of ローマ字 (*rōmaji*) romanization. HEPBURN (ヘボン式 *Hebon-shiki*, 1886) is the most widely used internationally; it is PHONETIC, spelling sounds as an English-literate reader would expect (*shi*, *chi*, *tsu*, *fu*, *ji*), and marks long vowels with a MACRON (*ō*, *ū*). KUNREI-SHIKI (訓令式, 1937, =ISO 3602) is SYSTEMATIC, spelling by the gojūon grid so each consonant row uses one Roman letter (*si*, *ti*, *tu*, *hu*, *zi*), at the cost of matching the phonetics less; it marks length with a CIRCUMFLEX (*ô*, *û*). NIHON-SHIKI (日本式, 1885) is the oldest and most regular, preserving even the historical kana distinctions Kunrei merges (it keeps *di*/*du* for `ぢ`/`づ` and *wo* for `を`). The Japanese Peshitta's Rōmaji reader tier uses HEPBURN, applied to the composed kana as a phonetic READBACK.
+
+#### Comparison Table
+
+| Kana | IPA | Hepburn | Kunrei | Nihon | Note |
+|---|---|---|---|---|---|
+| `し` / `シ` | [ɕi] | shi | si | si | Hepburn writes the [ɕ] allophone (sh); Kunrei/Nihon keep the s-row regular (si). |
+| `ち` / `チ` | [tɕi] | chi | ti | ti | Hepburn ch reflects [tɕ]; Kunrei/Nihon keep the t-row regular (ti). |
+| `つ` / `ツ` | [tsɯ] | tsu | tu | tu | Hepburn tsu reflects [ts]; Kunrei/Nihon tu. |
+| `ふ` / `フ` | [ɸɯ] | fu | hu | hu | Hepburn fu reflects [ɸ]; Kunrei/Nihon keep the h-row regular (hu). |
+| `じ` / `ジ` | [dʑi]~[ʑi] | ji | zi | zi | Hepburn ji; Kunrei/Nihon keep the z-row regular (zi). |
+| `ぢ` / `ヂ` | [dʑi] | ji | zi | di | Nihon-shiki ALONE keeps di, preserving the historical `ぢ`≠`じ` distinction; Hepburn/Kunrei merge it (ji/zi). |
+| `づ` / `ヅ` | [dzɯ] | zu | zu | du | Nihon-shiki ALONE keeps du, preserving `づ`≠`ず`; Hepburn/Kunrei merge it (zu). |
+| `を` / `ヲ` | [o] | o | o | wo | Nihon-shiki keeps wo for the kana; Hepburn/Kunrei write the merged value o. (Hepburn often spells the particle 'wo' in practice, but its phonetic principle is o.) |
+| `しゃ` / `シャ` | [ɕa] | sha | sya | sya | yōon: Hepburn sha/shu/sho; Kunrei/Nihon sya/syu/syo. |
+| `ちゃ` / `チャ` | [tɕa] | cha | tya | tya | Hepburn cha/chu/cho; Kunrei/Nihon tya/tyu/tyo. |
+| `じゃ` / `ジャ` | [dʑa] | ja | zya | zya | Hepburn ja/ju/jo; Kunrei/Nihon zya/zyu/zyo. |
+| `ん` / `ン` | /N/ | n (n' before vowel/y) | n (n') | n (n') | All three write n; Hepburn adds an apostrophe before a vowel or y to mark the mora boundary (しんあい *shin'ai* vs しない *shinai*). |
+| `っ` / `ッ` | /Q/ | double next consonant (tt, kk, pp; tch for っち) | double next consonant | double next consonant | Hepburn writes `っち` as -tch- (まっちゃ *matcha*); Kunrei/Nihon write -tt- (*mattya*). |
+| long /oː/ (`おう`/`ー`) | [oː] | ō (macron) | ô (circumflex) | ô (circumflex) | Long-vowel marking is the clearest visual difference: *Tōkyō* (Hepburn) vs *Tôkyô* (Kunrei/Nihon). Doubling (oo/ou) and 'oh' are common informal substitutes when diacritics are unavailable. |
+| long /uː/ (`うう`/`ー`) | [uː] | ū (macron) | û (circumflex) | û (circumflex) | e.g. じゆう/じゅう *jū* (Hepburn) vs *jû* (Kunrei). |
+
+#### Rules Used for the Peshitta Rōmaji Tier
+
+**System:** Hepburn (ヘボン式) — modified/revised Hepburn as the de facto international standard.
+
+**Principles:**
+
+- PHONETIC readback of the composed kana: spell the surface mora as pronounced (*shi*, *chi*, *tsu*, *fu*, *ji*), not by the gojūon grid.
+- Long vowels with a MACRON (*ā ī ū ē ō*); a sequence read [eː] from `えい` is written *ei* when morpheme-internal but *ē* when a true long vowel; long *ō* from `おう`/`おお` = *ō*.
+- Moraic `ん` = *n*, written *n'* before a following vowel or y to mark the boundary (しん-あい *shin'ai*).
+- Sokuon `っ` = doubling the following consonant (*kk*, *pp*, *ss*, *tt*), with `っち` = *tch* (*matcha*), `っちゃ` = *tcha*.
+- Particles `は`/`へ`/`を` rendered by their READ value *wa* / *e* / *o* (the phonetic principle), matching how the kana reader tiers vocalize them.
+- Yōon = *sha*/*shu*/*sho*, *cha*/*chu*/*cho*, *ja*/*ju*/*jo*, *kya*/*kyu*/*kyo*, etc.; syllabic vs glide `ん` boundaries marked with the apostrophe.
+
+**Rationale.** Hepburn is chosen for the Rōmaji tier because it is the romanization a non-Japanese reader will find most legible and because it transcribes the SURFACE pronunciation (the [ɕ], [tɕ], [ts], [ɸ] allophones) that the IPA columns in this guide describe — making the Rōmaji tier a faithful readback of the Katakana/Hiragana tiers rather than an abstract grid transliteration.
+
+### Reader Tiers
+
+The Japanese Peshitta ships FIVE companion reader tiers; this orthography section underpins the three Japanese-script-derived tiers (Katakana, Hiragana, Rōmaji). Because Japanese is strictly MORAIC (no consonant clusters, no codas except moraic `ン` and the geminating `ッ`), rendering Aramaic into kana requires FORCED VOWEL EPENTHESIS — every Aramaic consonant cluster or coda is broken up by an inserted vowel (default /u/, or /o/ after /t d/) so the result is a legal kana mora string.
+
+| # | Tier | Description |
+|---|---|---|
+| 1 | Scholarly | language-neutral Latin transliteration of the Aramaic |
+| 2 | Pretty | simplified language-neutral Latin |
+| 3 | Katakana | カタカナ — the idiomatic foreign-word reader tier, in which Aramaic is rendered with epenthesis as if a loanword |
+| 4 | Hiragana | ひらがな — the same mora string in the native-glyph syllabary |
+| 5 | Rōmaji | Hepburn readback of the kana — the output of the romanization rules in this section |
+
+**Epenthesis note.** Forced epenthesis example: an Aramaic form like 'shlama' (cluster *shl-*) becomes シュラマ *shurama* / しゅらま (small `ュ` inserts /u/ to break *shl* → *shu-ra-ma*); a final consonant like '-th' becomes a CV mora (…ス *-su* / …ト *-to*). The chosen vowel and any yōon are governed by the rules detailed in the syllable-structure and connected-speech sections.
+
+### Unicode Codepoints
+
+| Block / mark | Codepoint(s) |
+|---|---|
+| Hiragana | U+3040–U+309F |
+| Katakana | U+30A0–U+30FF |
+| Katakana Phonetic Extensions | U+31F0–U+31FF |
+| Halfwidth Katakana | U+FF61–U+FF9F |
+| CJK Unified Ideographs | U+4E00–U+9FFF |
+| CJK Unified Ideographs Extension A | U+3400–U+4DBF |
+| CJK Unified Ideographs Extensions B+ (Supplementary Ideographic Plane) | U+20000+ |
+| Chōonpu (長音符) `ー` | U+30FC |
+| Middle dot (中黒) `・` | U+30FB |
+| Dakuten (combining `゙` / spacing `゛`) | U+3099 / U+309B |
+| Handakuten (combining `゚` / spacing `゜`) | U+309A / U+309C |
+| Small tsu — hiragana `っ` / katakana `ッ` | U+3063 / U+30C3 |
+| Moraic n — hiragana `ん` / katakana `ン` | U+3093 / U+30F3 |
+
+### Summary
+
+- Japanese mixes THREE scripts in one text (漢字仮名交じり文): KANJI carry lexical roots, HIRAGANA the grammatical glue (particles, okurigana, furigana), KATAKANA the loanwords/onomatopoeia/emphasis. Script choice signals word class and register, not a different sound.
+- Kana are MORAIC, not alphabetic: one kana ≈ one mora (C)(j)V, plus the special-mora signs `ん` /N/, `っ` /Q/, and `ー` / vowel-doubling for the long-vowel half /R/. The kana→IPA mapping is shallow and regular (modulo allophony `し`[ɕi], `ち`[tɕi], `つ`[tsɯ], `ふ`[ɸɯ], `ひ`[çi], `う`[ɯ]).
+- KANJI are deeply non-phonemic: each has 音読み (*on'yomi*, Sino-Japanese, mostly in compounds) and 訓読み (*kun'yomi*, native, mostly stand-alone with okurigana), often several of each (生 has a dozen). FURIGANA (small kana beside a kanji) disambiguate the reading — the role the kana reader tiers play for the Peshitta.
+- Kana are ordered by the GOJŪON (五十音) 5-vowel × 10-row grid (the basis of dictionary order); the older IROHA pangram order survives in enumerations. や-row and わ-row are defective; ゐ/ゑ were dropped in 1946; ん is collated last.
+- DAKUTEN `゛` voices (k→g, s→z, t→d, h→b) and HANDAKUTEN `゜` (only on は-row) gives h→p, so the は-row alone spawns three series `は`/`ば`/`ぱ`. Small `ゃゅょ` form one-mora palatalized YŌON (きゃ *kya*); small `っ` is the SOKUON /Q/, a mora of silence geminating the next consonant (きって [kitːe]).
+- Vowel LENGTH is phonemic and marked DIFFERENTLY by script: katakana uses the CHŌONPU `ー` (コーヒー); hiragana DOUBLES the vowel (おばあさん) with the historical conventions `えい` = [eː] (せんせい *sensei*) and `おう` = [oː] (がっこう *gakkō*), plus a residue of `おお` (おおきい *ōkii*).
+- Three particles keep HISTORICAL kana values: `は` = *wa* (topic), `へ` = *e* (direction), `を` = *o* (object) — fossils preserved by the 1946 reform; elsewhere `は`/`へ` stay *ha*/*he* and `を` occurs only as the object particle.
+- Orthography marks NO pitch accent and NO mora boundaries explicitly, so Tokyo (標準語) and Kansai (関西弁) spell IDENTICALLY in kana yet differ systematically in pitch — 箸/橋/端 are all はし, 雨/飴 both あめ. The accent that separates the two standards lives entirely outside the script.
+- Three romanizations compete: HEPBURN (phonetic — *shi*/*chi*/*tsu*/*fu*/*ji*, macron *ō ū*), KUNREI-SHIKI (=ISO 3602, systematic by the grid — *si*/*ti*/*tu*/*hu*/*zi*, circumflex *ô û*), and NIHON-SHIKI (oldest, keeps *di*/*du*/*wo*). The Peshitta Rōmaji tier uses HEPBURN as a phonetic readback of the kana (*Tōkyō*, *matcha*, *shin'ai*), so it mirrors the surface IPA in this guide.
+- Rendering Aramaic into kana requires FORCED VOWEL EPENTHESIS because Japanese is strictly moraic (no clusters, codas only `ン`/`ッ`): clusters/codas are broken by an inserted vowel (default /u/, /o/ after /t d/), e.g. *shl-* → シュ *shu-*, final stop → CV mora.
+- Unicode blocks: Hiragana U+3040–U+309F; Katakana U+30A0–U+30FF; Katakana Phonetic Extensions U+31F0–U+31FF; Halfwidth Katakana U+FF61–U+FF9F; CJK Unified Ideographs U+4E00–U+9FFF (+ Extensions A U+3400–, B+ U+20000+). Marks: chōonpu `ー` U+30FC, middle dot `・` U+30FB, dakuten `゙` U+3099 / `゛` U+309B, handakuten `゚` U+309A / `゜` U+309C, small tsu `っ` U+3063 / `ッ` U+30C3, moraic n `ん` U+3093 / `ン` U+30F3.
+
+---
+
+*Section compiled by Shin.*
+
+## Connected Speech & Sandhi
+
+The boundary processes of connected (running) speech in Standard Japanese (標準語 / 共通語), organised around its signature mechanism: largely **lexical and morphophonemic sandhi** rather than gradient fast-speech vowel reduction. This is the Japanese analog of the English guide's "Weak Forms & Connected Speech" slot and the Korean guide's "Connected Speech & Sandhi" slot, but the central mechanism differs sharply from English. English reshapes word boundaries by **reducing** unstressed function words to a schwa-centred "weak form"; Japanese has **no weak forms, no schwa, and essentially no vowel reduction** (it is **mora-timed**, so every full mora keeps its timing slot). What Japanese does instead is (1) a set of largely **lexicalised** morphophonemic alternations at compound and morpheme boundaries — above all 連濁 *rendaku* (sequential voicing of the second element's initial obstruent) and 連声 *renjō* — and (2) a battery of regular grammatical contractions and coalescences at the verb/auxiliary/particle seam (て-form fusions てしまう→ちゃう, ては→ちゃ, regional てる<ている, the copula and particle fusions), plus (3) genuinely phonetic, register-sensitive processes that **do** scale with tempo and informality: high-vowel devoicing (母音の無声化), the realisation of the moraic nasal /N/ (ん) and the sokuon /Q/ (っ) across boundaries, gemination at boundaries, and casual contractions (ら抜き言葉, の→ん, という→って, では→じゃ). Because Japanese mixes a morphophonemic kanji+kana orthography (kanji preserve morpheme identity; kana spell moras), the gap between the written string and the surface IPA is bridged by these processes — but, unlike Korean's obligatory phrase-internal sandhi, most Japanese boundary phenomena are **lexical** (frozen into particular compounds, with many idiosyncratic exceptions) rather than automatic across every seam.
+
+**Applies to:** Spontaneous and fluent connected speech in both reference standards. The **lexical** morphophonemic processes (rendaku, renjō, the gemination/voicing of frozen compounds) are not optional reductions and not confined to fast speech: they are baked into the lexical form of the compound and surface already at careful, formal, read-aloud and even citation tempos — but they apply only where the lexicon licenses them (with Lyman's-Law and other blocks, and many native vs Sino-Japanese vs foreign asymmetries), **not** productively across every boundary. The **grammatical** contractions (て-form fusions, copula/particle fusions, ーている→ーてる) are standard register-graded morphology: the contracted forms are the unmarked spoken norm in ordinary and casual speech, while the full forms surface in careful, written, and formal-polite delivery. The genuinely **phonetic** layer — high-vowel devoicing, the assimilatory realisation of /N/ and /Q/, and casual segment/syllable deletions (ら抜き, の→ん, では→じゃ, ておく→とく) — is gradient and rate/register-dependent in the English manner: it increases with speed and informality and recedes in slow, emphatic, or hyper-articulate speech. Crucially, even at the fastest rate, no full Japanese vowel reduces to schwa or loses its quality the way an English weak-form vowel does; what a high vowel can do is **devoice** (keep its timing, lose its voicing) or, in casual contraction, **delete** entirely.
+
+### Reference Standards
+
+| Standard | Description |
+|---|---|
+| **Standard Tokyo (標準語 / 共通語)** | *Hyōjungo / Kyōtsūgo*, educated Tokyo (Yamanote) speech with Tokyo-type pitch accent (東京式アクセント). The default for all surface IPA here. Has robust high-vowel devoicing, the standard て-form contraction set (ちゃう, じゃう, てる/でる), and the rendaku/renjō lexicon of the standard dictionary. |
+| **Kansai (関西弁 / 京阪式アクセント)** | Kyoto–Osaka. Shares the same rendaku and renjō lexicon and the same /N/, /Q/ machinery, but differs in two ways relevant to this section: (1) high-vowel **devoicing** is markedly **weaker / less consistent** than in Tokyo (Kansai tends to keep [i ɯ] voiced where Tokyo devoices, e.g. です is more often [desɯ] than [desɯ̥]); (2) a partly **different contraction inventory** — the negative is ーへん / ーひん rather than ーない, the て-progressive often surfaces as ーてる/ーとる, the copula is や rather than だ (so では→じゃ has the Kansai counterpart や-based forms), and ーてしまう contracts to ーてまう/ーてもうた alongside Tokyo ーちゃう. |
+
+**No-reduction note:** There is **no schwa and essentially no vowel reduction** in Japanese. The five vowels /a i ɯ e o/ (with /ɯ/ the compressed unrounded back vowel [ɯ̈], not [u]) keep their full quality in every position, prominent or not, in citation and in fast connected speech alike. Japanese is **mora-timed**, not stress-timed: rhythm is counted in roughly equal moras, and there is no lexical **stress** to drive the kind of weak-form collapse English shows — prominence is carried by lexical **pitch accent** (a pitch *drop* after the accented mora), which does not alter segmental quality. The nearest Japanese counterparts to the English strong↔weak alternation are **not** vowel reductions but:
+
+- **(a) high-vowel devoicing** — /i ɯ/ between voiceless consonants or word-finally after a voiceless C lose their voicing while keeping their mora's timing (`すき` [sɯ̥ki], `です` [desɯ̥]); the vowel is devoiced, not reduced or deleted;
+- **(b) optional full-form↔contracted-form choices** at the verb/particle seam (ている↔てる, てしまう↔ちゃう, では↔じゃ), which change syllable/mora count and morpheme shape, **not** the quality of any retained vowel.
+
+Japanese grammatical function words — case/topic particles (`は` wa, `が` ga, `を` o, `に` ni, `へ` e, `で` de, `と` to, `も` mo, `の` no, `から` kara, `まで` made), the copula だ/です, and verbal auxiliaries/endings — are pronounced with their **full vowels**; what changes across the seam between a host and its particle/auxiliary, or between two members of a compound, is the **consonants** (voicing via rendaku, gemination, /N/-assimilation) and, in contraction, whole moras — never vowel quality.
+
+### Boundary Phenomena
+
+Each process below is computed across compound, morpheme, word, and/or particle seams. The phenomena fall into three tiers — **lexical** (rendaku, renjō), **grammatical/morphological** (coalescence and casual contraction), and **phonetic** (devoicing, /Q/ gemination, /N/ assimilation) — which differ in how automatic they are; see *Process Classification* below.
+
+#### 連濁 (rendaku — sequential voicing at a compound boundary)
+
+**Category:** lexical voicing
+
+When two elements form a compound, the **initial voiceless obstruent of the second element** frequently becomes its voiced counterpart: /k t s h/ → /ɡ d z b/ (and the corresponding allophones [ɡ~ŋ], [dʑ dz d], [ʑ dz z], [b]). This is the single most characteristic Japanese boundary process. It is **lexical** and partly idiosyncratic — productive enough to be a strong default for native (和語) second elements, but riddled with conditions and exceptions — and it is frozen into the dictionary form of the compound, so it surfaces at every tempo, including citation.
+
+- **Rules:** Second-element initial: か行 k→g (が/ぎ/ぐ/げ/ご), た行 t→d (だ/ぢ→[dʑ]/づ→[dz]/で/ど), さ行 s→z (ざ/じ→[dʑ]/ず→[dz]/ぜ/ぞ), は行 h→b (ば/び/ぶ/べ/ぼ; note the historical h<\*p, so the voiced reflex is **b** not v). Major **blocks/conditions**: (1) **Lyman's Law** — no rendaku if the second element **already contains a voiced obstruent** (山風 *yamakaze* 'mountain wind' keeps *kaze* unvoiced — rendaku blocked by the existing voiced /z/, so \*yamagaze does not occur; かみ+かぜ → かみかぜ *kamikaze*, blocked the same way); (2) right-branching / dvandva (coordinate) compounds resist rendaku (やまかわ 山川 'mountains and rivers' [jamakawa], vs branching やまがわ 'mountain river' [jamaɡawa]); (3) Sino-Japanese (漢語) and especially foreign (外来語) second elements rendaku far less than native ones; (4) many lexical exceptions either way. Rendaku **feeds** the /ɡ/→[ŋ] 鼻濁音 option intervocalically and the [dʑ dz] allophony before /i ɯ/.
+- **Notation:** `E1 + E2 :  /k t s h/-initial E2 → /ɡ d z b/`  (surface [ɡ~ŋ], [dʑ/dz/d], [ʑ/dz/z], [b]) / compound boundary ;  **blocked** by Lyman's Law (voiced obstruent already in E2) and in coordinate/right-branching compounds.
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `おりがみ` | origami | [oɾiɡami] | 折り (*ori* 'fold') + 紙 (*kami* 'paper') → *kami*'s initial /k/ voices to /ɡ/ ([ɡ], or 鼻濁音 [ŋ] for many speakers); 'paper folding' |
+| `てがみ` | tegami | [teɡami] | 手 (*te* 'hand') + 紙 (*kami*) → 'letter'; same *kami*→*gami* rendaku |
+| `ひとびと` | hitobito | [çi̥tobito] | reduplicated 人々 'people': second 人 (*hito*) → *bito*, h→b rendaku (h historically <\*p, hence the b reflex); note initial /h/ before /i/ is [ç], and the first mora devoices in the voiceless [ç]_[t] environment just as standalone ひと does ([çi̥to]) |
+| `やまがわ` | yamagawa | [jamaɡawa] | 山 (*yama*) + 川 (*kawa*) as a **branching** compound 'mountain river' → *kawa*→*gawa*; contrast the coordinate reading 山川 'mountains and rivers' [jamakawa] with **no** rendaku (dvandva block) |
+| `やまかぜ` | yamakaze | [jamakaze] | 山 + 風 (*kaze*): rendaku is **blocked** by Lyman's Law because *kaze* already contains the voiced obstruent /z/; would-be \*yamagaze does not occur |
+| `はなぢ` | hanaji | [hanadʑi] | 鼻 (*hana* 'nose') + 血 (*chi* 'blood') → *chi*→*ji*, written ぢ (the rendaku reflex of ち), surface [dʑi]; 'nosebleed' — a case where the rendaku origin is preserved in spelling (ぢ not じ) |
+
+#### 連声 (renjō — historical liaison/epenthesis at a Sino-Japanese morpheme boundary)
+
+**Category:** lexical liaison
+
+A historical sandhi in Sino-Japanese (漢語) compounds: when a first morpheme ends in the moraic nasal /N/ (ん) or, originally, a /t/-/chi/ coda, and the second morpheme begins with a vowel or /j w/, the boundary fuses so that the second morpheme acquires an initial nasal or stop derived from the coda — typically yielding a な行/ま行 or た行 mora. These are **frozen lexical items**, not a productive rule; they are the Japanese counterpart of Korean's ㄴ-insertion at a Sino boundary, but lexicalised rather than automatic.
+
+- **Rules:** After /N/-final first morpheme, a vowel-/j-/w-initial second morpheme historically took on n-/m-: 観+音 → かんのん (*kan+on* → *kannon*), 三+位 → さんみ (*san+i* → *sanmi*), 反+応 → はんのう (*han+ō* → *hannō*), 因+縁 → いんねん (*in+en* → *innen*). After an old /t/ coda: 雪+隠 → せっちん (*set+in* → *secchin*). Synchronically these are simply the dictionary readings; the productive modern analog is the gemination/assimilation seen in fresh Sino compounds (see the /Q/ and /N/ entries). **Not** productive across arbitrary boundaries today.
+- **Notation:** `…N# + {V, j, w}… → …N.nV… / …N.mV…`  (lexicalised) ;  `…t# + V… → …Q.CV…` (geminate, lexicalised).
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `かんのん` | kannon | [kannon] | 観 (*kan*) + 音 (*on*) → 観音 'Kannon (Avalokiteśvara)'; the /N/ of *kan* liaises with the vowel-initial 音, inserting [n], and the moraic /N/ assimilates to that following alveolar [n] → geminate-feeling [nn]; classic renjō |
+| `さんみ` | sanmi | [sammi] | 三 (*san*) + 位 (*i*) → 三位 'three ranks / trinity'; /N/ + vowel-initial 位 liaises to [m] before the labial assimilation context; the /N/ also assimilates to [m] |
+| `はんのう` | hannō | [hannoː] | 反 (*han*) + 応 (*ō*) → 反応 'reaction'; /N/ liaises with vowel-initial 応, surfacing as geminate-feeling [nn]; long vowel /oː/ |
+| `いんねん` | innen | [innen] | 因 (*in*) + 縁 (*en*) → 因縁 'fate / karmic connection'; /N/ + 縁 (*en*) → inserted [n], [innen] |
+
+#### 母音の無声化 (high-vowel devoicing in connected speech)
+
+**Category:** phonetic devoicing
+
+The high vowels /i/ and /ɯ/ become **voiceless** [i̥ ɯ̥] when they stand between two voiceless consonants, or word-finally after a voiceless consonant (and often before a pause). The vowel keeps its full mora timing — this is devoicing, **not** deletion and **not** reduction to schwa — but its voicing is lost, so it is heard as a brief voiceless vocoid or as aspiration of the surrounding consonants. This is the closest Japanese phonetic analog to English connected-speech reduction, and it is the single most salient feature of natural Tokyo speech rhythm.
+
+- **Rules:** Devoice /i ɯ/ → [i̥ ɯ̥] (1) between two voiceless consonants /p t k s ɕ h ç ɸ tɕ ts/ : C[-voi] _ C[-voi]; (2) word-finally after a voiceless consonant, especially before a pause (です [desɯ̥], ます [masɯ̥]). **Stronger** and near-obligatory in Standard Tokyo; markedly **weaker / variable** in Kansai. Blocked or reduced when the syllable is **accented** (carries the pitch fall) and when two devoiceable moras are adjacent (typically only one devoices, to avoid a long voiceless stretch, e.g. ふくし avoids devoicing both). The high back vowel after [s] and the /i/ after [k ɕ] are the most reliable environments.
+- **Notation:** `/i ɯ/ → [i̥ ɯ̥] / C[-voi]_C[-voi]`  and  `/ C[-voi]_#(pause)`  ;  ⊘ when the mora is pitch-accented; degemination of double devoicing.
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `すき` | suki | [sɯ̥ki] | 好き 'like': /ɯ/ devoiced between voiceless /s/ and /k/; canonical example, [sɯ̥ki] not [sɯki] |
+| `です` | desu | [desɯ̥] | copula: word-final /ɯ/ after voiceless /s/ before a pause → devoiced [ɯ̥]; the single most frequent devoicing in the language |
+| `きた` | kita | [ki̥ta] | 来た '(it) came': /i/ devoiced between voiceless /k/ and /t/; contrast 北 also [ki̥ta] |
+| `ひと` | hito | [çi̥to] | 人 'person': /i/ devoiced between [ç] (the /h/ allophone before /i/) and /t/; both surrounding consonants voiceless |
+| `がくせい` | gakusei | [ɡakɯ̥seː] | 学生 'student': /ɯ/ of く devoiced between /k/ and /s/; /eː/ long vowel (せい). Shows devoicing inside a Sino word in running speech |
+
+#### 母音融合・縮約 (vowel coalescence and contraction at the verb/auxiliary seam)
+
+**Category:** coalescence
+
+At the seam between a verb's て/で-form (or a stem) and a following auxiliary, particle string, or copula, adjacent vowels and moras **fuse** into a shorter sequence. This is regular standard morphophonology, not slang, though several outputs have a more-casual flavour. The hallmark cases are the て-form auxiliary fusions (てしまう→ちゃう, でしまう→じゃう, ては→ちゃ, では→じゃ) and the copula/particle fusions. The contracted form is the unmarked **spoken** norm; the full form is the careful/written variant.
+
+- **Rules:** (1) ーてしまう → ーちゃう, ーでしまう → ーじゃう : て/で + しまう coalesces, /teɕimaɯ/ → /tɕaɯ/ (the /eɕi/ collapses to the palatal affricate + /a/). (2) ーては → ーちゃ, ーでは → ーじゃ (conditional/topic): /tewa/ → /tɕa/, /dewa/ → /dʑa/. (3) ーている → ーてる, ーでいる → ーでる : the /i/ of いる deletes (progressive/resultative). (4) ーておく → ーとく, ーでおく → ーどく : /teoku/ → /toku/. (5) ーてあげる → ーたげる, ーてしまった → ーちゃった. (6) copula/particle: では → じゃ ([dewa]→[dʑa]), でも colloquial, という → って (quotative), の (nominaliser) → ん before だ (のだ→んだ). These are productive over the whole て-form paradigm.
+- **Notation:** `ーてしまう /teɕimaɯ/ → ーちゃう /tɕaɯ/` ; `ーては /tewa/ → ーちゃ /tɕa/` ; `では /dewa/ → じゃ /dʑa/` ; `ーている /teiɾɯ/ → ーてる /teɾɯ/` ; `ーておく /teokɯ/ → ーとく /tokɯ/`.
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `たべちゃう` | tabechau | [tabetɕaɯ] | 食べてしまう → 食べちゃう '(end up) eating it all'; て+しまう /teɕimaɯ/ coalesces to ちゃう /tɕaɯ/; the spoken default |
+| `よんじゃった` | yonjatta | [joɲdʑatta] | 読んでしまった → 読んじゃった '(ended up) reading it'; で+しまった → じゃった (voiced counterpart of ちゃった); /N/ before [dʑ] surfaces as palatal [ɲ]; geminate /tt/ |
+| `たべてる` | tabeteru | [tabeteɾɯ] | 食べている → 食べてる '(is) eating'; the /i/ of いる deletes; the standard spoken progressive (Kansai ーとる) |
+| `やっとく` | yattoku | [jattokɯ] | やっておく → やっとく '(do it) in advance'; ーておく /teokɯ/ → ーとく /tokɯ/; geminate /tt/ retained from やって |
+| `じゃない` | janai | [dʑanai] | ではない → じゃない 'is not'; では /dewa/ → じゃ /dʑa/ (negative copula); ubiquitous in speech |
+
+#### 促音化・連結における gemination (sokuon /Q/ at and across boundaries)
+
+**Category:** gemination
+
+The special mora /Q/ (sokuon, written small っ/ッ) is the first, unreleased half of a geminate consonant; it occupies a full mora of timing. It arises (1) lexically inside words and Sino compounds, (2) at the て-form/past seam of consonant-stem verbs (the 促音便 'sokuon-onbin' euphonic change), and (3) as an emphatic/colloquial gemination at boundaries. Because /Q/ assimilates totally to the **following** consonant, the same written っ surfaces as different geminates depending on its neighbour.
+
+- **Rules:** /Q/ = the unreleased onset half of the following obstruent, fully assimilated: っか [kka], った [tta], っぱ [ppa], っさ [ssa], っし [ɕɕi], っちゃ [ttɕa], etc. /Q/ legally precedes only voiceless obstruents in native phonology (foreign loans extend it, e.g. ベッド [beddo]). **Verb euphony (音便):** consonant-stem verbs form the て/past with /Q/ : 買う → 買って [katte], 立つ → 立って [tatte], 取る → 取って [totte], 言う → 言って [itte]. At a **Sino boundary**, a first morpheme ending in old /ti tu ki ku/ geminates before a voiceless onset: 学 *gaku* + 校 *kō* → 学校 [ɡakkoː], 一 *ichi* + 回 *kai* → 一回 [ikkai]. **Emphatic** boundary gemination: やはり → やっぱり [jappaɾi], *very* → すっごい. /Q/ counts as one mora for timing.
+- **Notation:** `/Q/ → [first half of following C]` (unreleased, +1 mora) ;  `C-stem verb + て/た → …Q.te / …Q.ta` ;  `Sino E1(…ti/ku) + voiceless-E2 → …Q.CV…`.
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `がっこう` | gakkō | [ɡakkoː] | 学 (*gaku*) + 校 (*kō*) → 学校 'school'; the /ku/ of *gaku* reduces to /Q/, geminating the following /k/; /oː/ long vowel; Sino-boundary gemination (a productive renjō-type effect) |
+| `いっかい` | ikkai | [ikkai] | 一 (*ichi*) + 回 (*kai*) → 一回 'once'; *ichi* → /iQ/ before voiceless /k/ → geminate [kk]; the counter boundary regularly triggers this |
+| `かって` | katte | [katte] | 買う → 買って '(having) bought / buy and …'; 促音便: the consonant-stem verb's て-form takes /Q/ → geminate [tt] across the stem→て seam |
+| `いって` | itte | [itte] | 言う → 言って '(having) said / say and …'; same 促音便; contrast 行って (go) also [itte] — a notorious homograph-in-IPA pair |
+| `やっぱり` | yappari | [jappaɾi] | やはり → やっぱり 'as expected / after all'; emphatic/colloquial gemination inserts /Q/, geminating /p/ (and h→p in the geminate context); register-graded emphatic boundary effect |
+
+#### 撥音の同化 (realisation of the moraic nasal /N/ ん across boundaries)
+
+**Category:** assimilation
+
+The special mora /N/ (撥音, written ん/ン) is a **placeless** nasal mora that fully assimilates in **place** to whatever follows it, including across word and phrase boundaries. It occupies one full mora of timing in all positions. Its surface value is therefore determined by the next onset, so the same written ん is heard as [m], [n], [ŋ], or a nasalised vocoid [ɰ̃]/[ɴ] depending on the neighbour — a regular, automatic phonetic assimilation that holds at every tempo.
+
+- **Rules:** /N/ → [m] before labials /p b m/ ; [n] before alveolars /t d n s z r/ ; [ŋ] before velars /k ɡ/ ; [ɲ] before palatals /tɕ dʑ ɲ/ ; and utterance-finally or before a vowel, /j w/, or a fricative /h s/ it surfaces as a **nasalised back vocoid** [ɴ] / [ɰ̃] (the preceding/following vowel is nasalised, no full closure). This holds within words **and** across word/phrase boundaries — e.g. 日本 'Japan' is [nihoɴ] alone but [nihom] before a labial-initial next word. Always one mora long.
+- **Notation:** `/N/ → [m]/_{p b m} ; [n]/_{t d n s z r} ; [ŋ]/_{k ɡ} ; [ɲ]/_{tɕ dʑ} ; [ɴ]/[ɰ̃] / _{#, V, j, w, h}`  (+1 mora always).
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `しんぶん` | shinbun | [ɕimbɯɴ] | 新聞 'newspaper': first /N/ → [m] before labial /b/; final /N/ utterance-finally → uvular/nasalised [ɴ]; same written ん, two surfaces |
+| `こんにちは` | konnichiwa | [konnitɕiwa] | 今日は 'hello': /N/ → [n] before the alveolar/palatal /n/ of に; note the particle は read [wa] |
+| `けんか` | kenka | [keŋka] | 喧嘩 'quarrel': /N/ → [ŋ] before velar /k/; classic velar-assimilation case |
+| `ほんを` | hon o | [hoɴ o] ~ [hoɰ̃o] | 本を 'book (OBJ)': /N/ of 本 before the vowel-initial particle を /o/ → nasalised vocoid [ɴ]/[ɰ̃], **no** oral closure; shows /N/ realisation computed across the word→particle boundary |
+| `さんびき` | sanbiki | [sambiki̥] | 三匹 'three (small animals)': /N/ → [m] before /b/ of the counter (匹 *hiki*→*biki* by rendaku); also shows rendaku and final /i/ devoicing — a multi-process compound |
+
+#### 口語縮約 (casual-speech contractions and reductions)
+
+**Category:** contraction
+
+The Japanese layer that behaves most like the gradient, register-sensitive English connected-speech processes: in casual/colloquial speech, fuller forms contract by deleting or fusing moras, dropping particles, and collapsing common collocations. These are **optional**, scale with informality and speed, and are avoided in careful, written, and formal-polite registers — directly analogous to English weak/contracted forms (*gonna*, *it's*), though driven by mora/segment loss rather than vowel-quality reduction.
+
+- **Rules:** Common patterns: (1) **ら抜き言葉** — potential -られる → -れる on ichidan verbs (食べられる → 食べれる, 見られる → 見れる), dropping the ら mora; widespread casual/standard-creeping. (2) の (nominaliser/genitive) → ん before だ/の (のだ → んだ, なのです → なんです); also explanatory ーんです. (3) という → って (quotative/topic marker), とは → って, ていうか → っていうか → てか. (4) では → じゃ, でも colloquial, それは → そりゃ, これは → こりゃ. (5) ーなければ → ーなきゃ / ーなけりゃ, ーれば → ーりゃ. (6) ーていく → ーてく, ーてしまう → ーちゃう (also above). (7) **particle dropping** in fast speech (を, は, が often omitted). (8) すみません → すいません, ありがとうございます reductions. Reversible to the full form in careful speech.
+- **Notation:** `ら抜き -られる /-ɾaɾeɾɯ/ → -れる /-ɾeɾɯ/` ; `のだ → んだ /N.da/` ; `という → って /tte/` ; `では → じゃ /dʑa/` ; `ーなければ → ーなきゃ /-nakja/`.
+
+| Kana | Rōmaji | IPA | Note |
+|---|---|---|---|
+| `たべれる` | tabereru | [tabeɾeɾɯ] | ら抜き言葉: 食べられる → 食べれる 'can eat'; the ら mora of the potential -られる is dropped; spreading casual standard, still proscribed in formal writing |
+| `なんだ` | nanda | [nanda] | なのだ / なんだ: the nominaliser/copula の → ん before だ (explanatory んだ); [n] assimilation of /N/ before /d/; 'it is (that) …' |
+| `って` | tte | [tte] | という → って (quotative/topic): the four-mora という contracts to the geminate /Qte/ → [tte]; one of the most frequent casual contractions |
+| `なきゃ` | nakya | [nakja] | ーなければ → ーなきゃ '(have to)…' as in 行かなきゃ; the conditional -nakereba contracts to -nakja, dropping moras; yōon きゃ |
+| `そりゃ` | sorya | [soɾja] | それは → そりゃ 'as for that / well, that…'; demonstrative + topic は contracts with palatalisation; casual register |
+
+### Process Classification
+
+Japanese boundary phenomena fall into **three tiers** that differ in how 'automatic' they are, and this is the key to reading them correctly.
+
+1. **Lexical morphophonemic processes** — 連濁 rendaku and 連声 renjō, plus the Sino-boundary gemination of frozen compounds: these are baked into the dictionary form of particular words, surface at **all** tempos including citation, but are **not** productive across arbitrary boundaries (they are full of conditions like Lyman's Law and native/Sino/foreign asymmetries, and of one-off exceptions).
+2. **Grammatical/morphological contractions** — the て-form fusions (ちゃう, じゃう, とく, てる) and copula/particle fusions (じゃ, んだ, って): these are regular and productive over their paradigms, register-graded (contracted = ordinary spoken, full = careful/written), and change mora count.
+3. **Phonetic, gradient processes** — high-vowel devoicing, the placeless realisation of /N/, the assimilation of /Q/, emphatic gemination, and casual reductions (ら抜き, particle dropping): these scale with tempo and informality exactly like English connected-speech processes.
+
+/N/-assimilation and /Q/-assimilation are the most automatic of the phonetic set (they apply at every tempo), while devoicing and the casual contractions are the most rate/register-sensitive.
+
+### Process Ordering
+
+Within a phrase the tiers **feed one another**. The usual sequence:
+
+1. build the underlying string with particles and auxiliaries attached to their hosts;
+2. apply the **lexical** rendaku/renjō/gemination already present in each compound's dictionary form;
+3. apply any **grammatical** contraction selected by register (てしまう→ちゃう, ている→てる, では→じゃ, のだ→んだ);
+4. on the resulting mora string apply the **phonetic** processes — /N/ assimilates in place to whatever now follows it, /Q/ assimilates to the following obstruent, and high /i ɯ/ devoice in voiceless environments — each computed over the **post-contraction** context.
+
+This is why a single short compound can stack several processes:
+
+- 三匹 → rendaku (匹 *hiki*→*biki*) + /N/→[m] before the new labial /b/ + final /i/ devoicing → **[sambiki̥]**;
+- 読んじゃった → grammatical でしまった→じゃった + /N/→[ɲ] before [dʑ] + geminate /tt/ → **[joɲdʑatta]**;
+- がくせい → Sino word + /ɯ/ devoicing between /k/ and /s/ → **[ɡakɯ̥seː]**.
+
+### Rate & Register
+
+Unlike English weak forms, the **lexical** processes here (rendaku, renjō, frozen Sino gemination) are not fast-speech reductions at all: they are part of the word's stored form and appear identically in slow, careful, citation pronunciation — what slow speech **cannot** do is remove a lexicalised rendaku voicing. The /N/ and /Q/ assimilations are likewise effectively obligatory phonetic outcomes that hold at every tempo (a fully released, place-neutral ん does not occur in natural speech).
+
+What slow, emphatic, or formal-polite delivery **does** remove is:
+
+- **(a)** the **grammatical** contractions — careful/written Japanese uses the full ーている, ーてしまう, ではない, のです rather than ーてる, ーちゃう, じゃない, んです; and
+- **(b)** the gradient **phonetic** layer — high-vowel devoicing weakens or disappears under emphasis and in slow careful speech (and is generally weaker in Kansai), and casual reductions (ら抜き, particle dropping, という→って) recede entirely in formal registers.
+
+These two layers scale with speed and informality exactly like English connected-speech processes. **No amount of fast speech introduces schwa or reduces a full vowel's quality**; the maximal Japanese reductions are **devoicing** (timing kept) and, in casual contraction, whole-mora **deletion** — never centralisation to schwa.
+
+### Dialect Variation
+
+Standard Tokyo vs Kansai (Keihan) divergences relevant to the boundary:
+
+1. **High-vowel devoicing** is robust and near-obligatory in Tokyo but markedly weaker and more variable in Kansai (です more often [desɯ] than [desɯ̥], すき often [sɯki]); this is the largest connected-speech difference between the two standards.
+2. **Contraction inventory** differs: Kansai negative is ーへん/ーひん (行かへん) vs Tokyo ーない; the て-progressive is often ーとる/ーてる; the copula is や (so では→じゃ has や-based counterparts and なんや for んだ); ーてしまう contracts to ーてまう/ーてもうた alongside ちゃう.
+3. **Pitch accent** differs systematically (京阪式 has a lexical high/low register on top of accent, with melodies often reversed vs Tokyo, and the 箸/橋, 雨/飴 pairs swapped) — this does not change the segmental boundary processes but changes which mora is prominent, which in turn slightly affects **where** devoicing is blocked (an accented mora resists devoicing).
+4. The rendaku and renjō **lexicon is essentially shared nationwide**; these are asides — the lexical and /N/-/Q/ machinery is common to both standards.
+
+### Interaction & Contrast
+
+**Contrast with English:** The defining contrast with the English "Weak Forms & Connected Speech" section: English connected speech is driven by **vowel reduction** — unstressed function words collapse onto schwa /ə/, syllabic consonants, or zero, rhythm is **stress-timed**, and there is a productive strong↔weak form alternation across the whole function-word class. Japanese has **no weak forms, no schwa, no vowel-quality reduction, and no lexical stress** to motivate any; it is **mora-timed**, prominence is pitch-accent, and its particles/auxiliaries keep their **full vowels**. Where English bridges word boundaries by reducing vowels and inserting linking/intrusive-r, Japanese bridges them by (a) **lexical** voicing/liaison frozen into compounds (rendaku, renjō), (b) productive **morphological** contraction at the verb/auxiliary/particle seam (ちゃう, てる, じゃ, んだ), and (c) **phonetic** assimilation of the special moras /N/ and /Q/ plus high-vowel **devoicing**. The English strong-vs-weak distinction has no close Japanese counterpart; its nearest analog is the optional full↔contracted choice (ている↔てる, ではない↔じゃない), which is about mora/segment loss in informal register, not vowel quality. Net: English connected speech is a **vowel-reduction** system; Japanese connected speech is a **lexical-voicing + mora-assimilation + contraction** system, with devoicing standing in for English's reduction as the chief gradient rhythm-shaper.
+
+**Cross-reference:** This section is the Japanese counterpart to the English guide's "Weak Forms & Connected Speech" and the Korean guide's "Connected Speech & Sandhi" (and the Spanish guide's "Connected Speech & Sinalefa"). Unlike the English weak forms — which are gradient, optional, fast-speech vowel reductions — most Japanese boundary processes here are **lexical** or **morphophonemic** (rendaku 連濁, renjō 連声, frozen Sino gemination) rather than fast-speech reductions: they are stored in the word's dictionary form and surface at every tempo; only the grammatical contractions (ちゃう, てる, じゃ, んだ) and the phonetic layer (high-vowel devoicing, casual reductions, ら抜き) are gradient and register-bound in the English manner, while /N/ and /Q/ assimilation are automatic phonetic outcomes. Read this section together with the Japanese guide's *Phonological Rules* section (the same allophony — devoicing, ɡ→ŋ 鼻濁音, /N/-/Q/ assimilation — documented word-internally), the *Syllable Structure* / mora section (the special moras /N/ /Q/ /R/ and yōon that drive the gemination and assimilation), the *Consonants* section (the voiced↔voiceless pairs and [dʑ dz ɕ tɕ] allophony that rendaku and devoicing feed), the *Vowels* section (full-quality five-vowel system, vowel length, and the devoicing of /i ɯ/), and the *Suprasegmentals* section (Tokyo vs Kansai pitch accent, which conditions where devoicing is blocked). Where the English guide opposes GA vs RP (chiefly rhoticity) and the Korean guide opposes South 표준어 vs North 문화어 (chiefly 두음법칙), the Japanese guide opposes Standard Tokyo (標準語) vs Kansai (関西弁) — chiefly devoicing strength, contraction inventory, and pitch-accent melody. Companion materials: the five Japanese Peshitta reader tiers (`Japanese/Peshita_Japanese/Scholarly/`, `Japanese/Peshita_Japanese/Pretty/`, `Japanese/Peshita_Japanese/Katakana/`, `Japanese/Peshita_Japanese/Hiragana/`, `Japanese/Peshita_Japanese/Romaji/`) and the prose guide `Japanese/japanese_pronunciation_guide.md` — the kana tiers spell the moraic underlying string (with forced vowel epenthesis for Aramaic clusters), and the Romaji (Hepburn) tier reads back the surface kana result.
+
+## Sample Words in IPA
+
+34 illustrative Japanese words transcribed in IPA for the reference standard — Standard / Common Japanese (標準語 / 共通語 Hyōjungo / Kyōtsūgo, educated Tokyo Yamanote speech, Tokyo-type pitch accent 東京式アクセント) — with Kansai / Keihan (関西弁 / 京阪式アクセント) pitch notes given in parallel on the pitch minimal pairs, modeled on the English guide's GA/RP columns and the Korean guide's South/North columns and the Peshitta guide's Eastern/Western tradition columns. Because Japanese is MORA-TIMED with lexical PITCH ACCENT (not stress, not per-syllable tone), every entry marks pitch as an H/L melody on each mora and shows the downstep (pitch drop) with the IPA downstep glyph ꜜ; the accent type is named with its traditional class (頭高型 atamadaka / 中高型 nakadaka / 尾高型 odaka / 平板型 heiban). The words are chosen to exercise the full segmental system: every consonant series including the signature allophones (し [ɕi], ち [tɕi], つ [tsɯ], ふ [ɸɯ], ひ [çi], が鼻濁音 [ŋa]), all five vowels /a i ɯ e o/ in both short and long (phonemic length), high-vowel devoicing ([i̥ ɯ̥]), the three special moras (moraic ん /N/, sokuon っ /Q/, long vowel ー /R/), yōon (拗音 palatalized moras), rendaku (連濁 sequential voicing), and the classic Tokyo pitch-accent minimal pairs 箸/橋/端 (hashi) and 雨/飴 (ame). Each entry gives the word in 漢字/かな, the kana reading, Hepburn and Kunrei-shiki romanizations, the Tokyo IPA with marked pitch, the pitch-accent class, a gloss, the phonemes/moras it illustrates, and a detailed note. The array as a whole forms a verifiable coverage matrix for the Japanese phonological system, and maps onto the five shipped reader tiers (Scholarly + Pretty Latin, カタカナ Katakana, ひらがな Hiragana, and ローマ字 Rōmaji Hepburn readback).
+
+*Words were selected illustratively (not corpus-sliced) to guarantee complete coverage: collectively they realize every consonant phoneme /p b t d k ɡ s z h m n r j w/ plus the special moras /N Q/, instantiate all five vowels short and long (/a aː/, /i iː/, /ɯ ɯː/, /e eː/, /o oː/), exhibit the full set of conditioned allophones (/s/→[ɕ], /t/→[tɕ]/[ts], /z d/→[dʑ]/[dz], /h/→[ç]/[ɸ], /ɡ/→[ŋ] 鼻濁音, /r/=[ɾ], /w/=[ɰ]), demonstrate high-vowel devoicing ([i̥ ɯ̥]), the moraic nasal /N/ assimilating to [m]/[n]/[ŋ]/[ɴ], the sokuon /Q/ geminate, the long-vowel mora /R/, yōon palatalization, and rendaku sequential voicing, and supply the two textbook Tokyo pitch-accent minimal triads/pairs 箸 ha\shi (HL atamadaka) ~ 橋 hashi\ (LH odaka) ~ 端 hashi (LH heiban) and 雨 a\me (HL atamadaka) ~ 飴 ame (LH heiban). The reference standard is Tokyo; on the two minimal-pair sets the Kansai (京阪式) melody is given in parallel in the note, where the accent patterns are systematically different (e.g. 箸 and 橋 swap their Tokyo melodies in Kansai, and the lexical initial register high/low is contrastive on top of accent). All transcriptions are phonemic /…/ with phonetic realizations in [brackets] where an allophone, devoicing, or assimilation is at issue.*
+
+*Pitch in these transcriptions is the Tokyo-type system: a word carries AT MOST ONE accent, realized as a DOWNSTEP (a sharp pitch DROP, marked ꜜ) immediately after the accented mora; thereafter the pitch stays low. A separate near-universal rule applies first: mora 1 and mora 2 ALMOST ALWAYS differ in pitch — an unaccented (heiban 平板型) word rises L→H after mora 1 and stays H (LHHH…), while an initial-accented (atamadaka 頭高型) word starts H and drops to L after mora 1 (HLLL…). The four classes: 頭高型 atamadaka = drop after mora 1 (H ꜜ L L…); 中高型 nakadaka = drop word-medially after a non-initial, non-final mora (L H ꜜ L…); 尾高型 odaka = the word is all-high but the drop falls on a FOLLOWING particle, so the noun alone looks like heiban until a particle (が/を) is added and surfaces low (L H H | ꜜ が); 平板型 heiban = accentless, no drop ever, the high plateau continues onto any following particle (L H H H が). In the H/L strings below, each symbol is one MORA (so a long vowel, the moraic ん, and the sokuon っ each carry their own H or L), and ꜜ marks the downstep boundary.*
+
+*High vowels /i/ and /ɯ/ are DEVOICED (whispered, marked [i̥ ɯ̥], sometimes elided) when they fall between two voiceless consonants or word-finally after a voiceless consonant. This is automatic and pervasive in Tokyo speech (less so in Kansai). The entries 好き su\ki [sɯ̥ki], です de\su [desɯ̥], 靴 kutsu [kɯ̥tsɯ], 人 hito [çi̥to], and 学生 gakusei [ɡakɯ̥seː] show the process; the devoiced vowel still counts as a full mora for timing and pitch — it bears the pitch target (H or L) abstractly, but since a whispered vowel has no audible F0, the per-mora tone bar (˦/˨) is OMITTED on devoiced moras in the bracketed tone strings (the H/L label in the parenthetical still includes that mora).*
+
+**Total sample words:** 34
+
+| Word | Kana | Hepburn | Kunrei | IPA (Tokyo, with pitch) | Pitch-accent class | Gloss | Phenomena illustrated |
+|---|---|---|---|---|---|---|---|
+| 箸 | `はし` | hashi | hasi | `/haꜜɕi/ [ha˦ɕi˨] (H ꜜ L)` | 頭高型 atamadaka (accent on mora 1, drop after mora 1) | 'chopsticks' | h; a; ɕ (=/s/→[ɕ] before /i/); i; pitch: atamadaka |
+| 橋 | `はし` | hashi | hasi | `/haɕiꜜ/ [ha˨ɕi˦ \| ꜜɡa˨] (L H ꜜ on particle)` | 尾高型 odaka (accent on the final mora, drop falls on a following particle) | 'bridge' | h; a; ɕ; i; pitch: odaka (drop on particle) |
+| 端 | `はし` | hashi | hasi | `/haɕi/ [ha˨ɕi˦ \| ɡa˦] (L H, plateau continues)` | 平板型 heiban (accentless, no drop) | 'edge, end' | h; a; ɕ; i; pitch: heiban (no drop) |
+| 雨 | `あめ` | ame | ame | `/aꜜme/ [a˦me˨] (H ꜜ L)` | 頭高型 atamadaka (accent on mora 1) | 'rain' | a; m; e; pitch: atamadaka |
+| 飴 | `あめ` | ame | ame | `/ame/ [a˨me˦ \| ɡa˦] (L H, plateau)` | 平板型 heiban (accentless) | 'candy' | a; m; e; pitch: heiban (no drop) |
+| 寿司 | `すし` | sushi | susi | `/sɯɕiꜜ/ [sɯ̥ɕi˦] (L H, odaka; tone bar omitted on the devoiced mora す, which bears L)` | 尾高型 odaka (drop on following particle) | 'sushi' | s; ɯ̥ (devoiced /ɯ/); ɕ (=/s/→[ɕ] before /i/); i; devoicing |
+| 茶 | `ちゃ` | cha | tya | `/tɕa/ [tɕa˨] (one mora; LH with particle)` | 平板型 heiban (accentless monomora) | 'tea' | tɕ (=/t/→[tɕ] before /j/, yōon); a; yōon (拗音 ちゃ) |
+| 靴 | `くつ` | kutsu | kutu | `/kɯtsɯ/ [kɯ̥tsɯ˦] (L H, heiban; tone bar omitted on the devoiced mora く, which bears L)` | 平板型 heiban (accentless) | 'shoes' | k; ɯ̥ (devoiced /ɯ/); ts (=/t/→[ts] before /ɯ/); ɯ; devoicing |
+| 二 | `ふた` | futa | huta | `/ɸɯta/ [ɸɯ˨ta˦] (L H, heiban; as in 二つ futatsu)` | 平板型 heiban (stem) | 'two' (counter stem 二つ futatsu 'two things') | ɸ (=/h/→[ɸ] before /ɯ/); ɯ; t; a |
+| 人 | `ひと` | hito | hito | `/çitoꜜ/ [çi̥to˦] (L H, odaka; tone bar omitted on the devoiced mora ひ, which bears L)` | 尾高型 odaka (drop on following particle) | 'person' | ç (=/h/→[ç] before /i/); i̥ (devoiced /i/); t; o; devoicing |
+| 鏡 | `かがみ` | kagami | kagami | `/kaɡami/ [ka˨ŋa˦mi˦] (L H H, heiban; medial が→[ŋa])` | 平板型 heiban (accentless) | 'mirror' | k; a; ɡ→[ŋ] (鼻濁音 intervocalic velar nasal); m; i |
+| 学校 | `がっこう` | gakkō | gakkô | `/ɡaQkoR/ [ɡak̚koː] [ɡa˨k̚˦ko˦o˦] (L H H H, heiban)` | 平板型 heiban (accentless) | 'school' | ɡ (word-initial [ɡ], NOT [ŋ]); a; Q (sokuon っ, geminate); k; oR (long /oː/) |
+| 切手 | `きって` | kitte | kitte | `/kiQte/ [kit̚te] [ki˨t̚˦te˦] (L H H, heiban; as 切手 kitte)` | 平板型 heiban (accentless) | 'postage stamp' | k; i; Q (sokuon っ before /t/); t; e |
+| 新聞 | `しんぶん` | shinbun | sinbun | `/ɕiNbɯN/ [ɕim.bɯɴ] [ɕi˨m˦bɯ˦ɴ˦] (L H H H, heiban)` | 平板型 heiban (accentless) | 'newspaper' | ɕ (=/s/→[ɕ] before /i/); i; N→[m] (moraic nasal before labial); b (rendaku? no — lexical); ɯ; N→[ɴ] (moraic nasal utterance-final) |
+| 三 | `さん` | san | san | `/saN/ [saɴ] [sa˨ɴ˦] (L H, heiban; [sam-]/[san-]/[saŋ-] before C)` | 平板型 heiban (accentless) | 'three' (三 san) | s; a; N (moraic nasal, all assimilation contexts) |
+| おばあさん | `おばあさん` | obāsan | obâsan | `/obaːsaN/ [o˨ba˦a˦sa˦ɴ˦] (L H H H H, heiban)` | 平板型 heiban (accentless) | 'grandmother' (also 'elderly woman') | o; b; aR (long /aː/); s; a; N; vowel length (phonemic) |
+| 東京 | `とうきょう` | Tōkyō | Tôkyô | `/toRkjoR/ [toː.kʲoː] [to˨o˦kʲo˦o˦] (L H H H, heiban)` | 平板型 heiban (accentless) | 'Tokyo' (東京, capital city) | t; oR (long /oː/); k; j (yōon きょ); oR (long /oː/); vowel length; yōon |
+| 学生 | `がくせい` | gakusei | gakusei | `/ɡakɯseR/ [ɡa.kɯ̥.seː] [ɡa˨kɯ̥se˦e˦] (L H H H, heiban; tone bar omitted on the devoiced mora く, which bears H abstractly)` | 平板型 heiban (accentless) | 'student' | ɡ (word-initial [ɡ]); a; k; ɯ̥ (devoiced /ɯ/); s; eR (long /eː/, spelled せい); devoicing; vowel length |
+| おはよう | `おはよう` | ohayō | ohayô | `/ohajoR/ [o.ha.joː] [o˨ha˦jo˦o˦] (L H H H, heiban)` | 平板型 heiban (interjection) | 'good morning' (informal) | o; h (plain [h] before /a/); a; j (/j/ glide before /o/); oR (long /oː/) |
+| 私 | `わたし` | watashi | watasi | `/wataɕi/ [ɰa.ta.ɕi] [ɰa˨ta˦ɕi˦] (L H H, heiban)` | 平板型 heiban (accentless; also 中高 in some speech) | 'I, me' | w=[ɰ] (labial-velar approximant); a; t (plain [t]); ɕ (=/s/→[ɕ] before /i/); i |
+| 鼻血 | `はなぢ` | hanaji | hanazi | `/hanadʑiꜜ/ [ha.na.dʑi] [ha˨na˦dʑi˦] (L H H, odaka)` | 尾高型 odaka (drop on following particle) | 'nosebleed' (鼻 hana 'nose' + 血 chi 'blood') | h; a; n; RENDAKU (連濁: ち /tɕi/ → ぢ /dʑi/); dʑ (=voiced /d~z/ before /i/) |
+| 時々 | `ときどき` | tokidoki | tokidoki | `/tokidokiꜜ/ [to.ki.do.ki] [to˨ki˦do˦ki˨ \| …] (L H H H, accent on mora 3)` | 中高型 nakadaka (accent medial, on mora 3) | 'sometimes, from time to time' | t (plain [t]); o; k; i; RENDAKU (連濁: と /to/-reduplication と→ど voicing); d; pitch: nakadaka |
+| 田中 | `たなか` | Tanaka | Tanaka | `/tanaka/ [ta.na.ka] [ta˨na˦ka˦] (L H H, heiban)` | 平板型 heiban (surname, level) | 'Tanaka' (a common surname) | t (plain [t]); a; n (alveolar nasal); k |
+| 切符 | `きっぷ` | kippu | kippu | `/kiQpɯ/ [kip̚.pɯ] [ki˨p̚˦pɯ˦] (L H H, heiban)` | 平板型 heiban (accentless) | 'ticket' | k; i; Q (sokuon っ before /p/); p (bilabial stop /p/, handakuten ぷ); ɯ |
+| おばさん | `おばさん` | obasan | obasan | `/obasaN/ [o˨ba˦sa˦ɴ˦] (L H H H, heiban)` | 平板型 heiban (accentless) | 'aunt' (also 'middle-aged woman') | o; b; a (SHORT /a/); s; a; N; vowel length (minimal pair) |
+| りんご | `りんご` | ringo | ringo | `/riNɡo/ [ɾiŋ.ɡo] [ɾi˨ŋ˦ɡo˦] (L H H, heiban)` | 平板型 heiban (accentless) | 'apple' | r=[ɾ] (apico-alveolar tap); i; N→[ŋ] (moraic nasal before velar); ɡ (post-nasal [ɡ], NOT 鼻濁音) |
+| 好き | `すき` | suki | suki | `/sɯkiꜜ/ [sɯ̥.ki] [sɯ̥ki˨] (H ꜜ L, atamadaka; tone bar omitted on the devoiced mora す, which bears H)` | 頭高型 atamadaka (accent on mora 1) | 'liked, favorite' (好きだ suki da 'to like') | s; ɯ̥ (devoiced /ɯ/); k; i; devoicing; pitch: atamadaka |
+| です | `です` | desu | desu | `/desɯ/ [de.sɯ̥] [de˨sɯ̥] (L H, copula; phrase-final; tone bar omitted on the devoiced mora す, which bears H)` | 平板型 heiban (copula, level/low-falling in situ) | 'is/am/are' (polite copula) | d (plain [d]); e; s; ɯ̥ (devoiced word-final /ɯ/); devoicing |
+| 水 | `みず` | mizu | mizu | `/midzɯ/ [mi.dzɯ] [mi˨dzɯ˦] (L H, heiban)` | 平板型 heiban (accentless) | 'water' | m; i; z→[dz] (=/z/→[dz] word-medially / after pause variant); ɯ |
+| 千円 | `せんえん` | sen'en | sen'en | `/seNeN/ [se.ɰ̃.eɴ] [se˨ɰ̃˦e˦ɴ˦] (L H H H, heiban)` | 平板型 heiban (accentless) | 'one thousand yen' (千 sen + 円 en) | s; e; N→[ɰ̃] (moraic nasal before a VOWEL → nasalized glide); e; N→[ɴ] (utterance-final) |
+| 映画 | `えいが` | eiga | eiga | `/eRɡa/ [eː.ŋa] ~ [eː.ɡa] [e˦e˨ŋa˨] (H ꜜ L L, atamadaka)` | 頭高型 atamadaka (accent on mora 1) | 'movie, film' | eR (long /eː/, spelled えい); ɡ→[ŋ] (鼻濁音 intervocalic) ~ [ɡ]; a; vowel length; pitch: atamadaka |
+| 空気 | `くうき` | kūki | kûki | `/kɯRki/ [kɯː.ki] [kɯ˨ɯ˦ki˦] (L H H, heiban)` | 平板型 heiban (accentless) | 'air, atmosphere' | k; ɯR (long /ɯː/, spelled くう); i; vowel length |
+| おじいさん | `おじいさん` | ojiisan | ozîsan | `/odʑiːsaN/ [o.dʑiː.saɴ] [o˨dʑi˦i˦sa˦ɴ˦] (L H H H H, heiban)` | 平板型 heiban (accentless) | 'grandfather' (also 'elderly man') | o; dʑ (=voiced /z~d/ before /i/); iR (long /iː/); s; a; N; vowel length |
+| 百 | `ひゃく` | hyaku | hyaku | `/hjakɯꜜ/ [ça.kɯ̥] ~ [çja.kɯ̥] [ça˦kɯ̥] (H ꜜ L, atamadaka; /hj/→[çj]~[ç] before the on-glide; tone bar omitted on the devoiced final mora く, which bears L)` | 頭高型 atamadaka (accent on mora 1) | 'hundred' (100) | ç + j (yōon ひゃ = [ça]/[çja]); a; k; ɯ̥ (devoiced final /ɯ/); yōon; devoicing; pitch: atamadaka |
+
+### Detailed Entry Notes
+
+**箸 hashi** — First member of the classic Tokyo pitch triad 箸/橋/端. TOKYO: 箸 is 頭高 ha\shi (HꜜL) — high on mora 1, drop to low on し. Demonstrates the /s/→[ɕ] palatal allophone before /i/ (し = [ɕi], never *[si]). KANSAI (京阪式) REVERSES the pair: there 箸 is LOW-initial and 橋 takes the Tokyo-箸 melody — the textbook 箸⇄橋 swap. Word-finally, the /i/ of し is not devoiced here because it carries the low post-downstep mora and is phrase-final voiced.
+
+**橋 hashi** — Second member of the 箸/橋/端 triad. TOKYO: 橋 is 尾高 — the noun alone is LH (はし low-high), but the accent sits on the FINAL mora so the drop only surfaces on an attached particle: 橋が hashi\-ga = LH-ꜜLOW [ha.ɕi.ꜜɡa]. This is what distinguishes 橋 (odaka) from 端 (heiban): both are LH bare, but 端が stays high (LHH) while 橋が drops (LHꜜL). KANSAI swaps 箸⇄橋. Same segments as 箸/端; the only contrast is pitch.
+
+**端 hashi** — Third member of the 箸/橋/端 triad and the accentless one. TOKYO: 端 is 平板 — rises LH and STAYS high onto any particle: 端が hashi-ga = LHH [ha.ɕi.ɡa], NO drop. Contrast with 橋が (odaka, LHꜜL) which drops. The minimal triad 箸 (HꜜL atamadaka) / 橋 (LH odaka, drops on particle) / 端 (LH heiban, never drops) is THE showcase of the four-way Tokyo accent system collapsing onto one segmental string はし.
+
+**雨 ame** — First member of the second classic pitch pair 雨/飴. TOKYO: 雨 is 頭高 a\me (HꜜL) — high あ, drop to low め. KANSAI INVERTS this: in 京阪式 雨 is low-initial and 飴 is the high one, the mirror of Tokyo. Demonstrates the nasal /m/ onset and the mid vowels /a/ and /e/. Pairs minimally with 飴 (next), identical segments /ame/.
+
+**飴 ame** — Second member of 雨/飴. TOKYO: 飴 is 平板 ame (LH) — rises and stays high onto a particle: 飴が ame-ga = LHH, no drop, versus 雨が ame\-ga where 雨 (atamadaka) is HꜜL and が is low. KANSAI inverts the pair. Same /ame/ segments as 雨; the sole contrast is the accent class — a minimal pair purely in pitch, the Japanese analog of an English stress-shift pair like PERmit~perMIT but realized as pitch, not stress.
+
+**寿司 sushi** — Shows BOTH realizations of the /s/ series side by side: す = plain [sɯ] but here the /ɯ/ DEVOICES to [ɯ̥] between voiceless [s] and [ɕ] → [sɯ̥ɕi]; し = palatalized [ɕi]. So one word contrasts /s/ before /ɯ/ ([s]) with /s/ before /i/ ([ɕ]). Also a high-vowel devoicing exemplar. The unrounded back /ɯ/ ([ɯ̈], compressed, not [u]) is the Japanese 'u'.
+
+**茶 cha** — A YŌON (拗音) syllable ちゃ = /t/ + small ゃ, realized as the palato-alveolar affricate [tɕa] in a SINGLE mora (ち + small ゃ count as one mora, not two). Demonstrates /t/→[tɕ] before the /j/-glide, the same affricate as in ち [tɕi]. With a particle 茶が is LH (heiban).
+
+**靴 kutsu** — つ = /t/ before /ɯ/ → the affricate [tsɯ] (never *[tɯ]). The first /ɯ/ (く) DEVOICES to [kɯ̥] between voiceless [k] and [ts]. Shows the [ts] allophone of /t/ alongside [tɕ] (in 茶/ち) and plain [t] (in 田中), completing the /t/ allophony set [t]~[tɕ]~[ts]. Velar /k/ onset.
+
+**二 futa** — ふ = /h/ before /ɯ/ → the bilabial fricative [ɸɯ] (lips, NOT teeth — not [f]). This is the /h/ allophone before /ɯ/. た = plain [ta] (the default /t/ realization, contrasting with [tɕ] and [ts]). The full counter is 二つ futatsu [ɸɯ.ta.tsɯ], which also adds the [ts] of つ.
+
+**人 hito** — ひ = /h/ before /i/ → the palatal fricative [çi] (German 'ich'-Laut), NOT [hi]. With [ç]→[ɸ]→[h] this completes the /h/ allophony (ひ [çi] / ふ [ɸɯ] / は・へ・ほ [h]). The /i/ DEVOICES to [çi̥] before voiceless [t]. 人が hito\-ga drops on the particle (odaka).
+
+**鏡 kagami** — The 鼻濁音 (bidakuon) showcase: word-INITIAL か is [k] and would-be が is voiced [ɡ] only initially, but INTERVOCALIC が here is realized by conservative/standard Tokyo (and NHK) speakers as the velar NASAL [ŋa] → [ka.ŋa.mi], not [ka.ɡa.mi]. This [ŋ] allophone of /ɡ/ is recessive among younger speakers (who keep [ɡ]) but is the prescriptive Tokyo/共通語 norm. Heiban LHH.
+
+**学校 gakkō** — Two special moras at once. が is WORD-INITIAL so /ɡ/ = the stop [ɡa] (the position where it is NEVER 鼻濁音). っ = the SOKUON /Q/, the first half of a geminate [kk] = an unreleased [k̚] hold occupying its own MORA → がっこう is FOUR moras ga-Q-ko-R. こう = the LONG vowel /oː/ (こ + う written for ō), the /R/ long-vowel mora. So the word is 4 moras: [ɡa.k̚.ko.o]. Heiban LHHH.
+
+**切手 kitte** — Sokuon /Q/ before an alveolar stop → geminate [tt], an unreleased [t̚] hold that is its OWN mora: きって = 3 moras ki-Q-te [ki.t̚.te]. Minimal contrast with hypothetical *きて kite [ki.te] (2 moras) shows that gemination is PHONEMIC and mora-counted. Plain [t] release on て. Heiban LHH.
+
+**新聞 shinbun** — TWO moraic nasals /N/ (ん) assimilating to DIFFERENT places: the first ん is before the labial /b/ so it surfaces as [m] (しん→[ɕim]); the final ん is utterance-final so it surfaces as the uvular [ɴ] (ぶん→[bɯɴ]). Each ん is a FULL MORA → しんぶん is 4 moras ɕi-N-bɯ-N. Also し = [ɕi]. The /N/ place-assimilation rule ([m]/[n]/[ŋ]/[ɴ]) is on full display.
+
+**三 san** — A pure moraic-nasal /N/ demonstrator. ALONE / utterance-final さん = [saɴ] (uvular). In compounds /N/ shows its full assimilation paradigm: 三本 sanbon [sam.boɴ] ([m] before labial), 三台 sandai [san.dai] ([n] before alveolar), 三個 sanko [saŋ.ko] ([ŋ] before velar), 三円 san'en [sa.ɰ̃.eɴ] (nasalized glide [ɰ̃] before a vowel). One phoneme /N/, five context-driven realizations [m n ŋ ɴ ɰ̃].
+
+**おばあさん obāsan** — The minimal-pair partner of おばさん obasan 'aunt / middle-aged woman'. The ONLY difference is vowel LENGTH: おばあさん has long /aː/ (ばあ = ば + あ = 2 moras) → 5 moras o-ba-a-sa-N; おばさん has short /a/ → 4 moras. Length is PHONEMIC and mora-counted. Final ん = [ɴ]. Heiban.
+
+**東京 Tōkyō** — TWO long vowels and a yōon. とう = long /oː/ (/R/ mora); きょう = the yōon きょ [kʲo] (k + small ょ, one mora) PLUS う lengthening it to [kʲoː]. So とうきょう is FOUR moras to-R-kjo-R [toː.kʲoː], commonly mis-romanized as 5+ but actually 4 moras. The palatalized [kʲ] yōon contrasts with plain [k]. Heiban LHHH.
+
+**学生 gakusei** — Devoicing + long /eː/. The /ɯ/ of く DEVOICES to [kɯ̥] between voiceless [k] and [s] → [ɡa.kɯ̥.seː]. せい is realized as the LONG vowel [seː] (the kana sequence え-row + い regularly = /eː/ in Sino-Japanese readings, not a diphthong [sei]). Word-initial が = stop [ɡa]. Heiban.
+
+**おはよう ohayō** — The plain glottal [h] (は = [ha], the default /h/ before /a o e/, contrasting with [ç] in ひ and [ɸ] in ふ) plus the palatal approximant /j/ onset (よ = [jo]). おう = long /oː/. The /j/ glide here is a full onset consonant (cf. its role inside yōon きょ). 4 moras o-ha-jo-R.
+
+**私 watashi** — The /w/ phoneme, realized as the compressed labial-velar approximant [ɰa] (NOT English [w]), natively occurring only before /a/ (わ). Plain [ta] (default /t/). し = [ɕi]. So /w/, plain /t/, and /s/→[ɕ] in one common word. (Casual Tokyo also has 中高 wata\shi; the citation form here is heiban/level.)
+
+**鼻血 hanaji** — A RENDAKU (連濁, sequential voicing) showcase: the second element 血 chi [tɕi] 'blood' VOICES to ぢ [dʑi] in the compound 鼻+血 → はなぢ [ha.na.dʑi] 'nosebleed'. The voiced ぢ is the affricate [dʑ] (the voiced counterpart of ち [tɕ]; merged with じ [dʑ] in standard Tokyo, the 四つ仮名 yotsugana merger). Initial は = plain [ha]. Odaka.
+
+**時々 tokidoki** — RENDAKU in a REDUPLICATION: 時 toki repeated, the second 時 voices its initial と→ど → ときどき (the 々 is the repetition mark 同の字点). Shows plain voiceless [t]/[k] in the first half versus voiced [d] in the second. Also the nakadaka 中高型 accent class: 時々 carries the drop word-MEDIALLY (to-ki-do\-ki, drop after mora 3), the class missing from the simpler examples — completing atamadaka/nakadaka/odaka/heiban coverage.
+
+**田中 Tanaka** — A clean demonstrator of the DEFAULT plain consonants: /t/=[t] before /a/ (not [tɕ]/[ts]), the alveolar nasal /n/=[n] (な), and /k/=[k]. All three a-row moras /a/. Heiban LHH. Useful as the baseline against which the し/ち/つ/ふ/ひ/が allophone words are read.
+
+**切符 kippu** — Gives the /p/ phoneme a dedicated keyword. ぷ = the handakuten ぱ-row, the voiceless bilabial stop [p] (native /p/ is otherwise restricted, surviving mainly in geminates, mimetics, and loanwords). The sokuon /Q/ before /p/ → the geminate [pp], an unreleased [p̚] hold that is its own MORA: きっぷ = 3 moras ki-Q-pɯ [kip̚.pɯ]. So one word supplies both /p/ and a third sokuon context (alongside っk in 学校 and っt in 切手). Heiban LHH.
+
+**おばさん obasan** — The SHORT-vowel partner of おばあさん obāsan 'grandmother': おばさん has short /a/ in ば (4 moras o-ba-sa-N) versus おばあさん's long /aː/ in ばあ (5 moras). The pair is THE textbook proof that vowel length is phonemic and mora-counted in Japanese — 'aunt' vs 'grandmother' differs by exactly one mora of vowel length. Plain [b], plain [s], final ん = [ɴ]. Heiban LHHH.
+
+**りんご ringo** — The /r/ phoneme as the apico-alveolar TAP [ɾ] (り = [ɾi], not [ɾ] trill, not [l], not English [ɹ]). The moraic ん before the velar /ɡ/ assimilates to [ŋ] → [ɾiŋ.ɡo]. Note the ご here is the STOP [ɡo] (post-nasal position blocks 鼻濁音, unlike intervocalic が in 鏡 [ka.ŋa.mi]). 3 moras ɾi-N-ɡo. Heiban.
+
+**好き suki** — A core devoicing example: /ɯ/ in す is DEVOICED to [sɯ̥] between voiceless [s] and [k] → [sɯ̥.ki], often heard as 'ski'. The devoiced vowel still holds its mora and the pitch: 好き is 頭高 su\ki (HꜜL) with the high-then-drop on the (devoiced) first mora. Plain [s] before /ɯ/ (contrast し [ɕ]).
+
+**です desu** — The textbook WORD-FINAL devoicing case: the /ɯ/ of final す is devoiced (often elided) after voiceless [s] at phrase end → [de.sɯ̥], pronounced 'des'. Shows plain voiced [d] (で = [de], the default /d/ before /e/, contrasting with [dʑ] before /i/ and [dz] before /ɯ/). Extremely high-frequency; the canonical devoicing demonstrator.
+
+**水 mizu** — The /z/ series before /ɯ/: ず is realized as the affricate [dzɯ] (especially after a pause or nasal; intervocalically it can lenite to the fricative [zɯ]). This [dz]~[z] is the /z/ allophony, parallel to /d/→[dz] in づ (merged with ず in standard Tokyo, the yotsugana merger). Contrast with じ [dʑi] (/z/ before /i/). Nasal /m/ onset, /i/ and /ɯ/ vowels. Heiban LH.
+
+**千円 sen'en** — Demonstrates the moraic ん BEFORE A VOWEL (the apostrophe context せん+えん): /N/ does not fully close, surfacing as a NASALIZED vowel/glide [ɰ̃] that nasalizes the surrounding vowels → [se.ɰ̃.eɴ], NOT *[se.ne.eɴ]. This is why romanization writes sen'en (with apostrophe) to block a [ne] reading. The final ん = [ɴ]. Two ん with two realizations ([ɰ̃] pre-vocalic, [ɴ] final). 4 moras.
+
+**映画 eiga** — えい is realized as the LONG vowel [eː] (the え+い → /eː/ rule, like せい in 学生), so 映画 = 3 moras e-R-ga [eː.ŋa]. The intervocalic が is 鼻濁音 [ŋa] for conservative speakers (~[ɡa] for younger). 頭高 e\ega (HꜜLL): high on the long-vowel's first mora, drop after it. Long /eː/ + 鼻濁音 + atamadaka in one word.
+
+**空気 kūki** — The long /ɯː/ vowel (くう = く + う = 2 moras [kɯː]), completing the five long vowels across the array (/aː/ おばあさん, /iː/ おじいさん, /ɯː/ here, /eː/ 学生・映画, /oː/ 学校・東京). 3 moras kɯ-R-ki. Heiban LHH. Minimal length contrast with hypothetical くき kuki 'stem' (short, 2 moras).
+
+**おじいさん ojiisan** — Supplies the long /iː/ vowel (じい = じ + い = 2 moras [dʑiː]) and contrasts minimally with おじさん ojisan 'uncle' (short /i/) — the same length pair as おばあさん/おばさん. Also the voiced affricate じ = [dʑi] (/z/→[dʑ] before /i/, the voiced partner of し [ɕi]). 5 moras o-dʑi-i-sa-N. Final ん = [ɴ]. Heiban.
+
+**百 hyaku** — A YŌON on the /h/ series: ひゃ = ひ /h/ + small ゃ → [ça] (palatal fricative + on-glide, one mora). Word-final /ɯ/ in く DEVOICES after voiceless [k] → [ça.kɯ̥], often 'hyak'. 頭高 hya\ku (HꜜL). Combines yōon + devoicing + atamadaka — a different yōon series (ひゃ) than ちゃ (茶) and きょ (東京).
+
+### Coverage Summary
+
+The 34 words above form a verifiable coverage matrix: every native consonant phoneme is realized (`consonants_all_covered`: true), every short vowel is covered (`vowels_short_all_covered`: true), and every long vowel is covered (`vowels_long_all_covered`: true).
+
+#### Consonant Inventory Checklist
+
+Every native consonant phoneme /p b t d k ɡ s z h m n r j w/ plus the special moras /N/ and /Q/ is realized by at least one dedicated array keyword.
+
+| Phoneme (allophones) | Keywords / contexts |
+|---|---|
+| `/p/` | 切符 (ぷ [p], geminate っp [p̚p]); (also loanwords ペン pen, handakuten は→ぱ; the bilabial stop) |
+| `/b/` | おばあさん [b]; 新聞 (ぶ [bɯ]); 鼻血 (via rendaku ぢ is dʑ, but ば-row b elsewhere) |
+| `/t/ = [t]/[tɕ]/[ts]` | 田中 [t]; 二 (た [ta], つ [tsɯ]); 靴 (つ [tsɯ]); 茶 (ちゃ [tɕa]); 切手 (plain [t], geminate) |
+| `/d/` | です (で [de]); 時々 (ど [do], rendaku) |
+| `/k/` | 靴; 学校 (initial [ɡ] is /ɡ/; か/く/こ for [k]); 切手; 空気; 百 (く [kɯ̥]); 田中 (か [ka]) |
+| `/ɡ/ = [ɡ]/[ŋ] (鼻濁音)` | 学校 (word-initial [ɡa]); 学生 (word-initial [ɡa]); りんご (post-nasal [ɡo]); 鏡 (intervocalic 鼻濁音 [ŋa]); 映画 (intervocalic [ŋa]~[ɡa]) |
+| `/s/ = [s]/[ɕ]` | 寿司 (す [s], し [ɕ]); 三 [s]; 学生 [s]; 千円 [s]; 私 (し [ɕ]); 新聞 (し [ɕ]) |
+| `/z/ = [dz]/[z]/[dʑ]` | 水 (ず [dzɯ]); おじいさん (じ [dʑi]); 鼻血 (ぢ [dʑi] via rendaku; merged with じ) |
+| `/h/ = [h]/[ç]/[ɸ]` | おはよう (は [ha]); 人 (ひ [çi]); 二 (ふ [ɸɯ]); 百 (ひゃ [ça]); 箸/橋/端 (は [ha]) |
+| `/m/` | 雨/飴 (め [me]); 鏡 (み [mi]); 水 (み [mi]); 新聞 (む→[m] from /N/ assimilation) |
+| `/n/` | 田中 (な [na]); 三 (ん, plus underlying); 鼻血 (な [na]); (moraic /N/→[n] before alveolars: 三台 sandai) |
+| `/r/ = [ɾ]` | りんご (り [ɾi], the apico-alveolar tap) |
+| `/j/` | おはよう (よ [jo]); 茶 (ちゃ on-glide); 東京 (きょ on-glide); 百 (ひゃ on-glide) |
+| `/w/ = [ɰ]` | 私 (わ [ɰa], the only native /w/ context, before /a/) |
+| `/N/ (moraic nasal ん)` | 新聞 ([m] + [ɴ]); 三 ([ɴ]; paradigm [m n ŋ ɴ ɰ̃]); りんご ([ŋ]); 千円 ([ɰ̃] pre-vocalic + [ɴ]); おばあさん/おじいさん ([ɴ] final) |
+| `/Q/ (sokuon っ)` | 学校 (っk [k̚k]); 切手 (っt [t̚t]); (also 切符 kippu っp; the geminate first-half mora) |
+
+*ALL native consonant phonemes /p b t d k ɡ s z h m n r j w/ plus the special moras /N/ and /Q/ are realized by at least one dedicated array keyword (note /p/, restricted in native vocabulary, is supplied by 切符 kippu where ぷ is [p] and っぷ is the geminate [p̚p]), AND each major allophone is demonstrated: /s/→[ɕ] (し), /t/→[tɕ] (ち/茶), /t/→[ts] (つ), /z d/→[dʑ] (じ/ぢ), /z/→[dz] (ず), /h/→[ç] (ひ), /h/→[ɸ] (ふ), /ɡ/→[ŋ] 鼻濁音 (鏡/映画), /r/=[ɾ] (り), /w/=[ɰ] (わ). No phoneme is left without a dedicated entry.*
+
+#### Short Vowel Keywords
+
+| Vowel | Keywords |
+|---|---|
+| `/a/` | 田中, 雨, 飴, 三, 私, 鏡, 茶 |
+| `/i/` | 寿司 (し), 人, 切手, 水, 私, りんご |
+| `/ɯ/` | 靴, 好き, です, 寿司 (す), 水 (ず) |
+| `/e/` | 雨/飴 (め), です (で), 千円 (せ・え) |
+| `/o/` | 東京 (initial mora), おはよう, 時々 (と・ど), りんご |
+
+#### Long Vowel Keywords
+
+| Long vowel | Keyword(s) |
+|---|---|
+| `/aː/` | おばあさん obāsan (ばあ) — minimal pair with the in-array short おばさん obasan |
+| `/iː/` | おじいさん ojiisan (じい) — minimal pair with short おじさん ojisan |
+| `/ɯː/` | 空気 kūki (くう) |
+| `/eː/` | 学生 gakusei (せい), 映画 eiga (えい) |
+| `/oː/` | 学校 gakkō (こう), 東京 Tōkyō (とう・きょう) |
+
+*/ɯ/ is the compressed unrounded back vowel [ɯ̈] (not English [u]); it is shown unrounded throughout (寿司 [sɯ̥], 靴 [kɯ̥tsɯ], 水 [midzɯ]). Vowel LENGTH is phonemic and mora-counted: the おばあさん/おばさん ('grandmother'/'aunt') pair appears in full IN this array as a length minimal pair, and おじいさん/おじさん ('grandfather'/'uncle') is the parallel /iː/~/i/ pair (おじいさん in-array, おじさん noted) — distinguished ONLY by long vs short vowel.*
+
+#### High-Vowel Devoicing Demonstrations
+
+| Word | Realization | Context |
+|---|---|---|
+| 好き | `[sɯ̥.ki]` | /ɯ/ between [s] and [k] |
+| です | `[de.sɯ̥]` | word-final /ɯ/ after [s] |
+| 靴 | `[kɯ̥.tsɯ]` | /ɯ/ between [k] and [ts] |
+| 人 | `[çi̥.to]` | /i/ between [ç] and [t] |
+| 学生 | `[ɡa.kɯ̥.seː]` | /ɯ/ between [k] and [s] |
+| 寿司 | `[sɯ̥.ɕi]` | /ɯ/ between [s] and [ɕ] |
+| 百 | `[ça.kɯ̥]` | word-final /ɯ/ after [k] |
+
+#### Special Moras Checklist
+
+| Special mora | Keywords / contexts |
+|---|---|
+| moraic nasal /N/ ん | 新聞 ([m]/[ɴ]); 三 (paradigm [m n ŋ ɴ ɰ̃]); りんご ([ŋ]); 千円 ([ɰ̃]/[ɴ]); おばあさん・おじいさん ([ɴ]) |
+| sokuon /Q/ っ | 学校 がっこう ([k̚k], 4 moras); 切手 きって ([t̚t], 3 moras); 切符 きっぷ ([p̚p], 3 moras) |
+| long vowel /R/ ー | おばあさん /aː/; おじいさん /iː/; 空気 /ɯː/; 学生・映画 /eː/; 学校・東京 /oː/ |
+
+*Each special mora carries its OWN H/L pitch and counts as a full mora for timing: 学校 = ga-Q-ko-R (4), 新聞 = ɕi-N-bɯ-N (4), 東京 = to-R-kjo-R (4). This is the core of Japanese mora-timing.*
+
+#### Yōon (Palatalized Mora) Demonstrations
+
+| Word | Yōon | Realization |
+|---|---|---|
+| 茶 | ちゃ | `[tɕa]` (/t/+ゃ) |
+| 東京 | きょう | `[kʲoː]` (/k/+ょ) |
+| 百 | ひゃく | `[ça(j)kɯ̥]` (/h/+ゃ) |
+
+#### Rendaku (Sequential Voicing) Demonstrations
+
+| Word | Process | Result |
+|---|---|---|
+| 鼻血 | はな+ち → はなぢ | `[ha.na.dʑi]` (ち [tɕi] voices to ぢ [dʑi]) |
+| 時々 | とき+とき → ときどき | `[to.ki.do.ki]` (reduplication; と [to] voices to ど [do]) |
+
+#### Pitch-Accent Classes Checklist
+
+| Class | Keywords |
+|---|---|
+| 頭高型 atamadaka (drop after mora 1) | 箸 ha\shi (HꜜL); 雨 a\me (HꜜL); 好き su\ki (HꜜL); 映画 e\ega (HꜜLL); 百 hya\ku (HꜜL) |
+| 中高型 nakadaka (drop word-medially) | 時々 tokido\ki (LHHꜜ, drop after mora 3) |
+| 尾高型 odaka (drop on following particle) | 橋 hashi\(-ga) (LH, drop on が); 寿司 sushi\(-ga); 人 hito\(-ga); 鼻血 hanaji\(-ga) |
+| 平板型 heiban (accentless, no drop) | 端 hashi(-ga) (LHH); 飴 ame(-ga); 鏡, 学校, 切手, 切符, 新聞, 三, おばあさん, おばさん, 東京, 学生, おはよう, 私, 田中, りんご, 水, 千円, 空気, おじいさん |
+
+#### Pitch Minimal Pairs
+
+**箸/橋/端 (hashi triad):** 箸 ha\shi (頭高 HꜜL 'chopsticks') ~ 橋 hashi\ (尾高 LH, drop on particle, 'bridge') ~ 端 hashi (平板 LH, no drop, 'edge') — one segmental string /haɕi/, three accent classes. KANSAI (京阪式) systematically REVERSES 箸⇄橋.
+
+**雨/飴 (ame pair):** 雨 a\me (頭高 HꜜL 'rain') ~ 飴 ame (平板 LH 'candy') — one string /ame/, two accent classes; Kansai INVERTS the pair.
+
+*These are the textbook proofs that Japanese accent is lexical PITCH (not stress, not segmental): the words are segmentally identical and differ only in their H/L melody and downstep placement.*
+
+*Reference standard: the primary transcriptions are Standard/Common Japanese (Tokyo, 東京式アクセント). Kansai/Keihan (京阪式アクセント) is documented in parallel on the two pitch minimal-pair sets, where the systematic 箸⇄橋 and 雨⇄飴 reversals and the additional lexical initial register (high/low) make the dialectal pitch difference explicit; the segmental phonology (allophones, devoicing, special moras, yōon, rendaku) is shared between the standards, with Tokyo applying high-vowel devoicing more pervasively than Kansai.*
+
+## Unicode Reference
+
+Unicode codepoint reference for every IPA symbol, diacritic, suprasegmental mark, and かな (kana) / 漢字 (kanji) character used throughout this Japanese pronunciation guide. Each entry gives the symbol, its Unicode codepoint (U+XXXX), decimal value, official Unicode character name, and its phonetic or orthographic role in Japanese, documented in parallel for the guide's two reference standards: **STANDARD / COMMON JAPANESE** (標準語・共通語 Hyōjungo/Kyōtsūgo, educated Tokyo / Yamanote speech, Tokyo-type pitch accent 東京式アクセント) and **KANSAI / KEIHAN** (関西弁・京阪式アクセント, the Kyoto–Osaka system). All IPA codepoints follow the IPA 2015 revision conventions.
+
+The most distinctive Japanese entries are the ALLOPHONIC fricatives and affricates produced by the /s t z d h/ series before /i/ and /u/ — [ɕ tɕ ʑ dʑ] alveolo-palatal, [ts dz] alveolar, [ɸ] bilabial, [ç] palatal — plus the velar-nasal 鼻濁音 [ŋ], the apico-alveolar tap [ɾ], the labio-velar approximant [ɰ], the uvular nasal [ɴ] realization of moraic /N/, and the compressed back unrounded vowel [ɯ]/[ɯ̈] with its DEVOICED ring [ɯ̥ i̥]. Japanese has NO native /f v θ ð l ʃ ʒ/ as distinct phonemes. Pitch accent (a single downstep, not stress and not per-syllable tone) is notated with the tone-bar letters and a downstep mark rather than the Latin stress marks. The kana themselves are catalogued under [Kana Characters](#kana-characters), and the script blocks under [Unicode Blocks Used](#unicode-blocks-used), including the gap-free Hiragana and Katakana ranges and the vast CJK Unified Ideographs block from which 漢字 are drawn. This guide ships FIVE reader tiers — Scholarly and Pretty (language-neutral Latin), Katakana (カタカナ, the idiomatic foreign-word reader), Hiragana (ひらがな), and Romaji (Hepburn readback) — and these codepoints underpin all of them.
+
+### IPA Consonant Symbols
+
+The Japanese consonant phonemes /p b t d k ɡ s z h m n r j w/ plus the special moras /N/ (moraic nasal ん/ン) and /Q/ (sokuon っ/ッ), shown together with the rich set of ALLOPHONES that the phonemic series produce before high vowels and intervocalically. The plain stops /p b t d k ɡ/, fricatives /s z h/, nasals /m n/, and approximants /w/ and /j/ reuse Basic Latin letters; ɡ is the single-story script g (U+0261) and ŋ the eng (U+014B). The specialized allophonic symbols ɕ ʑ ɸ ç ɾ ɰ ɴ and the curl letters come from IPA Extensions (U+0250–U+02AF), with ç from Latin-1 Supplement. The affricates ts dz tɕ dʑ are DIGRAPHS (no single codepoint); the IPA tie bar U+0361 may be written over them (`t͡s d͡z t͡ɕ d͡ʑ`).
+
+Key allophony: /s/→[ɕ] / _i, /t/→[tɕ] / _i and [ts] / _u, /z d/→[dʑ ʑ] / _i and [dz] / _u, /h/→[ç] / _i and [ɸ] / _u, /ɡ/→[ŋ] intervocalically (鼻濁音, conservative/Tokyo), /r/=[ɾ] tap, /w/=[ɰ] (natively only before /a/), moraic /N/→[m n ŋ ɴ ɰ̃] by assimilation.
+
+| Symbol | Codepoint | Decimal | Name | Kana | IPA Role |
+|---|---|---|---|---|---|
+| p | `U+0070` | 112 | LATIN SMALL LETTER P | `ぱ行 / パ行` | voiceless bilabial plosive `/p/` (ぱ pa); the handakuten 半濁点 ゜series; relatively rare word-initially in native vocabulary, common in the geminate `/pp/` (っぱ) and in loanwords; lightly aspirated word-initially |
+| b | `U+0062` | 98 | LATIN SMALL LETTER B | `ば行 / バ行` | voiced bilabial plosive `/b/` (ば ba); the dakuten 濁点 ゛counterpart of /h/~/p/ in the orthographic は行; may weaken to the bilabial approximant `[β̞]` intervocalically for some speakers |
+| t | `U+0074` | 116 | LATIN SMALL LETTER T | `た行 / タ行` | voiceless alveolar (laminal denti-alveolar) plosive `/t/` (た ta, て te, と to); allophonically `[tɕ]` before /i/ (ち chi) and `[ts]` before /u/ (つ tsu) — see the affricate entries |
+| d | `U+0064` | 100 | LATIN SMALL LETTER D | `だ行 / ダ行` | voiced alveolar (laminal denti-alveolar) plosive `/d/` (だ da, で de, ど do); the dakuten counterpart of /t/; before /i/ and /u/ the slots ぢ づ merge phonemically with じ ず as `[dʑ]`/`[ʑ]` and `[dz]`/`[z]` (四つ仮名 yotsugana neutralization) |
+| k | `U+006B` | 107 | LATIN SMALL LETTER K | `か行 / カ行` | voiceless velar plosive `/k/` (か ka); lightly aspirated word-initially; fronts toward palatal before /i/ and /j/ (き ki, きゃ kya) |
+| ɡ | `U+0261` | 609 | LATIN SMALL LETTER SCRIPT G | `が行 / ガ行` | voiced velar plosive `/ɡ/` (が ga); the single-story script g, DISTINCT from Latin small letter g U+0067; the dakuten counterpart of /k/; realized as the velar nasal `[ŋ]` (鼻濁音) intervocalically by conservative Tokyo speakers — see the ŋ entry |
+| ŋ | `U+014B` | 331 | LATIN SMALL LETTER ENG | `が行 (鼻濁音) / ん・ン (before velars)` | voiced velar nasal `[ŋ]`; TWO Japanese roles: (1) 鼻濁音 (bidakuon) — the intervocalic/medial allophone of /ɡ/ in conservative & broadcast Tokyo speech (鏡 `[kaŋami]` kagami), receding among younger speakers; (2) the assimilated realization of moraic /N/ before a velar (りんご `[riŋɡo]` ringo) |
+| s | `U+0073` | 115 | LATIN SMALL LETTER S | `さ行 / サ行 (さ す せ そ)` | voiceless alveolar fricative `/s/` (さ sa, す su, せ se, そ so); palatalizes to the alveolo-palatal `[ɕ]` before /i/ and /j/ (し shi, しゃ sha) — see the ɕ entry |
+| z | `U+007A` | 122 | LATIN SMALL LETTER Z | `ざ行 / ザ行 (ざ ず ぜ ぞ)` | voiced alveolar fricative `/z/` (ざ za, ぜ ze, ぞ zo); the dakuten counterpart of /s/; commonly realized as the affricate `[dz]` word-initially and after /N Q/, as the fricative `[z]` intervocalically; palatalizes to `[ʑ]`/`[dʑ]` before /i j/ (じ ji) — see the dz and ʑ/dʑ entries |
+| h | `U+0068` | 104 | LATIN SMALL LETTER H | `は行 / ハ行 (は へ ほ)` | voiceless glottal fricative `/h/` (は ha, へ he, ほ ho); allophonically the palatal `[ç]` before /i/ (ひ hi) and the bilabial `[ɸ]` before /u/ (ふ fu) — see the ç and ɸ entries; note the topic particle は is read /wa/ |
+| ç | `U+00E7` | 231 | LATIN SMALL LETTER C WITH CEDILLA | `ひ / ヒ (ひゃ ひゅ ひょ)` | voiceless palatal fricative `[ç]`; the allophone of /h/ before /i/ and /j/ (ひ `[çi]` hi, ひゃ `[ça]` hya); a Latin-1 Supplement letter, NOT to be confused with the curl letter ɕ |
+| ɸ | `U+0278` | 632 | LATIN SMALL LETTER PHI | `ふ / フ (ファ フィ フェ フォ)` | voiceless BILABIAL fricative `[ɸ]`; the allophone of /h/ before /u/ (ふ `[ɸɯ]` fu) and the consonant used to render foreign /f/ in katakana (ファ fa, フォ fo); a true bilabial, NOT the labiodental `[f]` — Japanese has no native /f/ |
+| ɕ | `U+0255` | 597 | LATIN SMALL LETTER C WITH CURL | `し / シ (しゃ しゅ しょ)` | voiceless ALVEOLO-PALATAL fricative `[ɕ]`; the allophone of /s/ before /i/ and /j/ (し `[ɕi]` shi, しゃ `[ɕa]` sha) and the fricative element of the affricate `[tɕ]`; from IPA Extensions, NOT the postalveolar ʃ (which Japanese lacks) |
+| ʑ | `U+0291` | 657 | LATIN SMALL LETTER Z WITH CURL | `じ・ぢ / ジ・ヂ` | voiced ALVEOLO-PALATAL fricative `[ʑ]`; the intervocalic allophone of /z/ (and merged /d/) before /i j/ (火事 `[kaʑi]` kaji); word-initially and after /N Q/ the affricate `[dʑ]` is used instead; the voiced counterpart of ɕ |
+| ts | — | — | LATIN SMALL LETTER T (U+0074) + LATIN SMALL LETTER S (U+0073) (digraph) | `つ / ツ (ツァ ツェ ツォ)` | voiceless alveolar affricate `[ts]`; the allophone of /t/ before /u/ (つ `[tsɯ]` tsu); also used for foreign /ts/ in katakana (ツァ tsa); the IPA tie-bar ligature `t͡s` may be written |
+| dz | — | — | LATIN SMALL LETTER D (U+0064) + LATIN SMALL LETTER Z (U+007A) (digraph) | `づ・ず / ヅ・ズ (word-initial)` | voiced alveolar affricate `[dz]`; the realization of /z/ (and merged /d/) before /u/ and, more generally, word-initially and after /N Q/ (ず `[dzɯ]` zu); alternates with the pure fricative `[z]` intervocalically; the tie-bar ligature `d͡z` may be written |
+| tɕ | — | — | LATIN SMALL LETTER T (U+0074) + LATIN SMALL LETTER C WITH CURL (U+0255) (digraph) | `ち / チ (ちゃ ちゅ ちょ)` | voiceless ALVEOLO-PALATAL affricate `[tɕ]`; the allophone of /t/ before /i/ and /j/ (ち `[tɕi]` chi, ちゃ `[tɕa]` cha); also used for foreign /tʃ/ (チェ che); built on the curl base ɕ, NOT the postalveolar tʃ; the tie-bar ligature `t͡ɕ` may be written |
+| dʑ | — | — | LATIN SMALL LETTER D (U+0064) + LATIN SMALL LETTER Z WITH CURL (U+0291) (digraph) | `じ・ぢ / ジ・ヂ (word-initial)` | voiced ALVEOLO-PALATAL affricate `[dʑ]`; the realization of /z d/ before /i j/ word-initially and after /N Q/ (時間 `[dʑikaɴ]` jikan); alternates with the fricative `[ʑ]` intervocalically; also renders foreign /dʒ/ (ジェ je); the tie-bar ligature `d͡ʑ` may be written |
+| m | `U+006D` | 109 | LATIN SMALL LETTER M | `ま行 / マ行` | voiced bilabial nasal `/m/` (ま ma); also one realization of moraic /N/ before a labial /p b m/ (さんま `[samma]` sanma, 新聞 `[ɕimbɯɴ]` shinbun) |
+| n | `U+006E` | 110 | LATIN SMALL LETTER N | `な行 / ナ行 (な ぬ ね の)` | voiced alveolar nasal `/n/` (な na); before /i j/ it is the palatalized `[ɲ]` (に `[ɲi]` ni); also a realization of moraic /N/ before alveolars /t d n r/ etc. |
+| ɲ | `U+0272` | 626 | LATIN SMALL LETTER N WITH LEFT HOOK | `に / ニ (にゃ にゅ にょ)` | voiced palatal nasal `[ɲ]`; the allophone of /n/ before /i/ and /j/ (に `[ɲi]` ni, にゃ `[ɲa]` nya); from IPA Extensions |
+| ɴ | `U+0274` | 628 | LATIN LETTER SMALL CAPITAL N | `ん / ン (moraic /N/)` | voiced UVULAR nasal `[ɴ]`; the default phrase-final / pre-pausal realization of the moraic nasal /N/ (本 `[hoɴ]` hon); the small-capital N from IPA Extensions; before vowels and fricatives /N/ is instead a nasalized approximant `[ɰ̃]` |
+| r | `U+0072` | 114 | LATIN SMALL LETTER R | `ら行 / ラ行 (phonemic /r/)` | the Japanese liquid phoneme `/r/` (ら ra, り ri, る ru, れ re, ろ ro); phonetically an apico-alveolar TAP `[ɾ]`, NOT a trill or the English approximant; absorbs both /l/ and /r/ of foreign words — see the ɾ entry |
+| ɾ | `U+027E` | 638 | LATIN SMALL LETTER R WITH FISHHOOK | `ら行 / ラ行 (phonetic)` | apico-alveolar TAP/flap `[ɾ]`; the usual phonetic realization of Japanese /r/ (空 `[soɾa]` sora); may surface as a lateral `[l]`-like flap or, utterance-initially/emphatically, as a brief trill `[r]` or post-alveolar stop; from IPA Extensions |
+| j | `U+006A` | 106 | LATIN SMALL LETTER J | `や行 / ヤ行 (や ゆ よ); yōon ゃゅょ` | voiced palatal approximant `/j/` (や ya, ゆ yu, よ yo); also the palatal on-glide of every YŌON 拗音 mora (きゃ kya = /kja/, しゃ sha = /sja/→`[ɕa]`); the IPA value, NOT the affricate value of orthographic Latin 'j' |
+| w | `U+0077` | 119 | LATIN SMALL LETTER W | `わ / ワ (phonemic /w/)` | the Japanese approximant phoneme `/w/` (わ wa); natively occurs only before /a/; phonetically the LABIO-VELAR (lip-compressed, not rounded) `[ɰ]` — see the ɰ entry; the particle は /wa/ and を /o/ also belong here historically |
+| ɰ | `U+0270` | 624 | LATIN SMALL LETTER TURNED M WITH LONG LEG | `わ / ワ (phonetic); ウ-series` | voiced velar (lip-COMPRESSED labio-velar) approximant `[ɰ]`; the phonetic realization of /w/ (わ `[ɰa]` wa) and of the on-glide in ウィ wi, ウェ we, ウォ wo; lacks true lip rounding, matching the compressed back vowel `[ɯ]`; the nasalized `[ɰ̃]` is one realization of moraic /N/ before vowels/glides/fricatives |
+| ʔ | `U+0294` | 660 | LATIN LETTER GLOTTAL STOP | `っ / ッ (utterance-final); 感動詞` | glottal stop `[ʔ]`; not a phoneme of Japanese, but appears as the realization of an utterance-final sokuon /Q/ (あっ! `[aʔ]`) and in emphatic/interjectional speech; the medial /Q/ is otherwise the silent first half of a geminate (gemination of the following consonant) |
+
+### IPA Vowel Symbols
+
+Japanese has exactly FIVE vowel qualities /a i ɯ e o/, with PHONEMIC LENGTH (short vs long: /a/ vs /aː/). Four qualities (a i e o) reuse Basic Latin letters; the distinctive back high vowel uses ɯ (U+026F) from IPA Extensions, often narrowly transcribed as the centralized, lip-COMPRESSED [ɯ̈] with the combining diaeresis U+0308 — it is NOT the rounded [u]. The length mark ː (U+02D0) doubles any vowel. HIGH-VOWEL DEVOICING between voiceless consonants or word-finally after a voiceless consonant yields the voiceless [i̥ ɯ̥], marked with the combining ring below U+0325. Japanese has NO schwa, NO front/back rounding mismatches beyond [ɯ], and NO diphthongs in the English sense — vowel sequences are heteromoraic (each vowel is its own mora).
+
+| Symbol | Codepoint | Decimal | Name | Kana | IPA Role |
+|---|---|---|---|---|---|
+| a | `U+0061` | 97 | LATIN SMALL LETTER A | `あ / ア — long: ああ・アー /aː/` | open central-to-front unrounded vowel `/a/` (あ a); slightly more central than cardinal `[a]`; long counterpart `/aː/` (おばあさん obāsan vs おばさん obasan) |
+| i | `U+0069` | 105 | LATIN SMALL LETTER I | `い / イ — long: いい・イー /iː/` | close front unrounded vowel `/i/` (い i); palatalizes a preceding consonant (s→ɕ, t→tɕ, h→ç, n→ɲ, k→kʲ); devoices to `[i̥]` between voiceless consonants — see the devoiced-vowel entry; long counterpart `/iː/` |
+| ɯ | `U+026F` | 623 | LATIN SMALL LETTER TURNED M | `う / ウ — long: うう・ウー /ɯː/` | close BACK UNROUNDED vowel `/ɯ/` (う u); the signature Japanese vowel — Tokyo speech uses a lip-COMPRESSED, often centralized realization, NOT the rounded cardinal `[u]`; long counterpart `/ɯː/` (くうき kūki) |
+| ɯ̈ | — | — | LATIN SMALL LETTER TURNED M (U+026F) + COMBINING DIAERESIS (U+0308) (centralized) | `う / ウ (narrow transcription)` | near-close CENTRALIZED back unrounded (lip-compressed) vowel `[ɯ̈]`; the precise narrow-IPA value of Tokyo /ɯ/ — fronted/centralized relative to true cardinal `[ɯ]` and produced with lip compression rather than rounding; the combining diaeresis U+0308 marks centralization |
+| e | `U+0065` | 101 | LATIN SMALL LETTER E | `え / エ — long: ええ・エー /eː/` | close-mid (to mid) front unrounded vowel `/e/` (え e); a steady monophthong `[e̞]`, NOT diphthongized; long counterpart `/eː/` (おねえさん onēsan); historical えい spellings are pronounced `[eː]` |
+| o | `U+006F` | 111 | LATIN SMALL LETTER O | `お / オ — long: おお・おう・オー /oː/` | close-mid (to mid) back rounded vowel `/o/` (お o); only lightly rounded; long counterpart `/oː/` is written おう or おお in hiragana and ー in katakana (こうこう kōkō) |
+| ɯ̥ | — | — | LATIN SMALL LETTER TURNED M (U+026F) + COMBINING RING BELOW (U+0325) | `う / ウ (devoiced)` | DEVOICED close back unrounded vowel `[ɯ̥]`; /ɯ/ rendered voiceless between voiceless consonants or word-finally after a voiceless C (です `[desɯ̥]` desu, 月 `[tsɯ̥ki]` tsuki); the combining ring below U+0325 marks voicelessness — a hallmark of standard Tokyo rhythm |
+| i̥ | — | — | LATIN SMALL LETTER I (U+0069) + COMBINING RING BELOW (U+0325) | `い / イ (devoiced)` | DEVOICED close front unrounded vowel `[i̥]`; /i/ rendered voiceless in the same voiceless environments (好き `[sɯ̥ki̥]` suki, 人 `[çi̥to]` hito); marked with the combining ring below U+0325 |
+| ː | `U+02D0` | 720 | MODIFIER LETTER TRIANGULAR COLON | `long vowels & ー / 二拍目` | length mark ː; marks a PHONEMICALLY LONG vowel, i.e. a vowel occupying TWO moras (`/aː iː ɯː eː oː/`); in the orthography this corresponds to the chōonpu ー (katakana), to a doubled vowel or う (hiragana), and counts as a full extra mora 拍 |
+
+### Diacritics & Suprasegmentals
+
+Diacritics for articulator detail, voicelessness, nasalization, affricate tie, and — crucially for Japanese — PITCH ACCENT. Japanese has lexical PITCH ACCENT (a single high→low DOWNSTEP after the accented mora), NOT stress and NOT per-syllable tone, so this guide marks pitch with the TONE-BAR letters ˥/˩ (or H/L pitch staves) and a DOWNSTEP/accent mark, NOT the Latin primary/secondary stress marks ˈ ˌ (which are listed only because some sources misuse them for the accent kernel). The combining ring below (U+0325) marks high-vowel devoicing; the combining tilde (U+0303) marks nasalization (e.g. the [ɰ̃] realization of /N/); the tie bar (U+0361) joins affricate elements; the length mark ː (U+02D0) is catalogued with the vowels. Combining marks live in Combining Diacritical Marks (U+0300–U+036F) and attach to the PRECEDING base; the tone bars and length/stress marks are spacing modifier letters.
+
+| Symbol | Codepoint | Decimal | Name | IPA Role |
+|---|---|---|---|---|
+| ˥ | `U+02E5` | 741 | MODIFIER LETTER EXTRA-HIGH TONE BAR | extra-high pitch-bar ˥ (plain right-stem bar, matching the ˩ entry); used to draw the HIGH register of a pitch-accent contour (e.g. the high plateau before a downstep); Japanese accent is a binary High/Low melody, so ˥ marks the High target mora |
+| ˩ | `U+02E9` | 745 | MODIFIER LETTER EXTRA-LOW TONE BAR | extra-low pitch-bar ˩; marks the LOW register of a pitch-accent contour — e.g. the obligatory low first mora of an unaccented or LH-rising word, or the low plateau after a downstep |
+| ↓ | `U+2193` | 8595 | DOWNWARDS ARROW | DOWNSTEP / accent-kernel mark ↓; the single most important Japanese suprasegmental — it marks the pitch DROP that follows the accented mora (アクセント核, the 'accent kernel'). 箸 ha↓shi (HL, 'chopsticks') vs 橋 hashi↓ (drop on a following particle, 'bridge'); placed AFTER the accented mora. Some sources use the IPA downstep ꜜ (U+A71C) instead |
+| ꜜ | `U+A71C` | 42780 | MODIFIER LETTER RAISED DOWN ARROW | IPA DOWNSTEP mark ꜜ; the strict-IPA alternative to ↓ for notating the Japanese accentual pitch drop; from the Modifier Tone Letters block (U+A700–U+A71F) |
+| ˈ | `U+02C8` | 712 | MODIFIER LETTER VERTICAL LINE | primary STRESS mark ˈ; Japanese has NO lexical stress, so this mark is NOT used for native prosody; listed only because some non-specialist sources erroneously repurpose it to flag the accented mora — prefer the downstep ↓/ꜜ and pitch bars instead |
+| ˌ | `U+02CC` | 716 | MODIFIER LETTER LOW VERTICAL LINE | secondary STRESS mark ˌ; likewise NOT part of Japanese prosody (no stress); included only to disambiguate it from the pitch and downstep notation actually used in this guide |
+| ◌̥ | `U+0325` | 805 | COMBINING RING BELOW | voicelessness / DEVOICING diacritic ◌̥; marks high-vowel devoicing `[i̥ ɯ̥]` between voiceless consonants or word-finally after a voiceless C (です `[desɯ̥]`); a non-spacing combining mark that attaches BELOW the base vowel |
+| ◌̃ | `U+0303` | 771 | COMBINING TILDE | NASALIZATION diacritic ◌̃; marks the nasalized approximant `[ɰ̃]` realization of moraic /N/ before a vowel, glide, or fricative (戀愛 れんあい `[reɰ̃ai]`) and nasalized vowels adjacent to a nasal; attaches ABOVE the base |
+| ◌͡◌ | `U+0361` | 865 | COMBINING DOUBLE INVERTED BREVE | AFFRICATE TIE BAR ◌͡◌; optionally joins the two elements of the Japanese affricates into a single segment: `t͡s` (つ), `d͡z` (ず), `t͡ɕ` (ち), `d͡ʑ` (じ); spans the two preceding base letters |
+| ◌̚ | `U+031A` | 794 | COMBINING LEFT ANGLE ABOVE | NO-AUDIBLE-RELEASE diacritic ◌̚; marks the unreleased first half of a geminate stop produced by the sokuon /Q/ (買った `[katta]` → `[kat̚ta]` katta) where the closure is held; attaches above the base consonant |
+
+### Kana Characters
+
+Representative かな (kana) entries from the two moraic syllabaries — HIRAGANA (ひらがな, U+3040–U+309F, native words, particles, okurigana, the Hiragana reader tier) and KATAKANA (カタカナ, U+30A0–U+30FF, foreign/loanwords, names, onomatopoeia, the idiomatic Katakana reader tier). Both follow GOJŪON 五十音 order. Each base mora is (C)(j)V; the dakuten ゛(濁点, voicing) and handakuten ゜(半濁点) modify the consonant; small kana build YŌON 拗音 (きゃ kya) and the sokuon 促音 (っ gemination); the moraic nasal ん/ン is its own mora; the chōonpu ー lengthens the preceding vowel. The full gap-free ranges are given under [Unicode Blocks Used](#unicode-blocks-used); a cross-section (vowels, each consonant series head, voiced/semivoiced examples, small kana, sokuon, moraic n, and the marks) is listed here.
+
+#### Hiragana (ひらがな)
+
+| Char | Codepoint | Decimal | Name | Romaji | Role |
+|---|---|---|---|---|---|
+| `あ` | `U+3042` | 12354 | HIRAGANA LETTER A | a | vowel mora `/a/`; head of the gojūon あ-row |
+| `い` | `U+3044` | 12356 | HIRAGANA LETTER I | i | vowel mora `/i/` |
+| `う` | `U+3046` | 12358 | HIRAGANA LETTER U | u | vowel mora `/ɯ/`; also writes the long ō/ū after o/u columns |
+| `え` | `U+3048` | 12360 | HIRAGANA LETTER E | e | vowel mora `/e/` |
+| `お` | `U+304A` | 12362 | HIRAGANA LETTER O | o | vowel mora `/o/` |
+| `か` | `U+304B` | 12363 | HIRAGANA LETTER KA | ka | `/ka/`; head of the か-row (k-series) |
+| `が` | `U+304C` | 12364 | HIRAGANA LETTER GA | ga | `/ɡa/`; DAKUTEN-voiced か (か + ゛); medial 鼻濁音 `[ŋa]` |
+| `き` | `U+304D` | 12365 | HIRAGANA LETTER KI | ki | `/ki/`; base for the yōon きゃ/きゅ/きょ |
+| `し` | `U+3057` | 12375 | HIRAGANA LETTER SI | shi | `/si/` → `[ɕi]`; Unicode name uses Nihon-shiki SI; Hepburn 'shi' |
+| `じ` | `U+3058` | 12376 | HIRAGANA LETTER ZI | ji | `/zi/` → `[dʑi]`/`[ʑi]`; DAKUTEN-voiced し; one of the yotsugana |
+| `つ` | `U+3064` | 12388 | HIRAGANA LETTER TU | tsu | `/tu/` → `[tsɯ]`; Unicode name TU, Hepburn 'tsu' |
+| `ち` | `U+3061` | 12385 | HIRAGANA LETTER TI | chi | `/ti/` → `[tɕi]`; Unicode name TI, Hepburn 'chi' |
+| `な` | `U+306A` | 12394 | HIRAGANA LETTER NA | na | `/na/`; head of the な-row (n-series) |
+| `は` | `U+306F` | 12399 | HIRAGANA LETTER HA | ha | `/ha/`; head of the は-row (h-series); read /wa/ as the topic particle |
+| `ば` | `U+3070` | 12400 | HIRAGANA LETTER BA | ba | `/ba/`; DAKUTEN-voiced は (は + ゛) |
+| `ぱ` | `U+3071` | 12401 | HIRAGANA LETTER PA | pa | `/pa/`; HANDAKUTEN は (は + ゜) — the only series taking the semi-voiced mark |
+| `ふ` | `U+3075` | 12405 | HIRAGANA LETTER HU | fu | `/hu/` → `[ɸɯ]`; Unicode name HU, Hepburn 'fu' |
+| `ひ` | `U+3072` | 12402 | HIRAGANA LETTER HI | hi | `/hi/` → `[çi]` |
+| `ま` | `U+307E` | 12414 | HIRAGANA LETTER MA | ma | `/ma/`; head of the ま-row (m-series) |
+| `や` | `U+3084` | 12420 | HIRAGANA LETTER YA | ya | `/ja/`; the y-glide series や/ゆ/よ |
+| `ら` | `U+3089` | 12425 | HIRAGANA LETTER RA | ra | `/ra/` → `[ɾa]`; head of the ら-row (r/tap-series) |
+| `わ` | `U+308F` | 12431 | HIRAGANA LETTER WA | wa | `/wa/` → `[ɰa]`; the w-series (natively only わ) |
+| `を` | `U+3092` | 12434 | HIRAGANA LETTER WO | wo / o | the object-marking particle, pronounced `/o/`; written WO, almost never used outside the particle |
+| `ゔ` | `U+3094` | 12436 | HIRAGANA LETTER VU | vu | `/vu/` → `[bɯ]`/`[vɯ]`; rare hiragana for foreign /v/, parallel to katakana ヴ |
+| `ん` | `U+3093` | 12435 | HIRAGANA LETTER N | n | the MORAIC NASAL `/N/` — its own full mora; assimilates to `[m n ŋ ɴ ɰ̃]` by following context |
+| `っ` | `U+3063` | 12387 | HIRAGANA LETTER SMALL TU | (geminate) | the SOKUON 促音 `/Q/` — small つ; a full mora that geminates (doubles) the following consonant (買った katta); utterance-finally a glottal stop `[ʔ]` |
+| `ゃ` | `U+3083` | 12419 | HIRAGANA LETTER SMALL YA | (y)a | small ya; forms YŌON 拗音 with an /i/-column kana (きゃ kya, しゃ sha, ちゃ cha) |
+| `ゅ` | `U+3085` | 12421 | HIRAGANA LETTER SMALL YU | (y)u | small yu; forms yōon (きゅ kyu, しゅ shu) |
+| `ょ` | `U+3087` | 12423 | HIRAGANA LETTER SMALL YO | (y)o | small yo; forms yōon (きょ kyo, しょ sho) |
+| `ぁ` | `U+3041` | 12353 | HIRAGANA LETTER SMALL A | a | small a; used in rare combinations and to write reduced/foreign vowels |
+
+#### Katakana (カタカナ)
+
+| Char | Codepoint | Decimal | Name | Romaji | Role |
+|---|---|---|---|---|---|
+| `ア` | `U+30A2` | 12450 | KATAKANA LETTER A | a | vowel mora `/a/`; head of the gojūon ア-row |
+| `イ` | `U+30A4` | 12452 | KATAKANA LETTER I | i | vowel mora `/i/` |
+| `ウ` | `U+30A6` | 12454 | KATAKANA LETTER U | u | vowel mora `/ɯ/`; base for foreign ウィ wi, ウェ we, ウォ wo |
+| `エ` | `U+30A8` | 12456 | KATAKANA LETTER E | e | vowel mora `/e/` |
+| `オ` | `U+30AA` | 12458 | KATAKANA LETTER O | o | vowel mora `/o/` |
+| `カ` | `U+30AB` | 12459 | KATAKANA LETTER KA | ka | `/ka/`; head of the カ-row |
+| `ガ` | `U+30AC` | 12460 | KATAKANA LETTER GA | ga | `/ɡa/`; DAKUTEN-voiced カ (カ + ゛) |
+| `シ` | `U+30B7` | 12471 | KATAKANA LETTER SI | shi | `/si/` → `[ɕi]`; Unicode name SI; Hepburn 'shi' (contrast the look-alike ツ) |
+| `ジ` | `U+30B8` | 12472 | KATAKANA LETTER ZI | ji | `/zi/` → `[dʑi]`; DAKUTEN-voiced シ |
+| `ツ` | `U+30C4` | 12484 | KATAKANA LETTER TU | tsu | `/tu/` → `[tsɯ]`; base for foreign ツァ tsa, ツェ tse, ツォ tso |
+| `チ` | `U+30C1` | 12481 | KATAKANA LETTER TI | chi | `/ti/` → `[tɕi]`; base for foreign チェ che |
+| `ナ` | `U+30CA` | 12490 | KATAKANA LETTER NA | na | `/na/`; head of the ナ-row |
+| `ハ` | `U+30CF` | 12495 | KATAKANA LETTER HA | ha | `/ha/`; head of the ハ-row |
+| `バ` | `U+30D0` | 12496 | KATAKANA LETTER BA | ba | `/ba/`; DAKUTEN-voiced ハ |
+| `パ` | `U+30D1` | 12497 | KATAKANA LETTER PA | pa | `/pa/`; HANDAKUTEN ハ (ハ + ゜) |
+| `フ` | `U+30D5` | 12501 | KATAKANA LETTER HU | fu | `/hu/` → `[ɸɯ]`; base for foreign ファ fa, フィ fi, フェ fe, フォ fo |
+| `マ` | `U+30DE` | 12510 | KATAKANA LETTER MA | ma | `/ma/`; head of the マ-row |
+| `ヤ` | `U+30E4` | 12516 | KATAKANA LETTER YA | ya | `/ja/`; the y-glide series ヤ/ユ/ヨ |
+| `ラ` | `U+30E9` | 12521 | KATAKANA LETTER RA | ra | `/ra/` → `[ɾa]`; head of the ラ-row |
+| `ワ` | `U+30EF` | 12527 | KATAKANA LETTER WA | wa | `/wa/` → `[ɰa]` |
+| `ヲ` | `U+30F2` | 12530 | KATAKANA LETTER WO | wo / o | katakana object-particle wo; pronounced `/o/`; very rare in modern katakana text |
+| `ヴ` | `U+30F4` | 12532 | KATAKANA LETTER VU | vu | the foreign-sound base for /v/: ヴ vu, ヴァ va, ヴィ vi, ヴェ ve, ヴォ vo; often realized `[b]` |
+| `ン` | `U+30F3` | 12531 | KATAKANA LETTER N | n | the MORAIC NASAL `/N/` in katakana — its own mora; assimilates like ん (contrast the look-alike ソ) |
+| `ッ` | `U+30C3` | 12483 | KATAKANA LETTER SMALL TU | (geminate) | the SOKUON `/Q/` in katakana — small ツ; geminates the following consonant (ベッド beddo) |
+| `ャ` | `U+30E3` | 12515 | KATAKANA LETTER SMALL YA | (y)a | small ya; forms YŌON (キャ kya, シャ sha, チャ cha) |
+| `ュ` | `U+30E5` | 12517 | KATAKANA LETTER SMALL YU | (y)u | small yu; forms yōon (キュ kyu, シュ shu) |
+| `ョ` | `U+30E7` | 12519 | KATAKANA LETTER SMALL YO | (y)o | small yo; forms yōon (キョ kyo, ショ sho) |
+| `ァ` | `U+30A1` | 12449 | KATAKANA LETTER SMALL A | a | small a; builds foreign moras (ファ fa, ツァ tsa, ヴァ va) |
+| `ィ` | `U+30A3` | 12451 | KATAKANA LETTER SMALL I | i | small i; builds foreign moras (ティ ti, ディ di, ウィ wi, フィ fi) |
+| `ゥ` | `U+30A5` | 12453 | KATAKANA LETTER SMALL U | u | small u; builds foreign moras (トゥ tu, ドゥ du) |
+| `ェ` | `U+30A7` | 12455 | KATAKANA LETTER SMALL E | e | small e; builds foreign moras (シェ she, ジェ je, チェ che, ツェ tse) |
+| `ォ` | `U+30A9` | 12457 | KATAKANA LETTER SMALL O | o | small o; builds foreign moras (フォ fo, ウォ wo, ツォ tso) |
+| `ヵ` | `U+30F5` | 12533 | KATAKANA LETTER SMALL KA | ka | small ka; used chiefly as a counter for months (一ヶ月 ikkagetsu) and in place names |
+
+#### Kana Marks & Modifiers
+
+| Char | Codepoint | Decimal | Name | Role |
+|---|---|---|---|---|
+| `゙` | `U+3099` | 12441 | COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK | DAKUTEN 濁点 (combining form); voices a base kana (か→が, さ→ざ, た→だ, は→ば); attaches to the preceding kana |
+| `゚` | `U+309A` | 12442 | COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK | HANDAKUTEN 半濁点 (combining form); converts the は-row to the p-row (は→ぱ); the only series that takes it |
+| `゛` | `U+309B` | 12443 | KATAKANA-HIRAGANA VOICED SOUND MARK | DAKUTEN 濁点 (spacing, stand-alone form); the visible voicing diacritic shown in charts |
+| `゜` | `U+309C` | 12444 | KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK | HANDAKUTEN 半濁点 (spacing, stand-alone form); the visible semi-voicing diacritic shown in charts |
+| `ー` | `U+30FC` | 12540 | KATAKANA-HIRAGANA PROLONGED SOUND MARK | CHŌONPU 長音符; lengthens the preceding vowel by one mora (コーヒー kōhī); used in BOTH scripts but idiomatic to katakana (hiragana usually doubles the vowel instead) |
+| `・` | `U+30FB` | 12539 | KATAKANA MIDDLE DOT | KATAKANA MIDDLE DOT; separates foreign words/name elements in katakana (マルコ・ポーロ Maruko Pōro) and serves as a list separator |
+| `゠` | `U+30A0` | 12448 | KATAKANA-HIRAGANA DOUBLE HYPHEN | double hyphen; links compound foreign names (rare); the first codepoint of the Katakana block U+30A0–U+30FF |
+
+### Unicode Blocks Used
+
+The Unicode blocks from which every symbol in this guide is drawn — the IPA blocks for the phonetic transcription, and the Japanese script blocks for the Hiragana, Katakana, and Romaji reader tiers and the 漢字. The two main kana blocks are gap-free 96-codepoint ranges; 漢字 are drawn from the large CJK Unified Ideographs block (plus extension blocks not enumerated here). Verify IPA rendering with a font supporting IPA Extensions and combining marks (e.g. Charis SIL, Doulos SIL, Gentium) and Japanese rendering with a JIS-complete font (e.g. Noto Sans/Serif CJK JP, Hiragino, Yu Gothic/Mincho).
+
+| Block | Range | Usage |
+|---|---|---|
+| Basic Latin | U+0000–U+007F | Plain consonant letters (p b t d k s z h m n r j w) and the vowel letters a i e o, plus the digraph elements (t s d z) of the affricates; the Romaji (Hepburn) reader tier is written entirely in this block. |
+| Latin-1 Supplement | U+0080–U+00FF | ç voiceless palatal fricative (U+00E7), the allophone of /h/ before /i/ (ひ). |
+| Latin Extended-A | U+0100–U+017F | ŋ velar nasal eng (U+014B) — the 鼻濁音 allophone of /ɡ/ and the velar realization of moraic /N/; also macron vowels ā ī ū ē ō used by Hepburn romanization for long vowels. |
+| IPA Extensions | U+0250–U+02AF | Specialized IPA letters: ɡ (script g, U+0261), the curl letters ɕ (U+0255) and ʑ (U+0291), ɸ (phi, U+0278), the tap ɾ (U+027E), the labio-velar ɰ (U+0270), the back unrounded vowel ɯ (U+026F), the uvular nasal ɴ (U+0274), and the palatal nasal ɲ (U+0272). |
+| Spacing Modifier Letters | U+02B0–U+02FF | Spacing diacritics that occupy their own width: the length mark ː (U+02D0), the (non-Japanese) stress marks ˈ ˌ, and the pitch tone-bar letters ˥ (U+02E5) … ˩ (U+02E9) used to draw the High/Low pitch-accent melody. |
+| Combining Diacritical Marks | U+0300–U+036F | Non-spacing marks attaching to the preceding base: centralization ◌̈ (U+0308, for ɯ̈), devoicing ring ◌̥ (U+0325, for i̥ ɯ̥), nasalization ◌̃ (U+0303, for ɰ̃), the affricate tie bar ◌͡◌ (U+0361), and no-audible-release ◌̚ (U+031A) for the held sokuon. |
+| Modifier Tone Letters | U+A700–U+A71F | The IPA downstep mark ꜜ (U+A71C) used to notate the Japanese pitch-accent DROP (the accent kernel アクセント核); some transcriptions use the plain downwards arrow ↓ (U+2193, Arrows block) instead. |
+| Hiragana | U+3040–U+309F | The HIRAGANA syllabary (ひらがな) — base moras あ–ん (U+3042–U+3093), small kana ぁぃぅぇぉ ゃゅょ, the sokuon っ (U+3063), the moraic nasal ん (U+3093), ゔ (U+3094), and the combining/spacing voicing marks ゙゚゛゜ (U+3099–U+309C); the Hiragana reader tier. (The chōonpu ー and middle dot ・ live in the Katakana block.) |
+| Katakana | U+30A0–U+30FF | The KATAKANA syllabary (カタカナ) — the double hyphen ゠ (U+30A0), base moras ア–ン, small kana ァィゥェォ ャュョ ッ, ヴ (U+30F4) and the ヷヸヹヺ v-series, ヵヶ, plus the chōonpu ー (U+30FC) and middle dot ・ (U+30FB) shared with hiragana; the idiomatic Katakana reader tier for foreign-word rendering. |
+| Katakana Phonetic Extensions | U+31F0–U+31FF | Small katakana ㇰ ㇱ ㇲ … ㇿ (U+31F0–U+31FF) used for Ainu and for fine phonetic notation of codas/clusters in loanword transcription; not part of standard Japanese orthography but available for precise rendering. |
+| Halfwidth and Fullwidth Forms (Halfwidth Katakana) | U+FF61–U+FF9F | HALFWIDTH KATAKANA (ｱ–ﾝ) plus the halfwidth chōonpu ｰ (U+FF70), halfwidth voiced/semi-voiced marks ﾞﾟ (U+FF9E–U+FF9F), and halfwidth punctuation ｡｢｣ (U+FF61–U+FF63); a legacy single-byte-width form used in compact displays — phonetically identical to fullwidth katakana. |
+| CJK Unified Ideographs | U+4E00–U+9FFF | The 漢字 (kanji) — the logographic Chinese characters carrying on'yomi/kun'yomi readings (日 U+65E5, 本 U+672C, 語 U+8A9E, 一 U+4E00, 水 U+6C34); the base CJK block, supplemented for rarer characters by CJK Extension blocks (Ext A U+3400–U+4DBF, Ext B U+20000–U+2A6DF, etc.) not enumerated here. |
+
+---
+
+*Guide maintained by Shin.*
+
+## Cross-Reference to the Companion Guides
+
+Cross-reference relating this Japanese (日本語) IPA pronunciation guide to its six companion guides: the two Indo-European guides — English and Spanish — the three Afroasiatic Semitic guides — Classical Syriac (Peshitta), Biblical Aramaic, and Biblical Hebrew — and the one other East Asian guide, Korean (한국어). Japanese is the SECOND CJK-region guide (after Korean) and, more pointedly, the FIRST guide in the entire family written in a MORAIC syllabary (the kana ひらがな/カタカナ, embedded in a three-script mix with logographic 漢字) and the FIRST guide whose prosody is LEXICAL PITCH ACCENT (a downstep) rather than stress, tone, or nothing. Genetically it is Japonic (Japanese together with the Ryukyuan languages), a small family with no securely demonstrated wider relatives — so, like Korean, it is unrelated to all the Indo-European and Semitic guides; the once-popular link to Korean (and the old 'Altaic' grouping) is NOT established, so even the two CJK guides are not demonstrably kin. Where the Semitic guides cross-reference one another within a single family, and the Indo-European guides cross-reference one another as branches of one stock, this section is contrastive on every front: it documents the wide typological gap between Japanese and BOTH the Indo-European and the Semitic blocks, AND the more subtle but real contrast between Japanese and its fellow CJK guide Korean (both agglutinative, head-final, honorific-rich SOV — yet Japanese is moraic with pitch accent and three mixed scripts, while Korean is mora/syllable-block featural Hangul with a three-way laryngeal contrast and no tone or stress). The shared descriptive apparatus (IPA 2015, phonemic vs phonetic notation, articulatory place/manner classification) is what lets all seven guides be read against one another. This is a contrastive bridge, NOT a claim of genetic relationship: Japanese is related to none of the other six; only the IPA framework is fully shared. Japanese is documented here in TWO parallel reference standards — Standard / Common Japanese (標準語 / 共通語 Hyōjungo / Kyōtsūgo, educated Tokyo / Yamanote speech, Tokyo-type pitch accent 東京式) and Kansai / Keihan (関西弁 / 京阪式 Kansai-ben / Keihan-shiki, Kyoto–Osaka, a richer register-plus-accent system) — the Japanese analogue of the English guide's GA/RP pairing, the Spanish guide's Castilian/Latin-American pairing, and the Korean guide's South/North pairing.
+
+### Shared Framework
+
+All seven guides (Japanese, Korean, English, Spanish, Peshitta, Biblical Aramaic, Biblical Hebrew) are built on the same descriptive linguistic apparatus, which makes their pronunciation data directly comparable even though Japanese is unrelated to every one of the other six.
+
+- Primary and sole pronunciation system is the International Phonetic Alphabet (IPA), 2015 revision; orthography is never the authoritative phonetic record — and Japanese orthography is especially unreliable as a sound record because it MIXES THREE SCRIPTS (logographic 漢字 kanji, whose readings are not recoverable from the glyph, plus the two moraic kana syllabaries ひらがな and カタカナ), so IPA is indispensable.
+- Phonemic transcriptions are written between /slashes/; narrow phonetic transcriptions are written between [brackets]. Japanese leans heavily on this distinction because its phonemes have large, regular allophonic spreads (e.g. /s/→[ɕ]/_i, /t/→[tɕ]/_i and [ts]/_u, /h/→[ç]/_i and [ɸ]/_u, /ɡ/→[ŋ] intervocalically, /N/ assimilating to [m n ŋ ɴ]).
+- Consonants are classified by place of articulation, manner of articulation, and voicing (the IPA pulmonic consonant chart); Japanese uses a TWO-WAY voicing contrast (/p t k s/ vs /b d ɡ z/), like the Indo-European and Semitic guides and UNLIKE Korean's three-way lax/tense/aspirated laryngeal system.
+- Vowels are classified by height, backness, and roundedness (the IPA vowel chart); Japanese has a compact 5-vowel system /a i ɯ e o/, but — UNLIKE Spanish and Korean and LIKE English and the Semitic guides — VOWEL LENGTH IS PHONEMIC (short /a/ vs long /aː/), and Japanese adds HIGH-VOWEL DEVOICING ([i̥ ɯ̥]) of its own.
+- Suprasegmental marks are shared where relevant: `ː` length (heavily used for the phonemic long vowels /aː iː ɯː eː oː/ and for the geminate/sokuon and long consonants), the tie bar `◌͡◌` for affricates ([t͡s] [t͡ɕ] [d͡ʑ]) and the under-ring `◌̥` for the devoiced high vowels. Crucially, Japanese uses NO stress mark (`ˈ`) — because it has no lexical stress — and instead marks PITCH ACCENT, here notated by High/Low pitch and the downstep, conventionally written H/L per mora or with a fall mark (e.g. 箸 ha\shi HL 'chopsticks' vs 橋 hashi\ LH(-drop) 'bridge').
+- Each guide documents two parallel reference traditions of one language: Japanese uses Standard / Common Japanese (標準語 / 共通語, Tokyo-type accent 東京式) and Kansai / Keihan (関西弁 / 京阪式, Kyoto–Osaka); Korean uses Standard South Korean (표준어, Seoul) and North Korean (문화어, Pyongyang); English uses General American (GA) and Received Pronunciation (RP/SSBE); Spanish uses Castilian and Latin American; the Semitic guides use Eastern/Western (Peshitta) or reconstructed reading traditions (e.g. Tiberian for Hebrew and Biblical Aramaic).
+
+Because the framework is identical, an IPA symbol means the same articulatory target in every guide. `/m/`, `/n/`, `/s/`, `/k/`, `/t/`, `/p/` denote the same sounds in Japanese as in Korean, English, Spanish, Syriac, Aramaic, or Hebrew; only the phoneme inventories, distributions, allophonic rules (Japanese's rich palatalization, /ɡ/-nasalization, /N/-assimilation, high-vowel devoicing, sokuon gemination), the timing unit, and the suprasegmental systems differ. Japanese's two most distinctive contributions to the set are (1) MORA-TIMING — Japanese is the first guide whose fundamental timing/phonological unit is the MORA (拍 haku), not the syllable or the stress foot — and (2) LEXICAL PITCH ACCENT (a single downstep per word), the first pitch-accent system in the family. Neither has a true counterpart in any other guide: the closest prosodic neighbors are stress (English, Spanish) and Korean's accentual-phrase intonation, but a downstep-based lexical pitch accent is Japanese-specific here.
+
+### Typological Contrasts
+
+Japanese set against its fellow CJK guide Korean, the two Indo-European guides (English, Spanish), and the three Semitic guides (Syriac, Biblical Aramaic, Biblical Hebrew). The Korean column is kept separate from the IE/Semitic blocks because Korean is the typologically closest companion — yet still not a demonstrated relative.
+
+| Feature | Japanese | Korean | Indo-European (English, Spanish) | Semitic (Syriac, Biblical Aramaic, Biblical Hebrew) |
+|---|---|---|---|---|
+| Language family | Japonic — Japanese together with the Ryukyuan languages (Okinawan etc.). Japonic is a small, well-defined family but has NO securely demonstrated wider relatives: the proposed link to Korean and the old 'Altaic' (Turkic–Mongolic–Tungusic, sometimes plus Korean and Japanese) grouping are NOT established. So Japanese has no proven genetic tie to any companion guide — not even to Korean, the other CJK member. | Koreanic; Korean is almost universally treated as a language ISOLATE with no securely demonstrated relatives. The Japanese–Korean link is unproven, so although both are CJK-region, agglutinative, head-final and honorific-rich, they are documented here as TYPOLOGICAL parallels, not relatives. | English is Indo-European > Germanic > West Germanic; Spanish is Indo-European > Italic > Romance > Ibero-Romance. The two IE guides are related to one another (as branches of one stock) but NOT to Japanese. | Syriac and Biblical Aramaic are Afroasiatic > Semitic > Northwest Semitic (Aramaic branch); Biblical Hebrew is Northwest Semitic (Canaanite branch). The Semitic three are closely related to one another but unrelated to Japanese and to the Indo-European and Korean guides. |
+| Position in the guide family (firsts) | Japanese is the SECOND East Asian / CJK-region guide (after Korean) but the FIRST guide written in a MORAIC SYLLABARY (the kana), the FIRST guide written in a MIXED multi-script system (logographic 漢字 + two syllabaries ひらがな/カタカナ), the FIRST guide that is MORA-TIMED, and the FIRST guide with LEXICAL PITCH ACCENT (a downstep). It is therefore the family's first window onto both syllabary writing and pitch-accent prosody. | Korean was the FIRST non-Indo-European, non-Semitic, East Asian, isolate, agglutinative, featural-script guide, and the first organized by a three-way laryngeal contrast. Japanese joins it as the second CJK guide but contrasts even with Korean on script type (moraic kana + kanji vs featural Hangul syllable blocks), prosody (pitch accent vs accentual-phrase intonation with no lexical pitch/stress), and laryngeal system (two-way voicing vs three-way lax/tense/aspirated). | English and Spanish are fusional Indo-European languages written in the segmental Latin alphabet — part of the established 'core' against which Japanese's moraic, pitch-accent, mixed-script novelty is measured. | Peshitta, Biblical Aramaic, and Biblical Hebrew are root-and-pattern Afroasiatic languages written in right-to-left abjads — themselves a strong contrast to the IE guides, and even further from Japanese's moraic CV syllabary and pitch accent. |
+| Morphological type | AGGLUTINATIVE: grammar is built by stringing transparent, largely invariant suffixes and particles onto a stem — case/role particles (は wa topic, が ga subject, を o object, に ni, で de…), tense/aspect/voice/negation/politeness suffixes — e.g. 食べる taberu 'eat' → 食べさせられませんでした tabe-sase-rare-masen-deshita = eat + CAUSATIVE + PASSIVE + POLITE-NEGATIVE + PAST. Each morpheme keeps a stable shape and meaning; there is essentially no fusion and no templatic interleaving. | Also AGGLUTINATIVE in the same clean, one-suffix-one-meaning style (가다 'go' → 가시었습니다 ga-si-eoss-seumnida). Japanese and Korean are the two agglutinative guides and are strikingly parallel here — the single clearest typological resemblance between them. | English is predominantly concatenative/fusional with strong analytic tendencies (function words + word order); Spanish is more richly fusional, packing several grammatical categories into single inflectional endings (Spanish *hablábamos* = stem + tense/aspect + person/number fused). Neither is agglutinative in the Japanese/Korean sense. | Root-and-pattern (templatic, nonconcatenative): meaning is built from a discontinuous (usually triconsonantal) root interleaved with vowel/consonant templates (k-t-b → *katab*, *ktib*, *maktub*). This interdigitation is the structural opposite of Japanese's linear suffixing — Japanese (with Korean) and Semitic morphology lie at opposite ends of the typological space. |
+| Basic word order | Rigidly HEAD-FINAL SOV (Subject–Object–Verb): the verb (with all its suffixes) closes the clause, modifiers and relative clauses precede their head noun, and the language uses POSTpositions (particles) rather than prepositions. It is topic-prominent (は wa marks the topic) and word order within the clause is otherwise fairly free because particles mark grammatical roles. Subjects and objects are freely dropped (pro-drop) when recoverable. | Also rigidly head-final SOV with postpositions, prenominal relative clauses, and pro-drop — essentially identical to Japanese in clause architecture. The two CJK guides share their word-order profile almost exactly. | English and Spanish are basically SVO (Subject–Verb–Object) and use PREpositions; Romance allows freer subject placement than English but both keep the verb medial, not final. | Classical Syriac, Biblical Aramaic, and Biblical Hebrew tend toward VSO (verb-initial), especially in narrative (Hebrew *wayyiqtol* chains), though SVO also occurs. Japanese's strict verb-FINAL order is thus opposite to the Semitic verb-INITIAL tendency and distinct from the verb-MEDIAL Indo-European pattern — and identical to Korean's. |
+| Writing system, structure, and direction | A MIXED THREE-SCRIPT system, normally written left-to-right (historically and still optionally top-to-bottom, right-to-left columns 縦書き): logographic 漢字 (kanji, each writing a morpheme, with multiple 音読み/訓読み readings not recoverable from the glyph) interleaved with two MORAIC SYLLABARIES — ひらがな hiragana (native words, particles, inflectional okurigana) and カタカナ katakana (foreign/loanwords, names, onomatopoeia, emphasis). Each kana glyph writes one MORA (a (C)(j)V unit, or moraic ん /N/, or sokuon っ /Q/, or the long-vowel/chōonpu mora ー), arranged in the 五十音 gojūon order, with 濁点 ゛(voicing) / 半濁点 ゜and small kana for yōon (きゃ) and the sokuon (っ). Japanese is the only guide using a syllabary and the only one routinely mixing logographic and phonographic scripts. | Hangul (한글), written left-to-right, a FEATURAL alphabet whose jamo are composed into square SYLLABLE BLOCKS (onset/medial/coda). Korean writes sounds with one fully phonemic system; Japanese instead writes morphemes (kanji) AND moras (kana) side by side. Both are non-Latin native scripts requiring their own reader tier, but they are structurally different (featural alphabet in syllable blocks vs moraic syllabary plus logographs). | English and Spanish use the Latin (Roman) alphabet, a segmental alphabet written left-to-right with separate consonant and vowel letters laid out linearly; letter shapes are arbitrary. Neither is syllabic or logographic. | Syriac uses the Syriac abjad; Biblical Aramaic and Biblical Hebrew use the Hebrew square abjad — both written RIGHT-to-LEFT, encoding consonants as letters and marking vowels only optionally via later pointing (Syriac dots; Tiberian niqqud). Japanese differs on every axis: default direction, syllabic+logographic design, full and obligatory vowel representation (every kana carries its vowel), and the mixing of three scripts. |
+| Phonological / timing unit and syllable structure | The fundamental unit is the MORA (拍 haku / モーラ), and Japanese is MORA-TIMED: each mora occupies roughly equal time. A mora = (C)(j)V, OR the moraic nasal /N/ (ん), OR the sokuon /Q/ (っ, first half of a geminate), OR the second half of a long vowel /R/ (ー). A SYLLABLE (音節) is then 1–2 moras (heavy CVN, CVQ, CVR). The canonical shape is open CV with NO consonant clusters and NO codas except moraic ん and the sokuon — which is exactly why rendering Aramaic into Japanese requires FORCED VOWEL EPENTHESIS (every borrowed coda/cluster is broken up into CV moras). | Korean's unit is the syllable, written in syllable blocks; it is broadly syllable-timed, permits an onset + on-glide + vowel + ONE coda (C)(G)V(C), and NEUTRALIZES codas to 7 sounds. Korean tolerates true coda consonants that Japanese forbids (Japanese allows only moraic ん and the sokuon), and Korean counts by syllable where Japanese counts by mora — so a Korean CVC syllable is one beat, but its Japanese rendering becomes two moras. | English is stress-timed and permits heavy clusters at both edges (*strengths* /strɛŋkθs/); Spanish is syllable-timed and allows onset clusters with /l r/ plus codas. Both license syllable shapes far richer than Japanese's open CV mora. | Semitic syllables center on the consonantal root and tolerate clusters and codas that Japanese's open-CV mora frame forbids. Japanese's mora-timing and its near-total ban on codas and clusters are, together with pitch accent, its signature deviation from every companion. |
+| Core laryngeal organization of obstruents | A TWO-WAY VOICING contrast among obstruents: voiceless /p t k s (h)/ vs voiced /b d ɡ z/ (with the affricate/sibilant allophones [t͡s t͡ɕ d͡z d͡ʑ ɕ ʑ ç ɸ] distributed by following vowel). There is no aspiration contrast (voiceless stops are largely unaspirated) and no tense/fortis series; the special obstruent fact is GEMINATION via the sokuon /Q/ (きって [kitte]) and the moraic nasal /N/. | A THREE-WAY laryngeal contrast — lax ㄱㄷㅂㅈ /k t p tɕ/ vs tense ㄲㄸㅃㅉㅆ /k͈ t͈ p͈ tɕ͈ s͈/ vs aspirated ㅋㅌㅍㅊ /kʰ tʰ pʰ tɕʰ/ — with NO phonemic voicing (voiced obstruents are intervocalic allophones). This is the sharpest phonological contrast between the two CJK guides: Japanese has plain voicing (/k/ vs /ɡ/) where Korean has the lax/tense/aspirated split, and Korean's tense series and phonemic aspiration have no Japanese counterpart. | English and Spanish both use a TWO-WAY VOICING contrast (/p/ vs /b/, etc.) — the same dimension as Japanese. English aspirates voiceless stops in stressed onset ([pʰ tʰ kʰ]) allophonically; Japanese and Spanish keep them largely unaspirated. Japanese sits with the IE guides on the voicing axis, unlike Korean. | The Semitic guides also use voicing, but add the EMPHATIC (pharyngealized) set (Teth /tˤ/, Tsade /sˤ/) and Begadkephat hard~soft spirantization. Japanese has voicing like them but none of the emphatics; its distinctive obstruent feature is gemination, not emphasis. |
+| Consonant inventory — guttural / emphatic region and missing sounds | Japanese has only ONE back/glottal consonant phoneme, /h/ (realized [ç] before /i/, [ɸ] before /u/, [h] elsewhere). It has NO pharyngeals, NO emphatics, NO uvulars, and NO phonemic glottal stop. It also lacks native /f v θ ð l ʃ ʒ/ as distinct phonemes ([ɸ] is the /h/ allophone, /l/ merges into /r/, and [ɕ tɕ ʑ dʑ] are allophones, not separate phonemes). Its rhotic is a single /r/ = apico-alveolar tap [ɾ], and it has the special moraic nasal /N/ that assimilates to [m n ŋ ɴ ɰ̃]. | Korean likewise has only /h/ in the back/glottal zone (lenited, often deleted), no pharyngeals/emphatics/uvulars, and lacks /f v θ ð z ʃ ʒ/; its rhotic is a single /l ~ ɾ/ phoneme. Japanese and Korean are very close here — both minimal in the guttural region — differing mainly in that Japanese's /h/ has the [ç]/[ɸ] split while Korean's deletes intervocalically. | English adds /f v θ ð s z ʃ ʒ/ and an approximant rhotic [ɹ]; Spanish adds /f/, velar /x/, and a trill/tap /r ɾ/. Both have richer fricative inventories than Japanese. | The Semitic guides add the full guttural/emphatic apparatus — pharyngeals /ħ/ (Heth) and /ʕ/ (Ayin), glottals /ʔ/ (Aleph) and /h/, emphatics /tˤ sˤ/, uvular /q/ (Qoph), and /v z/ etc. from spirantization. Japanese shares with them only the plain /h/; everything else in their guttural/emphatic zone is foreign to Japanese — which is precisely why a Japanese rendering of Aramaic must approximate ʕ ħ q tˤ sˤ with the nearest plain consonants. |
+| Vowel inventory and length | A compact, symmetrical 5-vowel system /a i ɯ e o/ — note /u/ is [ɯ̈], a COMPRESSED UNROUNDED back vowel, not [u]. VOWEL LENGTH IS PHONEMIC (短/長): /a/ vs /aː/, おばさん obasan 'aunt' vs おばあさん obāsan 'grandmother'; the long vowels /aː iː ɯː eː oː/ are full second moras. Japanese adds HIGH-VOWEL DEVOICING: /i u/ → [i̥ ɯ̥] between voiceless consonants or word-finally after a voiceless C (すき [sɯ̥ki], です [desɯ̥]). Diphthongs are sequences of independent vowel moras, not unit phonemes. | A larger 7–8 monophthong system (/a ʌ o u ɯ i e/, ㅐ/ㅔ merged), with on-glide diphthongs and conservative front rounded /ø y/; crucially Korean has NO phonemic length and little reduction. So the two CJK guides DIVERGE on vowels: both share the close-back-UNROUNDED vowel /ɯ/ (Japanese ウ [ɯ̈] ~ Korean ㅡ /ɯ/) — a hallmark neither IE nor Semitic guide has — but Japanese is smaller, has phonemic length, and adds devoicing, while Korean is larger, has no length, and has front rounded vowels Japanese lacks. | English has a large reducing system (~11–12 monophthongs plus phonemic diphthongs FACE/PRICE/CHOICE/MOUTH/GOAT, pervasive schwa); Spanish has a clean 5-vowel /a e i o u/ with no length and no reduction. Japanese's 5-vowel inventory is closest in SIZE to Spanish, but unlike Spanish it has phonemic LENGTH (and devoicing), and its /u/ is unrounded [ɯ̈] rather than Spanish [u]. English shares with Japanese the property of phonemic length / a quantity-or-quality-rich system, but with a far larger inventory. | Smaller systems (Peshitta Eastern 7, Western 5; Tiberian 7) that, like Japanese, are compact and that, like Japanese, treat length as meaningful in places — but they include a reduced vowel (shewa) Japanese lacks, lack Japanese's unrounded /ɯ/, and build diphthongs from vowel+glide rather than from equal moras. |
+| Signature phonological / allophonic rules | Japanese's pronunciation grammar is dominated by following-vowel ALLOPHONY and special-mora behavior: /s z/ → [ɕ ʑ]/_i, /t/ → [t͡ɕ]/_i and [t͡s]/_u, /d z/ → [d͡ʑ ʑ]/_i and [d͡z]/_u, /h/ → [ç]/_i and [ɸ]/_u, /ɡ/ → [ŋ] (鼻濁音) intervocalically for many speakers; the moraic nasal /N/ (ん) ASSIMILATES to [m] (before labials), [n] (alveolars), [ŋ] (velars), [ɴ]/[ɰ̃] (final/before vowels and fricatives); the sokuon /Q/ (っ) GEMINATES a following obstruent; high vowels DEVOICE between voiceless consonants; and RENDAKU (連濁) voices the initial obstruent of a second compound element (て + かみ → てがみ tegami). Yōon (拗音, きゃ きゅ きょ) add palatalized moras. | Korean's grammar of pronunciation is an unusually dense set of obligatory cross-boundary SANDHI rules — 연음 liaison, 비음화 nasalization, 유음화 lateralization, 경음화 tensification, 격음화 aspiration, 구개음화 palatalization, ㄴ-첨가 n-insertion, plus 7-sound coda neutralization. Both CJK guides are 'rule-rich,' but the locus differs: Korean's rules are largely CODA/boundary sandhi (because Korean has codas), whereas Japanese — having almost no codas — concentrates its rules in following-vowel allophony, the special moras /N/ and /Q/, devoicing, and rendaku. | English has assimilation, flapping, and reduction; Spanish has /b d ɡ/ spirantization and /s/-voicing. Real but fewer and less pervasive than the dense CJK rule sets. | Begadkephat spirantization and gemination are the headline Semitic processes. None of the other guides matches the combined density of Japanese's allophony-plus-special-mora system or Korean's sandhi stack. |
+| Suprasegmentals: stress, tone, pitch, and prosody | Japanese has LEXICAL PITCH ACCENT — NOT stress and NOT per-syllable tone. A word has at most ONE accent, realized as a pitch DROP (downstep) after the accented mora; classes are 頭高 atamadaka (drop after mora 1), 中高 nakadaka (medial drop), 尾高 odaka (drop after the final mora, surfacing on a following particle), and 平板 heiban (accentless, no drop). Mora 1 and mora 2 almost always differ in pitch. Minimal pairs: 箸 ha\shi (HL) 'chopsticks' vs 橋 hashi\ (LH-drop) 'bridge' vs 端 hashi (LH heiban) 'edge'; 雨 a\me 'rain' vs 飴 ame 'candy'. The accent PATTERNS differ systematically between the two reference standards (Tokyo 東京式 vs Kansai/Keihan 京阪式, where 箸/橋 and 雨/飴 swap and Kansai adds a lexical initial register). | Standard Korean has NO lexical stress and NO lexical tone; prosody is organized into accentual phrases with a phrase-level tune (commonly LHLH). So while both CJK guides reject lexical STRESS, they differ on PITCH: Standard Japanese has contrastive lexical pitch (the downstep), whereas Standard Korean does not (only some Korean dialects, e.g. Gyeongsang, keep lexical pitch). Japanese pitch accent is the family's first lexically contrastive pitch system. | English has lexical, contrastive STRESS (ˈrecord vs reˈcord) and is stress-timed; Spanish also has lexical contrastive stress (*término*/*termino*/*terminó*) and is syllable-timed. Both foreground STRESS, which Japanese lacks entirely — Japanese substitutes a pitch downstep for the role stress plays elsewhere. | Stress in the Semitic guides is largely predictable from word structure (typically final or penultimate). Japanese is the only guide of the seven with LEXICAL PITCH ACCENT and the only one that is MORA-TIMED — a prosodic-and-rhythmic profile unlike any companion: Korean has phrase intonation, the IE guides have stress, the Semitic guides have predictable stress, and Japanese alone has a downstep on a mora grid. |
+| Honorifics and politeness | Japanese has a grammatically PERVASIVE honorific / politeness system (敬語 keigo): teineigo (丁寧語, the です/ます polite register), sonkeigo (尊敬語, subject-exalting forms), and kenjōgo (謙譲語, humble self-lowering forms), plus honorific prefixes お/ご and a layer of honorific/humble vocabulary. The social relationship is encoded in the verb morphology of nearly every sentence, often selecting longer, suffix-laden surface forms — directly shaping pronunciation. | Korean has an equally pervasive honorific and speech-level system: subject honorification (-시- -si-), addressee-oriented speech levels (합니다체 deferential, 해요체 polite, …), and honorific/humble vocabulary. This is the SECOND strong typological resemblance between the two CJK guides (after agglutination + SOV): both grammaticalize social deixis in the verb. The systems are organized differently in detail (Japanese keigo's three-way teinei/sonkei/kenjō vs Korean's subject-honorific + addressee speech-levels), but both are far beyond anything in the other six guides. | English has only lexical politeness and no grammatical honorific system; Spanish has a single T/V pronoun distinction (tú/usted) but nothing approaching the CJK multi-tiered systems. | The Semitic guides have no comparable grammaticalized speech-level system. The pervasive honorific morphology shared by Japanese and Korean has no real analogue elsewhere in the set. |
+
+### Companion Guides
+
+**Other East Asian (CJK) guide**
+
+- **Korean** — `Korean/korean_pronunciation_guide.json`. Modern Korean (Koreanic isolate; the FIRST CJK / East Asian guide), documented in Standard South Korean (표준어, Seoul) and North Korean (문화어, Pyongyang). The TYPOLOGICALLY closest companion to Japanese in the whole set: both are agglutinative, rigidly head-final SOV with postpositions and prenominal relatives, pro-drop, honorific-rich, written in a non-Latin native script needing its own reader tier, and both have the close-back-unrounded vowel /ɯ/. Yet the two are NOT demonstrably related, and they differ on script type (moraic kana + logographic kanji vs featural Hangul syllable blocks), timing unit (mora vs syllable), laryngeal system (two-way voicing vs three-way lax/tense/aspirated), coda structure (only ん/sokuon vs 7-sound coda neutralization), and prosody (lexical pitch accent / downstep vs accentual-phrase intonation with no lexical pitch or stress). The most instructive single comparison for Japanese as the second CJK guide.
+
+**Indo-European guides**
+
+- **English** — `English/english_pronunciation_guide.json`. Modern English (Indo-European > Germanic), documented in General American (GA) and Received Pronunciation (RP/SSBE). Shares with Japanese the GA/RP-style two-standard format and the two-way voicing contrast; differs sharply in family, SVO word order, a large reducing vowel system, lexical STRESS (vs Japanese pitch accent), stress-timing (vs mora-timing), heavy consonant clusters (vs open CV), and the Latin alphabet. English aspiration ([pʰ tʰ kʰ]) and English /l/~/r/ are classic difficulty points exactly where Japanese has unaspirated stops and a single tap /r/.
+- **Spanish** — `Spanish/spanish_pronunciation_guide.json`. Modern Spanish (Indo-European > Italic > Romance), documented in Castilian (distinción) and Latin American (seseo). The closest companion to Japanese in VOWEL SIZE — both have a clean 5-vowel system — and Spanish's tap /ɾ/ matches Japanese's /r/ = [ɾ] in sound. But Spanish diverges on family, fusional morphology, SVO order, lexical stress (vs Japanese pitch accent), syllable-timing (vs mora-timing), the trill/tap phonemic contrast (Japanese has no trill), and crucially has NO phonemic vowel length and a rounded [u] where Japanese has unrounded [ɯ̈]. The single best comparison for Japanese's vowel COUNT and its tap rhotic.
+
+**Semitic guides**
+
+- **Peshitta** — `peshitta_pronunciation_guide.json`. Classical Syriac (Aramaic), the Peshitta reading tradition — the source text this whole project renders. Documents Eastern (Madnhaya) and Western (Serto) traditions in parallel, the Begadkephat spirantization rule, guttural and emphatic consonants, and the Syriac abjad (`U+0700`–`U+074F`). Unrelated to Japanese (Afroasiatic vs Japonic) and maximally distant in morphology (root-and-pattern vs agglutinative), script (right-to-left consonantal abjad vs moraic kana + logographic kanji), syllable structure (clusters/codas vs open CV mora), and prosody (predictable stress vs pitch accent). It shares with Japanese only a handful of plain IPA consonants (/m n s k t p h b d ɡ z/); its pharyngeals, emphatics, and uvular /q/ have no Japanese counterpart and must be approximated through forced vowel epenthesis in the kana reader tiers.
+- **Biblical Aramaic** — `biblical_aramaic_pronunciation_guide.json`. Biblical Aramaic / Jewish Literary Aramaic, as preserved in the Tiberian pointing of the Aramaic portions of the Hebrew Bible (Daniel, Ezra). Northwest Semitic (Aramaic branch); uses the Hebrew square abjad with Tiberian niqqud. Shares emphatic/guttural consonants and triconsonantal root morphology with Syriac and Hebrew; unrelated to Japanese and contrasting with it on every major typological axis (family, morphology, word order, script, syllable shape, prosody). The closest Aramaic relative of the Peshitta's own language, useful to a Japanese reader as the Semitic backbone behind the rendered text.
+- **Biblical Hebrew** — `biblical_hebrew_pronunciation_guide.json`. Biblical (Classical) Hebrew in the Tiberian reading tradition. Northwest Semitic (Canaanite branch); uses the Hebrew square abjad with Tiberian niqqud. Notable for the prefixed definite article /ha-/ with following gemination, the Tiberian uvular Resh /ʁ/, and a 7-vowel system with shewa; unrelated to Japanese. Useful to a Japanese reader mainly as a study in how a voicing-plus-emphatic-plus-guttural obstruent system (and a stress-based, cluster-tolerant prosody) differs from Japanese's plain-voicing, open-CV, mora-timed, pitch-accent profile.
+
+### Shared IPA Symbols
+
+IPA symbols organized by how they relate Japanese to its six companions. Because Japanese keeps a two-way voicing contrast (like the IE and Semitic guides) it shares MORE plain obstruent symbols than Korean does, but its heavy allophony means several of these symbols appear in Japanese chiefly or only as ALLOPHONES (e.g. [ɕ tɕ dʑ ɸ ç ŋ] are conditioned variants, not phonemes). The symbol denotes the same articulatory target in every guide; the languages differ in how these phonemes pattern, not in what the symbols mean.
+
+#### Symbols Shared with the Companions
+
+| IPA | Name | Japanese | Other guides |
+|---|---|---|---|
+| `m` | voiced bilabial nasal | /m/ (ま行 ma/mi/mu/me/mo); also one realization of the moraic nasal /N/ (ん) before labials (さんぽ [sampo]) | Korean/English/Spanish /m/; Mem / Mim in all three Semitic guides — the same sound everywhere |
+| `n` | voiced alveolar nasal | /n/ (な行 na/ni/nu/ne/no, with に [ɲi]-ward palatalization); also the alveolar realization of /N/ (ん) before alveolars | Korean/English/Spanish /n/; Nun in all three Semitic guides |
+| `ŋ` | voiced velar nasal | [ŋ] — the velar realization of the moraic nasal /N/ (ん) before velars (りんご [riŋɡo]), AND the 鼻濁音 allophone of intervocalic /ɡ/ for many speakers (かぎ [kaŋi]); not an independent phoneme | English /ŋ/ (sing) is a phoneme; Korean /ŋ/ is a full CODA phoneme; in Spanish only an allophone of /n/ before velars; not a primary Semitic phoneme. In Japanese it is purely allophonic. |
+| `h` | voiceless glottal fricative | /h/ (は行); realized [ç] before /i/ (ひ [çi]) and [ɸ] before /u/ (ふ [ɸɯ]), plain [h] elsewhere | English /h/; Korean /h/ (lenites/deletes); Spanish [h] only regionally; Semitic He /h/ (distinct from pharyngeal Heth /ħ/). Japanese shares the plain /h/ but adds its distinctive [ç]/[ɸ] allophony. |
+| `s` | voiceless alveolar fricative | /s/ (さ・す・せ・そ); palatalizes to [ɕ] before /i/ or /j/ (し [ɕi], しゃ [ɕa]) | Korean/English/Spanish /s/; Semkath / Samekh / Sin in the Semitic guides (distinct from emphatic Tsade /sˤ/). The plain symbol matches; Japanese's [ɕ] before /i/ parallels Korean's identical [ɕ]-before-/i/ allophony. |
+| `z` | voiced alveolar fricative | /z/ (ざ・ず・ぜ・ぞ); realized [dz]~[z] (often affricated word-initially), and [ʑ]/[dʑ] before /i/ (じ [(d)ʑi]) | English/Spanish /z/; Semitic Zayin. NOTE: Korean has NO /z/ at all — so /z/ is a point where Japanese aligns with the IE/Semitic guides and DIVERGES from its fellow CJK guide. |
+| `k` | voiceless velar plosive | /k/ (か行); largely UNASPIRATED; can geminate via the sokuon (がっこう [ɡakkoː]) | English /k/ (aspirated [kʰ] in stressed onset); Korean lax ㄱ /k/ (with tense ㄲ and aspirated ㅋ alongside); Spanish unaspirated /k/; Kaph in the Semitic guides. Japanese matches the bare value and the unaspirated realization of Spanish. |
+| `t` | voiceless alveolar/dental plosive | /t/ (た・て・と); becomes [t͡ɕ] before /i/ (ち [t͡ɕi]) and [t͡s] before /u/ (つ [t͡sɯ]); geminates via the sokuon (きって [kitte]) | English /t/ (aspirated [tʰ]; GA flap [ɾ]); Korean lax ㄷ /t/ (with ㄸ, ㅌ); Spanish dental unaspirated /t/; Taw in the Semitic guides. Japanese is unusual for the strong [t͡ɕ]/[t͡s] split before high vowels. |
+| `p` | voiceless bilabial plosive | /p/ (ぱ行, written with 半濁点 ゜); mainly in loans, mimetics, and after the sokuon/moraic nasal (きっぷ [kippɯ], さんぽ [sampo]); largely unaspirated | English /p/ (aspirated [pʰ]); Korean lax ㅂ /p/ (with ㅃ, ㅍ); Spanish unaspirated /p/; Pe (hard allophone) in the Semitic guides. |
+| `b` | voiced bilabial plosive | /b/ (ば行, the 濁音 of は行); a full phoneme contrasting with /p/ and /h/ | English/Spanish /b/; Beth (hard allophone) in the Semitic guides. In Korean [b] is only an intervocalic allophone of lax ㅂ, NOT a phoneme — so /b/ as a PHONEME aligns Japanese with the IE/Semitic guides against Korean. |
+| `d` | voiced alveolar/dental plosive | /d/ (だ・で・ど; before /i/ and /u/ the corresponding moras ぢ・づ merge with じ・ず as [(d)ʑi]/[(d)zɯ]); a full phoneme | English/Spanish /d/; Daleth (hard allophone) in the Semitic guides. As with /b/, voiced /d/ is a Japanese phoneme but only an allophone in Korean. |
+| `ɡ` | voiced velar plosive | /ɡ/ (が行); a full phoneme that, for many speakers, becomes the 鼻濁音 [ŋ] intervocalically | English/Spanish /ɡ/; Gimel (hard allophone) in the Semitic guides. Phonemic in Japanese (allophonic [ŋ]), only an intervocalic allophone of lax ㄱ in Korean. |
+| `t͡ɕ` | voiceless alveolo-palatal affricate | [t͡ɕ] — the allophone of /t/ before /i/ (ち [t͡ɕi]) and the value of ち・ちゃ・ちゅ・ちょ; not an independent phoneme but a conditioned variant | Korean /tɕ/ is the LAX affricate ㅈ (a phoneme, with tense ㅉ and aspirated ㅊ) — the same alveolo-palatal place as Japanese [t͡ɕ]; nearest IE companion is postalveolar /tʃ/ (English CHurch, Spanish *mucho*), a similar but not identical place. The two CJK guides share the alveolo-palatal affricate, but it is a phoneme in Korean and an allophone in Japanese. |
+| `d͡ʑ` | voiced alveolo-palatal affricate | [d͡ʑ]~[ʑ] — the realization of /z/ and /d/ before /i/ (じ・ぢ [(d)ʑi]); the voiced partner of [t͡ɕ]; allophonic | Korean [dʑ] is the intervocalic voiced allophone of lax ㅈ; nearest IE companion is /dʒ/ (English Judge). Both CJK guides have the voiced alveolo-palatal affricate only as a conditioned variant, not a base phoneme. |
+| `ɕ` | voiceless alveolo-palatal fricative | [ɕ] — the allophone of /s/ before /i/ or /j/ (し [ɕi], しゃ [ɕa]); the value of し・しゃ・しゅ・しょ; allophonic, not a phoneme | Korean [ɕ] is likewise the allophone of /s/ before /i j/ — an exact CJK parallel. Nearest IE companion is postalveolar /ʃ/ (English SHip), a similar but not identical place. Neither CJK guide has [ɕ] as a base phoneme. |
+| `ɸ` | voiceless bilabial fricative | [ɸ] — the allophone of /h/ before /u/ (ふ [ɸɯ]); also used for loan ファ/フィ/フェ/フォ; NOT the phoneme /f/ | No companion has a phonemic /ɸ/. The IE and Semitic guides have labiodental /f/ (English/Spanish /f/, Semitic spirantized Pe); Korean has no /f/ at all. Japanese's [ɸ] is the closest the set comes to /f/, but it is a bilabial allophone of /h/, not /f/. |
+| `ç` | voiceless palatal fricative | [ç] — the allophone of /h/ before /i/ (ひ [çi]); allophonic, no phonemic status | Phonemic /ç/ is found in none of the companions (German has it, but no guide here does). It is a Japanese-specific allophone of /h/. |
+| `r` | voiced alveolar tap (written /r/, realized [ɾ]) | /r/ = apico-alveolar TAP [ɾ] (ら行: ら・り・る・れ・ろ); a single liquid phoneme, often lateral-flap-like; Japanese has no /l/ (loans map /l/ → /r/) | Spanish /ɾ/ is a full phoneme contrasting with trill /r/ (*pero*/*perro*); Korean /l ~ ɾ/ is one liquid with [ɾ] as its intervocalic-onset allophone; English [ɾ] is only the GA flap of /t d/; Syriac/Aramaic Resh is a trill /r/. Japanese's single tap-liquid is closest to Spanish [ɾ] in SOUND and to Korean ㄹ in STATUS (one liquid phoneme), but Japanese has no lateral [l] at all. |
+| `j` | voiced palatal approximant (glide) | /j/ — や・ゆ・よ and the on-glide of all yōon (きゃ kya, しゃ sha, ちゃ cha…) | Korean /j/ (야 ja); English /j/ (yes); Spanish /j/ (tiene); Yodh / Yud in the Semitic guides — the same glide everywhere |
+| `w` | voiced labial-velar approximant (glide), Japanese [ɰ] | /w/ — natively only before /a/ (わ wa), realized [ɰ] (a LABIAL-VELAR / compressed, only weakly rounded glide); loans add ウィ/ウェ/ウォ | Korean/English/Spanish /w/; Waw / Vav (consonantal) in the Semitic guides. Japanese's /w/ is the least rounded of the set, matching its unrounded /ɯ/ vowel. |
+
+#### Japanese-Distinctive Features
+
+Phonological objects and IPA notations that are Japanese-specific within the guide set — chiefly the special MORAS (the moraic nasal /N/ and the sokuon /Q/), phonemic vowel LENGTH, the unrounded high back vowel and its devoiced variants, and the PITCH-ACCENT notation. These are the targets a reader of any companion guide must learn anew for Japanese.
+
+- `/N/` (ん・ン) — the MORAIC NASAL: a full mora of its own, realized [m n ŋ ɴ ɰ̃] by assimilation. No companion has a syllabic/moraic nasal as an independent timing unit; Korean's /ŋ/ is a coda phoneme but not a self-standing mora.
+- `/Q/` (っ・ッ) — the SOKUON: a full mora that geminates the following obstruent (きって [kit.te], the dot marking the mora boundary). Gemination exists in Semitic (dagesh) but never as a stand-alone counted mora as in Japanese.
+- `ː` on vowels — PHONEMIC VOWEL LENGTH as a second mora: /a aː/, /i iː/, /ɯ ɯː/, /e eː/, /o oː/ (おばさん vs おばあさん). English/Tiberian have length-or-tenseness contrasts, but Japanese ties length directly to the mora count, which is unique here.
+- `ɯ` / `ɯ̈` (ウ・う) — the COMPRESSED UNROUNDED high back vowel. Shared in symbol with Korean ㅡ /ɯ/ (the one vowel the two CJK guides share) but absent from all IE and Semitic guides; Japanese's is specifically a compressed, only weakly back [ɯ̈].
+- `i̥ ɯ̥` (devoiced high vowels) — HIGH-VOWEL DEVOICING between voiceless consonants or word-finally after a voiceless C (すき [sɯ̥ki], です [desɯ̥]). No companion guide has systematic vowel devoicing.
+- PITCH-ACCENT notation (H/L per mora + downstep, e.g. 箸 ha\shi HL / 橋 hashi\ LH-drop / 端 hashi heiban) — a LEXICAL pitch accent, the family's first. No companion uses a downstep mark; the IE/Semitic guides use the stress mark `ˈ` (which Japanese never uses) and Korean uses none.
+
+#### Symbols Absent in Japanese
+
+Phonemes prominent in the companion guides that Japanese lacks as distinct phonemes. Japanese has no native /f v θ ð l ʃ ʒ/ as phonemes, no aspiration or tense contrast, and none of the Semitic gutturals/emphatics or uvulars. These are the principal targets a Japanese speaker must acquire to read the other six guides, and the sounds that force approximation when Aramaic/Hebrew is rendered into the Japanese kana reader tiers.
+
+- `f` `v` — labiodental fricatives (English/Spanish /f/, English /v/, Semitic spirantized Pe/Beth); Japanese has only bilabial [ɸ] (an /h/ allophone) and substitutes /h~ɸ/ or /b/ for /v/ in loans.
+- `θ` `ð` — dental fricatives (English /θ ð/, Castilian /θ/, Semitic spirantized Taw/Daleth); absent in Japanese, usually rendered /s/ or /z/.
+- `ʃ` `ʒ` — postalveolar sibilants (English phonemes); Japanese has alveolo-palatal [ɕ ʑ] only as allophones of /s z/ before /i j/, and no /ʒ/ as a phoneme.
+- `l` — alveolar LATERAL (English/Spanish and Semitic Lamadh/Lamed); Japanese has no /l/, mapping it onto the single tap-liquid /r/.
+- `ʁ` — uvular rhotic (Tiberian-Hebrew Resh); absent in Japanese.
+- `r̥`/`r` — alveolar TRILL (Spanish and Syriac/Aramaic Resh); Japanese has only the single TAP [ɾ], never a trill.
+- `ħ` `ʕ` — pharyngeal fricatives (Semitic Heth/Ayin); absent in Japanese, approximated by zero, /h/, or a vowel in renderings.
+- `ʔ` — glottal stop (Semitic Aleph/Alaph); not a phoneme in Japanese.
+- `q` — voiceless uvular plosive (Semitic Qoph); absent in Japanese, rendered /k/.
+- `tˤ` `sˤ` — emphatic/pharyngealized obstruents (Semitic Teth/Tsade); absent in Japanese, rendered plain /t s/.
+- `x` — voiceless velar fricative (Spanish jota and Semitic spirantized Kaph); absent in Japanese as a phoneme.
+- `k͈ t͈ p͈ tɕ͈ s͈` — Korean TENSE/fortis series (with `◌͈`), and Korean phonemic ASPIRATED `kʰ tʰ pʰ tɕʰ`; Japanese has neither a tense nor an aspirated contrast — its stops are plain voiced/voiceless.
+
+### Reader Tiers
+
+Unlike the single Latin-text companions, and going one tier beyond the four-tier Korean guide, the Japanese Peshitta ships FIVE reader tiers — because Japanese uses non-Latin native scripts AND has an idiomatic foreign-word syllabary (katakana) distinct from its native syllabary (hiragana). These are companion materials referenced throughout this guide and should be read alongside the IPA. Because Japanese is strictly MORAIC (no codas except moraic ン, no clusters), rendering Aramaic into any kana tier requires FORCED VOWEL EPENTHESIS: every Aramaic coda or cluster is broken into open CV moras.
+
+| # | Tier | Description |
+|---|---|---|
+| 1 | Scholarly | Language-neutral Latin transcription, the precise scholarly readback. |
+| 2 | Pretty | Language-neutral Latin transcription, smoothed for readability. |
+| 3 | Katakana (カタカナ) | The idiomatic FOREIGN-WORD moraic syllabary, the natural Japanese tier for writing a non-Japanese (Aramaic) text; the authoritative Japanese-script form for this material. |
+| 4 | Hiragana (ひらがな) | The SAME moras written in the native cursive syllabary (native glyphs for the identical mora sequence). |
+| 5 | Romaji | The Hepburn (ヘボン式) readback of the kana (shi chi tsu fu ji…), the romanized rendering of the syllabary tiers. |
+
+**Companion directories** (repo-relative):
+
+- `Japanese/Peshita_Japanese/Scholarly/`
+- `Japanese/Peshita_Japanese/Pretty/`
+- `Japanese/Peshita_Japanese/Katakana/`
+- `Japanese/Peshita_Japanese/Hiragana/`
+- `Japanese/Peshita_Japanese/Romanized/`
+- `Japanese/japanese_pronunciation_guide.md`
+
+> **Note:** Katakana is the primary native-script tier for this foreign (Aramaic) text — the idiomatic choice for loanwords and non-Japanese names — with hiragana giving the same moras in native glyphs. Romaji is rendered in Hepburn (phonetic: shi chi tsu fu ji); the alternative Kunrei-shiki (訓令式 ISO 3602: si ti tu hu zi) and Nihon-shiki systems are mentioned where romanization choices matter. Long vowels appear as the chōonpu ー in katakana and as doubled vowels (or う) in hiragana.
+
+> **Note:** Unlike the Semitic guides' cross_reference sections, which trace correspondences WITHIN one family, and the Indo-European guides', which trace correspondences across branches of ONE stock, this section is contrastive across the whole set: Japanese shares the IPA description framework with all six companions yet is genetically unrelated to every one of them — it is a Japonic language (with the Ryukyuan languages) and the SECOND CJK / East Asian guide after Korean, but the FIRST guide written in a MORAIC SYLLABARY, the FIRST written in a MIXED three-script system (漢字 + ひらがな + カタカナ), the FIRST that is MORA-TIMED, and the FIRST with LEXICAL PITCH ACCENT (a downstep). Its closest typological neighbor is Korean — both agglutinative, head-final SOV with postpositions, pro-drop, and pervasive honorifics, and both possessing the unrounded vowel /ɯ/ — yet the two are not demonstrably related and diverge on script type (moraic kana + logographs vs featural Hangul blocks), timing (mora vs syllable), laryngeal organization (two-way voicing vs three-way lax/tense/aspirated), coda structure (only ん/sokuon vs 7-sound coda neutralization), and prosody (downstep pitch accent vs accentual-phrase intonation with no lexical pitch or stress). On the voicing axis and in keeping phonemic vowel length, Japanese actually sides with the Indo-European and Semitic guides against Korean. Its distinctive profile across the set is: a compact 5-vowel system /a i ɯ e o/ (with /u/ = compressed unrounded [ɯ̈]) and PHONEMIC LENGTH plus HIGH-VOWEL DEVOICING; an open-CV MORA canon with no clusters and only the special moras ん /N/ and っ /Q/ for codas/gemination; dense following-vowel ALLOPHONY (/s/→[ɕ], /t/→[t͡ɕ]/[t͡s], /h/→[ç]/[ɸ], /ɡ/→[ŋ]) plus /N/-assimilation, sokuon gemination, and rendaku; rigid head-final SOV with topic は/subject が particles and pro-drop; a pervasive keigo (敬語) honorific system; and — its signature — LEXICAL PITCH ACCENT, a single downstep per word, on a mora grid (頭高 / 中高 / 尾高 / 平板). Throughout, Standard / Common Japanese (標準語 / 共通語, Tokyo-type 東京式 accent) and Kansai / Keihan (関西弁 / 京阪式) are documented in parallel — most visibly in the systematic accent swaps (箸/橋, 雨/飴 differ between Tokyo and Kansai) and Kansai's added lexical register — as the two reference standards of the language, the Japanese analogue of the GA/RP, Castilian/Latin-American, and South/North-Korean pairings elsewhere in the set.
+
+---
+
+*Section compiled by Shin.*
