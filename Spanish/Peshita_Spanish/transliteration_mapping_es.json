@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "description": "Deterministic IPA->Latin mapping for the SPANISH Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "hispanicized"
+    ],
+    "note": "transliterate_es.py is authoritative; this file mirrors its hard-coded tables. SCHOLARLY and PRETTY are language-neutral and byte-for-byte identical to the English Peshitta; HISPANICIZED is a Spanish reader-aid."
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "combining_dot_below": "̣",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-"
+  },
+  "segmentation": [
+    "Split on ASCII space ' ' only; spaces are preserved verbatim.",
+    "Within each token, left-to-right longest match:",
+    "  1. consonant + \\u02E4 (ˤ) -> emphatic segment (2 chars)",
+    "  2. vowel (a ɑ e i o u) + \\u02D0 (ː) -> long-vowel segment (2 chars)",
+    "  3. otherwise single char",
+    "word-initial = the first segment of a token (used by the Alaph rule).",
+    "A token boundary is whitespace OR a hyphen, so the segment right after a hyphen is also word-initial. This hyphen-boundary semantics is applied for the HISPANICIZED tier only (e.g. 'bar-ʔaba' -> 'bar-aba', the post-hyphen Alaph being word-initial and dropped). SCHOLARLY and PRETTY keep the English transducer's space-only semantics so they stay byte-for-byte identical to the English Peshitta (scholarly Alaph is always 'ʾ'; pretty keeps the medial apostrophe, e.g. 'bar-'aba')."
+  ],
+  "tier_dicts": {
+    "consonants": {
+      "b": {
+        "scholarly": "b",
+        "pretty": "b",
+        "hispanicized": "b"
+      },
+      "ɡ": {
+        "scholarly": "g",
+        "pretty": "g",
+        "hispanicized": "g"
+      },
+      "d": {
+        "scholarly": "d",
+        "pretty": "d",
+        "hispanicized": "d"
+      },
+      "h": {
+        "scholarly": "h",
+        "pretty": "h",
+        "hispanicized": "h"
+      },
+      "w": {
+        "scholarly": "w",
+        "pretty": "w",
+        "hispanicized": "w"
+      },
+      "z": {
+        "scholarly": "z",
+        "pretty": "z",
+        "hispanicized": "s"
+      },
+      "k": {
+        "scholarly": "k",
+        "pretty": "k",
+        "hispanicized": "k"
+      },
+      "l": {
+        "scholarly": "l",
+        "pretty": "l",
+        "hispanicized": "l"
+      },
+      "m": {
+        "scholarly": "m",
+        "pretty": "m",
+        "hispanicized": "m"
+      },
+      "n": {
+        "scholarly": "n",
+        "pretty": "n",
+        "hispanicized": "n"
+      },
+      "s": {
+        "scholarly": "s",
+        "pretty": "s",
+        "hispanicized": "s"
+      },
+      "p": {
+        "scholarly": "p",
+        "pretty": "p",
+        "hispanicized": "p"
+      },
+      "q": {
+        "scholarly": "q",
+        "pretty": "q",
+        "hispanicized": "k"
+      },
+      "r": {
+        "scholarly": "r",
+        "pretty": "r",
+        "hispanicized": "r"
+      },
+      "t": {
+        "scholarly": "t",
+        "pretty": "t",
+        "hispanicized": "t"
+      },
+      "f": {
+        "scholarly": "f",
+        "pretty": "f",
+        "hispanicized": "f"
+      },
+      "v": {
+        "scholarly": "ḇ",
+        "pretty": "v",
+        "hispanicized": "v"
+      },
+      "ʃ": {
+        "scholarly": "š",
+        "pretty": "sh",
+        "hispanicized": "sh"
+      },
+      "θ": {
+        "scholarly": "ṯ",
+        "pretty": "th",
+        "hispanicized": "z"
+      },
+      "ð": {
+        "scholarly": "ḏ",
+        "pretty": "dh",
+        "hispanicized": "d"
+      },
+      "x": {
+        "scholarly": "ḵ",
+        "pretty": "kh",
+        "hispanicized": "j"
+      },
+      "ɣ": {
+        "scholarly": "ḡ",
+        "pretty": "gh",
+        "hispanicized": "g"
+      },
+      "ħ": {
+        "scholarly": "ḥ",
+        "pretty": "ḥ",
+        "hispanicized": "j"
+      },
+      "j": {
+        "scholarly": "y",
+        "pretty": "y",
+        "hispanicized": "y"
+      }
+    },
+    "short_vowels": {
+      "a": {
+        "scholarly": "a",
+        "pretty": "a",
+        "hispanicized": "a"
+      },
+      "ɑ": {
+        "scholarly": "a",
+        "pretty": "a",
+        "hispanicized": "a"
+      },
+      "e": {
+        "scholarly": "e",
+        "pretty": "e",
+        "hispanicized": "e"
+      },
+      "i": {
+        "scholarly": "i",
+        "pretty": "i",
+        "hispanicized": "i"
+      },
+      "o": {
+        "scholarly": "o",
+        "pretty": "o",
+        "hispanicized": "o"
+      },
+      "u": {
+        "scholarly": "u",
+        "pretty": "u",
+        "hispanicized": "u"
+      }
+    },
+    "long_vowels": {
+      "a": {
+        "scholarly": "ā",
+        "pretty": "ā",
+        "hispanicized": "a"
+      },
+      "ɑ": {
+        "scholarly": "ā",
+        "pretty": "ā",
+        "hispanicized": "a"
+      },
+      "e": {
+        "scholarly": "ē",
+        "pretty": "ē",
+        "hispanicized": "e"
+      },
+      "i": {
+        "scholarly": "ī",
+        "pretty": "ī",
+        "hispanicized": "i"
+      },
+      "o": {
+        "scholarly": "ō",
+        "pretty": "ō",
+        "hispanicized": "o"
+      },
+      "u": {
+        "scholarly": "ū",
+        "pretty": "ū",
+        "hispanicized": "u"
+      }
+    },
+    "emphatics_explicit": {
+      "t": {
+        "scholarly": "ṭ",
+        "pretty": "ṭ",
+        "hispanicized": "t"
+      },
+      "s": {
+        "scholarly": "ṣ",
+        "pretty": "ṣ",
+        "hispanicized": "s"
+      }
+    }
+  },
+  "rules": {
+    "alaph": {
+      "symbol": "ʔ",
+      "scholarly": "always \\u02BE (ʾ)",
+      "pretty": "word-initial -> '' (drop); else -> \"'\". word-initial = first segment of a SPACE-delimited token (hyphen is NOT a boundary here, matching English).",
+      "hispanicized": "word-initial -> '' (drop); else -> \"'\". word-initial = first segment of a whitespace- OR hyphen-delimited token, so a post-hyphen Alaph (e.g. 'bar-ʔaba') is word-initial => dropped ('bar-aba')."
+    },
+    "ayin": {
+      "symbol": "ʕ",
+      "scholarly": "\\u02BF (ʿ)",
+      "pretty": "\\u02BF (ʿ)",
+      "hispanicized": "'' (dropped everywhere)"
+    },
+    "hard_g": {
+      "applies_to": "ɡ (ɡ) and ɣ (ɣ), hispanicized tier only",
+      "rule": "render as 'gu' when the NEXT segment is a front vowel (/e/, /eː/, /i/, /iː/); otherwise 'g'. Spanish hard-g rule avoiding g -> /x/ before e/i."
+    },
+    "emphatic_fallback": {
+      "applies_to": "any consonant + \\u02E4 not in emphatics_explicit",
+      "scholarly": "tier(C) + \\u0323 (combining dot below)",
+      "pretty": "tier(C) + \\u0323 (combining dot below)",
+      "hispanicized": "tier(C)"
+    },
+    "hyphen": {
+      "symbol": "-",
+      "all_tiers": "-"
+    },
+    "space": {
+      "all_tiers": "space (preserved verbatim)"
+    },
+    "unmapped": "Any char not covered above (besides space) is recorded and passed through unchanged."
+  },
+  "documented_limitations": "Spanish lacks /h ħ z v ʃ ʔ ʕ/ and the emphatics, so they are approximated or collapsed: back fricatives ħ & x -> 'j' (/x/); soft ð & ɣ collapse onto Spanish's own intervocalic d/g spirantization; /z/ -> 's' (voicing lost); θ -> 'z' yields Castilian /θ/ but Latin-American /s/; Spanish silent 'h' means the /h/ (he) letter is usually unpronounced; ayin and word-initial alaph are dropped."
+}
