@@ -1,0 +1,313 @@
+{
+  "meta": {
+    "description": "Deterministic IPA->Arabic mapping for the Peshitta corpus.",
+    "tiers": [
+      "scholarly",
+      "pretty",
+      "vocalized",
+      "unvocalized"
+    ],
+    "note": "transliterate_ar.py is authoritative; this file mirrors its hard-coded tables. Scholarly/Pretty are byte-identical to the English Peshitta transducer.",
+    "author": "Shin"
+  },
+  "unicode": {
+    "emphatic_marker": "ˤ",
+    "length_mark": "ː",
+    "alaph": "ʔ",
+    "ayin": "ʕ",
+    "hyphen": "-",
+    "harakat": {
+      "fatha": "َ",
+      "kasra": "ِ",
+      "damma": "ُ",
+      "sukun": "ْ",
+      "shadda": "ّ"
+    },
+    "matres": {
+      "alif": "ا",
+      "alif_madda": "آ",
+      "waw": "و",
+      "ya": "ي"
+    },
+    "bidi_isolates": {
+      "RLI": "⁧",
+      "PDI": "⁩"
+    }
+  },
+  "segmentation": [
+    "Split on ASCII space ' ' only; spaces are preserved verbatim.",
+    "Within each token, left-to-right longest match:",
+    "  1. consonant + \\u02E4 (ˤ) -> emphatic segment (2 chars)",
+    "  2. vowel (a ɑ e i o u) + \\u02D0 (ː) -> long-vowel segment (2 chars)",
+    "  3. otherwise single char"
+  ],
+  "latin_tiers (scholarly/pretty)": {
+    "note": "Verbatim from English/Peshita_English/transliterate.py.",
+    "consonants": {
+      "b": {
+        "scholarly": "b",
+        "pretty": "b"
+      },
+      "ɡ": {
+        "scholarly": "g",
+        "pretty": "g"
+      },
+      "d": {
+        "scholarly": "d",
+        "pretty": "d"
+      },
+      "h": {
+        "scholarly": "h",
+        "pretty": "h"
+      },
+      "w": {
+        "scholarly": "w",
+        "pretty": "w"
+      },
+      "z": {
+        "scholarly": "z",
+        "pretty": "z"
+      },
+      "k": {
+        "scholarly": "k",
+        "pretty": "k"
+      },
+      "l": {
+        "scholarly": "l",
+        "pretty": "l"
+      },
+      "m": {
+        "scholarly": "m",
+        "pretty": "m"
+      },
+      "n": {
+        "scholarly": "n",
+        "pretty": "n"
+      },
+      "s": {
+        "scholarly": "s",
+        "pretty": "s"
+      },
+      "p": {
+        "scholarly": "p",
+        "pretty": "p"
+      },
+      "q": {
+        "scholarly": "q",
+        "pretty": "q"
+      },
+      "r": {
+        "scholarly": "r",
+        "pretty": "r"
+      },
+      "t": {
+        "scholarly": "t",
+        "pretty": "t"
+      },
+      "f": {
+        "scholarly": "f",
+        "pretty": "f"
+      },
+      "v": {
+        "scholarly": "ḇ",
+        "pretty": "v"
+      },
+      "ʃ": {
+        "scholarly": "š",
+        "pretty": "sh"
+      },
+      "θ": {
+        "scholarly": "ṯ",
+        "pretty": "th"
+      },
+      "ð": {
+        "scholarly": "ḏ",
+        "pretty": "dh"
+      },
+      "x": {
+        "scholarly": "ḵ",
+        "pretty": "kh"
+      },
+      "ɣ": {
+        "scholarly": "ḡ",
+        "pretty": "gh"
+      },
+      "ħ": {
+        "scholarly": "ḥ",
+        "pretty": "ḥ"
+      },
+      "j": {
+        "scholarly": "y",
+        "pretty": "y"
+      }
+    },
+    "short_vowels": {
+      "a": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "ɑ": {
+        "scholarly": "a",
+        "pretty": "a"
+      },
+      "e": {
+        "scholarly": "e",
+        "pretty": "e"
+      },
+      "i": {
+        "scholarly": "i",
+        "pretty": "i"
+      },
+      "o": {
+        "scholarly": "o",
+        "pretty": "o"
+      },
+      "u": {
+        "scholarly": "u",
+        "pretty": "u"
+      }
+    },
+    "long_vowels": {
+      "a": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "ɑ": {
+        "scholarly": "ā",
+        "pretty": "ā"
+      },
+      "e": {
+        "scholarly": "ē",
+        "pretty": "ē"
+      },
+      "i": {
+        "scholarly": "ī",
+        "pretty": "ī"
+      },
+      "o": {
+        "scholarly": "ō",
+        "pretty": "ō"
+      },
+      "u": {
+        "scholarly": "ū",
+        "pretty": "ū"
+      }
+    },
+    "emphatics_explicit": {
+      "t": {
+        "scholarly": "ṭ",
+        "pretty": "ṭ"
+      },
+      "s": {
+        "scholarly": "ṣ",
+        "pretty": "ṣ"
+      }
+    },
+    "alaph": {
+      "symbol": "ʔ",
+      "scholarly": "always \\u02BE (ʾ)",
+      "pretty": "word-initial -> '' (drop); else -> \"'\""
+    },
+    "ayin": {
+      "symbol": "ʕ",
+      "scholarly": "\\u02BF (ʿ)",
+      "pretty": "\\u02BF (ʿ)"
+    },
+    "emphatic_fallback": "tier(C) + \\u0323 (combining dot below)"
+  },
+  "arabic_tiers (vocalized/unvocalized)": {
+    "consonants": {
+      "ʔ": "ء",
+      "b": "ب",
+      "t": "ت",
+      "θ": "ث",
+      "d": "د",
+      "ð": "ذ",
+      "r": "ر",
+      "z": "ز",
+      "s": "س",
+      "ʃ": "ش",
+      "ʕ": "ع",
+      "ɣ": "غ",
+      "f": "ف",
+      "q": "ق",
+      "k": "ك",
+      "l": "ل",
+      "m": "م",
+      "n": "ن",
+      "h": "ه",
+      "w": "و",
+      "j": "ي",
+      "ħ": "ح",
+      "x": "خ",
+      "v": "ف",
+      "p": "ب",
+      "ɡ": "ج"
+    },
+    "emphatics": {
+      "tˤ": "ط",
+      "sˤ": "ص"
+    },
+    "short_vowels": {
+      "a": "َ",
+      "ɑ": "َ",
+      "e": "ِ",
+      "i": "ِ",
+      "o": "ُ",
+      "u": "ُ"
+    },
+    "long_vowels_matres": {
+      "aː": "َا",
+      "ɑː": "َا",
+      "eː": "ِي",
+      "iː": "ِي",
+      "oː": "ُو",
+      "uː": "ُو"
+    },
+    "rules": {
+      "hamza": "ʔ -> \\u0621 (bare hamza ء) everywhere (deterministic).",
+      "sukun": "A coda consonant (no following vowel) takes sukun \\u0652.",
+      "shadda": "Two adjacent identical consonants with no vowel between fuse to one letter + shadda \\u0651 (the geminate carries the vowel of the segment after the twin, e.g. jj in ...elijjawn -> ي+shadda).",
+      "bare_initial_vowel": "A word-initial vowel with no consonant carrier is seated on a carrier alif \\u0627. A long a/ɑ (which would otherwise be carrier-alif + fatḥa + alif-mater = two consecutive alifs) is written as a single alif-madda \\u0622 (آ).",
+      "long_vowel": "Long vowel = haraka + mater lectionis (a/ɑ->alif, e/i->ya, o/u->waw); vowel LENGTH is thereby preserved.",
+      "unvocalized": "VOCALIZED with harakat (\\u064B..\\u0652) and tatweel (\\u0640) stripped."
+    },
+    "rtl_policy": "Emit LOGICAL (reading) order only: NO reordering, NO presentation forms (\\uFE70..\\uFEFF), NO tatweel. The renderer handles RTL + contextual shaping. transliterate_line() wraps ONLY the Arabic body in bidi isolates RLI (\\u2067) ... PDI (\\u2069); the Latin scholarly/pretty bodies are NOT wrapped."
+  },
+  "documented_limitations": {
+    "summary": "Arabic is a Semitic sibling of the source, so the reader tier is near-reversible -- the inverse of the lossy CJK collapse. Only FIVE merges, and vowel LENGTH is preserved via matres.",
+    "merges": [
+      {
+        "type": "consonant",
+        "ipa": "p",
+        "arabic": "ب",
+        "note": "p merges with b (native Arabic lacks /p/)."
+      },
+      {
+        "type": "consonant",
+        "ipa": "v",
+        "arabic": "ف",
+        "note": "v merges with f (native Arabic lacks /v/)."
+      },
+      {
+        "type": "realization",
+        "ipa": "ɡ",
+        "arabic": "ج",
+        "note": "ɡ -> ج; realization only, reversible in-corpus (sole ج source)."
+      },
+      {
+        "type": "vowel_quality",
+        "ipa": "e->i",
+        "arabic": "ِ",
+        "note": "e merges with i; matches attested Western Syriac vocalism."
+      },
+      {
+        "type": "vowel_quality",
+        "ipa": "o->u",
+        "arabic": "ُ",
+        "note": "o merges with u; matches attested Western Syriac vocalism."
+      }
+    ],
+    "preserved": "Vowel LENGTH (via matres), pharyngeals, emphatics, interdentals."
+  }
+}
